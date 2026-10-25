@@ -1,0 +1,253 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1760" width="1400" height="1760">
+<defs>
+  <radialGradient id="coc" cx="35%" cy="30%" r="75%"><stop offset="0" stop-color="#fff2b0"/><stop offset="1" stop-color="#f0c040"/></radialGradient>
+  <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef1f4"/><stop offset="0.5" stop-color="#c9d0d8"/><stop offset="1" stop-color="#9aa5b1"/></linearGradient>
+  <linearGradient id="bag" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e8f3fb"/><stop offset="1" stop-color="#bcdcf2"/></linearGradient>
+  <radialGradient id="abs" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#fbe3c8"/><stop offset="1" stop-color="#f5c79a"/></radialGradient>
+  <radialGradient id="infl" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#e74c3c" stop-opacity="0.9"/><stop offset="1" stop-color="#e74c3c" stop-opacity="0"/></radialGradient>
+  <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2c5d8a"/></marker>
+  <marker id="ahs" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1e2f45"/></marker>
+</defs>
+<rect width="1400" height="1760" fill="#ffffff"/>
+<text x="470" y="78" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#1e2f45" text-anchor="middle">Interacción hospedero–patógeno</text>
+<text x="1185" y="78" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#1e2f45" text-anchor="middle">Implicaciones terapéuticas</text>
+<line x1="110" y1="100" x2="830" y2="100" stroke="#1e2f45" stroke-width="2"/>
+<line x1="1010" y1="100" x2="1360" y2="100" stroke="#1e2f45" stroke-width="2"/>
+<rect x="110" y="140" width="720" height="560" rx="18" fill="#ffffff" stroke="#cfd8e3" stroke-width="2"/>
+<path d="M110,158 a18,18 0 0 1 18,-18 h684 a18,18 0 0 1 18,18 v40 h-720 Z" fill="#c0392b"/>
+<text x="470.0" y="181" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#ffffff" text-anchor="middle">EVASIÓN INMUNE</text>
+<line x1="470" y1="230" x2="470" y2="670" stroke="#e3e8ee" stroke-width="2"/>
+<text x="290" y="255" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#1e2f45" text-anchor="middle">Neutrófilos</text>
+<circle cx="215" cy="420" r="62" fill="#f6e9f1" stroke="#b07fa3" stroke-width="2.8"/>
+<ellipse cx="193.3" cy="410.7" rx="18.6" ry="15.5" transform="rotate(20 193.3 410.7)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="221.2" cy="401.4" rx="17.1" ry="14.0" transform="rotate(-10 221.2 401.4)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="235.2" cy="429.3" rx="18.6" ry="15.5" transform="rotate(30 235.2 429.3)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="208.8" cy="438.6" rx="15.5" ry="12.4" transform="rotate(0 208.8 438.6)" fill="#9a6aa6" opacity="0.9"/>
+<circle cx="340" cy="520" r="40" fill="#f1e4e4" stroke="#b07fa3" stroke-width="1.8" stroke-dasharray="6 5"/>
+<ellipse cx="326.0" cy="514.0" rx="12.0" ry="10.0" transform="rotate(20 326.0 514.0)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="344.0" cy="508.0" rx="11.0" ry="9.0" transform="rotate(-10 344.0 508.0)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="353.0" cy="526.0" rx="12.0" ry="10.0" transform="rotate(30 353.0 526.0)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="336.0" cy="532.0" rx="10.0" ry="8.0" transform="rotate(0 336.0 532.0)" fill="#9a6aa6" opacity="0.9"/>
+<line x1="315" y1="495" x2="365" y2="545" stroke="#c0392b" stroke-width="5" stroke-linecap="round"/>
+<line x1="365" y1="495" x2="315" y2="545" stroke="#c0392b" stroke-width="5" stroke-linecap="round"/>
+<circle cx="380.0" cy="335.0" r="13" fill="url(#coc)" stroke="#b8891c" stroke-width="1.4"/>
+<circle cx="403.4" cy="337.6" r="13" fill="url(#coc)" stroke="#b8891c" stroke-width="1.4"/>
+<circle cx="391.7" cy="315.5" r="13" fill="url(#coc)" stroke="#b8891c" stroke-width="1.4"/>
+<circle cx="368.3" cy="316.8" r="13" fill="url(#coc)" stroke="#b8891c" stroke-width="1.4"/>
+<circle cx="357.9" cy="338.9" r="13" fill="url(#coc)" stroke="#b8891c" stroke-width="1.4"/>
+<circle cx="369.6" cy="355.8" r="13" fill="url(#coc)" stroke="#b8891c" stroke-width="1.4"/>
+<circle cx="393.0" cy="357.1" r="13" fill="url(#coc)" stroke="#b8891c" stroke-width="1.4"/>
+<polygon points="338.0,375.0 333.3,376.4 335.7,380.7 331.4,378.3 330.0,383.0 328.6,378.3 324.3,380.7 326.7,376.4 322.0,375.0 326.7,373.6 324.3,369.3 328.6,371.7 330.0,367.0 331.4,371.7 335.7,369.3 333.3,373.6" fill="#d62f2f" stroke="#8e1b1b" stroke-width="0.8"/>
+<polygon points="313.0,352.0 308.3,353.4 310.7,357.7 306.4,355.3 305.0,360.0 303.6,355.3 299.3,357.7 301.7,353.4 297.0,352.0 301.7,350.6 299.3,346.3 303.6,348.7 305.0,344.0 306.4,348.7 310.7,346.3 308.3,350.6" fill="#d62f2f" stroke="#8e1b1b" stroke-width="0.8"/>
+<polygon points="326.0,405.0 321.3,406.4 323.7,410.7 319.4,408.3 318.0,413.0 316.6,408.3 312.3,410.7 314.7,406.4 310.0,405.0 314.7,403.6 312.3,399.3 316.6,401.7 318.0,397.0 319.4,401.7 323.7,399.3 321.3,403.6" fill="#d62f2f" stroke="#8e1b1b" stroke-width="0.8"/>
+<polygon points="298.0,390.0 293.3,391.4 295.7,395.7 291.4,393.3 290.0,398.0 288.6,393.3 284.3,395.7 286.7,391.4 282.0,390.0 286.7,388.6 284.3,384.3 288.6,386.7 290.0,382.0 291.4,386.7 295.7,384.3 293.3,388.6" fill="#d62f2f" stroke="#8e1b1b" stroke-width="0.8"/>
+<polygon points="353.0,430.0 348.3,431.4 350.7,435.7 346.4,433.3 345.0,438.0 343.6,433.3 339.3,435.7 341.7,431.4 337.0,430.0 341.7,428.6 339.3,424.3 343.6,426.7 345.0,422.0 346.4,426.7 350.7,424.3 348.3,428.6" fill="#d62f2f" stroke="#8e1b1b" stroke-width="0.8"/>
+<text x="290" y="610" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#5b6b7e" text-anchor="middle">Leucocidinas destruyen neutrófilos;</text>
+<text x="290" y="634" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#5b6b7e" text-anchor="middle">se bloquea la quimiotaxis</text>
+<text x="650" y="255" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1e2f45" text-anchor="middle">Anticuerpos y complemento</text>
+<circle cx="650" cy="400" r="62" fill="url(#coc)" stroke="#b8891c" stroke-width="4"/>
+<rect x="642.0" y="330.0" width="16" height="16" rx="3" fill="#6c3483" transform="rotate(0 650.0 338.0)"/>
+<g transform="translate(650.0,332.0) rotate(-180.0) scale(1.0)" stroke="#2e6fbd" stroke-width="7" stroke-linecap="round" fill="none"><path d="M0,0 L0,26 M0,26 L-14,46 M0,26 L14,46"/></g>
+<rect x="701.0" y="372.8" width="16" height="16" rx="3" fill="#6c3483" transform="rotate(72 709.0 380.8)"/>
+<g transform="translate(714.7,379.0) rotate(-108.0) scale(1.0)" stroke="#2e6fbd" stroke-width="7" stroke-linecap="round" fill="none"><path d="M0,0 L0,26 M0,26 L-14,46 M0,26 L14,46"/></g>
+<rect x="678.4" y="442.2" width="16" height="16" rx="3" fill="#6c3483" transform="rotate(144 686.4 450.2)"/>
+<g transform="translate(690.0,455.0) rotate(-36.0) scale(1.0)" stroke="#2e6fbd" stroke-width="7" stroke-linecap="round" fill="none"><path d="M0,0 L0,26 M0,26 L-14,46 M0,26 L14,46"/></g>
+<rect x="605.6" y="442.2" width="16" height="16" rx="3" fill="#6c3483" transform="rotate(216 613.6 450.2)"/>
+<g transform="translate(610.0,455.0) rotate(36.0) scale(1.0)" stroke="#2e6fbd" stroke-width="7" stroke-linecap="round" fill="none"><path d="M0,0 L0,26 M0,26 L-14,46 M0,26 L14,46"/></g>
+<rect x="583.0" y="372.8" width="16" height="16" rx="3" fill="#6c3483" transform="rotate(288 591.0 380.8)"/>
+<g transform="translate(585.3,379.0) rotate(108.0) scale(1.0)" stroke="#2e6fbd" stroke-width="7" stroke-linecap="round" fill="none"><path d="M0,0 L0,26 M0,26 L-14,46 M0,26 L14,46"/></g>
+<circle cx="540" cy="505" r="20" fill="#7dcea0" stroke="#1e8449" stroke-width="2.5"/>
+<text x="540" y="511" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#145a32" text-anchor="middle">C3b</text>
+<circle cx="558" cy="487" r="11" fill="#c0392b"/>
+<path d="M553,482 l10,10 M563,482 l-10,10" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+<circle cx="762" cy="505" r="20" fill="#7dcea0" stroke="#1e8449" stroke-width="2.5"/>
+<text x="762" y="511" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#145a32" text-anchor="middle">C3b</text>
+<circle cx="780" cy="487" r="11" fill="#c0392b"/>
+<path d="M775,482 l10,10 M785,482 l-10,10" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+<text x="650" y="610" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#5b6b7e" text-anchor="middle">La proteína A une el Fc de IgG;</text>
+<text x="650" y="634" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#5b6b7e" text-anchor="middle">se inhibe el complemento</text>
+<rect x="110" y="750" width="720" height="440" rx="18" fill="#ffffff" stroke="#cfd8e3" stroke-width="2"/>
+<path d="M110,768 a18,18 0 0 1 18,-18 h684 a18,18 0 0 1 18,18 v40 h-720 Z" fill="#d68910"/>
+<text x="470.0" y="791" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#ffffff" text-anchor="middle">ABSCESOS</text>
+<circle cx="330" cy="990" r="150" fill="#fdf2e6"/>
+<circle cx="330" cy="990" r="150" fill="none" stroke="#a0522d" stroke-width="7" stroke-dasharray="16 7"/>
+<circle cx="442.0" cy="990.0" r="21" fill="#f6e9f1" stroke="#b07fa3" stroke-width="1.5"/>
+<ellipse cx="434.6" cy="986.9" rx="6.3" ry="5.2" transform="rotate(20 434.6 986.9)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="444.1" cy="983.7" rx="5.8" ry="4.7" transform="rotate(-10 444.1 983.7)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="448.8" cy="993.1" rx="6.3" ry="5.2" transform="rotate(30 448.8 993.1)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="439.9" cy="996.3" rx="5.2" ry="4.2" transform="rotate(0 439.9 996.3)" fill="#9a6aa6" opacity="0.9"/>
+<circle cx="433.4745076412641" cy="1032.8605444248901" r="21" fill="#f6e9f1" stroke="#b07fa3" stroke-width="1.5"/>
+<ellipse cx="426.1" cy="1029.7" rx="6.3" ry="5.2" transform="rotate(20 426.1 1029.7)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="435.6" cy="1026.6" rx="5.8" ry="4.7" transform="rotate(-10 435.6 1026.6)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="440.3" cy="1036.0" rx="6.3" ry="5.2" transform="rotate(30 440.3 1036.0)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="431.4" cy="1039.2" rx="5.2" ry="4.2" transform="rotate(0 431.4 1039.2)" fill="#9a6aa6" opacity="0.9"/>
+<circle cx="409.19595949289334" cy="1069.1959594928933" r="21" fill="#f6e9f1" stroke="#b07fa3" stroke-width="1.5"/>
+<ellipse cx="401.8" cy="1066.0" rx="6.3" ry="5.2" transform="rotate(20 401.8 1066.0)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="411.3" cy="1062.9" rx="5.8" ry="4.7" transform="rotate(-10 411.3 1062.9)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="416.0" cy="1072.3" rx="6.3" ry="5.2" transform="rotate(30 416.0 1072.3)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="407.1" cy="1075.5" rx="5.2" ry="4.2" transform="rotate(0 407.1 1075.5)" fill="#9a6aa6" opacity="0.9"/>
+<circle cx="372.86054442489007" cy="1093.4745076412642" r="21" fill="#f6e9f1" stroke="#b07fa3" stroke-width="1.5"/>
+<ellipse cx="365.5" cy="1090.3" rx="6.3" ry="5.2" transform="rotate(20 365.5 1090.3)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="375.0" cy="1087.2" rx="5.8" ry="4.7" transform="rotate(-10 375.0 1087.2)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="379.7" cy="1096.6" rx="6.3" ry="5.2" transform="rotate(30 379.7 1096.6)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="370.8" cy="1099.8" rx="5.2" ry="4.2" transform="rotate(0 370.8 1099.8)" fill="#9a6aa6" opacity="0.9"/>
+<circle cx="330.0" cy="1102.0" r="21" fill="#f6e9f1" stroke="#b07fa3" stroke-width="1.5"/>
+<ellipse cx="322.6" cy="1098.8" rx="6.3" ry="5.2" transform="rotate(20 322.6 1098.8)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="332.1" cy="1095.7" rx="5.8" ry="4.7" transform="rotate(-10 332.1 1095.7)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="336.8" cy="1105.2" rx="6.3" ry="5.2" transform="rotate(30 336.8 1105.2)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="327.9" cy="1108.3" rx="5.2" ry="4.2" transform="rotate(0 327.9 1108.3)" fill="#9a6aa6" opacity="0.9"/>
+<circle cx="287.13945557510993" cy="1093.4745076412642" r="21" fill="#f6e9f1" stroke="#b07fa3" stroke-width="1.5"/>
+<ellipse cx="279.8" cy="1090.3" rx="6.3" ry="5.2" transform="rotate(20 279.8 1090.3)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="289.2" cy="1087.2" rx="5.8" ry="4.7" transform="rotate(-10 289.2 1087.2)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="294.0" cy="1096.6" rx="6.3" ry="5.2" transform="rotate(30 294.0 1096.6)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="285.0" cy="1099.8" rx="5.2" ry="4.2" transform="rotate(0 285.0 1099.8)" fill="#9a6aa6" opacity="0.9"/>
+<circle cx="250.8040405071067" cy="1069.1959594928933" r="21" fill="#f6e9f1" stroke="#b07fa3" stroke-width="1.5"/>
+<ellipse cx="243.5" cy="1066.0" rx="6.3" ry="5.2" transform="rotate(20 243.5 1066.0)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="252.9" cy="1062.9" rx="5.8" ry="4.7" transform="rotate(-10 252.9 1062.9)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="257.6" cy="1072.3" rx="6.3" ry="5.2" transform="rotate(30 257.6 1072.3)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="248.7" cy="1075.5" rx="5.2" ry="4.2" transform="rotate(0 248.7 1075.5)" fill="#9a6aa6" opacity="0.9"/>
+<circle cx="226.5254923587359" cy="1032.8605444248901" r="21" fill="#f6e9f1" stroke="#b07fa3" stroke-width="1.5"/>
+<ellipse cx="219.2" cy="1029.7" rx="6.3" ry="5.2" transform="rotate(20 219.2 1029.7)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="228.6" cy="1026.6" rx="5.8" ry="4.7" transform="rotate(-10 228.6 1026.6)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="233.4" cy="1036.0" rx="6.3" ry="5.2" transform="rotate(30 233.4 1036.0)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="224.4" cy="1039.2" rx="5.2" ry="4.2" transform="rotate(0 224.4 1039.2)" fill="#9a6aa6" opacity="0.9"/>
+<circle cx="218.0" cy="990.0" r="21" fill="#f6e9f1" stroke="#b07fa3" stroke-width="1.5"/>
+<ellipse cx="210.7" cy="986.9" rx="6.3" ry="5.2" transform="rotate(20 210.7 986.9)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="220.1" cy="983.7" rx="5.8" ry="4.7" transform="rotate(-10 220.1 983.7)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="224.8" cy="993.1" rx="6.3" ry="5.2" transform="rotate(30 224.8 993.1)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="215.9" cy="996.3" rx="5.2" ry="4.2" transform="rotate(0 215.9 996.3)" fill="#9a6aa6" opacity="0.9"/>
+<circle cx="226.52549235873587" cy="947.13945557511" r="21" fill="#f6e9f1" stroke="#b07fa3" stroke-width="1.5"/>
+<ellipse cx="219.2" cy="944.0" rx="6.3" ry="5.2" transform="rotate(20 219.2 944.0)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="228.6" cy="940.8" rx="5.8" ry="4.7" transform="rotate(-10 228.6 940.8)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="233.4" cy="950.3" rx="6.3" ry="5.2" transform="rotate(30 233.4 950.3)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="224.4" cy="953.4" rx="5.2" ry="4.2" transform="rotate(0 224.4 953.4)" fill="#9a6aa6" opacity="0.9"/>
+<circle cx="250.80404050710666" cy="910.8040405071067" r="21" fill="#f6e9f1" stroke="#b07fa3" stroke-width="1.5"/>
+<ellipse cx="243.5" cy="907.7" rx="6.3" ry="5.2" transform="rotate(20 243.5 907.7)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="252.9" cy="904.5" rx="5.8" ry="4.7" transform="rotate(-10 252.9 904.5)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="257.6" cy="914.0" rx="6.3" ry="5.2" transform="rotate(30 257.6 914.0)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="248.7" cy="917.1" rx="5.2" ry="4.2" transform="rotate(0 248.7 917.1)" fill="#9a6aa6" opacity="0.9"/>
+<circle cx="287.1394555751099" cy="886.5254923587358" r="21" fill="#f6e9f1" stroke="#b07fa3" stroke-width="1.5"/>
+<ellipse cx="279.8" cy="883.4" rx="6.3" ry="5.2" transform="rotate(20 279.8 883.4)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="289.2" cy="880.2" rx="5.8" ry="4.7" transform="rotate(-10 289.2 880.2)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="294.0" cy="889.7" rx="6.3" ry="5.2" transform="rotate(30 294.0 889.7)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="285.0" cy="892.8" rx="5.2" ry="4.2" transform="rotate(0 285.0 892.8)" fill="#9a6aa6" opacity="0.9"/>
+<circle cx="330.0" cy="878.0" r="21" fill="#f6e9f1" stroke="#b07fa3" stroke-width="1.5"/>
+<ellipse cx="322.6" cy="874.9" rx="6.3" ry="5.2" transform="rotate(20 322.6 874.9)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="332.1" cy="871.7" rx="5.8" ry="4.7" transform="rotate(-10 332.1 871.7)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="336.8" cy="881.1" rx="6.3" ry="5.2" transform="rotate(30 336.8 881.1)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="327.9" cy="884.3" rx="5.2" ry="4.2" transform="rotate(0 327.9 884.3)" fill="#9a6aa6" opacity="0.9"/>
+<circle cx="372.86054442489007" cy="886.5254923587358" r="21" fill="#f6e9f1" stroke="#b07fa3" stroke-width="1.5"/>
+<ellipse cx="365.5" cy="883.4" rx="6.3" ry="5.2" transform="rotate(20 365.5 883.4)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="375.0" cy="880.2" rx="5.8" ry="4.7" transform="rotate(-10 375.0 880.2)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="379.7" cy="889.7" rx="6.3" ry="5.2" transform="rotate(30 379.7 889.7)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="370.8" cy="892.8" rx="5.2" ry="4.2" transform="rotate(0 370.8 892.8)" fill="#9a6aa6" opacity="0.9"/>
+<circle cx="409.1959594928933" cy="910.8040405071067" r="21" fill="#f6e9f1" stroke="#b07fa3" stroke-width="1.5"/>
+<ellipse cx="401.8" cy="907.7" rx="6.3" ry="5.2" transform="rotate(20 401.8 907.7)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="411.3" cy="904.5" rx="5.8" ry="4.7" transform="rotate(-10 411.3 904.5)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="416.0" cy="914.0" rx="6.3" ry="5.2" transform="rotate(30 416.0 914.0)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="407.1" cy="917.1" rx="5.2" ry="4.2" transform="rotate(0 407.1 917.1)" fill="#9a6aa6" opacity="0.9"/>
+<circle cx="433.4745076412641" cy="947.1394555751099" r="21" fill="#f6e9f1" stroke="#b07fa3" stroke-width="1.5"/>
+<ellipse cx="426.1" cy="944.0" rx="6.3" ry="5.2" transform="rotate(20 426.1 944.0)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="435.6" cy="940.8" rx="5.8" ry="4.7" transform="rotate(-10 435.6 940.8)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="440.3" cy="950.3" rx="6.3" ry="5.2" transform="rotate(30 440.3 950.3)" fill="#9a6aa6" opacity="0.9"/>
+<ellipse cx="431.4" cy="953.4" rx="5.2" ry="4.2" transform="rotate(0 431.4 953.4)" fill="#9a6aa6" opacity="0.9"/>
+<circle cx="330" cy="990" r="78" fill="url(#abs)" stroke="#e0a96d" stroke-width="2"/>
+<circle cx="330.0" cy="990.0" r="13" fill="url(#coc)" stroke="#b8891c" stroke-width="1.4"/>
+<circle cx="304.0" cy="982.0" r="13" fill="url(#coc)" stroke="#b8891c" stroke-width="1.4"/>
+<circle cx="356.0" cy="984.0" r="13" fill="url(#coc)" stroke="#b8891c" stroke-width="1.4"/>
+<circle cx="318.0" cy="958.0" r="13" fill="url(#coc)" stroke="#b8891c" stroke-width="1.4"/>
+<circle cx="344.0" cy="960.0" r="13" fill="url(#coc)" stroke="#b8891c" stroke-width="1.4"/>
+<circle cx="300.0" cy="1010.0" r="13" fill="url(#coc)" stroke="#b8891c" stroke-width="1.4"/>
+<circle cx="332.0" cy="1016.0" r="13" fill="url(#coc)" stroke="#b8891c" stroke-width="1.4"/>
+<circle cx="360.0" cy="1012.0" r="13" fill="url(#coc)" stroke="#b8891c" stroke-width="1.4"/>
+<circle cx="280.0" cy="986.0" r="13" fill="url(#coc)" stroke="#b8891c" stroke-width="1.4"/>
+<circle cx="378.0" cy="988.0" r="13" fill="url(#coc)" stroke="#b8891c" stroke-width="1.4"/>
+<circle cx="322.0" cy="1040.0" r="13" fill="url(#coc)" stroke="#b8891c" stroke-width="1.4"/>
+<circle cx="354.0" cy="938.0" r="13" fill="url(#coc)" stroke="#b8891c" stroke-width="1.4"/>
+<circle cx="296.0" cy="948.0" r="13" fill="url(#coc)" stroke="#b8891c" stroke-width="1.4"/>
+<path d="M472,942 L520,900" stroke="#5b6b7e" stroke-width="2" fill="none"/>
+<circle cx="472" cy="942" r="4" fill="#1e2f45"/>
+<text x="530" y="906" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#1e2f45" text-anchor="start">Seudocápsula de fibrina</text>
+<path d="M450,1022 L520,990" stroke="#5b6b7e" stroke-width="2" fill="none"/>
+<circle cx="450" cy="1022" r="4" fill="#1e2f45"/>
+<text x="530" y="997" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#1e2f45" text-anchor="start">Anillo de neutrófilos</text>
+<path d="M375,1035 L520,1080" stroke="#5b6b7e" stroke-width="2" fill="none"/>
+<circle cx="375" cy="1035" r="4" fill="#1e2f45"/>
+<text x="530" y="1087" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#1e2f45" text-anchor="start">Comunidad estafilocócica</text>
+<rect x="110" y="1240" width="720" height="440" rx="18" fill="#ffffff" stroke="#cfd8e3" stroke-width="2"/>
+<path d="M110,1258 a18,18 0 0 1 18,-18 h684 a18,18 0 0 1 18,18 v40 h-720 Z" fill="#148f77"/>
+<text x="470.0" y="1281" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#ffffff" text-anchor="middle">BIOPELÍCULA</text>
+<rect x="150" y="1590" width="640" height="48" rx="24" fill="url(#metal)" stroke="#7b8794" stroke-width="2"/>
+<text x="470" y="1622" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#3d4a57" text-anchor="middle">Superficie del dispositivo</text>
+<circle cx="225.0" cy="1577.0" r="13" fill="url(#coc)" stroke="#b8891c" stroke-width="1.4"/>
+<circle cx="252.0" cy="1577.0" r="13" fill="url(#coc)" stroke="#b8891c" stroke-width="1.4"/>
+<path d="M205,1480 Q215,1520 232,1552" fill="none" stroke="#5b6b7e" stroke-width="3" marker-end="url(#ahs)"/>
+<circle cx="198.0" cy="1468.0" r="13" fill="url(#coc)" stroke="#b8891c" stroke-width="1.4"/>
+<path d="M400,1590 C405,1546.8 345,1525.2 355,1482.0 C365,1435.2 435,1420.8 485,1435.2 C550,1449.6 565,1496.4 525,1521.6 C500,1539.6 510,1568.4 520,1590 Z" fill="#a3e4d7" fill-opacity="0.7" stroke="#148f77" stroke-width="3"/>
+<circle cx="387.0" cy="1487.2" r="12" fill="url(#coc)" stroke="#b8891c" stroke-width="1.3"/>
+<circle cx="415.0" cy="1466.6" r="12" fill="url(#coc)" stroke="#b8891c" stroke-width="1.3"/>
+<circle cx="445.0" cy="1450.5" r="12" fill="url(#coc)" stroke="#b8891c" stroke-width="1.3"/>
+<circle cx="477.0" cy="1449.0" r="12" fill="url(#coc)" stroke="#b8891c" stroke-width="1.3"/>
+<circle cx="507.0" cy="1466.6" r="12" fill="url(#coc)" stroke="#b8891c" stroke-width="1.3"/>
+<circle cx="400.0" cy="1510.7" r="12" fill="url(#coc)" stroke="#b8891c" stroke-width="1.3"/>
+<circle cx="430.0" cy="1490.9" r="12" fill="url(#coc)" stroke="#b8891c" stroke-width="1.3"/>
+<circle cx="463.0" cy="1474.0" r="12" fill="url(#coc)" stroke="#b8891c" stroke-width="1.3"/>
+<circle cx="495.0" cy="1493.1" r="12" fill="url(#coc)" stroke="#b8891c" stroke-width="1.3"/>
+<circle cx="447.0" cy="1516.6" r="12" fill="url(#coc)" stroke="#b8891c" stroke-width="1.3"/>
+<circle cx="480.0" cy="1516.6" r="12" fill="url(#coc)" stroke="#b8891c" stroke-width="1.3"/>
+<circle cx="425.0" cy="1540.1" r="12" fill="url(#coc)" stroke="#b8891c" stroke-width="1.3"/>
+<circle cx="455.0" cy="1553.3" r="12" fill="url(#coc)" stroke="#b8891c" stroke-width="1.3"/>
+<circle cx="485.0" cy="1562.1" r="12" fill="url(#coc)" stroke="#b8891c" stroke-width="1.3"/>
+<circle cx="430.0" cy="1573.8" r="12" fill="url(#coc)" stroke="#b8891c" stroke-width="1.3"/>
+<circle cx="460.0" cy="1578.2" r="12" fill="url(#coc)" stroke="#b8891c" stroke-width="1.3"/>
+<circle cx="640.0" cy="1465.0" r="13" fill="url(#coc)" stroke="#b8891c" stroke-width="1.4"/>
+<circle cx="682.0" cy="1432.0" r="13" fill="url(#coc)" stroke="#b8891c" stroke-width="1.4"/>
+<circle cx="708.0" cy="1482.0" r="13" fill="url(#coc)" stroke="#b8891c" stroke-width="1.4"/>
+<path d="M560,1455 Q588,1432 615,1440" fill="none" stroke="#5b6b7e" stroke-width="3" marker-end="url(#ahs)"/>
+<text x="225" y="1430" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#148f77" text-anchor="middle">Adhesión</text>
+<text x="455" y="1400" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#148f77" text-anchor="middle">Maduración</text>
+<text x="680" y="1385" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#148f77" text-anchor="middle">Dispersión</text>
+<path d="M104,480 C55,500 55,920 104,940" fill="none" stroke="#2c5d8a" stroke-width="3.5" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<path d="M104,1040 C55,1060 55,1420 104,1440" fill="none" stroke="#2c5d8a" stroke-width="3.5" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<path d="M104,400 C10,430 10,1490 104,1520" fill="none" stroke="#2c5d8a" stroke-width="3.5" stroke-opacity="0.55" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<path d="M860,423.2 L932.5,423.2 L932.5,400.0 L985,440 L932.5,480.0 L932.5,456.8 L860,456.8 Z" fill="#2c5d8a"/>
+<path d="M860,973.2 L932.5,973.2 L932.5,950.0 L985,990 L932.5,1030.0 L932.5,1006.8 L860,1006.8 Z" fill="#2c5d8a"/>
+<path d="M860,1463.2 L932.5,1463.2 L932.5,1440.0 L985,1480 L932.5,1520.0 L932.5,1496.8 L860,1496.8 Z" fill="#2c5d8a"/>
+<text x="1185" y="285" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#1e2f45" text-anchor="middle">ANTIBIÓTICOS</text>
+<circle cx="1185" cy="450" r="125" fill="#fdecea" stroke="#c0392b" stroke-width="5"/>
+<text x="1185" y="612" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#5b6b7e" text-anchor="middle" font-style="italic">Terapia temprana y dirigida</text>
+<rect x="1130" y="365" width="85" height="120" rx="16" fill="url(#bag)" stroke="#2e86c1" stroke-width="3"/>
+<rect x="1130" y="430" width="85" height="55" rx="0" fill="#85c1e9" opacity="0.6"/>
+<rect x="1130" y="365" width="85" height="120" rx="16" fill="none" stroke="#2e86c1" stroke-width="3"/>
+<rect x="1140" y="392" width="65" height="28" rx="4" fill="#ffffff" stroke="#2e86c1" stroke-width="1.5"/>
+<text x="1172.5" y="412" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1b4f72" text-anchor="middle">ATB</text>
+<rect x="1165" y="352" width="15" height="14" rx="3" fill="#2e86c1"/>
+<path d="M1173,485 L1173,500 Q1173,540 1215,545" fill="none" stroke="#2e86c1" stroke-width="4"/>
+<rect x="1165" y="488" width="16" height="22" rx="4" fill="#d6eaf8" stroke="#2e86c1" stroke-width="2"/>
+<g transform="rotate(-35 1245 470)"><rect x="1215" y="452" width="60" height="34" rx="17" fill="#ffffff" stroke="#c0392b" stroke-width="3"/><path d="M1245,452 h13 a17,17 0 0 1 0,34 h-13 Z" fill="#c0392b"/></g>
+<text x="1185" y="791" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#1e2f45" text-anchor="middle">IDENTIFICAR Y</text>
+<text x="1185" y="825" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#1e2f45" text-anchor="middle">CONTROLAR EL FOCO</text>
+<circle cx="1185" cy="990" r="125" fill="#fef5e7" stroke="#d68910" stroke-width="5"/>
+<text x="1185" y="1152" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#5b6b7e" text-anchor="middle" font-style="italic">Imagen · drenaje</text>
+<circle cx="1170" cy="975" r="62" fill="#ffffff" stroke="#34495e" stroke-width="9"/>
+<circle cx="1170" cy="975" r="45" fill="url(#infl)"/>
+<circle cx="1170" cy="975" r="22" fill="#f5b041" stroke="#a0522d" stroke-width="3" stroke-dasharray="6 3"/>
+<circle cx="1164.0" cy="971.0" r="6" fill="url(#coc)" stroke="#b8891c" stroke-width="1.2"/>
+<circle cx="1176.0" cy="972.0" r="6" fill="url(#coc)" stroke="#b8891c" stroke-width="1.2"/>
+<circle cx="1170.0" cy="982.0" r="6" fill="url(#coc)" stroke="#b8891c" stroke-width="1.2"/>
+<line x1="1215" y1="1020" x2="1260" y2="1065" stroke="#34495e" stroke-width="18" stroke-linecap="round"/>
+<text x="1185" y="1281" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#1e2f45" text-anchor="middle">RETIRAR DISPOSITIVOS</text>
+<text x="1185" y="1315" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#1e2f45" text-anchor="middle">INFECTADOS</text>
+<circle cx="1185" cy="1480" r="125" fill="#e8f8f5" stroke="#148f77" stroke-width="5"/>
+<text x="1185" y="1642" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#5b6b7e" text-anchor="middle" font-style="italic">La biopelícula resiste antibióticos</text>
+<path d="M1103,1540 C1123,1468 1167,1456 1197,1474 S1233,1462 1245,1432" fill="none" stroke="#7b8794" stroke-width="18" stroke-linecap="round"/>
+<path d="M1103,1540 C1123,1468 1167,1456 1197,1474 S1233,1462 1245,1432" fill="none" stroke="#dfe4ea" stroke-width="10" stroke-linecap="round"/>
+<ellipse cx="1137" cy="1478" rx="22" ry="14" fill="#a3e4d7" stroke="#148f77" stroke-width="2"/>
+<circle cx="1130.0" cy="1478.0" r="6" fill="url(#coc)" stroke="#b8891c" stroke-width="1.2"/>
+<circle cx="1143.0" cy="1476.0" r="6" fill="url(#coc)" stroke="#b8891c" stroke-width="1.2"/>
+<ellipse cx="1195" cy="1470" rx="18" ry="12" fill="#a3e4d7" stroke="#148f77" stroke-width="2"/>
+<circle cx="1190.0" cy="1470.0" r="5.5" fill="url(#coc)" stroke="#b8891c" stroke-width="1.2"/>
+<circle cx="1201.0" cy="1469.0" r="5.5" fill="url(#coc)" stroke="#b8891c" stroke-width="1.2"/>
+<line x1="1251" y1="1420" x2="1265" y2="1398" stroke="#148f77" stroke-width="6" stroke-linecap="round"/>
+<polygon points="1277,1378 1255,1392 1273,1404" fill="#148f77"/>
+</svg>
