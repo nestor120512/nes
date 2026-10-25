@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 866 838" width="866" height="838">
+<defs>
+  <radialGradient id="cellg" cx="38%" cy="32%" r="75%">
+    <stop offset="0" stop-color="#fbd877"/>
+    <stop offset="0.6" stop-color="#eebd3e"/>
+    <stop offset="1" stop-color="#d9a12a"/>
+  </radialGradient>
+  <radialGradient id="iron" cx="35%" cy="30%" r="75%">
+    <stop offset="0" stop-color="#ffc77a"/>
+    <stop offset="1" stop-color="#e9811f"/>
+  </radialGradient>
+  <linearGradient id="green" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#4fb04f"/>
+    <stop offset="1" stop-color="#2d8a2d"/>
+  </linearGradient>
+  <linearGradient id="tf" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#7fd3ef"/>
+    <stop offset="1" stop-color="#3fa8d6"/>
+  </linearGradient>
+  <linearGradient id="lf" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f7a7cf"/>
+    <stop offset="1" stop-color="#e2669f"/>
+  </linearGradient>
+  <filter id="blur" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="5"/></filter>
+  <marker id="ah" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 z" fill="#222"/>
+  </marker>
+</defs>
+<rect width="866" height="838" fill="#ffffff"/>
+
+<text x="118" y="66" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="34" font-style="italic" fill="#222">Staphylococcus aureus</text>
+
+
+  <circle cx="260" cy="224" r="80" fill="#000" opacity="0.12" filter="url(#blur)"/>
+  <circle cx="260" cy="220" r="80" fill="url(#cellg)" stroke="#c9961f" stroke-width="2.5"/>
+  <circle cx="260" cy="220" r="73" fill="none" stroke="#fff3c4" stroke-width="2" opacity="0.45"/>
+  <ellipse cx="226.4" cy="180.0" rx="14.399999999999999" ry="11.200000000000001" fill="#fff" opacity="0.35"/>
+<ellipse cx="260" cy="200" rx="44" ry="30" fill="#fdf4d8" opacity="0.85" stroke="#e7cf8e" stroke-width="1.2"/>
+<path d="M215.0,208.0 L216.1,208.7 L217.2,209.5 L218.4,210.1 L219.5,210.6 L220.6,211.0 L221.8,211.2 L222.9,211.2 L224.0,211.0 L225.1,210.7 L226.2,210.3 L227.4,209.7 L228.5,209.0 L229.6,208.3 L230.8,207.5 L231.9,206.8 L233.0,206.1 L234.1,205.6 L235.2,205.1 L236.4,204.9 L237.5,204.8 L238.6,204.9 L239.8,205.1 L240.9,205.6 L242.0,206.1 L243.1,206.8 L244.2,207.5 L245.4,208.3 L246.5,209.0 L247.6,209.7 L248.8,210.3 L249.9,210.7 L251.0,211.0 L252.1,211.2 L253.2,211.2 L254.4,211.0 L255.5,210.6 L256.6,210.1 L257.8,209.5 L258.9,208.7 L260.0,208.0 L261.1,207.3 L262.2,206.5 L263.4,205.9 L264.5,205.4 L265.6,205.0 L266.8,204.8 L267.9,204.8 L269.0,205.0 L270.1,205.3 L271.2,205.7 L272.4,206.3 L273.5,207.0 L274.6,207.7 L275.8,208.5 L276.9,209.2 L278.0,209.9 L279.1,210.4 L280.2,210.9 L281.4,211.1 L282.5,211.2 L283.6,211.1 L284.8,210.9 L285.9,210.4 L287.0,209.9 L288.1,209.2 L289.2,208.5 L290.4,207.7 L291.5,207.0 L292.6,206.3 L293.8,205.7 L294.9,205.3 L296.0,205.0 L297.1,204.8 L298.2,204.8 L299.4,205.0 L300.5,205.4 L301.6,205.9 L302.8,206.5 L303.9,207.3 L305.0,208.0 " fill="none" stroke="#3aa0c8" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M215.0,208.0 L216.1,207.3 L217.2,206.5 L218.4,205.9 L219.5,205.4 L220.6,205.0 L221.8,204.8 L222.9,204.8 L224.0,205.0 L225.1,205.3 L226.2,205.7 L227.4,206.3 L228.5,207.0 L229.6,207.7 L230.8,208.5 L231.9,209.2 L233.0,209.9 L234.1,210.4 L235.2,210.9 L236.4,211.1 L237.5,211.2 L238.6,211.1 L239.8,210.9 L240.9,210.4 L242.0,209.9 L243.1,209.2 L244.2,208.5 L245.4,207.7 L246.5,207.0 L247.6,206.3 L248.8,205.7 L249.9,205.3 L251.0,205.0 L252.1,204.8 L253.2,204.8 L254.4,205.0 L255.5,205.4 L256.6,205.9 L257.8,206.5 L258.9,207.3 L260.0,208.0 L261.1,208.7 L262.2,209.5 L263.4,210.1 L264.5,210.6 L265.6,211.0 L266.8,211.2 L267.9,211.2 L269.0,211.0 L270.1,210.7 L271.2,210.3 L272.4,209.7 L273.5,209.0 L274.6,208.3 L275.8,207.5 L276.9,206.8 L278.0,206.1 L279.1,205.6 L280.2,205.1 L281.4,204.9 L282.5,204.8 L283.6,204.9 L284.8,205.1 L285.9,205.6 L287.0,206.1 L288.1,206.8 L289.2,207.5 L290.4,208.3 L291.5,209.0 L292.6,209.7 L293.8,210.3 L294.9,210.7 L296.0,211.0 L297.1,211.2 L298.2,211.2 L299.4,211.0 L300.5,210.6 L301.6,210.1 L302.8,209.5 L303.9,208.7 L305.0,208.0 " fill="none" stroke="#e0821f" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="215.0" y1="208.0" x2="215.0" y2="208.0" stroke="#7a6a3e" stroke-width="1"/>
+<line x1="220.6" y1="211.0" x2="220.6" y2="205.0" stroke="#7a6a3e" stroke-width="1"/>
+<line x1="226.2" y1="210.3" x2="226.2" y2="205.7" stroke="#7a6a3e" stroke-width="1"/>
+<line x1="231.9" y1="206.8" x2="231.9" y2="209.2" stroke="#7a6a3e" stroke-width="1"/>
+<line x1="237.5" y1="204.8" x2="237.5" y2="211.2" stroke="#7a6a3e" stroke-width="1"/>
+<line x1="243.1" y1="206.8" x2="243.1" y2="209.2" stroke="#7a6a3e" stroke-width="1"/>
+<line x1="248.8" y1="210.3" x2="248.8" y2="205.7" stroke="#7a6a3e" stroke-width="1"/>
+<line x1="254.4" y1="211.0" x2="254.4" y2="205.0" stroke="#7a6a3e" stroke-width="1"/>
+<line x1="260.0" y1="208.0" x2="260.0" y2="208.0" stroke="#7a6a3e" stroke-width="1"/>
+<line x1="265.6" y1="205.0" x2="265.6" y2="211.0" stroke="#7a6a3e" stroke-width="1"/>
+<line x1="271.2" y1="205.7" x2="271.2" y2="210.3" stroke="#7a6a3e" stroke-width="1"/>
+<line x1="276.9" y1="209.2" x2="276.9" y2="206.8" stroke="#7a6a3e" stroke-width="1"/>
+<line x1="282.5" y1="211.2" x2="282.5" y2="204.8" stroke="#7a6a3e" stroke-width="1"/>
+<line x1="288.1" y1="209.2" x2="288.1" y2="206.8" stroke="#7a6a3e" stroke-width="1"/>
+<line x1="293.8" y1="205.7" x2="293.8" y2="210.3" stroke="#7a6a3e" stroke-width="1"/>
+<line x1="299.4" y1="205.0" x2="299.4" y2="211.0" stroke="#7a6a3e" stroke-width="1"/>
+<line x1="305.0" y1="208.0" x2="305.0" y2="208.0" stroke="#7a6a3e" stroke-width="1"/>
+
+  <rect x="262" y="184" width="9" height="24" rx="3" fill="#7b3fa0" stroke="#4d2266" stroke-width="1.2"/>
+  <rect x="273" y="184" width="9" height="24" rx="3" fill="#3a3f9e" stroke="#21246a" stroke-width="1.2"/>
+  <circle cx="266.5" cy="179" r="3" fill="#7b3fa0"/>
+  <circle cx="277.5" cy="179" r="3" fill="#3a3f9e"/>
+  <path d="M282,190 q8,-10 16,-14 t14,-8" fill="none" stroke="#9a7bd0" stroke-width="2" stroke-linecap="round" stroke-dasharray="0.1 5"/>
+  <circle cx="302" cy="171" r="3.2" fill="#e04f8a"/>
+  <circle cx="310" cy="166" r="3.2" fill="#3fb6c9"/>
+  <circle cx="317" cy="168" r="3.2" fill="#e8b23a"/>
+
+<g fill="none" stroke="#3d3420" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"><path d="M213.4,254.4 Q219.0,253.2 220.6,257.9 Q219.0,260.1 221.4,258.9 Q224.4,253.5 230.2,265.2 Q230.1,255.6 237.3,267.2 Q239.5,258.3 245.8,252.7 Q247.3,256.6 243.6,253.9 Q247.7,265.1 249.2,261.3 Q256.0,258.0 257.8,253.0 Q256.0,255.3 264.3,258.8 Q263.6,261.4 267.5,256.8 Q273.2,263.2 270.9,261.2 Q276.1,266.0 280.6,256.6 Q285.5,253.9 283.1,264.1 Q283.3,259.8 285.0,262.7 Q294.1,261.2 297.8,257.0 Q298.8,261.5 300.4,259.3 Q305.4,267.1 304.8,262.6 Q298.4,263.2 301.0,267.9 Q300.0,256.6 293.4,262.7 Q287.5,259.4 286.1,253.9 Q282.5,264.3 280.5,256.0 Q280.2,265.9 274.8,259.2 Q276.3,266.1 276.1,265.8 Q268.6,258.6 266.7,266.1 Q269.4,254.4 259.7,255.7 Q257.6,259.8 258.2,256.2 Q250.2,258.7 250.9,261.1 Q253.5,263.0 246.9,261.9 Q245.7,252.9 245.1,264.5 Q242.2,264.8 235.2,258.4 Q230.0,262.1 226.9,253.1 Q225.6,254.6 224.1,252.8 Q218.4,254.4 216.7,257.8 Q213.4,266.0 216.0,254.4 "/><ellipse cx="238.8" cy="258.0" rx="4.0" ry="2.9" transform="rotate(-30 238.8 258.0)"/><ellipse cx="289.9" cy="266.6" rx="4.4" ry="3.1" transform="rotate(-1 289.9 266.6)"/><ellipse cx="224.5" cy="254.7" rx="3.9" ry="2.8" transform="rotate(-19 224.5 254.7)"/><ellipse cx="288.2" cy="255.5" rx="2.8" ry="2.0" transform="rotate(36 288.2 255.5)"/><ellipse cx="262.4" cy="255.3" rx="4.6" ry="3.3" transform="rotate(-38 262.4 255.3)"/><ellipse cx="262.4" cy="266.4" rx="5.8" ry="4.1" transform="rotate(16 262.4 266.4)"/><ellipse cx="239.5" cy="258.2" rx="3.3" ry="2.3" transform="rotate(22 239.5 258.2)"/><ellipse cx="262.8" cy="263.7" rx="3.9" ry="2.8" transform="rotate(-22 262.8 263.7)"/><ellipse cx="286.7" cy="266.5" rx="5.7" ry="4.1" transform="rotate(24 286.7 266.5)"/><ellipse cx="287.3" cy="263.2" rx="3.5" ry="2.5" transform="rotate(1 287.3 263.2)"/><ellipse cx="247.6" cy="253.7" rx="2.8" ry="2.0" transform="rotate(-18 247.6 253.7)"/><ellipse cx="239.4" cy="262.6" rx="6.1" ry="4.4" transform="rotate(-4 239.4 262.6)"/><ellipse cx="297.5" cy="266.5" rx="6.1" ry="4.4" transform="rotate(-11 297.5 266.5)"/><ellipse cx="236.0" cy="256.4" rx="3.4" ry="2.4" transform="rotate(-24 236.0 256.4)"/><ellipse cx="270.6" cy="265.3" rx="5.7" ry="4.1" transform="rotate(-2 270.6 265.3)"/><ellipse cx="273.1" cy="264.0" rx="3.0" ry="2.1" transform="rotate(13 273.1 264.0)"/><ellipse cx="295.1" cy="263.8" rx="5.4" ry="3.8" transform="rotate(-2 295.1 263.8)"/></g>
+<path d="M372,178 L398,208 L381,208 L381,270 L363,270 L363,208 L346,208 Z" fill="url(#green)" stroke="#1d6b1d" stroke-width="2.2" stroke-linejoin="round"/>
+<text font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="31" fill="#222">
+  <tspan x="404" y="252">ISD &amp; Siderophore Gene</tspan>
+  <tspan x="510" y="298">Expression</tspan></text>
+<line x1="260" y1="318" x2="260" y2="356" stroke="#222" stroke-width="3" marker-end="url(#ah)"/>
+
+  <line x1="218" y1="540" x2="218" y2="582" stroke="#e3d29a" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="290" y1="540" x2="290" y2="582" stroke="#e3d29a" stroke-width="3.5" stroke-linecap="round"/>
+
+  <circle cx="250" cy="466" r="90" fill="#000" opacity="0.12" filter="url(#blur)"/>
+  <circle cx="250" cy="462" r="90" fill="url(#cellg)" stroke="#c9961f" stroke-width="2.5"/>
+  <circle cx="250" cy="462" r="83" fill="none" stroke="#fff3c4" stroke-width="2" opacity="0.45"/>
+  <ellipse cx="212.2" cy="417.0" rx="16.2" ry="12.600000000000001" fill="#fff" opacity="0.35"/>
+<g fill="none" stroke="#3d3420" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"><path d="M196.8,515.2 Q201.3,515.4 210.6,508.1 Q207.8,518.0 214.0,504.1 Q211.0,503.7 221.7,515.5 Q217.0,515.9 228.3,512.8 Q225.0,510.9 225.7,501.3 Q237.1,512.7 235.6,517.8 Q237.6,516.7 244.4,504.8 Q241.6,506.3 244.5,511.6 Q247.6,508.5 249.3,517.4 Q254.4,509.2 259.7,517.3 Q261.0,517.5 264.7,510.6 Q267.9,501.3 270.0,504.3 Q268.6,515.4 273.2,509.5 Q281.7,511.0 280.6,510.3 Q285.8,515.1 284.3,511.1 Q288.7,506.0 296.8,510.1 Q297.7,514.7 304.1,509.0 Q298.2,510.1 294.2,513.5 Q290.7,510.6 288.0,517.9 Q287.3,516.8 286.8,505.7 Q280.0,518.0 279.9,503.5 Q269.7,509.0 266.3,505.3 Q263.4,513.1 267.5,517.1 Q258.3,513.9 260.4,503.6 Q259.7,518.4 250.1,518.1 Q249.0,509.8 252.0,516.0 Q240.7,508.8 241.3,507.1 Q235.2,506.7 237.5,501.4 Q232.9,508.9 224.6,507.0 Q227.7,510.2 219.2,518.7 Q223.5,518.5 213.7,505.8 Q210.1,515.0 209.5,503.3 Q208.0,517.4 209.1,505.7 Q199.4,517.5 200.7,513.6 "/><ellipse cx="210.9" cy="503.4" rx="5.8" ry="4.1" transform="rotate(-6 210.9 503.4)"/><ellipse cx="209.3" cy="516.6" rx="5.6" ry="4.0" transform="rotate(24 209.3 516.6)"/><ellipse cx="210.4" cy="515.3" rx="3.3" ry="2.4" transform="rotate(29 210.4 515.3)"/><ellipse cx="245.6" cy="507.6" rx="5.3" ry="3.8" transform="rotate(34 245.6 507.6)"/><ellipse cx="227.9" cy="504.4" rx="5.1" ry="3.7" transform="rotate(-21 227.9 504.4)"/><ellipse cx="212.8" cy="504.9" rx="3.2" ry="2.3" transform="rotate(-24 212.8 504.9)"/><ellipse cx="232.1" cy="507.1" rx="6.1" ry="4.3" transform="rotate(-17 232.1 507.1)"/><ellipse cx="250.0" cy="505.2" rx="4.4" ry="3.2" transform="rotate(-39 250.0 505.2)"/><ellipse cx="226.2" cy="502.7" rx="6.0" ry="4.3" transform="rotate(4 226.2 502.7)"/><ellipse cx="220.4" cy="509.6" rx="6.8" ry="4.9" transform="rotate(-31 220.4 509.6)"/><ellipse cx="280.4" cy="509.0" rx="5.0" ry="3.6" transform="rotate(27 280.4 509.0)"/><ellipse cx="239.8" cy="510.1" rx="5.8" ry="4.1" transform="rotate(39 239.8 510.1)"/><ellipse cx="235.0" cy="515.0" rx="5.9" ry="4.2" transform="rotate(11 235.0 515.0)"/><ellipse cx="240.9" cy="507.7" rx="3.2" ry="2.3" transform="rotate(-30 240.9 507.7)"/><ellipse cx="209.1" cy="513.6" rx="4.1" ry="2.9" transform="rotate(-27 209.1 513.6)"/><ellipse cx="210.4" cy="515.1" rx="6.5" ry="4.7" transform="rotate(14 210.4 515.1)"/><ellipse cx="229.2" cy="506.1" rx="4.2" ry="3.0" transform="rotate(-3 229.2 506.1)"/></g>
+<g>
+    <path d="M190,592 A22,22 0 0 0 234,592 L225,592 A13,13 0 0 1 199,592 Z"
+          transform="rotate(180 212 592)" fill="#9b59b6" stroke="#6c3483" stroke-width="1.8" stroke-linejoin="round"/>
+    <g>
+    <circle cx="212" cy="595" r="11" fill="url(#iron)" stroke="#b5560c" stroke-width="1.6"/>
+    <text x="212" y="598.4" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="7.9" font-weight="700" fill="#5a2600" text-anchor="middle">Fe<tspan dy="-4" font-size="5.3">3+</tspan></text>
+  </g>
+  </g>
+<g>
+    <path d="M264,592 A22,22 0 0 0 308,592 L299,592 A13,13 0 0 1 273,592 Z"
+          transform="rotate(180 286 592)" fill="#d63a8a" stroke="#9c2463" stroke-width="1.8" stroke-linejoin="round"/>
+    <g>
+    <circle cx="286" cy="595" r="11" fill="url(#iron)" stroke="#b5560c" stroke-width="1.6"/>
+    <text x="286" y="598.4" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="7.9" font-weight="700" fill="#5a2600" text-anchor="middle">Fe<tspan dy="-4" font-size="5.3">3+</tspan></text>
+  </g>
+  </g>
+<path d="M372,462 L398,492 L381,492 L381,546 L363,546 L363,492 L346,492 Z" fill="url(#green)" stroke="#1d6b1d" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="402" y="522" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="31" fill="#222">Iron Uptake</text>
+<text font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="21" fill="#222">
+  <tspan x="56" y="654">Staphyloferrin A</tspan>
+  <tspan x="282" y="654">Staphyloferrin B</tspan></text>
+<path d="M182,730 L246,730 L214,784 Z" fill="url(#tf)" stroke="#1f7aa3" stroke-width="2" stroke-linejoin="round"/>
+<g>
+    <circle cx="182" cy="718" r="14" fill="url(#iron)" stroke="#b5560c" stroke-width="1.6"/>
+    <text x="182" y="721.4" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="10.1" font-weight="700" fill="#5a2600" text-anchor="middle">Fe<tspan dy="-4" font-size="6.7">3+</tspan></text>
+  </g>
+<g>
+    <circle cx="246" cy="718" r="14" fill="url(#iron)" stroke="#b5560c" stroke-width="1.6"/>
+    <text x="246" y="721.4" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="10.1" font-weight="700" fill="#5a2600" text-anchor="middle">Fe<tspan dy="-4" font-size="6.7">3+</tspan></text>
+  </g>
+<text x="214" y="812" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="19" fill="#222" text-anchor="middle">TF</text>
+<path d="M342,738 L364,786 L320,786 Z" fill="url(#lf)" stroke="#b33f78" stroke-width="2" stroke-linejoin="round"/>
+<g>
+    <circle cx="342" cy="722" r="14" fill="url(#iron)" stroke="#b5560c" stroke-width="1.6"/>
+    <text x="342" y="725.4" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="10.1" font-weight="700" fill="#5a2600" text-anchor="middle">Fe<tspan dy="-4" font-size="6.7">3+</tspan></text>
+  </g>
+<text x="342" y="814" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="19" fill="#222" text-anchor="middle">LF</text>
+</svg>
