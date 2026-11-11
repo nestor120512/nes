@@ -52,9 +52,9 @@ Este caso plantea a reumatología la decisión de mantener inmunosupresión sist
 
 ---
 
-### Figura 1 (archivo: `caso3_figura1_escleromalacia.jpg`)
+### Figura 1 (archivo: `caso3_figura1_escleromalacia_2paneles.jpg`)
 
-Cuatro paneles del ojo derecho, recortados para no mostrar el rostro. A y B: 30 de junio de 2026; C y D: 8 de julio de 2026. Flecha en C sobre el tejido uveal herniado (pendiente de confirmar por el autor).
+Versión elegida: **2 paneles** del ojo derecho, recortados para no mostrar el rostro. A: 30 de junio de 2026; B: 8 de julio de 2026, con flecha sobre el tejido uveal herniado (pendiente de confirmar por el autor). La versión de 4 paneles queda como alternativa (`caso3_figura1_escleromalacia_4paneles.jpg`).
 
 **Leyenda (en inglés, para el formulario):**
-Figure 1. Right eye with scleromalacia perforans. (A, B) At hospital admission: conjunctival hyperemia and extensive scleral thinning with bluish discoloration from the underlying uvea. (C, D) Eight days later: corneoscleral destruction with uveal tissue herniation (arrow).
+Figure 1. Right eye with scleromalacia perforans. (A) At hospital admission: conjunctival hyperemia and extensive scleral thinning with bluish discoloration from the underlying uvea. (B) Eight days later: corneoscleral destruction with uveal tissue herniation (arrow).
