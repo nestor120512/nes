@@ -1,7 +1,7 @@
 # Caso 1 – Dermatomiositis juvenil anti-Mi-2 (borrador en español para PANLAR 2027)
 
 Fuente: manuscrito `dermatomiositis_antimi2` y póster del caso.
-Estado: **versión 10 en español: "policíclico" respaldado por respuesta completa entre recaídas, CK y RM "orientaron", conclusión ajustada a lo documentado, sin "neoplasia"** → falta traducir al inglés para el formulario.
+Estado: **versión 11 en español (texto completo, con CK al tercer ciclo): "policíclico" respaldado por respuesta completa entre recaídas, CK y RM "orientaron", conclusión ajustada a lo documentado, sin "neoplasia"** → falta traducir al inglés para el formulario.
 
 **Título** (no cuenta en los caracteres):
 Dermatomiositis juvenil anti-Mi-2 de curso policíclico con respuesta repetida a inmunoglobulina intravenosa: reporte de caso
@@ -24,15 +24,15 @@ La dermatomiositis juvenil anti-Mi-2 suele cursar con compromiso muscular promin
 
 Reporte de caso retrospectivo basado en la revisión de la historia clínica, los estudios de laboratorio, la biopsia muscular y la resonancia magnética (RM).
 
-### Resultados  (1.601 caracteres)
+### Resultados  (1.597 caracteres)
 
-Mujer que a los 17 años presentó lesiones cutáneas con signo de Gottron, mialgias y debilidad proximal progresiva. Un mes después tenía fuerza proximal 3/5, disfagia, CK 12.588 U/L, ANA 1:160 y anti-Mi-2α/β positivos; la biopsia mostró miopatía inflamatoria (EULAR/ACR 2017: 9,6 puntos). Recibió pulsos de metilprednisolona, prednisolona y azatioprina; por persistencia de la debilidad y la disfagia se añadió IGIV 2 g/kg, con mejoría funcional y recuperación de la deglución. Durante el seguimiento se consideró superposición con lupus por ANA 1:1280 y eritema facial, pero la reevaluación no la sustentó (anti-dsDNA y anti-RNP negativos, complemento normal, sin nefritis). En los 19 meses siguientes presentó cuatro recaídas tras períodos de respuesta completa (Tabla 1): tras la primera se añadió micofenolato; la segunda ocurrió al interrumpirlo y la tercera durante el descenso del glucocorticoide. En la cuarta, a los 19 años, presentó fuerza 2/5, incapacidad para caminar y CK 5.720 U/L. Pese a los signos cushingoides, la CK elevada y el edema muscular difuso con compromiso fascial en la RM de muslos orientaron a actividad inflamatoria más que a miopatía esteroidea. Tras 5 días de metilprednisolona, la CK bajó a 2.073 U/L, pero volvió a subir a 3.492 U/L y reapareció la disfagia. La TC de tórax descartó enfermedad pulmonar intersticial. Ante la respuesta incompleta, se reinició IGIV cada 4 semanas, planificada por 6 meses. Al tercer ciclo, la CK se había normalizado (XXX U/L), la disfagia se resolvió, la fuerza mejoró a 4/5 y recuperó la marcha con apoyo; continúa en rehabilitación.
+Mujer que a los 17 años presentó lesiones cutáneas con signo de Gottron, mialgias y debilidad proximal progresiva. Un mes después tenía fuerza proximal 3/5, disfagia, CK 12.588 U/L, ANA 1:160 y anti-Mi-2α/β positivos; la biopsia mostró miopatía inflamatoria (EULAR/ACR 2017: 9,6 puntos). Recibió pulsos de metilprednisolona, prednisolona y azatioprina; por persistencia de la debilidad y la disfagia se añadió IGIV 2 g/kg, con mejoría funcional y recuperación de la deglución. Durante el seguimiento se consideró superposición con lupus por ANA 1:1280 y eritema facial, pero la reevaluación no la sustentó (anti-dsDNA y anti-RNP negativos, complemento normal, sin nefritis). En los 19 meses siguientes presentó cuatro recaídas tras períodos de respuesta completa (Tabla 1): tras la primera se añadió micofenolato; la segunda ocurrió al interrumpirlo y la tercera durante el descenso del glucocorticoide. En la cuarta, a los 19 años, presentó fuerza 2/5, incapacidad para caminar y CK 5.720 U/L. Pese a los signos cushingoides, la CK elevada y el edema muscular difuso con compromiso fascial en la RM de muslos orientaron a actividad inflamatoria más que a miopatía esteroidea. Tras 5 días de metilprednisolona, la CK bajó a 2.073 U/L, pero volvió a subir a 3.492 U/L y reapareció la disfagia. La TC de tórax descartó enfermedad pulmonar intersticial. Ante la respuesta incompleta, se reinició IGIV cada 4 semanas, planificada por 6 meses. Al tercer ciclo, la CK había descendido a 202 U/L, la disfagia se resolvió, la fuerza mejoró a 4/5 y recuperó la marcha con apoyo; continúa en rehabilitación.
 
-### Conclusión  (412 caracteres)
+### Conclusión  (418 caracteres)
 
-El fenotipo anti-Mi-2 no excluye un curso grave y policíclico. En esta paciente, la adición de IGIV ante una respuesta incompleta a glucocorticoides se asoció en dos ocasiones con mejoría clínica, y el esquema mensual, con normalización de la CK. En pacientes con exposición prolongada a esteroides y nueva debilidad, la CK elevada y la RM ayudan a distinguir la actividad inflamatoria de la miopatía esteroidea.
+El fenotipo anti-Mi-2 no excluye un curso grave y policíclico. En esta paciente, la adición de IGIV ante una respuesta incompleta a glucocorticoides se asoció en dos ocasiones con mejoría clínica, y el esquema mensual, con un descenso marcado de la CK. En pacientes con exposición prolongada a esteroides y nueva debilidad, la CK elevada y la RM ayudan a distinguir la actividad inflamatoria de la miopatía esteroidea.
 
-**Total del texto: 2.679 / 2.750 caracteres.** En este caso el inglés quedó de un largo similar al español (la versión 3 pasó de 2.471 a 2.498), así que hay que volver a contar al traducir. Falta el valor de CK al tercer ciclo (XXX).
+**Total del texto: 2.681 / 2.750 caracteres.** En este caso el inglés quedó de un largo similar al español (la versión 3 pasó de 2.471 a 2.498), así que hay que volver a contar al traducir.
 Referencias: ninguna.
 
 ---
@@ -47,7 +47,7 @@ Referencias: ninguna.
 | Mes 12 | Recaída 2 (suspensión de MMF) | Fuerza 4/5, CK 1.399 U/L. MPIV 3 días + MMF; CK 393 U/L |
 | Mes 17 | Recaída 3 (descenso de GC) | Lesiones cutáneas, CK 11.284 U/L. Pulsos de MPIV |
 | Mes 20 | Recaída 4 | Fuerza 2/5, CK 5.720 U/L, RM con miositis activa. MPIV 5 días: respuesta incompleta |
-| Mes 20 en adelante | IGIV cada 4 semanas (plan de 6 meses) | Al 3.er ciclo: CK normal, disfagia resuelta, fuerza 4/5, marcha con apoyo, rehabilitación en curso |
+| Mes 20 en adelante | IGIV cada 4 semanas (plan de 6 meses) | Al 3.er ciclo: CK 202 U/L, disfagia resuelta, fuerza 4/5, marcha con apoyo, rehabilitación en curso |
 
 AZA: azatioprina; CK: creatina quinasa; GC: glucocorticoides; IGIV: inmunoglobulina intravenosa; MMF: micofenolato mofetilo; MPIV: metilprednisolona intravenosa; RM: resonancia magnética.
 
@@ -57,7 +57,7 @@ AZA: azatioprina; CK: creatina quinasa; GC: glucocorticoides; IGIV: inmunoglobul
 
 - Inicio de los síntomas: diciembre de 2024 (mes 0).
 - Consentimiento informado: **sí se obtuvo**. Se declara en la casilla del formulario destinada a eso, no en el texto.
-- Respuesta a la IGIV mensual: al tercer ciclo, CK normal (valor pendiente), disfagia resuelta, fuerza 4/5 y marcha con apoyo; continúa en rehabilitación.
+- Respuesta a la IGIV mensual: al tercer ciclo, CK 202 U/L (levemente elevada, con descenso marcado desde 3.492), disfagia resuelta, fuerza 4/5 y marcha con apoyo; continúa en rehabilitación.
 - Todavía no se ha iniciado el descenso del glucocorticoide, así que el texto no afirma un efecto ahorrador de esteroides.
 - La comparación con rituximab se retiró: la paciente no lo recibió y, sin referencias, se leería como opinión.
 - Presentación previa en otro congreso: **no**.
