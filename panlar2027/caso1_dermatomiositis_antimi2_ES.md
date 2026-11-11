@@ -37,17 +37,17 @@ Referencias: ninguna.
 
 ---
 
-### Tabla 1. Cronología de la evolución y del tratamiento  (no cuenta en los caracteres; se arma con la herramienta del formulario)
+### Tabla 1. Cronología de la evolución clínica y del tratamiento  (no cuenta en los caracteres; se arma con la herramienta del formulario)
 
-| Tiempo desde el inicio | Evento | Hallazgos e intervención |
-|---|---|---|
-| Mes 0 (17 años) | Inicio | Signo de Gottron, lesiones cutáneas, mialgias, debilidad proximal |
-| Mes 1 | Diagnóstico | Fuerza 3/5, disfagia, CK 12.588 U/L, anti-Mi-2α/β+. MPIV + prednisolona + AZA; IGIV 2 g/kg por respuesta incompleta |
-| Mes 10 | Recaída 1 | CK 2.760 U/L. Aumento de GC + MMF |
-| Mes 12 | Recaída 2 (suspensión de MMF) | Fuerza 4/5, CK 1.399 U/L. MPIV 3 días + MMF; CK 393 U/L |
-| Mes 17 | Recaída 3 (descenso de GC) | Lesiones cutáneas, CK 11.284 U/L. Pulsos de MPIV |
-| Mes 20 | Recaída 4 | Fuerza 2/5, CK 5.720 U/L, RM con miositis activa. MPIV 5 días: respuesta incompleta |
-| Mes 20 en adelante | IGIV cada 4 semanas (plan de 6 meses) | Al 3.er ciclo: CK 202 U/L, disfagia resuelta, fuerza 4/5, marcha con apoyo, rehabilitación en curso |
+| Fecha | Evento | Hallazgos | Tratamiento y respuesta |
+|---|---|---|---|
+| Dic 2024 | Inicio (17 años) | Signo de Gottron y otras lesiones cutáneas, mialgias, debilidad proximal progresiva | — |
+| Ene 2025 | Diagnóstico | Fuerza 3/5, disfagia, CK 12.588 U/L, anti-Mi-2α/β+, biopsia con miopatía inflamatoria; EULAR/ACR 9,6 | MPIV, prednisolona y AZA; por respuesta incompleta, IGIV 2 g/kg: mejoría funcional y de la deglución |
+| Oct 2025 | Recaída 1 | Debilidad, mialgias, CK 2.760 U/L | Aumento de GC + MMF: mejoría clínica y bioquímica |
+| Dic 2025 | Recaída 2 (tras suspender MMF) | Fuerza 4/5, CK 1.399 U/L | MPIV 3 días + reinicio de MMF: CK 393 U/L |
+| May 2026 | Recaída 3 (en descenso de GC) | Lesiones cutáneas, mialgias, CK 11.284 U/L | Pulsos de MPIV y ajuste de GC |
+| Ago 2026 | Recaída 4 (19 años) | Fuerza 2/5, incapacidad para caminar, CK 5.720 U/L; RM: edema muscular difuso y fascial | MPIV 5 días: CK 2.073 → 3.492 U/L y disfagia (respuesta incompleta) → IGIV cada 4 semanas |
+| 3.er ciclo de IGIV | Respuesta | CK 202 U/L, disfagia resuelta, fuerza 4/5, marcha con apoyo | Rehabilitación; IGIV hasta completar 6 meses |
 
 AZA: azatioprina; CK: creatina quinasa; GC: glucocorticoides; IGIV: inmunoglobulina intravenosa; MMF: micofenolato mofetilo; MPIV: metilprednisolona intravenosa; RM: resonancia magnética.
 
@@ -55,7 +55,7 @@ AZA: azatioprina; CK: creatina quinasa; GC: glucocorticoides; IGIV: inmunoglobul
 
 ### Datos confirmados por el autor
 
-- Inicio de los síntomas: diciembre de 2024 (mes 0).
+- Inicio de los síntomas: diciembre de 2024. La tabla usa mes y año, a pedido del autor.
 - Consentimiento informado: **sí se obtuvo**. Se declara en la casilla del formulario destinada a eso, no en el texto.
 - Respuesta a la IGIV mensual: al tercer ciclo, CK 202 U/L (levemente elevada, con descenso marcado desde 3.492), disfagia resuelta, fuerza 4/5 y marcha con apoyo; continúa en rehabilitación.
 - Todavía no se ha iniciado el descenso del glucocorticoide, así que el texto no afirma un efecto ahorrador de esteroides.
