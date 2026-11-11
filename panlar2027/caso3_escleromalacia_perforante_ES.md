@@ -56,5 +56,8 @@ Este caso plantea a reumatología la decisión de mantener inmunosupresión sist
 
 Tres paneles del ojo derecho, recortados para no mostrar el rostro: A, 30 de junio de 2026 (ingreso); B, 8 de julio de 2026; C, octubre de 2026 (3 meses después), con prednisona y azatioprina, en espera de la reconstrucción tectónica. Flechas sobre el tejido uveal herniado (pendiente confirmar su posición). Alternativas: `caso3_figura1_escleromalacia_2paneles.jpg` (A y B) y `caso3_figura1_escleromalacia_4paneles.jpg`.
 
+**Leyenda (versión del autor, en español):**
+Figura 1. Evolución clínica de la escleromalacia perforante del ojo derecho. (A) Al ingreso hospitalario, con adelgazamiento corneoescleral grave y exposición de tejido uveal. (B) Ocho días después, con persistencia del compromiso estructural ocular. (C) Tres meses después, durante el tratamiento inmunosupresor sistémico con prednisona y azatioprina, antes de la reconstrucción tectónica corneoescleral. Las flechas amarillas señalan las áreas de exposición y herniación del tejido uveal.
+
 **Leyenda (en inglés, para el formulario):**
-Figure 1. Right eye with scleromalacia perforans. (A) At hospital admission, extensive corneoscleral destruction with uveal tissue herniation was already present. (B) Eight days later. (C) Three months later, on prednisone and azathioprine, while awaiting tectonic corneoscleral reconstruction. Arrows: herniated uveal tissue.
+Figure 1. Clinical course of scleromalacia perforans in the right eye. (A) At hospital admission, with severe corneoscleral thinning and exposure of uveal tissue. (B) Eight days later, with persistent structural ocular involvement. (C) Three months later, during systemic immunosuppression with prednisone and azathioprine, before tectonic corneoscleral reconstruction. Yellow arrows indicate areas of uveal tissue exposure and herniation.
