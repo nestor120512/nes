@@ -58,6 +58,6 @@ El infarto esplénico en el LES debe motivar la búsqueda de SAF, sobre todo si 
 Dos paneles en una sola imagen, con flechas sobre la lesión esplénica. Pendiente: que el autor confirme que las flechas señalan el infarto.
 
 **Leyenda (en inglés, para el formulario):**
-Figure 1. Contrast-enhanced abdominal computed tomography showing peripheral hypodense areas in the splenic parenchyma (yellow arrows), consistent with splenic infarction. Perihepatic ascites is also present. (A) Coronal view; (B) axial view.
+Figure 1. Contrast-enhanced abdominal computed tomography showing a peripheral, wedge-shaped hypodense area in the spleen with its base at the capsule (yellow arrows), consistent with splenic infarction. Perihepatic ascites is also present. (A) Coronal view; (B) axial view.
 
-Ascitis confirmada por el autor. A pedido del autor, la leyenda no menciona la fase del estudio. La leyenda describe solo lo que se ve en las imágenes; la forma en cuña queda en el texto porque proviene del informe radiológico.
+Ascitis confirmada por el autor. A pedido del autor, la leyenda no menciona la fase del estudio. El autor confirma la morfología en cuña en las imágenes (base en la cápsula, vértice hacia el interior); la leyenda lo describe explícitamente.
