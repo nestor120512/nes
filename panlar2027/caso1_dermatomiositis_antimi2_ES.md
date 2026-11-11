@@ -4,7 +4,9 @@ Fuente: manuscrito `dermatomiositis_antimi2` y póster del caso.
 Estado: **versión 3 en español: un mensaje principal (curso policíclico con respuesta repetida a IGIV) y uno secundario (RM para distinguir actividad de miopatía esteroidea)** → falta traducir al inglés para el formulario.
 
 **Título** (no cuenta en los caracteres):
-Inmunoglobulina intravenosa como rescate en dermatomiositis juvenil anti-Mi-2 recidivante: reporte de caso
+Dermatomiositis juvenil anti-Mi-2 de curso policíclico con respuesta repetida a inmunoglobulina intravenosa: reporte de caso
+
+*En inglés (para el formulario):* Polycyclic anti-Mi-2 juvenile dermatomyositis with repeated response to intravenous immunoglobulin: a case report
 
 **Tópico sugerido:** 9. Miopatías Inflamatorias
 
