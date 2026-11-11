@@ -57,4 +57,4 @@ Este caso plantea a reumatología la decisión de mantener inmunosupresión sist
 Versión elegida: **2 paneles** del ojo derecho, recortados para no mostrar el rostro. A: 30 de junio de 2026; B: 8 de julio de 2026. Flechas en ambos paneles sobre el tejido uveal herniado: el autor confirma que la herniación ya estaba presente al ingreso (pendiente confirmar la posición de las flechas). La versión de 4 paneles queda como alternativa (`caso3_figura1_escleromalacia_4paneles.jpg`).
 
 **Leyenda (en inglés, para el formulario):**
-Figure 1. Right eye with scleromalacia perforans at hospital admission (A) and eight days later (B): conjunctival hyperemia and extensive corneoscleral destruction with uveal tissue herniation (arrows).
+Figure 1. Right eye with scleromalacia perforans. (A) At hospital admission, extensive corneoscleral destruction with uveal tissue herniation was already present (arrow). (B) Eight days later, the herniated uveal tissue remained visible (arrow).
