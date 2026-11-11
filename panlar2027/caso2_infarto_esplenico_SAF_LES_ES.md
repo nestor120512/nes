@@ -30,7 +30,7 @@ Mujer de 63 años que debutó con LES con pancitopenia (hemoglobina **[__]** g/d
 
 El infarto esplénico en el LES debe motivar la búsqueda de SAF, sobre todo si coexisten livedo, trombocitopenia y aPL. Este caso muestra que un perfil IgM aislado, persistente y de títulos altos puede cumplir los criterios de Sapporo revisados sin alcanzar el umbral ACR/EULAR 2023, más específico; no clasificar con los nuevos criterios no debe, por sí solo, descartar un SAF clínicamente probable.
 
-**Total aproximado: ~2,270 / 2.750 caracteres** (con los datos pendientes rellenados con valores de ejemplo).
+**Total aproximado: ~2.250 / 2.750 caracteres** (con los datos pendientes rellenados con valores de ejemplo).
 
 ---
 
