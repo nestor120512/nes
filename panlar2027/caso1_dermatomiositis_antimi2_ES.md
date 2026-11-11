@@ -1,7 +1,7 @@
 # Caso 1 – Dermatomiositis juvenil anti-Mi-2 (borrador en español para PANLAR 2027)
 
 Fuente: manuscrito `dermatomiositis_antimi2` y póster del caso.
-Estado: **versión 5 en español (lenguaje más prudente: asociación temporal con IGIV, lupus "no sustentado", RM como apoyo): un mensaje principal (curso policíclico con respuesta repetida a IGIV) y uno secundario (RM para distinguir actividad de miopatía esteroidea)** → falta traducir al inglés para el formulario.
+Estado: **versión 6 en español (lenguaje más prudente: asociación temporal con IGIV, lupus "no sustentado", RM como apoyo): un mensaje principal (curso policíclico con respuesta repetida a IGIV) y uno secundario (RM para distinguir actividad de miopatía esteroidea)** → falta traducir al inglés para el formulario.
 
 **Título** (no cuenta en los caracteres):
 Dermatomiositis juvenil anti-Mi-2 de curso policíclico con respuesta repetida a inmunoglobulina intravenosa: reporte de caso
@@ -22,15 +22,15 @@ La dermatomiositis juvenil anti-Mi-2 suele cursar con compromiso muscular promin
 
 Reporte de caso retrospectivo basado en la revisión de la historia clínica, estudios de laboratorio e inmunológicos, biopsia muscular y resonancia magnética (RM).
 
-### Resultados  (1.538 caracteres)
+### Resultados  (1.619 caracteres)
 
-Mujer que a los 17 años presentó lesiones cutáneas con signo de Gottron, mialgias y debilidad proximal progresiva. Un mes después tenía fuerza proximal 3/5, disfagia, CK 12.588 U/L, ANA 1:160 y anti-Mi-2α/β positivos; la biopsia mostró miopatía inflamatoria (EULAR/ACR 2017: 9,6 puntos). Recibió pulsos de metilprednisolona, prednisolona y azatioprina; por persistencia de la debilidad y la disfagia se añadió IGIV 2 g/kg, con mejoría funcional y recuperación de la deglución. Durante los 19 meses siguientes presentó cuatro recaídas; la segunda ocurrió tras interrumpir el micofenolato y la tercera durante el descenso del glucocorticoide (Tabla 1). Se consideró superposición con lupus por ANA 1:1280 y eritema facial, pero la reevaluación clínica y serológica no la sustentó (anti-dsDNA y anti-RNP negativos, complemento normal, sin nefritis). En la cuarta recaída, a los 19 años, presentó fuerza 2/5, incapacidad para caminar y CK 5.720 U/L. Pese a los signos cushingoides, la CK elevada orientó a actividad inflamatoria y no a miopatía esteroidea, lo que confirmó la RM de muslos con edema muscular difuso y compromiso fascial. Tras 5 días de metilprednisolona, la CK bajó a 2.073 U/L y volvió a subir a 3.492 U/L, con nueva disfagia. La TC de tórax descartó enfermedad pulmonar intersticial. Se reinició IGIV cada 4 semanas, planificada por 6 meses. Al tercer ciclo, la CK se había normalizado (XXX U/L), la disfagia se resolvió y la fuerza mejoró a 4/5, con marcha con apoyo; continúa en rehabilitación y con IGIV de mantenimiento.
+Mujer que a los 17 años presentó lesiones cutáneas con signo de Gottron, mialgias y debilidad proximal progresiva. Un mes después tenía fuerza proximal 3/5, disfagia, CK 12.588 U/L, ANA 1:160 y anti-Mi-2α/β positivos; la biopsia mostró miopatía inflamatoria (EULAR/ACR 2017: 9,6 puntos). Recibió pulsos de metilprednisolona, prednisolona y azatioprina; por persistencia de la debilidad y la disfagia se añadió IGIV 2 g/kg, con mejoría funcional y recuperación de la deglución. Durante el seguimiento se consideró superposición con lupus por ANA 1:1280 y eritema facial, pero la reevaluación clínica y serológica no la sustentó (anti-dsDNA y anti-RNP negativos, complemento normal, sin nefritis). En los 19 meses siguientes presentó cuatro recaídas (Tabla 1): tras la primera se añadió micofenolato; la segunda ocurrió al interrumpirlo y la tercera durante el descenso del glucocorticoide. En la cuarta, a los 19 años, presentó fuerza 2/5, incapacidad para caminar y CK 5.720 U/L. Pese a los signos cushingoides, la CK elevada orientó a actividad inflamatoria y no a miopatía esteroidea, lo que confirmó la RM de muslos con edema muscular difuso y compromiso fascial. Tras 5 días de metilprednisolona, la CK bajó a 2.073 U/L, pero volvió a subir a 3.492 U/L y reapareció la disfagia. La TC de tórax descartó enfermedad pulmonar intersticial. Ante la respuesta incompleta, se reinició IGIV cada 4 semanas, planificada por 6 meses. Al tercer ciclo, la CK se había normalizado (XXX U/L), la disfagia se resolvió, la fuerza mejoró a 4/5 y recuperó la marcha con apoyo; continúa en rehabilitación y con IGIV de mantenimiento.
 
 ### Conclusión  (375 caracteres)
 
 El fenotipo anti-Mi-2 no excluye un curso grave y policíclico. En esta paciente, la adición de IGIV se asoció en dos ocasiones con mejoría clínica y bioquímica tras una respuesta incompleta a glucocorticoides. En pacientes con exposición prolongada a esteroides y nueva debilidad, la CK elevada y la RM ayudan a distinguir la actividad inflamatoria de la miopatía esteroidea.
 
-**Total del texto: 2.521 / 2.750 caracteres** (en inglés suele quedar más corto). Falta el valor de CK al tercer ciclo (XXX).
+**Total del texto: 2.602 / 2.750 caracteres.** En este caso el inglés quedó de un largo similar al español (la versión 3 pasó de 2.471 a 2.498), así que hay que volver a contar al traducir. Falta el valor de CK al tercer ciclo (XXX).
 Referencias: ninguna.
 
 ---
