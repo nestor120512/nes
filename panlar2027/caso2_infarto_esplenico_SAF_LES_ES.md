@@ -50,3 +50,14 @@ El infarto esplénico en el LES debe motivar la búsqueda de SAF, sobre todo si 
 2. Proteinuria (g/24 h).
 3. Unidades de los aPL (¿U/mL? ¿GPL/MPL?).
 4. Evolución: tiempo de seguimiento, nuevos eventos trombóticos, respuesta renal y hematológica.
+
+---
+
+### Figura 1 (archivo: `caso2_figura1_TC_infarto_esplenico.png`)
+
+Dos paneles en una sola imagen, con flechas sobre la lesión esplénica. Pendiente: que el autor confirme que las flechas señalan el infarto.
+
+**Leyenda (en inglés, para el formulario):**
+Figure 1. Contrast-enhanced abdominal CT showing a peripheral, wedge-shaped hypodense lesion in the lower pole of the spleen (arrows), consistent with splenic infarction. Perihepatic ascites is also seen. A: coronal reconstruction; B: axial image, arterial phase.
+
+Ascitis confirmada por el autor.
