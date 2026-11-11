@@ -52,9 +52,9 @@ Este caso plantea a reumatología la decisión de mantener inmunosupresión sist
 
 ---
 
-### Figura 1 (archivo: `caso3_figura1_escleromalacia_2paneles.jpg`)
+### Figura 1 (propuesta: `caso3_figura1_escleromalacia_3paneles.jpg`)
 
-Versión elegida: **2 paneles** del ojo derecho, recortados para no mostrar el rostro. A: 30 de junio de 2026; B: 8 de julio de 2026. Flechas en ambos paneles sobre el tejido uveal herniado: el autor confirma que la herniación ya estaba presente al ingreso (pendiente confirmar la posición de las flechas). La versión de 4 paneles queda como alternativa (`caso3_figura1_escleromalacia_4paneles.jpg`).
+Tres paneles del ojo derecho, recortados para no mostrar el rostro: A, 30 de junio de 2026 (ingreso); B, 8 de julio de 2026; C, octubre de 2026, con prednisona y azatioprina, en espera de la reconstrucción tectónica. Flechas sobre el tejido uveal herniado (pendiente confirmar su posición). Alternativas: `caso3_figura1_escleromalacia_2paneles.jpg` (A y B) y `caso3_figura1_escleromalacia_4paneles.jpg`.
 
 **Leyenda (en inglés, para el formulario):**
-Figure 1. Right eye with scleromalacia perforans. (A) At hospital admission, extensive corneoscleral destruction with uveal tissue herniation was already present (arrow). (B) Eight days later, the herniated uveal tissue remained visible (arrow).
+Figure 1. Right eye with scleromalacia perforans. (A) At hospital admission, extensive corneoscleral destruction with uveal tissue herniation was already present. (B) Eight days later. (C) Four months later, on prednisone and azathioprine, while awaiting tectonic corneoscleral reconstruction. Arrows: herniated uveal tissue.
