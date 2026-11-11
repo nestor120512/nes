@@ -16,9 +16,9 @@ Estado: **versión 9** (reescrita con enfoque reumatológico: el dilema de inmun
 
 ---
 
-### Antecedentes/Objetivo  (632 caracteres)
+### Antecedentes/Objetivo  (631 caracteres)
 
-La escleromalacia perforante es una escleritis anterior necrosante sin inflamación, infrecuente y clásicamente asociada con artritis reumatoide y descrita también en granulomatosis con poliangeítis, policondritis recidivante, enfermedad de Behçet y enfermedad de Crohn. Sin enfermedad sistémica identificable, el reumatólogo enfrenta un dilema: inmunosuprimir sin diagnóstico ni criterios de clasificación ante un órgano en riesgo. Objetivo: describir este dilema en una adulta mayor con escleromalacia perforante grave, en la que oftalmología solicitó inmunosupresión para preservar el globo ocular y proteger el ojo contralateral.
+La escleromalacia perforante es una escleritis anterior necrosante sin inflamación, infrecuente, clásicamente asociada con artritis reumatoide y descrita también en granulomatosis con poliangeítis, policondritis recidivante, enfermedad de Behçet y enfermedad de Crohn. Sin enfermedad sistémica identificable, el reumatólogo enfrenta un dilema: inmunosuprimir sin diagnóstico ni criterios de clasificación ante un órgano en riesgo. Objetivo: describir este dilema en una adulta mayor con escleromalacia perforante grave, en la que oftalmología solicitó inmunosupresión para preservar el globo ocular y proteger el ojo contralateral.
 
 ### Métodos  (102 caracteres)
 
@@ -32,7 +32,7 @@ Mujer de 71 años sin enfermedad autoinmune, cirugía ocular ni trauma previos, 
 
 En esta paciente, tras descartar causas infecciosas, quirúrgicas y sistémicas, la amenaza para el órgano justificó la inmunosupresión sin un diagnóstico definido: se preservó el globo y el ojo contralateral no se afectó, incluso tras una cirugía de catarata. Tratar según la gravedad del órgano, compartir la decisión con oftalmología y vigilar la toxicidad es clave en el adulto mayor.
 
-**Total: 2.621 / 2.750 caracteres.**
+**Total: 2.620 / 2.750 caracteres.**
 
 ---
 
