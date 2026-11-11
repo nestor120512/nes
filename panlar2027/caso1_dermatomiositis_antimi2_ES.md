@@ -1,12 +1,12 @@
 # Caso 1 – Dermatomiositis juvenil anti-Mi-2 (borrador en español para PANLAR 2027)
 
 Fuente: manuscrito `dermatomiositis_antimi2` y póster del caso.
-Estado: **versión 7 en español (lenguaje prudente: asociación temporal con IGIV, lupus "no sustentado"; el autor prefiere mantener el bajo riesgo de EPI y neoplasia en los antecedentes): un mensaje principal (curso policíclico con respuesta repetida a IGIV) y uno secundario (RM para distinguir actividad de miopatía esteroidea)** → falta traducir al inglés para el formulario.
+Estado: **versión 8 en español: "recidivante" en lugar de "policíclico", RM y CK "orientaron", conclusión ajustada a lo documentado, sin "neoplasia"** → falta traducir al inglés para el formulario.
 
 **Título** (no cuenta en los caracteres):
-Dermatomiositis juvenil anti-Mi-2 de curso policíclico con respuesta repetida a inmunoglobulina intravenosa: reporte de caso
+Dermatomiositis juvenil anti-Mi-2 recidivante con respuesta repetida a inmunoglobulina intravenosa: reporte de caso
 
-*En inglés (para el formulario):* Polycyclic anti-Mi-2 juvenile dermatomyositis with repeated response to intravenous immunoglobulin: a case report
+*En inglés (para el formulario):* Relapsing anti-Mi-2 juvenile dermatomyositis with repeated response to intravenous immunoglobulin: a case report
 
 **Tópico sugerido:** 9. Miopatías Inflamatorias
 
@@ -14,23 +14,23 @@ Dermatomiositis juvenil anti-Mi-2 de curso policíclico con respuesta repetida a
 
 ---
 
-### Antecedentes/Objetivo  (511 caracteres)
+### Antecedentes/Objetivo  (486 caracteres)
 
-La dermatomiositis juvenil anti-Mi-2 suele cursar con compromiso muscular prominente, bajo riesgo de enfermedad pulmonar intersticial y de neoplasia, y buena respuesta a la inmunosupresión, por lo que se considera de buen pronóstico. Sin embargo, algunos pacientes presentan un curso recidivante que obliga a escalar el tratamiento. Objetivo: describir una paciente con dermatomiositis juvenil anti-Mi-2 de curso policíclico y mejoría repetida tras la adición de inmunoglobulina intravenosa (IGIV) como rescate.
+La dermatomiositis juvenil anti-Mi-2 suele cursar con compromiso muscular prominente, bajo riesgo de enfermedad pulmonar intersticial y buena respuesta a la inmunosupresión, por lo que se considera de buen pronóstico. Sin embargo, algunos pacientes presentan un curso recidivante que obliga a escalar el tratamiento. Objetivo: describir una paciente con dermatomiositis juvenil anti-Mi-2 recidivante y mejoría repetida tras la adición de inmunoglobulina intravenosa (IGIV) como rescate.
 
 ### Métodos  (162 caracteres)
 
 Reporte de caso retrospectivo basado en la revisión de la historia clínica, estudios de laboratorio e inmunológicos, biopsia muscular y resonancia magnética (RM).
 
-### Resultados  (1.619 caracteres)
+### Resultados  (1.614 caracteres)
 
-Mujer que a los 17 años presentó lesiones cutáneas con signo de Gottron, mialgias y debilidad proximal progresiva. Un mes después tenía fuerza proximal 3/5, disfagia, CK 12.588 U/L, ANA 1:160 y anti-Mi-2α/β positivos; la biopsia mostró miopatía inflamatoria (EULAR/ACR 2017: 9,6 puntos). Recibió pulsos de metilprednisolona, prednisolona y azatioprina; por persistencia de la debilidad y la disfagia se añadió IGIV 2 g/kg, con mejoría funcional y recuperación de la deglución. Durante el seguimiento se consideró superposición con lupus por ANA 1:1280 y eritema facial, pero la reevaluación clínica y serológica no la sustentó (anti-dsDNA y anti-RNP negativos, complemento normal, sin nefritis). En los 19 meses siguientes presentó cuatro recaídas (Tabla 1): tras la primera se añadió micofenolato; la segunda ocurrió al interrumpirlo y la tercera durante el descenso del glucocorticoide. En la cuarta, a los 19 años, presentó fuerza 2/5, incapacidad para caminar y CK 5.720 U/L. Pese a los signos cushingoides, la CK elevada orientó a actividad inflamatoria y no a miopatía esteroidea, lo que confirmó la RM de muslos con edema muscular difuso y compromiso fascial. Tras 5 días de metilprednisolona, la CK bajó a 2.073 U/L, pero volvió a subir a 3.492 U/L y reapareció la disfagia. La TC de tórax descartó enfermedad pulmonar intersticial. Ante la respuesta incompleta, se reinició IGIV cada 4 semanas, planificada por 6 meses. Al tercer ciclo, la CK se había normalizado (XXX U/L), la disfagia se resolvió, la fuerza mejoró a 4/5 y recuperó la marcha con apoyo; continúa en rehabilitación y con IGIV de mantenimiento.
+Mujer que a los 17 años presentó lesiones cutáneas con signo de Gottron, mialgias y debilidad proximal progresiva. Un mes después tenía fuerza proximal 3/5, disfagia, CK 12.588 U/L, ANA 1:160 y anti-Mi-2α/β positivos; la biopsia mostró miopatía inflamatoria (EULAR/ACR 2017: 9,6 puntos). Recibió pulsos de metilprednisolona, prednisolona y azatioprina; por persistencia de la debilidad y la disfagia se añadió IGIV 2 g/kg, con mejoría funcional y recuperación de la deglución. Durante el seguimiento se consideró superposición con lupus por ANA 1:1280 y eritema facial, pero la reevaluación clínica y serológica no la sustentó (anti-dsDNA y anti-RNP negativos, complemento normal, sin nefritis). En los 19 meses siguientes presentó cuatro recaídas (Tabla 1): tras la primera se añadió micofenolato; la segunda ocurrió al interrumpirlo y la tercera durante el descenso del glucocorticoide. En la cuarta, a los 19 años, presentó fuerza 2/5, incapacidad para caminar y CK 5.720 U/L. Pese a los signos cushingoides, la CK elevada y el edema muscular difuso con compromiso fascial en la RM de muslos orientaron a actividad inflamatoria más que a miopatía esteroidea. Tras 5 días de metilprednisolona, la CK bajó a 2.073 U/L, pero volvió a subir a 3.492 U/L y reapareció la disfagia. La TC de tórax descartó enfermedad pulmonar intersticial. Ante la respuesta incompleta, se reinició IGIV cada 4 semanas, planificada por 6 meses. Al tercer ciclo, la CK se había normalizado (XXX U/L), la disfagia se resolvió, la fuerza mejoró a 4/5 y recuperó la marcha con apoyo; continúa en rehabilitación y con IGIV de mantenimiento.
 
-### Conclusión  (375 caracteres)
+### Conclusión  (412 caracteres)
 
-El fenotipo anti-Mi-2 no excluye un curso grave y policíclico. En esta paciente, la adición de IGIV se asoció en dos ocasiones con mejoría clínica y bioquímica tras una respuesta incompleta a glucocorticoides. En pacientes con exposición prolongada a esteroides y nueva debilidad, la CK elevada y la RM ayudan a distinguir la actividad inflamatoria de la miopatía esteroidea.
+El fenotipo anti-Mi-2 no excluye un curso grave y recidivante. En esta paciente, la adición de IGIV ante una respuesta incompleta a glucocorticoides se asoció en dos ocasiones con mejoría clínica, y el esquema mensual, con normalización de la CK. En pacientes con exposición prolongada a esteroides y nueva debilidad, la CK elevada y la RM ayudan a distinguir la actividad inflamatoria de la miopatía esteroidea.
 
-**Total del texto: 2.667 / 2.750 caracteres.** En este caso el inglés quedó de un largo similar al español (la versión 3 pasó de 2.471 a 2.498), así que hay que volver a contar al traducir. Falta el valor de CK al tercer ciclo (XXX).
+**Total del texto: 2.674 / 2.750 caracteres.** En este caso el inglés quedó de un largo similar al español (la versión 3 pasó de 2.471 a 2.498), así que hay que volver a contar al traducir. Falta el valor de CK al tercer ciclo (XXX).
 Referencias: ninguna.
 
 ---
@@ -59,6 +59,8 @@ AZA: azatioprina; CK: creatina quinasa; GC: glucocorticoides; IGIV: inmunoglobul
 - Todavía no se ha iniciado el descenso del glucocorticoide, así que el texto no afirma un efecto ahorrador de esteroides.
 - La comparación con rituximab se retiró: la paciente no lo recibió y, sin referencias, se leería como opinión.
 - Presentación previa en otro congreso: **no**.
-- La miopatía esteroidea se planteó solo por los signos cushingoides; la CK elevada orientó a actividad inflamatoria y la RM lo confirmó.
+- La miopatía esteroidea se planteó solo por los signos cushingoides; la CK elevada y la RM orientaron a actividad inflamatoria.
+- Se usa "recidivante" y no "policíclico" porque no está documentada una remisión completa entre las recaídas.
+- Tras el primer ciclo de IGIV solo está documentada mejoría clínica; la normalización de la CK corresponde al esquema mensual.
 - Solo la recaída 2 (suspensión de MMF) y la 3 (descenso de GC) tuvieron un desencadenante identificado.
 - Referencias: ninguna.
