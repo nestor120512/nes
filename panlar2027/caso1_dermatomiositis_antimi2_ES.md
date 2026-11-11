@@ -10,7 +10,9 @@ Dermatomiositis juvenil anti-Mi-2 de curso policíclico con respuesta repetida a
 
 **Tópico sugerido:** 9. Miopatías Inflamatorias
 
-**Palabras clave:** Dermatomiositis · Anticuerpos anti-Mi-2 · Inmunoglobulina intravenosa
+**Palabras clave** (en 2026 salían de una lista fija del formulario, en inglés; ninguna era el nombre de una enfermedad ni de un fármaco):
+Descriptive Studies · Autoantibodies · Magnetic Resonance Imaging  
+Alternativas de la misma lista: Glucocorticoids · Rare/orphan diseases
 
 ---
 
