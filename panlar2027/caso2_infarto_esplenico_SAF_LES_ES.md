@@ -1,6 +1,6 @@
 # Caso 2 – Infarto esplénico, SAF y LES de inicio tardío (borrador en español para PANLAR 2027)
 
-Estado: **versión 2**, con los datos confirmados por el autor. Lo que está entre **[corchetes]** falta todavía.
+Estado: **versión 3**, con los datos confirmados por el autor. Lo que está entre **[corchetes]** falta todavía.
 
 **Título (propuesta):**
 Splenic infarction at the onset of late-onset systemic lupus erythematosus with isolated IgM antiphospholipid antibodies: a case report
@@ -24,7 +24,7 @@ Reporte de caso retrospectivo basado en la revisión de la historia clínica, lo
 
 ### Resultados
 
-Mujer de 63 años que debutó con LES con pancitopenia (hemoglobina **[__]** g/dL; plaquetas **[__]**/µL), prueba de antiglobulina directa positiva (IgG), livedo reticularis, serositis, síndrome nefrótico (proteinuria **[__]** g/24 h) e hipocomplementemia marcada (C3 52 mg/dL; C4 <2,9 mg/dL), con ANA 1:1280 de patrón homogéneo. La TC abdominal mostró una lesión periférica en cuña en el polo inferior del bazo, compatible con infarto esplénico. El electrocardiograma mostró ritmo sinusal y el ecocardiograma fue normal. La anticardiolipina IgM fue de 69,38 **[U/mL?]** y la anti-β2-glicoproteína I IgM >200 **[U/mL?]**, con IgG y anticoagulante lúpico negativos; ambas IgM persistieron positivas a las 12 semanas. El síndrome nefrótico pudo contribuir como factor protrombótico adicional. El caso cumplía los criterios de Sapporo revisados, pero no alcanzaba la clasificación ACR/EULAR 2023, en la que los aPL IgM aislados suman solo 1 punto de laboratorio. Recibió metilprednisolona intravenosa, seguida de glucocorticoides orales e hidroxicloroquina, micofenolato mofetilo por compromiso renal y warfarina con meta de INR 2-3. **[Evolución: a los __ meses, nuevos eventos trombóticos sí/no, respuesta renal y hematológica.]**
+Mujer de 63 años cuyo LES debutó con pancitopenia (hemoglobina **[__]** g/dL; plaquetas **[__]**/µL), prueba de antiglobulina directa positiva (IgG), livedo reticularis, serositis con ascitis, síndrome nefrótico (proteinuria **[__]** g/24 h) e hipocomplementemia marcada (C3 52 mg/dL; C4 <2,9 mg/dL), con ANA 1:1280 de patrón homogéneo. La TC abdominal mostró una lesión periférica en cuña en el polo inferior del bazo, compatible con infarto esplénico (Figura 1). El electrocardiograma mostró ritmo sinusal y el ecocardiograma fue normal. La anticardiolipina IgM fue de 69,38 **[U/mL?]** y la anti-β2-glicoproteína I IgM >200 **[U/mL?]**, con IgG y anticoagulante lúpico negativos; ambas IgM persistieron positivas a las 12 semanas. El síndrome nefrótico pudo contribuir como factor protrombótico adicional. El caso cumplía los criterios de Sapporo revisados, pero no alcanzaba la clasificación ACR/EULAR 2023, en la que los aPL IgM aislados suman 1 de los 3 puntos de laboratorio requeridos. Recibió metilprednisolona intravenosa, seguida de glucocorticoides orales e hidroxicloroquina, micofenolato mofetilo por compromiso renal y warfarina con meta de INR 2-3. **[Evolución: a los __ meses, nuevos eventos trombóticos sí/no, respuesta renal y hematológica.]**
 
 ### Conclusión
 
@@ -58,6 +58,6 @@ El infarto esplénico en el LES debe motivar la búsqueda de SAF, sobre todo si 
 Dos paneles en una sola imagen, con flechas sobre la lesión esplénica. Pendiente: que el autor confirme que las flechas señalan el infarto.
 
 **Leyenda (en inglés, para el formulario):**
-Figure 1. Contrast-enhanced abdominal computed tomography showing a peripheral, wedge-shaped hypodense area in the spleen with its base at the capsule (yellow arrows), consistent with splenic infarction. Perihepatic ascites is also present. (A) Coronal view; (B) axial view.
+Figure 1. Contrast-enhanced abdominal computed tomography showing a peripheral hypodense area in the spleen (yellow arrows), consistent with splenic infarction. Perihepatic ascites is also present. (A) Coronal view; (B) axial view.
 
-Ascitis confirmada por el autor. A pedido del autor, la leyenda no menciona la fase del estudio. El autor confirma la morfología en cuña en las imágenes (base en la cápsula, vértice hacia el interior); la leyenda lo describe explícitamente.
+Ascitis confirmada por el autor. A pedido del autor, la leyenda no menciona la fase del estudio. La leyenda describe lo que se ve en las imágenes (versión suave elegida); la forma en cuña queda en el texto, basada en el estudio completo.
