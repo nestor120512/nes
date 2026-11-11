@@ -1,6 +1,6 @@
 # Caso 2 – Infarto esplénico, SAF y LES de inicio tardío (borrador en español para PANLAR 2027)
 
-Estado: **versión 3**, con los datos confirmados por el autor. Lo que está entre **[corchetes]** falta todavía.
+Estado: **versión 4**, con los datos confirmados por el autor. Lo que está entre **[corchetes]** falta todavía.
 
 **Título (propuesta):**
 Splenic infarction at the onset of late-onset systemic lupus erythematosus with isolated IgM antiphospholipid antibodies: a case report
@@ -24,7 +24,7 @@ Reporte de caso retrospectivo basado en la revisión de la historia clínica, lo
 
 ### Resultados
 
-Mujer de 63 años cuyo LES debutó con pancitopenia (hemoglobina **[__]** g/dL; plaquetas **[__]**/µL), prueba de antiglobulina directa positiva (IgG), livedo reticularis, serositis con ascitis, síndrome nefrótico (proteinuria **[__]** g/24 h) e hipocomplementemia marcada (C3 52 mg/dL; C4 <2,9 mg/dL), con ANA 1:1280 de patrón homogéneo. La TC abdominal mostró una lesión periférica en cuña en el polo inferior del bazo, compatible con infarto esplénico (Figura 1). El electrocardiograma mostró ritmo sinusal y el ecocardiograma fue normal. La anticardiolipina IgM fue de 69,38 **[U/mL?]** y la anti-β2-glicoproteína I IgM >200 **[U/mL?]**, con IgG y anticoagulante lúpico negativos; ambas IgM persistieron positivas a las 12 semanas. El síndrome nefrótico pudo contribuir como factor protrombótico adicional. El caso cumplía los criterios de Sapporo revisados, pero no alcanzaba la clasificación ACR/EULAR 2023, en la que los aPL IgM aislados suman 1 de los 3 puntos de laboratorio requeridos. Recibió metilprednisolona intravenosa, seguida de glucocorticoides orales e hidroxicloroquina, micofenolato mofetilo por compromiso renal y warfarina con meta de INR 2-3. **[Evolución: a los __ meses, nuevos eventos trombóticos sí/no, respuesta renal y hematológica.]**
+Mujer de 63 años cuyo LES debutó con pancitopenia (hemoglobina 8,6 g/dL; plaquetas 46.000/µL; sin esquistocitos), prueba de antiglobulina directa positiva (IgG), livedo reticularis, serositis con ascitis (gradiente albúmina suero-ascitis <1,1), síndrome nefrótico (proteinuria 3,8 g/24 h) e hipocomplementemia marcada (C3 52 mg/dL; C4 <2,9 mg/dL), con ANA 1:1280 de patrón homogéneo. La TC abdominal mostró una lesión periférica en cuña en el polo inferior del bazo, compatible con infarto esplénico (Figura 1); el Doppler descartó trombosis e hipertensión portal. El electrocardiograma mostró ritmo sinusal y el ecocardiograma fue normal. La anticardiolipina IgM fue de 69,38 **[U/mL?]** y la anti-β2-glicoproteína I IgM >200 **[U/mL?]**, con IgG y anticoagulante lúpico negativos; ambas IgM persistieron positivas a las 12 semanas. El síndrome nefrótico pudo contribuir como factor protrombótico adicional. El caso cumplía los criterios de Sapporo revisados, pero no alcanzaba la clasificación ACR/EULAR 2023, en la que los aPL IgM aislados suman 1 de los 3 puntos de laboratorio requeridos. Recibió metilprednisolona intravenosa, seguida de glucocorticoides orales e hidroxicloroquina, micofenolato mofetilo por nefritis lúpica presunta (la paciente no aceptó la biopsia renal) y warfarina con meta de INR 2-3. **[Evolución: a los __ meses, nuevos eventos trombóticos sí/no, respuesta renal y hematológica.]**
 
 ### Conclusión
 
@@ -41,15 +41,16 @@ El infarto esplénico en el LES debe motivar la búsqueda de SAF, sobre todo si 
 - Anticoagulante lúpico negativo; IgG negativas.
 - aCL IgM y anti-β2GPI IgM persistentemente positivas a las 12 semanas.
 - Electrocardiograma en ritmo sinusal; ecocardiograma normal.
-- Síndrome nefrótico (proteinuria pendiente).
+- Síndrome nefrótico: proteinuria 3.826,74 mg/24 h. Sin biopsia renal por disentimiento de la paciente.
+- Hemoglobina 8,6 g/dL; plaquetas 46.000/µL; extendido sin esquistocitos.
+- Ascitis: paracentesis diagnóstica y evacuatoria, GASA <1,1 (sin hipertensión portal); Doppler portal sin trombosis ni hipertensión portal.
 - Livedo reticularis (no racemosa).
 
 ### Pendiente
 
-1. Hemoglobina y plaquetas.
-2. Proteinuria (g/24 h).
-3. Unidades de los aPL (¿U/mL? ¿GPL/MPL?).
-4. Evolución: tiempo de seguimiento, nuevos eventos trombóticos, respuesta renal y hematológica.
+1. Unidades de los aPL (¿U/mL? ¿GPL/MPL?).
+2. ¿La warfarina se inició con plaquetas de 46.000/µL o tras su recuperación?
+3. Evolución: tiempo de seguimiento, nuevos eventos trombóticos, respuesta renal y hematológica.
 
 ---
 
