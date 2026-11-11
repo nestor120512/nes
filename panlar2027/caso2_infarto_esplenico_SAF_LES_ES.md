@@ -1,6 +1,6 @@
 # Caso 2 – Infarto esplénico, SAF y LES de inicio tardío (borrador en español para PANLAR 2027)
 
-Estado: **versión 4**, con los datos confirmados por el autor. Lo que está entre **[corchetes]** falta todavía.
+Estado: **versión 5**, con los datos confirmados por el autor. Lo que está entre **[corchetes]** falta todavía.
 
 **Título (propuesta):**
 Splenic infarction at the onset of late-onset systemic lupus erythematosus with isolated IgM antiphospholipid antibodies: a case report
@@ -24,7 +24,7 @@ Reporte de caso retrospectivo basado en la revisión de la historia clínica, lo
 
 ### Resultados
 
-Mujer de 63 años cuyo LES debutó con pancitopenia (hemoglobina 8,6 g/dL; plaquetas 46.000/µL; sin esquistocitos), prueba de antiglobulina directa positiva (IgG), livedo reticularis, serositis con ascitis (gradiente albúmina suero-ascitis <1,1), síndrome nefrótico (proteinuria 3,8 g/24 h) e hipocomplementemia marcada (C3 52 mg/dL; C4 <2,9 mg/dL), con ANA 1:1280 de patrón homogéneo. La TC abdominal mostró una lesión periférica en cuña en el polo inferior del bazo, compatible con infarto esplénico (Figura 1); el Doppler descartó trombosis e hipertensión portal. El electrocardiograma mostró ritmo sinusal y el ecocardiograma fue normal. La anticardiolipina IgM fue de 69,38 **[U/mL?]** y la anti-β2-glicoproteína I IgM >200 **[U/mL?]**, con IgG y anticoagulante lúpico negativos; ambas IgM persistieron positivas a las 12 semanas. El síndrome nefrótico pudo contribuir como factor protrombótico adicional. El caso cumplía los criterios de Sapporo revisados, pero no alcanzaba la clasificación ACR/EULAR 2023, en la que los aPL IgM aislados suman 1 de los 3 puntos de laboratorio requeridos. Recibió metilprednisolona intravenosa, seguida de glucocorticoides orales e hidroxicloroquina, micofenolato mofetilo por nefritis lúpica presunta (la paciente no aceptó la biopsia renal) y warfarina con meta de INR 2-3. **[Evolución: a los __ meses, nuevos eventos trombóticos sí/no, respuesta renal y hematológica.]**
+Mujer de 63 años cuyo LES debutó con pancitopenia (hemoglobina 8,6 g/dL; plaquetas 46.000/µL; sin esquistocitos), prueba de antiglobulina directa positiva (IgG), livedo reticularis, serositis con ascitis (gradiente albúmina suero-ascitis <1,1), síndrome nefrótico (proteinuria 3,8 g/24 h) e hipocomplementemia marcada (C3 52 mg/dL; C4 <2,9 mg/dL), con ANA 1:1280 de patrón homogéneo. La TC abdominal mostró una lesión periférica en cuña en el polo inferior del bazo, compatible con infarto esplénico (Figura 1); el Doppler descartó trombosis e hipertensión portal. El electrocardiograma mostró ritmo sinusal y el ecocardiograma fue normal. La anticardiolipina IgM fue de 69,38 **[U/mL?]** y la anti-β2-glicoproteína I IgM >200 **[U/mL?]**, con IgG y anticoagulante lúpico negativos; ambas IgM persistieron positivas a las 12 semanas **[VERIFICAR: el debut fue el 06/09/2026 y las 12 semanas se cumplen el 29/11/2026]**. El síndrome nefrótico pudo contribuir como factor protrombótico adicional. El caso cumplía los criterios de Sapporo revisados, pero no alcanzaba la clasificación ACR/EULAR 2023, en la que los aPL IgM aislados suman 1 de los 3 puntos de laboratorio requeridos. Recibió metilprednisolona intravenosa, seguida de glucocorticoides orales e hidroxicloroquina, micofenolato mofetilo por nefritis lúpica presunta (la paciente no aceptó la biopsia renal) y warfarina con meta de INR 2-3 **[¿tras la recuperación plaquetaria?]**. Tras los pulsos, las plaquetas ascendieron a 127.000/µL al tercer día y a 239.000/µL a las 2 semanas, con hemoglobina de 10,0 g/dL. **[¿Sin nuevos eventos trombóticos? ¿Proteinuria de control?]**
 
 ### Conclusión
 
@@ -48,9 +48,13 @@ El infarto esplénico en el LES debe motivar la búsqueda de SAF, sobre todo si 
 
 ### Pendiente
 
+**URGENTE – persistencia de aPL a las 12 semanas:** con el debut el 06/09/2026, las 12 semanas se cumplen el 29/11/2026, después del cierre de PANLAR (17/11/2026). Confirmar la fecha de la primera medición de aPL; si no hay 12 semanas documentadas, no se puede afirmar persistencia ni que se cumplen los criterios de Sapporo.
+
+Evolución hematológica: 06/09/2026 Hb 8,6 g/dL, plaquetas 46.000/µL; 09/09/2026 Hb 8,7, plaquetas 127.000 (al terminar los pulsos, solo con corticoide); 21/09/2026 Hb 10,0, plaquetas 239.000.
+
 1. Unidades de los aPL (¿U/mL? ¿GPL/MPL?).
 2. ¿La warfarina se inició con plaquetas de 46.000/µL o tras su recuperación?
-3. Evolución: tiempo de seguimiento, nuevos eventos trombóticos, respuesta renal y hematológica.
+3. ¿Nuevos eventos trombóticos? ¿Proteinuria de control?
 
 ---
 
