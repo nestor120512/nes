@@ -4,7 +4,7 @@ d_in, out = sys.argv[1], sys.argv[2]
 W, H = 900, 545
 crops = [('9',(600,250,1160,590)), ('10',(380,230,940,570)), ('12',(560,115,1100,442))]
 labels = ['A','B','C']
-arrows = {'A': ((40, 300), (180, 185)), 'B': ((60, 300), (205, 215)), 'C': ((40, 300), (175, 170))}
+arrows = {'A': ((40, 300), (180, 185)), 'B': ((60, 300), (205, 215)), 'C': ((95, 305), (245, 122))}
 font = ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', 60)
 def arrow(d, s, e, color, w):
     d.line([s, e], fill=color, width=w)
