@@ -1,7 +1,7 @@
 # Caso 1 – Dermatomiositis juvenil anti-Mi-2 (borrador en español para PANLAR 2027)
 
 Fuente: manuscrito `dermatomiositis_antimi2` y póster del caso.
-Estado: **versión 9 en español: "policíclico" respaldado por respuesta completa entre recaídas, CK y RM "orientaron", conclusión ajustada a lo documentado, sin "neoplasia"** → falta traducir al inglés para el formulario.
+Estado: **versión 10 en español: "policíclico" respaldado por respuesta completa entre recaídas, CK y RM "orientaron", conclusión ajustada a lo documentado, sin "neoplasia"** → falta traducir al inglés para el formulario.
 
 **Título** (no cuenta en los caracteres):
 Dermatomiositis juvenil anti-Mi-2 de curso policíclico con respuesta repetida a inmunoglobulina intravenosa: reporte de caso
@@ -14,9 +14,9 @@ Dermatomiositis juvenil anti-Mi-2 de curso policíclico con respuesta repetida a
 
 ---
 
-### Antecedentes/Objetivo  (495 caracteres)
+### Antecedentes/Objetivo  (510 caracteres)
 
-La dermatomiositis juvenil anti-Mi-2 suele cursar con compromiso muscular prominente, bajo riesgo de enfermedad pulmonar intersticial y buena respuesta a la inmunosupresión, por lo que se considera de buen pronóstico. Sin embargo, algunos pacientes presentan un curso recidivante que obliga a escalar el tratamiento. Objetivo: describir una paciente con dermatomiositis juvenil anti-Mi-2 de curso policíclico y mejoría repetida tras la adición de inmunoglobulina intravenosa (IGIV) como rescate.
+La dermatomiositis juvenil anti-Mi-2 suele cursar con compromiso muscular prominente, bajo riesgo de enfermedad pulmonar intersticial y buena respuesta a la inmunosupresión, por lo que se considera de buen pronóstico. Sin embargo, algunos pacientes presentan un curso policíclico, con recaídas que obligan a escalar el tratamiento. Objetivo: describir una paciente con dermatomiositis juvenil anti-Mi-2 de curso policíclico y mejoría repetida tras la adición de inmunoglobulina intravenosa (IGIV) como rescate.
 
 ### Métodos  (156 caracteres)
 
@@ -30,7 +30,7 @@ Mujer que a los 17 años presentó lesiones cutáneas con signo de Gottron, mial
 
 El fenotipo anti-Mi-2 no excluye un curso grave y policíclico. En esta paciente, la adición de IGIV ante una respuesta incompleta a glucocorticoides se asoció en dos ocasiones con mejoría clínica, y el esquema mensual, con normalización de la CK. En pacientes con exposición prolongada a esteroides y nueva debilidad, la CK elevada y la RM ayudan a distinguir la actividad inflamatoria de la miopatía esteroidea.
 
-**Total del texto: 2.664 / 2.750 caracteres.** En este caso el inglés quedó de un largo similar al español (la versión 3 pasó de 2.471 a 2.498), así que hay que volver a contar al traducir. Falta el valor de CK al tercer ciclo (XXX).
+**Total del texto: 2.679 / 2.750 caracteres.** En este caso el inglés quedó de un largo similar al español (la versión 3 pasó de 2.471 a 2.498), así que hay que volver a contar al traducir. Falta el valor de CK al tercer ciclo (XXX).
 Referencias: ninguna.
 
 ---
