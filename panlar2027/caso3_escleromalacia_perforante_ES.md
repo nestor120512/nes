@@ -1,6 +1,6 @@
 # Caso 3 – Escleromalacia perforante sin enfermedad autoinmune sistémica (borrador en español para PANLAR 2027)
 
-Estado: **versión 5** (centrada en el desafío para reumatología), condensada a partir del texto del autor (original: 4.655 caracteres; límite: 2.750).
+Estado: **versión 6** (revisada con la historia clínica) (centrada en el desafío para reumatología), condensada a partir del texto del autor (original: 4.655 caracteres; límite: 2.750).
 
 **Título original:** Escleromalacia perforante grave sin enfermedad autoinmune sistémica identificable: un desafío diagnóstico y terapéutico para reumatología
 
@@ -22,27 +22,30 @@ La escleromalacia perforante es una escleritis anterior necrosante infrecuente, 
 
 Reporte de caso retrospectivo basado en la historia clínica y en las evaluaciones oftalmológicas y reumatológicas realizadas entre 2024 y 2026.
 
-### Resultados  (1.487 caracteres)
+### Resultados  (1.615 caracteres)
 
-Mujer de 71 años sin enfermedad autoinmune, cirugía ocular ni trauma previos, con hemorragia conjuntival derecha indolora desde octubre de 2024 y visión conservada. En febrero de 2025 se identificó un defecto escleral temporal que progresó a escleromalacia grave. Tras abandonar el seguimiento oftalmológico, fue hospitalizada en junio de 2026 con destrucción corneoescleral ya establecida del 60-70 % de la pared ocular, herniación uveal e iridiana y alto riesgo de perforación (Figura 1). La evaluación reumatológica no identificó manifestaciones de conectivopatía, vasculitis sistémica ni artritis. La proteína C reactiva fue de 2,56 mg/dL y la VSG de 41 mm/h, con factor reumatoide limítrofe (14,8; normal <14) y complemento normal. ANA, anti-ADNdc, anti-CCP, ANCA anti-PR3 y anti-MPO, anti-Scl-70 y anticentrómero fueron negativos; la tuberculina y la TC de tórax fueron normales, e infectología descartó tuberculosis, sífilis, herpes zóster y hepatitis B y C. Recibió metilprednisolona intravenosa 500 mg/día por 5 días, seguida de prednisona y azatioprina (25 y 100 mg/día en agosto de 2026). La junta de oftalmología insistió en mantener la inmunosupresión para preservar el globo ocular y prevenir la afectación del ojo izquierdo, pese a la ausencia de diagnóstico sistémico. El globo ocular se mantuvo sin perforación hasta la colocación de un parche esclerocorneal en noviembre de 2026, con evolución posoperatoria inicial favorable; el ojo izquierdo permanece sin compromiso.
+Mujer de 71 años sin enfermedad autoinmune, cirugía ocular ni trauma previos, con hemorragia conjuntival derecha indolora desde octubre de 2024 y visión conservada. En febrero de 2025 se identificó un defecto escleral temporal que progresó a escleromalacia grave. Tras abandonar el seguimiento oftalmológico, fue hospitalizada en junio de 2026 con agudeza visual de cuenta dedos y destrucción corneoescleral ya establecida del 60-70 % de la pared ocular, herniación uveal e iridiana y alto riesgo de perforación (Figura 1). La evaluación reumatológica no identificó manifestaciones de conectivopatía, vasculitis sistémica ni artritis. La proteína C reactiva fue de 2,56 mg/dL y la VSG de 41 mm/h, con factor reumatoide limítrofe (14,8; normal <14) y complemento normal. ANA, anti-ADNdc, anti-CCP, ANCA anti-PR3 y anti-MPO, anti-Scl-70 y anticentrómero fueron negativos; la tuberculina y la TC de tórax fueron normales, e infectología descartó tuberculosis, sífilis, herpes zóster y hepatitis B y C. Recibió metilprednisolona intravenosa 500 mg/día por 5 días, seguida de prednisona y azatioprina (25 y 100 mg/día en agosto de 2026). La junta de oftalmología insistió en mantener la inmunosupresión para preservar el globo ocular y prevenir la afectación del ojo izquierdo, pese a la ausencia de diagnóstico sistémico. El globo ocular se mantuvo sin perforación hasta la colocación de un parche esclerocorneal tectónico con membrana amniótica en noviembre de 2026, con evolución posoperatoria inicial favorable; el ojo izquierdo, operado de catarata en octubre de 2026 bajo inmunosupresión, permanece sin compromiso.
 
 ### Conclusión  (365 caracteres)
 
 Este caso plantea a reumatología la decisión de mantener inmunosupresión sistémica en una adulta mayor sin enfermedad autoinmune definida. Tras descartar causas infecciosas, quirúrgicas y sistémicas, la gravedad del daño ocular y el riesgo para el ojo contralateral pueden justificarla, mediante decisiones compartidas con oftalmología y vigilancia de la toxicidad.
 
-**Total: 2.509 / 2.750 caracteres.**
+**Total: 2.637 / 2.750 caracteres.**
 
 ---
 
 ### Datos confirmados por el autor
 
-- La destrucción corneoescleral ya estaba establecida al ingreso de junio de 2026 (no progresó con la inmunosupresión).
+- La destrucción corneoescleral ya estaba establecida al ingreso de junio de 2026. **Según la historia clínica (20/10/2026), hubo aumento del adelgazamiento escleral y de la herniación iridiana con azatioprina y prednisona 15 mg;** el texto no afirma que no hubo progresión.
 - Sin cirugía ocular previa ni trauma.
 - Infectología descartó tuberculosis, sífilis, herpes zóster y hepatitis B y C.
 - Sin dolor ocular.
 - Hay fotos clínicas del ojo (pendiente recibirlas).
 - No presentado en otro congreso.
-- Cirugía: parche esclerocorneal el 4 de noviembre de 2026.
+- Cirugía (historia clínica): 03/11/2026, parche esclerocorneal tectónico (esclera donante sobre la uvea herniada y córnea en media luna), membrana amniótica, tarsorrafia temporal y biopsia de tejido. Sin Seidel antes de la cirugía (sin perforación).
+- Ojo izquierdo: facoemulsificación con LIO el 19/10/2026, con buena evolución y esclera normal.
+- Agudeza visual OD: 20/25 con corrección (julio de 2025); cuenta dedos (julio de 2026).
+- Pendientes en la historia (04-06/11/2026): histopatología de la biopsia (H-E, PAS/Grocott, Gram, Ziehl-Neelsen), TC de senos paranasales y de abdomen, VIH, RPR/VDRL, HTLV y PPD.
 - Ojo izquierdo sin compromiso hasta la fecha.
 - La hipertensión arterial de novo no se asoció a los corticoides; queda fuera del texto.
 
