@@ -1,5 +1,7 @@
 # Caso 1 – Versión en inglés para copiar al formulario de PANLAR 2027
 
+> **DESACTUALIZADA:** corresponde a la versión 3. El texto en español sigue en revisión (versión 4); se volverá a traducir cuando el autor lo indique.
+
 Traducción de la versión 3 en español (`caso1_dermatomiositis_antimi2_ES.md`).
 **Pendiente:** reemplazar XXX por el valor de CK al tercer ciclo.
 
