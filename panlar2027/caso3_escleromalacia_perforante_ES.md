@@ -1,6 +1,6 @@
 # Caso 3 – Escleromalacia perforante sin enfermedad autoinmune sistémica (borrador en español para PANLAR 2027)
 
-Estado: **versión 4** (centrada en el desafío para reumatología), condensada a partir del texto del autor (original: 4.655 caracteres; límite: 2.750).
+Estado: **versión 5** (centrada en el desafío para reumatología), condensada a partir del texto del autor (original: 4.655 caracteres; límite: 2.750).
 
 **Título original:** Escleromalacia perforante grave sin enfermedad autoinmune sistémica identificable: un desafío diagnóstico y terapéutico para reumatología
 
@@ -22,15 +22,15 @@ La escleromalacia perforante es una escleritis anterior necrosante infrecuente, 
 
 Reporte de caso retrospectivo basado en la historia clínica y en las evaluaciones oftalmológicas y reumatológicas realizadas entre 2024 y 2026.
 
-### Resultados  (1.499 caracteres)
+### Resultados  (1.487 caracteres)
 
-Mujer de 71 años sin enfermedad autoinmune, cirugía ocular ni trauma previos, con hemorragia conjuntival derecha indolora desde octubre de 2024 y visión conservada. En febrero de 2025 se identificó un defecto escleral temporal que progresó a escleromalacia grave. Tras abandonar el seguimiento oftalmológico, fue hospitalizada en junio de 2026 con destrucción corneoescleral ya establecida del 60-70 % de la pared ocular, herniación uveal e iridiana y alto riesgo de perforación (Figura 1). La evaluación reumatológica no identificó manifestaciones de conectivopatía, vasculitis sistémica ni artritis. La proteína C reactiva fue de 2,56 mg/dL y la VSG de 41 mm/h, con factor reumatoide limítrofe (14,8; normal <14) y complemento normal. ANA, anti-ADNdc, anti-CCP, ANCA anti-PR3 y anti-MPO, anti-Scl-70 y anticentrómero fueron negativos; la tuberculina y la TC de tórax fueron normales, e infectología descartó tuberculosis, sífilis, herpes zóster y hepatitis B y C. Recibió metilprednisolona intravenosa 500 mg/día por 5 días, seguida de prednisona y azatioprina (25 y 100 mg/día en agosto de 2026). La junta de oftalmología insistió en mantener la inmunosupresión para preservar el globo ocular y prevenir la afectación del ojo izquierdo, pese a la ausencia de diagnóstico sistémico. El globo ocular se mantuvo sin perforación hasta la reconstrucción tectónica corneoescleral, realizada en noviembre de 2026, con evolución posoperatoria inicial favorable; el ojo izquierdo permanece sin compromiso.
+Mujer de 71 años sin enfermedad autoinmune, cirugía ocular ni trauma previos, con hemorragia conjuntival derecha indolora desde octubre de 2024 y visión conservada. En febrero de 2025 se identificó un defecto escleral temporal que progresó a escleromalacia grave. Tras abandonar el seguimiento oftalmológico, fue hospitalizada en junio de 2026 con destrucción corneoescleral ya establecida del 60-70 % de la pared ocular, herniación uveal e iridiana y alto riesgo de perforación (Figura 1). La evaluación reumatológica no identificó manifestaciones de conectivopatía, vasculitis sistémica ni artritis. La proteína C reactiva fue de 2,56 mg/dL y la VSG de 41 mm/h, con factor reumatoide limítrofe (14,8; normal <14) y complemento normal. ANA, anti-ADNdc, anti-CCP, ANCA anti-PR3 y anti-MPO, anti-Scl-70 y anticentrómero fueron negativos; la tuberculina y la TC de tórax fueron normales, e infectología descartó tuberculosis, sífilis, herpes zóster y hepatitis B y C. Recibió metilprednisolona intravenosa 500 mg/día por 5 días, seguida de prednisona y azatioprina (25 y 100 mg/día en agosto de 2026). La junta de oftalmología insistió en mantener la inmunosupresión para preservar el globo ocular y prevenir la afectación del ojo izquierdo, pese a la ausencia de diagnóstico sistémico. El globo ocular se mantuvo sin perforación hasta la colocación de un parche esclerocorneal en noviembre de 2026, con evolución posoperatoria inicial favorable; el ojo izquierdo permanece sin compromiso.
 
 ### Conclusión  (365 caracteres)
 
 Este caso plantea a reumatología la decisión de mantener inmunosupresión sistémica en una adulta mayor sin enfermedad autoinmune definida. Tras descartar causas infecciosas, quirúrgicas y sistémicas, la gravedad del daño ocular y el riesgo para el ojo contralateral pueden justificarla, mediante decisiones compartidas con oftalmología y vigilancia de la toxicidad.
 
-**Total: 2.521 / 2.750 caracteres.**
+**Total: 2.509 / 2.750 caracteres.**
 
 ---
 
@@ -42,6 +42,7 @@ Este caso plantea a reumatología la decisión de mantener inmunosupresión sist
 - Sin dolor ocular.
 - Hay fotos clínicas del ojo (pendiente recibirlas).
 - No presentado en otro congreso.
+- Cirugía: parche esclerocorneal el 4 de noviembre de 2026.
 - Ojo izquierdo sin compromiso hasta la fecha.
 - La hipertensión arterial de novo no se asoció a los corticoides; queda fuera del texto.
 
@@ -54,7 +55,7 @@ Este caso plantea a reumatología la decisión de mantener inmunosupresión sist
 
 ### Figura 1 (propuesta: `caso3_figura1_escleromalacia_3paneles.jpg`)
 
-Tres paneles del ojo derecho, recortados para no mostrar el rostro: A, 30 de junio de 2026 (ingreso); B, 8 de julio de 2026; C, octubre de 2026 (3 meses después), con prednisona y azatioprina, en espera de la reconstrucción tectónica. Flechas sobre el tejido uveal herniado (pendiente confirmar su posición). Alternativas: `caso3_figura1_escleromalacia_2paneles.jpg` (A y B) y `caso3_figura1_escleromalacia_4paneles.jpg`.
+Tres paneles del ojo derecho, recortados para no mostrar el rostro: A, 30 de junio de 2026 (ingreso); B, 8 de julio de 2026; C, octubre de 2026 (3 meses después), con prednisona y azatioprina, en espera del parche esclerocorneal. Flechas sobre el tejido uveal herniado (pendiente confirmar su posición). Alternativas: `caso3_figura1_escleromalacia_2paneles.jpg` (A y B) y `caso3_figura1_escleromalacia_4paneles.jpg`.
 
 **Leyenda FINAL (en inglés, para el formulario; elegida por el autor):**
-Figure 1. Right eye with scleromalacia perforans. (A) At hospital admission, extensive corneoscleral destruction with uveal tissue herniation was already present. (B) Eight days later. (C) Three months later, on prednisone and azathioprine, while awaiting tectonic corneoscleral reconstruction. Arrows: herniated uveal tissue.
+Figure 1. Right eye with scleromalacia perforans. (A) At hospital admission, extensive corneoscleral destruction with uveal tissue herniation was already present. (B) Eight days later. (C) Three months later, on prednisone and azathioprine, while awaiting corneoscleral patch grafting. Arrows: herniated uveal tissue.
