@@ -45,7 +45,8 @@ Este caso plantea a reumatología la decisión de mantener inmunosupresión sist
 - Cirugía (historia clínica): 03/11/2026, parche esclerocorneal tectónico (esclera donante sobre la uvea herniada y córnea en media luna), membrana amniótica, tarsorrafia temporal y biopsia de tejido. Sin Seidel antes de la cirugía (sin perforación).
 - Ojo izquierdo: facoemulsificación con LIO el 19/10/2026, con buena evolución y esclera normal.
 - Agudeza visual OD: 20/25 con corrección (julio de 2025); cuenta dedos (julio de 2026).
-- Pendientes en la historia (04-06/11/2026): histopatología de la biopsia (H-E, PAS/Grocott, Gram, Ziehl-Neelsen), TC de senos paranasales y de abdomen, VIH, RPR/VDRL, HTLV y PPD.
+- Estudios infecciosos y de imagen: ya realizados previamente y negativos (confirmado por el autor); lo infeccioso en sangre fue lo primero que se descartó. Probabilidad de granulomatosis con poliangeítis baja (ANCA negativos).
+- Único pendiente: histopatología de la biopsia. Se envía el resumen sin ella; el resultado puede incluirse en el póster.
 - Ojo izquierdo sin compromiso hasta la fecha.
 - La hipertensión arterial de novo no se asoció a los corticoides; queda fuera del texto.
 
