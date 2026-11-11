@@ -31,16 +31,16 @@ The anti-Mi-2 phenotype does not exclude a severe, polycyclic course. In this pa
 
 ---
 
-### Table 1. Timeline of clinical course and treatment (pendiente de revisión con el autor)
+### Table 1. Timeline of clinical course and treatment  (también en Word: `Tabla1_dermatomiositis_antimi2_EN.docx`)
 
-| Time from onset | Event | Findings and intervention |
-|---|---|---|
-| Month 0 (age 17) | Onset | Gottron's sign, skin lesions, myalgia, proximal weakness |
-| Month 1 | Diagnosis | Strength 3/5, dysphagia, CK 12,588 U/L, anti-Mi-2α/β+. IVMP + prednisolone + AZA; IVIG 2 g/kg for incomplete response |
-| Month 10 | Relapse 1 | CK 2,760 U/L. GC increased + MMF added |
-| Month 12 | Relapse 2 (MMF discontinuation) | Strength 4/5, CK 1,399 U/L. IVMP for 3 days + MMF restarted; CK 393 U/L |
-| Month 17 | Relapse 3 (GC tapering) | Skin lesions, CK 11,284 U/L. IVMP pulses |
-| Month 20 | Relapse 4 | Strength 2/5, CK 5,720 U/L, MRI with active myositis. IVMP for 5 days: incomplete response |
-| Month 20 onward | IVIG every 4 weeks (6-month plan) | By cycle 3: CK 202 U/L, dysphagia resolved, strength 4/5, assisted walking |
+| Date | Event | Findings | Treatment and response |
+|---|---|---|---|
+| Dec 2024 | Onset (age 17) | Gottron's sign and other skin lesions, myalgia, progressive proximal weakness | — |
+| Jan 2025 | Diagnosis | Strength 3/5, dysphagia, CK 12,588 U/L, anti-Mi-2α/β+, biopsy showing inflammatory myopathy; EULAR/ACR 9.6 | IVMP, prednisolone, and AZA; for incomplete response, IVIG 2 g/kg: functional improvement and recovery of swallowing |
+| Oct 2025 | Relapse 1 | Weakness, myalgia, CK 2,760 U/L | GC increased + MMF added: clinical and biochemical improvement |
+| Dec 2025 | Relapse 2 (after MMF discontinuation) | Strength 4/5, CK 1,399 U/L | IVMP for 3 days + MMF restarted: CK 393 U/L |
+| May 2026 | Relapse 3 (during GC tapering) | Skin lesions, myalgia, CK 11,284 U/L | IVMP pulses and GC adjustment |
+| Aug 2026 | Relapse 4 (age 19) | Strength 2/5, inability to walk, CK 5,720 U/L; MRI: diffuse muscle and fascial edema | IVMP for 5 days: CK 2,073 → 3,492 U/L and dysphagia (incomplete response) → IVIG every 4 weeks |
+| IVIG cycle 3 | Response | CK 202 U/L, dysphagia resolved, strength 4/5, assisted walking | Rehabilitation; IVIG to complete 6 months |
 
 AZA: azathioprine; CK: creatine kinase; GC: glucocorticoids; IVIG: intravenous immunoglobulin; IVMP: intravenous methylprednisolone; MMF: mycophenolate mofetil; MRI: magnetic resonance imaging.
