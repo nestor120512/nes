@@ -44,6 +44,7 @@ La escleromalacia perforante grave puede presentarse sin una enfermedad autoinmu
 - Sin dolor ocular.
 - Hay fotos clínicas del ojo (pendiente recibirlas).
 - No presentado en otro congreso.
+- Consentimiento informado firmado por la paciente (incluye publicación de las fotos).
 - Cirugía (historia clínica): 03/11/2026, parche esclerocorneal tectónico (esclera donante sobre la uvea herniada y córnea en media luna), membrana amniótica, tarsorrafia temporal y biopsia de tejido. Sin Seidel antes de la cirugía (sin perforación).
 - Ojo izquierdo: facoemulsificación con LIO el 19/10/2026, con buena evolución y esclera normal.
 - Agudeza visual OD: 20/25 con corrección (julio de 2025); cuenta dedos (julio de 2026).
