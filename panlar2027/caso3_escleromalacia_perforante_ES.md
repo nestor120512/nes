@@ -16,23 +16,23 @@ Estado: **versión 16** (decisión compartida reumatología-oftalmología; concl
 
 ---
 
-### Antecedentes/Objetivo  (557 caracteres)
+### Antecedentes/Objetivo  (544 caracteres)
 
-La escleromalacia perforante es una escleritis anterior necrosante sin inflamación, infrecuente, clásicamente asociada con artritis reumatoide y descrita también en granulomatosis con poliangeítis, policondritis recidivante y enfermedad de Behçet. Sin enfermedad sistémica identificable, el reumatólogo enfrenta un dilema: inmunosuprimir sin diagnóstico ni criterios de clasificación ante un órgano en riesgo. Objetivo: describir este dilema y la decisión compartida entre reumatología y oftalmología en una adulta mayor con escleromalacia perforante grave.
+La escleromalacia perforante es una escleritis anterior necrosante sin inflamación, clásicamente asociada con artritis reumatoide y descrita también en granulomatosis con poliangeítis, policondritis recidivante y enfermedad de Behçet. Sin enfermedad sistémica identificable, el reumatólogo enfrenta un dilema: inmunosuprimir sin diagnóstico ni criterios de clasificación ante un órgano en riesgo. Objetivo: describir este dilema y la decisión compartida entre reumatología y oftalmología en una adulta mayor con escleromalacia perforante grave.
 
 ### Métodos  (199 caracteres)
 
 Revisión retrospectiva de la historia clínica. Se analizaron manifestaciones sistémicas, perfil inmunológico, evaluación infecciosa, decisiones terapéuticas multidisciplinarias y desenlaces oculares.
 
-### Resultados  (1.476 caracteres)
+### Resultados  (1.473 caracteres)
 
-Mujer de 71 años sin enfermedad autoinmune, cirugía ocular ni trauma previos, con hemorragia conjuntival derecha indolora desde octubre de 2024 y un defecto escleral temporal desde febrero de 2025; tras abandonar el seguimiento, ingresó en junio de 2026 con agudeza visual de cuenta dedos y destrucción corneoescleral extensa con herniación uveal e iridiana (Figura 1). La evaluación reumatológica dirigida no encontró artritis, úlceras ni compromiso otorrinolaringológico. El factor reumatoide fue limítrofe (14,8; normal <14) con anti-CCP negativo, y ANA, anti-ADNdc, perfil de antígenos nucleares extraíbles, anticentrómero y ANCA anti-PR3 y anti-MPO fueron negativos, con complemento normal. Se descartaron tuberculosis, sífilis, herpes zóster y hepatitis B y C. Sin diagnóstico sistémico, reumatología indicó inmunosupresión por la amenaza para el órgano: metilprednisolona intravenosa 500 mg/día por 5 días, seguida de prednisona oral en descenso y azatioprina como ahorrador de esteroides, considerando la edad y el riesgo de toxicidad. La junta de oftalmología estimó un compromiso del 60-70 % de la pared ocular y, junto con reumatología, se mantuvo la inmunosupresión para preservar el globo y proteger el ojo izquierdo. El globo se mantuvo sin perforación hasta la colocación de un parche esclerocorneal tectónico en noviembre de 2026, con evolución inicial favorable; el ojo izquierdo, operado de catarata en octubre bajo inmunosupresión, permanece sin compromiso.
+Mujer de 71 años sin enfermedad autoinmune, cirugía ocular ni trauma previos, con hemorragia conjuntival derecha indolora desde octubre de 2024 y un defecto escleral temporal desde febrero de 2025; tras abandonar el seguimiento, ingresó en junio de 2026 con agudeza visual de cuenta dedos y destrucción corneoescleral extensa con herniación uveal e iridiana (Figura 1). La evaluación reumatológica dirigida no encontró artritis, úlceras ni compromiso otorrinolaringológico. El factor reumatoide fue limítrofe (14,8) con anti-CCP negativo, y ANA, anti-ADNdc, perfil de antígenos nucleares extraíbles, anticentrómero y ANCA anti-PR3 y anti-MPO fueron negativos, con complemento normal. Se descartaron tuberculosis, sífilis, herpes zóster y hepatitis B y C. Sin diagnóstico sistémico, reumatología indicó inmunosupresión por la amenaza para el órgano: metilprednisolona intravenosa 500 mg/día por 5 días, seguida de prednisona oral en descenso y azatioprina como ahorrador de esteroides, considerando la edad y el riesgo de toxicidad. La junta de oftalmología estimó un compromiso del 60-70 % de la pared ocular y, junto con reumatología, se decidió mantener la inmunosupresión para preservar el globo y proteger el ojo izquierdo. El globo se mantuvo sin perforación hasta la colocación de un parche esclerocorneal tectónico en noviembre de 2026, con evolución inicial favorable; el ojo izquierdo, operado de catarata en octubre bajo inmunosupresión, permanece sin compromiso.
 
-### Conclusión  (439 caracteres)
+### Conclusión  (456 caracteres)
 
-La escleromalacia perforante grave puede presentarse sin una enfermedad autoinmune sistémica identificable, y la ausencia de criterios de clasificación no excluye un proceso ocular inmunomediado. Este caso ilustra la necesidad de individualizarla según la gravedad ocular, con decisiones compartidas entre reumatología y oftalmología, exclusión razonable de infección y seguimiento para detectar enfermedad sistémica emergente y toxicidad.
+La escleromalacia perforante grave puede presentarse sin una enfermedad autoinmune sistémica identificable, y la ausencia de criterios de clasificación no excluye un proceso ocular inmunomediado. Este caso ilustra la necesidad de individualizar la inmunosupresión según la gravedad ocular, con decisiones compartidas entre reumatología y oftalmología, exclusión razonable de infección y seguimiento para detectar enfermedad sistémica emergente y toxicidad.
 
-**Total: 2.671 / 2.750 caracteres.**
+**Total: 2.672 / 2.750 caracteres.**
 
 ---
 
