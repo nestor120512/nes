@@ -30,7 +30,7 @@ Mujer de 71 años sin enfermedad autoinmune, cirugía ocular ni trauma previos, 
 
 ### Conclusión  (456 caracteres)
 
-La escleromalacia perforante grave puede presentarse sin una enfermedad autoinmune sistémica identificable, y la ausencia de criterios de clasificación no excluye un proceso ocular inmunomediado. Este caso ilustra la necesidad de individualizar la inmunosupresión según la gravedad ocular, con decisiones compartidas entre reumatología y oftalmología, exclusión razonable de infección y seguimiento para detectar enfermedad sistémica emergente y toxicidad.
+La escleromalacia perforante grave puede presentarse sin una enfermedad autoinmune sistémica identificable, y la ausencia de criterios de clasificación no excluye un proceso ocular inmunomediado. Este caso ilustra la necesidad de individualizar la inmunosupresión según la gravedad ocular, con decisiones compartidas entre oftalmología y reumatología, exclusión razonable de infección y seguimiento para detectar enfermedad sistémica emergente y toxicidad.
 
 **Total: 2.655 / 2.750 caracteres.**
 
