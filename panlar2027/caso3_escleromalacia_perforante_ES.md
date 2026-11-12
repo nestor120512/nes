@@ -10,7 +10,7 @@ Estado: **versión 18** (decisión compartida reumatología-oftalmología; concl
 
 **Tópico sugerido:** 14. Mixtas (Enfermedades Misceláneas)
 
-**Palabras clave (lista usada en PANLAR 2026):** Rare/orphan diseases · Autoimmunity · Glucocorticoids · Descriptive Studies
+**Palabras clave (lista usada en PANLAR 2026):** Rare/orphan diseases · Glucocorticoids · Descriptive Studies
 
 **Mensaje principal (definido por el autor):** el desafío para reumatología es indicar y mantener inmunosupresión sistémica, a pedido de oftalmología, para preservar el globo ocular y prevenir la afectación del ojo contralateral, sin una enfermedad autoinmune sistémica identificable.
 

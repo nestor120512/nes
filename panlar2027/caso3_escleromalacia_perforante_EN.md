@@ -6,7 +6,7 @@ Versión 3 en inglés (resultados con frases tomadas de una propuesta de ChatGPT
 
 **Topic:** Mixed (Miscellaneous Diseases)
 
-**Keywords:** Rare/orphan diseases · Autoimmunity · Glucocorticoids · Descriptive Studies
+**Keywords:** Rare/orphan diseases · Glucocorticoids · Descriptive Studies
 
 ---
 
