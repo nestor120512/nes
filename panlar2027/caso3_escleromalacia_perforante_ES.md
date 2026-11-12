@@ -1,6 +1,6 @@
 # Caso 3 – Escleromalacia perforante sin enfermedad autoinmune sistémica (borrador en español para PANLAR 2027)
 
-Estado: **versión 14** (reescrita con enfoque reumatológico: el dilema de inmunosuprimir sin diagnóstico)
+Estado: **versión 15** (reescrita con enfoque reumatológico: el dilema de inmunosuprimir sin diagnóstico)
 
 **Título original:** Escleromalacia perforante grave sin enfermedad autoinmune sistémica identificable: un desafío diagnóstico y terapéutico para reumatología
 
@@ -24,15 +24,15 @@ La escleromalacia perforante es una escleritis anterior necrosante sin inflamaci
 
 Reporte de caso mediante revisión retrospectiva de la historia clínica y evolución oftalmológica. Se analizaron manifestaciones sistémicas, perfil inmunológico, evaluación infecciosa, decisiones terapéuticas multidisciplinarias y desenlaces oculares.
 
-### Resultados  (1.471 caracteres)
+### Resultados  (1.506 caracteres)
 
-Mujer de 71 años sin enfermedad autoinmune, cirugía ocular ni trauma previos, con hemorragia conjuntival derecha indolora desde octubre de 2024. En febrero de 2025 se identificó un defecto escleral temporal; tras abandonar el seguimiento, ingresó en junio de 2026 con agudeza visual de cuenta dedos y destrucción corneoescleral extensa con herniación uveal e iridiana (Figura 1). La evaluación reumatológica dirigida no encontró artritis, úlceras ni compromiso otorrinolaringológico. Tenía PCR 2,56 mg/dL y VSG 41 mm/h; el factor reumatoide fue limítrofe (14,8; normal <14) con anti-CCP negativo, y ANA, anti-ADNdc, ANCA anti-PR3 y anti-MPO, anti-Scl-70 y anticentrómero fueron negativos, con complemento normal. Se descartaron tuberculosis, sífilis, herpes zóster y hepatitis B y C. Sin diagnóstico sistémico, la indicación se basó en la amenaza para el órgano: recibió metilprednisolona intravenosa 500 mg/día por 5 días, seguida de prednisona oral en descenso y azatioprina como ahorrador de esteroides, considerando la edad y el riesgo de toxicidad. La junta de oftalmología estimó un compromiso del 60-70 % de la pared ocular e insistió en mantener la inmunosupresión para preservar el globo y proteger el ojo izquierdo. El globo se mantuvo sin perforación hasta la colocación de un parche esclerocorneal tectónico en noviembre de 2026, con evolución inicial favorable; el ojo izquierdo, operado de catarata en octubre bajo inmunosupresión, permanece sin compromiso.
+Mujer de 71 años sin enfermedad autoinmune, cirugía ocular ni trauma previos, con hemorragia conjuntival derecha indolora desde octubre de 2024. En febrero de 2025 se identificó un defecto escleral temporal; tras abandonar el seguimiento, ingresó en junio de 2026 con agudeza visual de cuenta dedos y destrucción corneoescleral extensa con herniación uveal e iridiana (Figura 1). La evaluación reumatológica dirigida no encontró artritis, úlceras ni compromiso otorrinolaringológico. Tenía PCR 2,56 mg/dL y VSG 41 mm/h; el factor reumatoide fue limítrofe (14,8; normal <14) con anti-CCP negativo, y ANA, anti-ADNdc, perfil de antígenos nucleares extraíbles (ENA), anticentrómero y ANCA anti-PR3 y anti-MPO fueron negativos, con complemento normal. Se descartaron tuberculosis, sífilis, herpes zóster y hepatitis B y C. Sin diagnóstico sistémico, la indicación se basó en la amenaza para el órgano: recibió metilprednisolona intravenosa 500 mg/día por 5 días, seguida de prednisona oral en descenso y azatioprina como ahorrador de esteroides, considerando la edad y el riesgo de toxicidad. La junta de oftalmología estimó un compromiso del 60-70 % de la pared ocular e insistió en mantener la inmunosupresión para preservar el globo y proteger el ojo izquierdo. El globo se mantuvo sin perforación hasta la colocación de un parche esclerocorneal tectónico en noviembre de 2026, con evolución inicial favorable; el ojo izquierdo, operado de catarata en octubre bajo inmunosupresión, permanece sin compromiso.
 
 ### Conclusión  (386 caracteres)
 
 En esta paciente, tras descartar causas infecciosas, quirúrgicas y sistémicas, la amenaza para el órgano justificó la inmunosupresión sin un diagnóstico definido: se preservó el globo y el ojo contralateral no se afectó, incluso tras una cirugía de catarata. Tratar según la gravedad del órgano, compartir la decisión con oftalmología y vigilar la toxicidad es clave en el adulto mayor.
 
-**Total: 2.654 / 2.750 caracteres.**
+**Total: 2.689 / 2.750 caracteres.**
 
 ---
 
@@ -49,6 +49,7 @@ En esta paciente, tras descartar causas infecciosas, quirúrgicas y sistémicas,
 - Agudeza visual OD: 20/25 con corrección (julio de 2025); cuenta dedos (julio de 2026).
 - Estudios infecciosos y de imagen: ya realizados previamente y negativos (confirmado por el autor); lo infeccioso en sangre fue lo primero que se descartó. Probabilidad de granulomatosis con poliangeítis baja (ANCA negativos).
 - Confirmado por el autor: no había diagnóstico ni características de enfermedad autoinmune sistémica; la azatioprina se eligió como ahorrador de esteroides por la edad y la toxicidad.
+- Perfil ENA completo negativo (anti-Sm, anti-Ro, anti-La, anti-Scl-70, entre otros), confirmado por el autor.
 - Único pendiente: histopatología de la biopsia. Se envía el resumen sin ella; el resultado puede incluirse en el póster.
 - Ojo izquierdo sin compromiso hasta la fecha.
 - La hipertensión arterial de novo no se asoció a los corticoides; queda fuera del texto.
