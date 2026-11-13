@@ -2,11 +2,11 @@
 
 Estado: **versión 11** (reenfocada en Sydney frente a ACR/EULAR 2023), con los títulos y la persistencia de los aPL confirmados por el autor.
 
-**Título (propuesta, español):**
-Infarto esplénico con anticuerpos antifosfolípidos IgM aislados en lupus eritematoso sistémico de inicio tardío: síndrome antifosfolípido según Sydney, pero no según ACR/EULAR 2023. Reporte de caso
+**Título final (español):**
+Infarto esplénico como manifestación de síndrome antifosfolípido con anticuerpos IgM aislados en lupus de inicio tardío: reporte de caso
 
-**Título (propuesta, inglés):**
-Splenic infarction with isolated IgM antiphospholipid antibodies in late-onset systemic lupus erythematosus: antiphospholipid syndrome by Sydney but not 2023 ACR/EULAR criteria
+**Título final (inglés):**
+Splenic infarction as a manifestation of antiphospholipid syndrome with isolated IgM antibodies in late-onset lupus: a case report
 
 **Tópico:** 8. Lupus Eritematoso Sistémico / Síndrome Antifosfolípido
 
