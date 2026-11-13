@@ -1,6 +1,6 @@
 # Caso 2 – Infarto esplénico, SAF y LES de inicio tardío (borrador en español para PANLAR 2027)
 
-Estado: **versión 10** (reenfocada en Sydney frente a ACR/EULAR 2023), con los títulos y la persistencia de los aPL confirmados por el autor.
+Estado: **versión 11** (reenfocada en Sydney frente a ACR/EULAR 2023), con los títulos y la persistencia de los aPL confirmados por el autor.
 
 **Título (propuesta, español):**
 Infarto esplénico con anticuerpos antifosfolípidos IgM aislados en lupus eritematoso sistémico de inicio tardío: síndrome antifosfolípido según Sydney, pero no según ACR/EULAR 2023. Reporte de caso
@@ -27,13 +27,13 @@ Revisión retrospectiva de la historia clínica, los estudios de laboratorio y l
 
 ### Resultados
 
-Mujer de 63 años con LES diagnosticado en julio de 2026 por pancitopenia, tratado con pulsos de metilprednisolona, prednisolona y azatioprina. En el estudio inicial, la aCL IgM fue de 69,38 U/mL (positivo ≥12) y la aβ2GPI IgM >200 UR/mL (positivo ≥20), con IgG y anticoagulante lúpico negativos. Dos meses después reingresó con pancitopenia (hemoglobina 8,6 g/dL; plaquetas 46.000/µL; sin esquistocitos), Coombs directo positivo, livedo reticularis, serositis con ascitis, síndrome nefrótico (proteinuria 3,8 g/24 h) e hipocomplementemia marcada (C3 52 mg/dL; C4 <2,9 mg/dL). La TC mostró una lesión periférica en cuña en el polo inferior del bazo, compatible con infarto esplénico (Figura 1); el Doppler no mostró trombosis ni hipertensión portal, y el electrocardiograma y el ecocardiograma fueron normales. A las 12 semanas, la aCL IgM ascendió a 80 U/mL y la aβ2GPI IgM persistió elevada, con anticoagulante lúpico de nuevo negativo. Cumplía los criterios de Sydney (trombosis confirmada por imagen y aCL y aβ2GPI IgM persistentes de títulos altos), pero no los ACR/EULAR 2023, al sumar solo 1 punto de laboratorio, con independencia de los puntos clínicos. Aun así, se consideró un SAF clínico secundario a LES. El síndrome nefrótico pudo contribuir como factor protrombótico. Recibió nuevos pulsos de metilprednisolona, hidroxicloroquina y micofenolato mofetilo por nefritis lúpica presunta (la paciente no aceptó la biopsia). Con plaquetas de 127.000/µL se anticoaguló con enoxaparina 1 mg/kg como puente a warfarina (INR 2-3). A las 2 semanas, las plaquetas eran 239.000/µL y la hemoglobina 10,0 g/dL.
+Mujer de 63 años con LES diagnosticado en julio de 2026 por pancitopenia, tratado con pulsos de metilprednisolona, prednisolona y azatioprina. En el estudio inicial, la aCL IgM fue de 69,38 U/mL (positivo ≥12) y la aβ2GPI IgM >200 UR/mL (positivo ≥20), con IgG y anticoagulante lúpico negativos. Dos meses después reingresó con pancitopenia (hemoglobina 8,6 g/dL; plaquetas 46.000/µL; sin esquistocitos), Coombs directo positivo, livedo reticularis, serositis con ascitis, síndrome nefrótico (proteinuria 3,8 g/24 h) e hipocomplementemia marcada (C3 52 mg/dL; C4 <2,9 mg/dL). La TC mostró una lesión periférica en cuña en el polo inferior del bazo, compatible con infarto esplénico (Figura 1); el Doppler no mostró trombosis ni hipertensión portal, y el electrocardiograma y el ecocardiograma fueron normales. A las 12 semanas, la aCL IgM ascendió a 80 U/mL y la aβ2GPI IgM persistió en positivo alto, con anticoagulante lúpico de nuevo negativo. Cumplía los criterios de Sydney (trombosis confirmada por imagen y aCL y aβ2GPI IgM persistentes de títulos altos), pero no los ACR/EULAR 2023, al sumar solo 1 punto de laboratorio, con independencia de los puntos clínicos. Aun así, se consideró un SAF clínico secundario a LES. El síndrome nefrótico pudo contribuir como factor protrombótico. Recibió nuevos pulsos de metilprednisolona, hidroxicloroquina y micofenolato mofetilo por nefritis lúpica presunta (la paciente no aceptó la biopsia). Con plaquetas de 127.000/µL se anticoaguló con enoxaparina 1 mg/kg como puente a warfarina (INR 2-3). A las 2 semanas, las plaquetas eran 239.000/µL y la hemoglobina 10,0 g/dL.
 
 ### Conclusión
 
-Este caso ilustra la discordancia entre ambos sistemas: un perfil IgM aislado, persistente y de títulos altos, con trombosis confirmada, cumple Sydney pero no ACR/EULAR 2023, más específicos y diseñados para investigación. No alcanzar la nueva clasificación no debe, por sí solo, excluir el diagnóstico clínico de SAF ni retrasar la anticoagulación.
+Este caso ilustra la discordancia entre ambos sistemas: un perfil IgM aislado, persistente y de títulos altos, con trombosis confirmada, cumple Sydney pero no ACR/EULAR 2023, que sacrifican sensibilidad para ganar especificidad y fueron diseñados para investigación. No alcanzar la nueva clasificación no debe, por sí solo, excluir el diagnóstico clínico de SAF ni retrasar la anticoagulación.
 
-**Total: 2.644 / 2.750 caracteres.**
+**Total: 2.697 / 2.750 caracteres.**
 
 ---
 
