@@ -55,14 +55,13 @@ Este caso ilustra la discordancia entre ambos sistemas: un perfil IgM aislado, p
 
 Evolución hematológica: 06/09/2026 Hb 8,6 g/dL, plaquetas 46.000/µL; 09/09/2026 Hb 8,7, plaquetas 127.000 (al terminar los pulsos, solo con corticoide); 21/09/2026 Hb 10,0, plaquetas 239.000.
 
-- ¿Flechas de la figura bien ubicadas?
 - ¿Consentimiento informado firmado?
 
 ---
 
 ### Figura 1 (archivo: `caso2_figura1_TC_infarto_esplenico.png`)
 
-Dos paneles en una sola imagen, con flechas sobre la lesión esplénica. Pendiente: que el autor confirme que las flechas señalan el infarto.
+Dos paneles en una sola imagen, con flechas sobre la lesión esplénica. Flechas confirmadas por el autor.
 
 **Leyenda (en inglés, para el formulario):**
 Figure 1. Contrast-enhanced abdominal computed tomography showing a peripheral hypodense area in the spleen (yellow arrows), consistent with splenic infarction. Perihepatic ascites is also present. (A) Coronal view; (B) axial view.
