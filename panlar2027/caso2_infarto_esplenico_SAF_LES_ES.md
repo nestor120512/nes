@@ -1,6 +1,6 @@
 # Caso 2 – Infarto esplénico, SAF y LES de inicio tardío (borrador en español para PANLAR 2027)
 
-Estado: **versión 13** (reenfocada en Sydney frente a ACR/EULAR 2023), con los títulos y la persistencia de los aPL confirmados por el autor.
+Estado: **versión 14** (reenfocada en Sydney frente a ACR/EULAR 2023), con los títulos y la persistencia de los aPL confirmados por el autor.
 
 **Título final (español):**
 Infarto esplénico como manifestación de síndrome antifosfolípido con anticuerpos IgM aislados en lupus de inicio tardío: reporte de caso
@@ -23,7 +23,7 @@ Los criterios de clasificación ACR/EULAR 2023 del síndrome antifosfolípido (S
 
 ### Métodos
 
-Revisión retrospectiva de la historia clínica. Se analizaron las manifestaciones clínicas, el perfil de aPL y su persistencia a las 12 semanas, la búsqueda de fuentes embólicas y otras causas de trombosis, y la decisión terapéutica.
+Revisión retrospectiva de la historia clínica. Se analizaron manifestaciones clínicas, perfil de aPL, estudios de imagen, evaluación de causas alternativas de trombosis, decisiones terapéuticas y evolución.
 
 ### Resultados
 
@@ -33,7 +33,7 @@ Mujer de 63 años con LES diagnosticado en julio de 2026 por pancitopenia, trata
 
 Este caso ilustra la discordancia entre ambos sistemas: un perfil IgM aislado, persistente y de títulos altos, con trombosis confirmada, cumple Sydney pero no ACR/EULAR 2023, que sacrifican sensibilidad para ganar especificidad. Los criterios de clasificación no sustituyen el juicio clínico: la decisión terapéutica debe integrar el evento trombótico, el perfil de aPL, los factores de riesgo alternativos y el riesgo hemorrágico.
 
-**Total: 2.679 / 2.750 caracteres.**
+**Total: 2.653 / 2.750 caracteres.**
 
 ---
 
