@@ -23,7 +23,7 @@ Los criterios de clasificación ACR/EULAR 2023 del síndrome antifosfolípido (S
 
 ### Métodos
 
-Revisión retrospectiva de la historia clínica. Se analizaron manifestaciones clínicas, perfil de aPL, estudios de imagen, evaluación de causas alternativas de trombosis, decisiones terapéuticas y evolución.
+Revisión retrospectiva de la historia clínica. Se analizaron manifestaciones clínicas, perfil de aPL, estudios de imagen, estudio etiológico del infarto, decisiones terapéuticas y evolución.
 
 ### Resultados
 
@@ -33,7 +33,7 @@ Mujer de 63 años con LES diagnosticado en julio de 2026 por pancitopenia, trata
 
 Este caso ilustra la discordancia entre ambos sistemas: un perfil IgM aislado, persistente y de títulos altos, con trombosis confirmada, cumple Sydney pero no ACR/EULAR 2023, que sacrifican sensibilidad para ganar especificidad. Los criterios de clasificación no sustituyen el juicio clínico: la decisión terapéutica debe integrar el evento trombótico, el perfil de aPL, los factores de riesgo alternativos y el riesgo hemorrágico.
 
-**Total: 2.653 / 2.750 caracteres.**
+**Total: 2.637 / 2.750 caracteres.**
 
 ---
 
