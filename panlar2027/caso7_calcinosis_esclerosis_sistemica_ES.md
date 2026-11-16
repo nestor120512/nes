@@ -24,7 +24,7 @@ Revisión retrospectiva de las historias clínicas, fotografías clínicas, radi
 
 ### Resultados
 
-Ambas pacientes tenían calcio y fósforo séricos normales, compatibles con calcinosis distrófica. Paciente 1: mujer de 48 años con ES de perfil anticentrómero (ANA 1:640, patrón centromérico; anti-Scl-70 negativo), esclerodactilia y microstomía. La radiografía de pelvis reveló una calcinosis masiva, bilateral y simétrica, con placas confluentes y conglomerados de aspecto tumoral en las regiones glútea y trocantérica y en la cara lateral de los muslos (Figura 1A), mucho más extensa de lo que sugerían las lesiones visibles. En superficie se expresaba como nódulos subcutáneos dolorosos en flanco y glúteos, varios ulcerados con salida de material blanquecino de aspecto calcáreo, y cicatrices de extracciones previas (Figura 1B). Paciente 2: mujer de 41 años con ES (puntaje cutáneo de Rodnan modificado de 18), fenómeno de Raynaud, antecedente de úlceras digitales, microstomía y síndrome de Sjögren. Presentaba depósitos blanquecinos puntiformes y agrupados en los pulpejos, con contracturas en flexión (Figura 1C). La radiografía de manos mostró calcificaciones múltiples de partes blandas en los pulpejos, bilaterales y más prominentes en el pulgar y el dedo medio izquierdos y en el dedo medio derecho, coexistentes con acroosteólisis (Figura 1D).
+Ambas pacientes tenían calcio y fósforo séricos normales, compatibles con calcinosis distrófica. Paciente 1: mujer de 48 años con ES de perfil anticentrómero (ANA 1:640, patrón centromérico; anti-Scl-70 negativo), esclerodactilia y microstomía. La radiografía de pelvis reveló una calcinosis masiva, bilateral y simétrica, con placas confluentes y conglomerados de aspecto tumoral en las regiones glútea y trocantérica y en la cara lateral de los muslos (Figura 1A), mucho más extensa de lo que sugerían las lesiones visibles. En superficie se expresaba como nódulos subcutáneos dolorosos en flanco y glúteos, varios ulcerados con salida de material blanquecino de aspecto calcáreo, y cicatrices de extracciones previas (Figura 1B). Paciente 2: mujer de 41 años con ES (puntaje cutáneo de Rodnan modificado de 18), fenómeno de Raynaud, antecedente de úlceras digitales, microstomía y síndrome de Sjögren. Presentaba depósitos blanquecinos puntiformes y agrupados en los pulpejos, con contracturas en flexión (Figura 2A). La radiografía de manos mostró calcificaciones múltiples de partes blandas en los pulpejos, bilaterales y más prominentes en el pulgar y el dedo medio izquierdos y en el dedo medio derecho, coexistentes con acroosteólisis (Figura 2B).
 
 ### Conclusión
 
@@ -34,14 +34,17 @@ La calcinosis de la ES no es una sola entidad: abarca desde depósitos acrales p
 
 ---
 
-### Figura 1 (`caso7_figura1_calcinosis_ES.jpg`)
+### Figura 1 – Paciente 1 (`caso7_figura1_paciente1.jpg`)
 
-Figura 1. Espectro de la calcinosis en esclerosis sistémica. (A) Paciente 1, radiografía de pelvis: calcinosis masiva bilateral de tejidos blandos en región glútea, caderas y muslos. (B) Paciente 1: nódulos subcutáneos de calcinosis en flanco, algunos ulcerados con salida de material blanquecino. (C) Paciente 2: calcinosis puntiforme en los pulpejos (flechas). (D) Paciente 2, radiografía de manos: depósitos cálcicos en partes blandas de los pulpejos (flechas).
+Figura 1. Calcinosis masiva de partes blandas en esclerosis sistémica (paciente 1). (A) Radiografía de pelvis: calcinosis masiva bilateral de tejidos blandos en región glútea, caderas y muslos. (B) Nódulos subcutáneos de calcinosis en flanco, algunos ulcerados con salida de material blanquecino.
 
-### Tabla 1 (propuesta; no cuenta en los caracteres)
+### Figura 2 – Paciente 2 (`caso7_figura2_paciente2.jpg`)
 
-| | Paciente 1 | Paciente 2 |
-|---|---|---|
+Figura 2. Calcinosis acral en esclerosis sistémica (paciente 2). (A) Calcinosis puntiforme en los pulpejos (flechas). (B) Radiografía de manos: depósitos cálcicos en partes blandas de los pulpejos (flechas).
+
+Sin tabla, a pedido del autor (el formulario permite 2 imágenes).
+
+---|---|---|
 | Edad / sexo | 48 / F | 41 / F |
 | Características de ES | Esclerodactilia, facies esclerodérmica, microstomía, disfagia | Piel indurada en cara y manos (Rodnan modificado 18), Raynaud, úlceras digitales previas, microstomía |
 | Enfermedad asociada | — | Síndrome de Sjögren |

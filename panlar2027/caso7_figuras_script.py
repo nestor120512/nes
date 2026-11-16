@@ -1,6 +1,6 @@
 import sys, math
 from PIL import Image, ImageDraw, ImageFont
-d, out = sys.argv[1], sys.argv[2]
+d, out1, out2 = sys.argv[1], sys.argv[2], sys.argv[3]
 W, g = 2000, 16
 font = ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', 64)
 def arrow(dr, s, e, color, w):
@@ -14,8 +14,8 @@ def panel(fn, lab, arrows, h):
     dr.text((22, 12), lab, fill='white', font=font, stroke_width=3, stroke_fill='black')
     return im
 rows = [[('xray1.png', 'A', []), ('flank.png', 'B', [])],
-        [('hand.png', 'C', [((880, 800), (1010, 625)), ((330, 1150), (480, 985))]),
-         ('hands_xray.png', 'D', [((95, 145), (134, 80)), ((330, 300), (390, 228)), ((600, 140), (538, 86))])]]
+        [('hand.png', 'A', [((880, 800), (1010, 625)), ((330, 1150), (480, 985))]),
+         ('hands_xray.png', 'B', [((95, 145), (134, 80)), ((330, 300), (390, 228)), ((600, 140), (538, 86))])]]
 built = []
 for row in rows:
     ratios = [Image.open(f'{d}/{fn}').width / Image.open(f'{d}/{fn}').height for fn, _, _ in row]
@@ -24,7 +24,5 @@ for row in rows:
     R = Image.new('RGB', (W, h), 'white'); x = 0
     for i in ims: R.paste(i, (x, 0)); x += i.width + g
     built.append(R)
-H = sum(r.height for r in built) + g
-S = Image.new('RGB', (W, H), 'white'); y = 0
-for r in built: S.paste(r, (0, y)); y += r.height + g
-S.save(out, quality=95, dpi=(300, 300)); print(S.size)
+for r, o in zip(built, (out1, out2)):
+    r.save(o, quality=95, dpi=(300, 300)); print(o, r.size)
