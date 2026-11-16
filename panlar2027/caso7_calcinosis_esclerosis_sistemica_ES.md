@@ -1,8 +1,12 @@
 # Caso 7 – Espectro de la calcinosis en esclerosis sistémica (serie de imágenes, borrador en español para PANLAR 2027)
 
-Estado: **versión 4**: serie de 2 pacientes (se excluye la paciente 3, con lesión del dorso nasal, a pedido del autor). Los datos de la paciente 2 se completaron con sus dos notas de reumatología (agosto y noviembre de 2026) y el informe de la radiografía de mano.
+Estado: **versión 5**: dos patrones contrastantes (ya no se presenta como "serie de casos") (se excluye la paciente 3, con lesión del dorso nasal, a pedido del autor). Los datos de la paciente 2 se completaron con sus dos notas de reumatología (agosto y noviembre de 2026) y el informe de la radiografía de mano.
 
-**Título propuesto:** Espectro clínico-radiológico de la calcinosis en esclerosis sistémica: de los pulpejos a la calcinosis masiva de partes blandas. Serie de casos
+**Título propuesto:** Del pulpejo a la cadera: dos patrones clínico-radiológicos de calcinosis en esclerosis sistémica
+
+Alternativas:
+- Calcinosis acral y calcinosis masiva de partes blandas en esclerosis sistémica: correlación clínico-radiológica
+- Dos extremos de la calcinosis en esclerosis sistémica: hallazgos clínicos y radiológicos
 
 **Tópico:** 7. Imágenes en Reumatología
 
@@ -12,11 +16,11 @@ Estado: **versión 4**: serie de 2 pacientes (se excluye la paciente 3, con lesi
 
 ### Antecedentes/Objetivo
 
-La calcinosis cutánea es una complicación frecuente de la esclerosis sistémica (ES), causa de dolor, ulceración, infección y discapacidad, y su extensión real puede subestimarse en el examen físico. Objetivo: describir el espectro de hallazgos clínicos y radiológicos de la calcinosis en dos pacientes con ES.
+La calcinosis cutánea es una complicación frecuente de la esclerosis sistémica (ES), causa de dolor, ulceración, infección y discapacidad, y su extensión real puede subestimarse en el examen físico. Objetivo: ilustrar, mediante imágenes clínicas y radiológicas, dos patrones contrastantes de calcinosis en la ES: acral y masiva de partes blandas.
 
 ### Métodos
 
-Serie de casos retrospectiva de dos pacientes con ES y calcinosis atendidas en reumatología. Se revisaron historias clínicas, fotografías clínicas y radiografías, y se describieron localización, distribución, patrón y complicaciones visibles de la calcinosis.
+Revisión retrospectiva de las historias clínicas, fotografías clínicas y radiografías de dos pacientes con ES y calcinosis atendidas en reumatología. Se describieron localización, distribución, patrón y complicaciones visibles de la calcinosis.
 
 ### Resultados
 
@@ -24,9 +28,9 @@ Paciente 1: mujer de 48 años con ES y anticuerpos anticentrómero 1:640. La rad
 
 ### Conclusión
 
-La calcinosis en la ES abarca desde depósitos acrales puntiformes hasta formas masivas de partes blandas en la región glútea y los muslos. La radiografía permite dimensionar una extensión que el examen físico subestima e identificar hallazgos asociados, como la acroosteólisis, que reflejan la vasculopatía digital; la correlación entre imagen y clínica facilita reconocer complicaciones como la ulceración.
+Estos dos patrones muestran que la calcinosis en la ES abarca desde depósitos acrales puntiformes hasta formas masivas de partes blandas en la región glútea y los muslos. La radiografía permite dimensionar una extensión que el examen físico subestima e identificar hallazgos asociados, como la acroosteólisis, que reflejan la vasculopatía digital; la correlación entre imagen y clínica facilita reconocer complicaciones como la ulceración.
 
-**Total: 2.064 / 2.750 caracteres** (Antecedentes 309 · Métodos 259 · Resultados 1.089 · Conclusión 407).
+**Total: 2.118 / 2.750 caracteres** (Antecedentes 346 · Métodos 244 · Resultados 1.089 · Conclusión 439).
 
 ---
 
