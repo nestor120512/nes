@@ -45,12 +45,19 @@ Figura 1. Espectro de la calcinosis en esclerosis sistémica. (A) Paciente 1, ra
 | Edad / sexo | 48 / F | 41 / F |
 | Características de ES | Esclerodactilia, facies esclerodérmica, microstomía, disfagia | Piel indurada en cara y manos (Rodnan modificado 18), Raynaud, úlceras digitales previas, microstomía |
 | Enfermedad asociada | — | Síndrome de Sjögren |
-| Anticuerpos | ANA 1:640 centromérico; anticentrómero 1:640; Scl-70 negativo | [__] |
+| Anticuerpos | ANA 1:640, patrón centromérico (AC-3); anticentrómero 1:640; anti-Scl-70, anti-Ro, anti-La, anti-Sm y anti-RNP negativos | [__] |
 | Localización de la calcinosis | Región glútea bilateral, ingle izquierda, brazos, pelvis y muslos | Pulpejos de ambas manos |
 | Radiografía | Pelvis: calcinosis masiva en placas y conglomerados | Manos: calcificaciones múltiples de partes blandas en pulpejos y acroosteólisis |
 | Complicaciones | Dolor, ulceración con salida de material, extracciones quirúrgicas previas | Contracturas en flexión |
 
 ---
+
+### Laboratorios de la paciente 1 (agosto de 2026)
+
+- ANA 1:640, patrón centromérico (AC-3); anticentrómero 1:640 (IFI).
+- Anti-Scl-70 <5,0 UA/mL (negativo); anti-Ro <4,5; anti-La <7,0; anti-Sm <3,5; anti-RNP <3,7 UA/mL (todos negativos).
+- Hemoglobina 12,5 g/dL; leucocitos 8.390/µL; plaquetas 352.000/µL; VSG 37 mm/h; PCR 1,40 mg/L; creatinina 0,67 mg/dL; uroanálisis sin alteraciones relevantes.
+- No hay calcio ni fósforo séricos.
 
 ### Datos de la paciente 2 tomados de sus notas
 
