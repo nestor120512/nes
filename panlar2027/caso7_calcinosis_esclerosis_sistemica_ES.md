@@ -1,8 +1,8 @@
 # Caso 7 – Espectro de la calcinosis en esclerosis sistémica (serie de imágenes, borrador en español para PANLAR 2027)
 
-Estado: **versión 3** (figura de 4 paneles: se agregó la radiografía de manos de la paciente 2) (centrada en las imágenes; sin tratamiento), con los datos de las tres historias clínicas. Quedan por confirmar la asignación de las fotos del flanco y de las manos, y la naturaleza de la lesión nasal de la paciente 3.
+Estado: **versión 4**: serie de 2 pacientes (se excluye la paciente 3, con lesión del dorso nasal, a pedido del autor). Los datos de la paciente 2 se completaron con sus dos notas de reumatología (agosto y noviembre de 2026) y el informe de la radiografía de mano.
 
-**Título propuesto:** Espectro clínico-radiológico de la calcinosis en esclerosis sistémica: de los pulpejos a la calcinosis masiva periarticular. Serie de casos
+**Título propuesto:** Espectro clínico-radiológico de la calcinosis en esclerosis sistémica: de los pulpejos a la calcinosis masiva de partes blandas. Serie de casos
 
 **Tópico:** 7. Imágenes en Reumatología
 
@@ -10,54 +10,55 @@ Estado: **versión 3** (figura de 4 paneles: se agregó la radiografía de manos
 
 ---
 
-### Antecedentes/Objetivo  (312 caracteres)
+### Antecedentes/Objetivo
 
-La calcinosis cutánea es una complicación frecuente de la esclerosis sistémica (ES), causa de dolor, ulceración, infección y discapacidad, y su extensión real puede subestimarse en el examen físico. Objetivo: describir el espectro de hallazgos clínicos e imagenológicos de la calcinosis en tres pacientes con ES.
+La calcinosis cutánea es una complicación frecuente de la esclerosis sistémica (ES), causa de dolor, ulceración, infección y discapacidad, y su extensión real puede subestimarse en el examen físico. Objetivo: describir el espectro de hallazgos clínicos y radiológicos de la calcinosis en dos pacientes con ES.
 
-### Métodos  (240 caracteres)
+### Métodos
 
-Serie de casos retrospectiva de tres pacientes con ES y calcinosis atendidas en reumatología. Se revisaron fotografías clínicas y radiografías, y se describieron localización, distribución, patrón y complicaciones visibles de la calcinosis.
+Serie de casos retrospectiva de dos pacientes con ES y calcinosis atendidas en reumatología. Se revisaron historias clínicas, fotografías clínicas y radiografías, y se describieron localización, distribución, patrón y complicaciones visibles de la calcinosis.
 
-### Resultados  (1.027 caracteres)
+### Resultados
 
-Paciente 1: mujer de 48 años con ES y anticuerpos anticentrómero 1:640. La radiografía de pelvis mostró calcinosis masiva, bilateral y simétrica de tejidos blandos, con depósitos confluentes en placas y conglomerados de aspecto tumoral en región glútea, regiones trocantéricas y cara lateral de los muslos (Figura 1A). Clínicamente se correspondía con nódulos subcutáneos dolorosos en flanco y región glútea, varios ulcerados con salida de material blanquecino, y cicatrices de extracciones previas (Figura 1B). Paciente 2: mujer de 41 años con ES y síndrome de Sjögren, con depósitos blanquecinos puntiformes y agrupados en los pulpejos de varios dedos, asociados a contracturas en flexión (Figura 1C). La radiografía de manos mostró depósitos cálcicos amorfos bilaterales en partes blandas de varios pulpejos, más prominentes en el pulgar y el dedo medio izquierdos y en el dedo medio derecho (Figura 1D). Paciente 3: mujer de 46 años con ES y microstomía, con una lesión blanquecina en el dorso nasal en estudio radiológico.
+Paciente 1: mujer de 48 años con ES y anticuerpos anticentrómero 1:640. La radiografía de pelvis mostró calcinosis masiva, bilateral y simétrica de tejidos blandos, con depósitos confluentes en placas y conglomerados de aspecto tumoral en región glútea, regiones trocantéricas y cara lateral de los muslos (Figura 1A). Clínicamente se correspondía con nódulos subcutáneos dolorosos en flanco y región glútea, varios ulcerados con salida de material blanquecino, y cicatrices de extracciones previas (Figura 1B). Paciente 2: mujer de 41 años con ES (puntaje cutáneo de Rodnan modificado de 18), fenómeno de Raynaud, antecedente de úlceras digitales, microstomía y síndrome de Sjögren asociado. Presentaba depósitos blanquecinos puntiformes y agrupados en los pulpejos de varios dedos, con contracturas en flexión (Figura 1C). La radiografía de manos mostró calcificaciones múltiples de partes blandas en los pulpejos, bilaterales y más prominentes en el pulgar y el dedo medio izquierdos y en el dedo medio derecho, junto con resorción de las falanges distales (acroosteólisis) (Figura 1D).
 
-### Conclusión  (286 caracteres)
+### Conclusión
 
-La calcinosis en la ES abarca desde depósitos puntiformes en los pulpejos hasta formas masivas periarticulares. La radiografía permite dimensionar una extensión que el examen físico subestima, y la correlación entre imagen y clínica facilita reconocer complicaciones como la ulceración.
+La calcinosis en la ES abarca desde depósitos acrales puntiformes hasta formas masivas de partes blandas en la región glútea y los muslos. La radiografía permite dimensionar una extensión que el examen físico subestima e identificar hallazgos asociados, como la acroosteólisis, que reflejan la vasculopatía digital; la correlación entre imagen y clínica facilita reconocer complicaciones como la ulceración.
 
-**Total: 1.865 / 2.750 caracteres.**
+**Total: 2.064 / 2.750 caracteres** (Antecedentes 309 · Métodos 259 · Resultados 1.089 · Conclusión 407).
 
 ---
 
 ### Figura 1 (`caso7_figura1_calcinosis_ES.jpg`)
 
-Figura 1. Espectro de la calcinosis en esclerosis sistémica. (A) Radiografía de pelvis: calcinosis masiva bilateral de tejidos blandos en región glútea, caderas y muslos. (B) Nódulos subcutáneos de calcinosis en flanco, algunos ulcerados con salida de material blanquecino. (C) Calcinosis puntiforme en los pulpejos (flechas). (D) Radiografía de manos de la misma paciente: depósitos cálcicos en partes blandas de los pulpejos (flechas).
+Figura 1. Espectro de la calcinosis en esclerosis sistémica. (A) Paciente 1, radiografía de pelvis: calcinosis masiva bilateral de tejidos blandos en región glútea, caderas y muslos. (B) Paciente 1: nódulos subcutáneos de calcinosis en flanco, algunos ulcerados con salida de material blanquecino. (C) Paciente 2: calcinosis puntiforme en los pulpejos (flechas). (D) Paciente 2, radiografía de manos: depósitos cálcicos en partes blandas de los pulpejos (flechas).
 
 ### Tabla 1 (propuesta; no cuenta en los caracteres)
 
-| | Paciente 1 | Paciente 2 | Paciente 3 |
-|---|---|---|---|
-| Edad / sexo | 48 / F | 41 / F | 46 / F |
-| Características de ES | Esclerodactilia, facies esclerodérmica, microstomía, disfagia | Piel indurada en cara y manos, Raynaud, microstomía; síndrome de Sjögren | Microstomía |
-| Anticuerpos | ANA 1:640 centromérico; anticentrómero 1:640; Scl-70 negativo | [__] | [__] |
-| Localización de la calcinosis | Región glútea bilateral, ingle izquierda, brazos, pelvis y muslos | Pulpejos de los dedos | ¿Dorso nasal? (en estudio) |
-| Imagen | Radiografía de pelvis: calcinosis masiva en placas y conglomerados | Fotografía clínica y radiografía de manos: depósitos cálcicos bilaterales en pulpejos | Radiografías de manos y nariz pendientes |
-| Complicaciones | Dolor, ulceración con salida de material, extracciones quirúrgicas previas | [__] | [__] |
+| | Paciente 1 | Paciente 2 |
+|---|---|---|
+| Edad / sexo | 48 / F | 41 / F |
+| Características de ES | Esclerodactilia, facies esclerodérmica, microstomía, disfagia | Piel indurada en cara y manos (Rodnan modificado 18), Raynaud, úlceras digitales previas, microstomía |
+| Enfermedad asociada | — | Síndrome de Sjögren |
+| Anticuerpos | ANA 1:640 centromérico; anticentrómero 1:640; Scl-70 negativo | [__] |
+| Localización de la calcinosis | Región glútea bilateral, ingle izquierda, brazos, pelvis y muslos | Pulpejos de ambas manos |
+| Radiografía | Pelvis: calcinosis masiva en placas y conglomerados | Manos: calcificaciones múltiples de partes blandas en pulpejos y acroosteólisis |
+| Complicaciones | Dolor, ulceración con salida de material, extracciones quirúrgicas previas | Contracturas en flexión |
 
 ---
 
-### Asignación del material (supuestos en cursiva, por confirmar)
+### Datos de la paciente 2 tomados de sus notas
 
-- Paciente 1 (48 años, anticentrómero): historia clínica y laboratorios; radiografías de pelvis (pedidas en su historia); *fotos del flanco y la cadera (ZIP 1)*.
-- Paciente 2 (41 años): historia clínica con "calcificaciones dactilares"; *fotos de las manos (ZIP 2)*.
-- Paciente 3 (46 años): historia clínica; fotos del rostro (ZIP 3, no utilizables por identificar a la paciente); lesión blanquecina en el dorso nasal, con radiografía pedida.
+- Notas de reumatología del 19/08/2026 y del 06/11/2026.
+- Examen: calcificaciones dactilares; piel tensa e indurada en cara y manos; fenómeno de Raynaud; apertura bucal reducida; Rodnan modificado 18 puntos.
+- Análisis: compromiso cutáneo, gastrointestinal, de úlceras digitales, de calcinosis y arterial.
+- Radiografía de mano izquierda (28/09/2026): calcificaciones múltiples de partes blandas y cambios de resorción distal de las falanges, compatibles con cambios crónicos asociados a ES. La imagen de la figura es la radiografía comparativa de ambas manos.
+- Las notas no registran anticuerpos.
 
-Los PDF y las fotos del rostro contienen datos personales y **no se suben al repositorio**.
+Los PDF contienen datos personales y **no se suben al repositorio**.
 
 ### Pendiente
 
-1. Confirmar las asignaciones en cursiva.
-2. Paciente 3: ¿la lesión del dorso nasal es calcinosis? ¿Hay radiografías de manos o nariz? Si no se confirma, presentar como serie de 2 pacientes.
-3. Anticuerpos de las pacientes 2 y 3.
-4. Consentimiento informado de las tres pacientes.
+1. Anticuerpos de la paciente 2 (si no hay, la fila se elimina de la tabla).
+2. Consentimiento informado de ambas pacientes.
