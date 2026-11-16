@@ -1,6 +1,6 @@
 # Caso 7 – Espectro de la calcinosis en esclerosis sistémica (serie de imágenes, borrador en español para PANLAR 2027)
 
-Estado: **versión 0**, organizada a partir del material del autor (2 PDF, 3 ZIP con fotos y 2 radiografías). Lo que está entre **[CORCHETES]** falta. Las asignaciones de imágenes a pacientes son **supuestos** que el autor debe confirmar.
+Estado: **versión 1**, con los datos de las tres historias clínicas. Quedan por confirmar la asignación de las fotos del flanco y de las manos, y la naturaleza de la lesión nasal de la paciente 3.
 
 **Título propuesto:** Espectro clínico-radiológico de la calcinosis en esclerosis sistémica: de los pulpejos a la calcinosis masiva periarticular. Serie de casos
 
@@ -10,23 +10,23 @@ Estado: **versión 0**, organizada a partir del material del autor (2 PDF, 3 ZIP
 
 ---
 
-### Antecedentes/Objetivo
+### Antecedentes/Objetivo  (295 caracteres)
 
 La calcinosis cutánea es una complicación frecuente de la esclerosis sistémica (ES), causa de dolor, ulceración, infección y discapacidad, y su extensión real puede subestimarse en el examen físico. Objetivo: describir el espectro clínico y radiológico de la calcinosis en tres pacientes con ES.
 
-### Métodos
+### Métodos  (255 caracteres)
 
-Serie de casos retrospectiva. Se revisaron la historia clínica, las fotografías clínicas y las radiografías de tres pacientes con ES y calcinosis atendidas en reumatología. Se describieron localización, extensión, patrón radiológico y complicaciones.
+Serie de casos retrospectiva de tres pacientes con ES y calcinosis atendidas en reumatología. Se revisaron historia clínica, fotografías clínicas y radiografías, y se describieron localización, extensión, hallazgos de imagen, complicaciones y tratamiento.
 
-### Resultados
+### Resultados  (1.035 caracteres)
 
-Paciente 1: mujer de [EDAD] años con ES [FORMA, EVOLUCIÓN, ANTICUERPOS], con nódulos subcutáneos en flanco y región glútea, varios ulcerados con salida de material blanquecino (Figura 1B). La radiografía de pelvis mostró calcinosis masiva bilateral de tejidos blandos, con depósitos en placas y conglomerados de aspecto tumoral en región glútea, caderas y muslos (Figura 1A). Paciente 2: mujer de 48 años con ES [FORMA] y anticuerpos anticentrómero 1:640 (anti-Scl-70 negativo), con depósitos blanquecinos puntiformes en los pulpejos y contracturas en flexión de los dedos (Figura 1C). Paciente 3: mujer de 46 años con ES [FORMA], microstomía y [LOCALIZACIÓN DE LA CALCINOSIS], en tratamiento con metotrexato y nifedipino. [COMPLICACIONES, TRATAMIENTO Y EVOLUCIÓN DE CADA PACIENTE].
+Paciente 1: mujer de 48 años con ES, esclerodactilia, facies esclerodérmica, microstomía y disfagia, con anticuerpos anticentrómero 1:640 y anti-Scl-70 negativo. Presentaba calcinosis dolorosa en región glútea bilateral, ingle izquierda y brazos, con cicatrices de extracciones previas y nódulos subcutáneos ulcerados con salida de material blanquecino (Figura 1B). La radiografía de pelvis mostró calcinosis masiva bilateral de tejidos blandos, en placas y conglomerados de aspecto tumoral, en región glútea, caderas y muslos (Figura 1A). Recibía metotrexato y colchicina. Paciente 2: mujer de 41 años con ES y síndrome de Sjögren, piel indurada en cara y manos, fenómeno de Raynaud, microstomía y calcinosis puntiforme en los pulpejos (Figura 1C), en tratamiento con metotrexato, azatioprina, nifedipino y sildenafil, con indicación de rituximab. Paciente 3: mujer de 46 años con ES y microstomía, con una lesión blanquecina en el dorso nasal en estudio radiológico, en tratamiento con metotrexato, nifedipino y suplemento de calcio.
 
-### Conclusión
+### Conclusión  (283 caracteres)
 
 La calcinosis en la ES abarca desde depósitos puntiformes en los pulpejos hasta formas masivas periarticulares. La radiografía permite dimensionar una extensión que el examen físico subestima, y su reconocimiento orienta el manejo de complicaciones como la ulceración y la infección.
 
-**Extensión: ~1.460 caracteres sin los datos pendientes; quedan ~1.290 para completarlos.**
+**Total: 1.868 / 2.750 caracteres.**
 
 ---
 
@@ -38,30 +38,27 @@ Figura 1. Espectro de la calcinosis en esclerosis sistémica. (A) Radiografía d
 
 | | Paciente 1 | Paciente 2 | Paciente 3 |
 |---|---|---|---|
-| Edad / sexo | [__] / F | 48 / F | 46 / F |
-| Forma de ES | [__] | [__] | [__] |
-| Anticuerpos | [__] | ANA 1:640 centromérico; anticentrómero 1:640; Scl-70 negativo | [__] |
-| Localización | Flanco, región glútea, caderas, muslos | Pulpejos de los dedos | [__] |
-| Hallazgo de imagen | Calcinosis masiva en placas y conglomerados | [radiografía de manos pendiente] | [__] |
-| Complicaciones | Ulceración con salida de material | Contracturas en flexión | [__] |
-| Tratamiento | [__] | [__] | Metotrexato, nifedipino |
+| Edad / sexo | 48 / F | 41 / F | 46 / F |
+| Características de ES | Esclerodactilia, facies esclerodérmica, microstomía, disfagia | Piel indurada en cara y manos, Raynaud, microstomía; síndrome de Sjögren | Microstomía |
+| Anticuerpos | ANA 1:640 centromérico; anticentrómero 1:640; Scl-70 negativo | [__] | [__] |
+| Localización de la calcinosis | Región glútea bilateral, ingle izquierda, brazos, pelvis y muslos | Pulpejos de los dedos | ¿Dorso nasal? (en estudio) |
+| Imagen | Radiografía de pelvis: calcinosis masiva en placas y conglomerados | Fotografía clínica (radiografía de manos pendiente) | Radiografías de manos y nariz pendientes |
+| Complicaciones | Dolor, ulceración con salida de material, extracciones quirúrgicas previas | [__] | [__] |
+| Tratamiento | Metotrexato, colchicina | Metotrexato, azatioprina, nifedipino, sildenafil; rituximab indicado | Metotrexato, nifedipino, calcio + vitamina D |
 
 ---
 
-### Inventario del material recibido (solo en la sesión, no en el repositorio)
+### Asignación del material (supuestos en cursiva, por confirmar)
 
-- Radiografías de pelvis (2 capturas del visor, estudios 1-1 y 2-1): calcinosis masiva bilateral. Se usó la 1-1 (más extensa) en el panel A.
-- ZIP 1 (6 fotos): flanco y cadera con nódulos de calcinosis ulcerados. Panel B. **Supuesto:** misma paciente de la radiografía de pelvis.
-- ZIP 2 (5 fotos): manos con calcinosis en pulpejos y contracturas en flexión. Panel C. **Supuesto:** paciente 2 (anticentrómero positivo).
-- ZIP 3 (5 fotos): rostro completo (facies esclerodérmica, microstomía, lesión en dorso nasal). **No se usa**: identifica a la paciente.
-- PDF 1: historia de mujer de 46 años con ES (metotrexato, nifedipino, sulfadiazina de plata, calcio + vitamina D; radiografías de manos y de lesión nasal pendientes). **Supuesto:** paciente 3, la del ZIP 3.
-- PDF 2: laboratorios de mujer de 48 años (ANA 1:640 centromérico, anticentrómero 1:640, ENA y Scl-70 negativos, hemograma y orina normales, VSG 37). **Supuesto:** paciente 2.
+- Paciente 1 (48 años, anticentrómero): historia clínica y laboratorios; radiografías de pelvis (pedidas en su historia); *fotos del flanco y la cadera (ZIP 1)*.
+- Paciente 2 (41 años): historia clínica con "calcificaciones dactilares"; *fotos de las manos (ZIP 2)*.
+- Paciente 3 (46 años): historia clínica; fotos del rostro (ZIP 3, no utilizables por identificar a la paciente); lesión blanquecina en el dorso nasal, con radiografía pedida.
 
 Los PDF y las fotos del rostro contienen datos personales y **no se suben al repositorio**.
 
 ### Pendiente
 
-1. Confirmar qué imágenes son de cada paciente.
-2. Por paciente: edad, forma de ES, tiempo de evolución, anticuerpos, complicaciones, tratamiento y evolución.
-3. ¿Calcinosis de la paciente 3? ¿Radiografías de manos o del dorso nasal?
+1. Confirmar las asignaciones en cursiva.
+2. Paciente 3: ¿la lesión del dorso nasal es calcinosis? ¿Hay radiografías de manos o nariz? Si no se confirma, presentar como serie de 2 pacientes.
+3. Anticuerpos de las pacientes 2 y 3.
 4. Consentimiento informado de las tres pacientes.
