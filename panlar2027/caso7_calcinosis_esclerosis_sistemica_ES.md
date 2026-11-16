@@ -16,7 +16,7 @@ Alternativas:
 
 ### Antecedentes/Objetivo
 
-La calcinosis es una manifestación frecuente de la esclerosis sistémica (ES), pero su verdadera carga suele subestimarse: el examen físico detecta solo los depósitos superficiales, mientras que la radiografía revela su extensión real y las lesiones acompañantes. Se asocia a dolor, ulceración, infección y discapacidad, y carece de un tratamiento eficaz establecido. Objetivo: ilustrar, mediante la correlación entre imagen clínica y radiológica, los dos extremos del espectro de la calcinosis en la ES: la forma acral y la masiva de partes blandas.
+La calcinosis es una manifestación frecuente de la esclerosis sistémica (ES), pero su verdadera carga suele subestimarse: el examen físico detecta solo los depósitos superficiales, mientras que la radiografía revela su extensión real y las lesiones acompañantes. Se asocia a dolor, ulceración, infección y discapacidad, y ningún tratamiento ha demostrado eficacia en ensayos clínicos controlados. Objetivo: ilustrar, mediante la correlación entre imagen clínica y radiológica, los dos extremos del espectro de la calcinosis en la ES: la forma acral y la masiva de partes blandas.
 
 ### Métodos
 
@@ -30,7 +30,7 @@ Ambas pacientes tenían calcio y fósforo séricos normales, compatibles con cal
 
 La calcinosis de la ES no es una sola entidad: abarca desde depósitos acrales puntiformes hasta conglomerados masivos en la región glútea y los muslos. La piel muestra solo una fracción; la radiografía, accesible y de bajo costo, revela la extensión real y lesiones asociadas, como la acroosteólisis, que señalan la vasculopatía digital subyacente. Integrar la imagen a la evaluación rutinaria permite dimensionar la carga de la enfermedad y anticipar complicaciones como la ulceración y la infección.
 
-**Total: 2.589 / 2.750 caracteres** (Antecedentes 549 · Métodos 284 · Resultados 1.255 · Conclusión 501).
+**Total: 2.619 / 2.750 caracteres** (Antecedentes 579 · Métodos 284 · Resultados 1.255 · Conclusión 501).
 
 ---
 
@@ -73,3 +73,6 @@ Los PDF contienen datos personales y **no se suben al repositorio**.
 ### Pendiente
 
 1. Consentimiento informado de ambas pacientes.
+2. Subtipo cutáneo (limitada o difusa) de cada paciente, si se quiere incluir.
+
+El autor confirmó la frase sobre la extensión radiológica de la paciente 1 y la de la ausencia de tratamiento eficaz demostrado en ensayos.
