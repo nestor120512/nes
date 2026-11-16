@@ -1,6 +1,6 @@
 # Caso 7 – Espectro de la calcinosis en esclerosis sistémica (serie de imágenes, borrador en español para PANLAR 2027)
 
-Estado: **versión 2** (centrada en las imágenes; sin tratamiento), con los datos de las tres historias clínicas. Quedan por confirmar la asignación de las fotos del flanco y de las manos, y la naturaleza de la lesión nasal de la paciente 3.
+Estado: **versión 3** (figura de 4 paneles: se agregó la radiografía de manos de la paciente 2) (centrada en las imágenes; sin tratamiento), con los datos de las tres historias clínicas. Quedan por confirmar la asignación de las fotos del flanco y de las manos, y la naturaleza de la lesión nasal de la paciente 3.
 
 **Título propuesto:** Espectro clínico-radiológico de la calcinosis en esclerosis sistémica: de los pulpejos a la calcinosis masiva periarticular. Serie de casos
 
@@ -18,21 +18,21 @@ La calcinosis cutánea es una complicación frecuente de la esclerosis sistémic
 
 Serie de casos retrospectiva de tres pacientes con ES y calcinosis atendidas en reumatología. Se revisaron fotografías clínicas y radiografías, y se describieron localización, distribución, patrón y complicaciones visibles de la calcinosis.
 
-### Resultados  (823 caracteres)
+### Resultados  (1.037 caracteres)
 
-Paciente 1: mujer de 48 años con ES y anticuerpos anticentrómero 1:640. La radiografía de pelvis mostró calcinosis masiva, bilateral y simétrica de tejidos blandos, con depósitos confluentes en placas y conglomerados de aspecto tumoral en región glútea, regiones trocantéricas y cara lateral de los muslos (Figura 1A). Clínicamente se correspondía con nódulos subcutáneos dolorosos en flanco y región glútea, varios ulcerados con salida de material blanquecino, y cicatrices de extracciones previas (Figura 1B). Paciente 2: mujer de 41 años con ES y síndrome de Sjögren, con depósitos blanquecinos puntiformes y agrupados en los pulpejos de varios dedos, asociados a contracturas en flexión (Figura 1C). Paciente 3: mujer de 46 años con ES y microstomía, con una lesión blanquecina en el dorso nasal en estudio radiológico.
+Paciente 1: mujer de 48 años con ES y anticuerpos anticentrómero 1:640. La radiografía de pelvis mostró calcinosis masiva, bilateral y simétrica de tejidos blandos, con depósitos confluentes en placas y conglomerados de aspecto tumoral en región glútea, regiones trocantéricas y cara lateral de los muslos (Figura 1A). Clínicamente se correspondía con nódulos subcutáneos dolorosos en flanco y región glútea, varios ulcerados con salida de material blanquecino, y cicatrices de extracciones previas (Figura 1B). Paciente 2: mujer de 41 años con ES y síndrome de Sjögren, con depósitos blanquecinos puntiformes y agrupados en los pulpejos de varios dedos, asociados a contracturas en flexión (Figura 1C). La radiografía de manos mostró depósitos cálcicos amorfos bilaterales en partes blandas de varios pulpejos, más prominentes en el pulgar y el dedo medio izquierdos y en el dedo medio derecho (Figura 1D). Paciente 3: mujer de 46 años con ES y microstomía, con una lesión blanquecina en el dorso nasal en estudio radiológico.
 
 ### Conclusión  (286 caracteres)
 
 La calcinosis en la ES abarca desde depósitos puntiformes en los pulpejos hasta formas masivas periarticulares. La radiografía permite dimensionar una extensión que el examen físico subestima, y la correlación entre imagen y clínica facilita reconocer complicaciones como la ulceración.
 
-**Total: 1.661 / 2.750 caracteres.**
+**Total: 1.875 / 2.750 caracteres.**
 
 ---
 
 ### Figura 1 (`caso7_figura1_calcinosis_ES.jpg`)
 
-Figura 1. Espectro de la calcinosis en esclerosis sistémica. (A) Radiografía de pelvis: calcinosis masiva bilateral de tejidos blandos en región glútea, caderas y muslos. (B) Nódulos subcutáneos de calcinosis en flanco, algunos ulcerados con salida de material blanquecino. (C) Calcinosis puntiforme en los pulpejos (flechas).
+Figura 1. Espectro de la calcinosis en esclerosis sistémica. (A) Radiografía de pelvis: calcinosis masiva bilateral de tejidos blandos en región glútea, caderas y muslos. (B) Nódulos subcutáneos de calcinosis en flanco, algunos ulcerados con salida de material blanquecino. (C) Calcinosis puntiforme en los pulpejos (flechas). (D) Radiografía de manos de la misma paciente: depósitos cálcicos en partes blandas de los pulpejos (flechas).
 
 ### Tabla 1 (propuesta; no cuenta en los caracteres)
 
@@ -42,7 +42,7 @@ Figura 1. Espectro de la calcinosis en esclerosis sistémica. (A) Radiografía d
 | Características de ES | Esclerodactilia, facies esclerodérmica, microstomía, disfagia | Piel indurada en cara y manos, Raynaud, microstomía; síndrome de Sjögren | Microstomía |
 | Anticuerpos | ANA 1:640 centromérico; anticentrómero 1:640; Scl-70 negativo | [__] | [__] |
 | Localización de la calcinosis | Región glútea bilateral, ingle izquierda, brazos, pelvis y muslos | Pulpejos de los dedos | ¿Dorso nasal? (en estudio) |
-| Imagen | Radiografía de pelvis: calcinosis masiva en placas y conglomerados | Fotografía clínica (radiografía de manos pendiente) | Radiografías de manos y nariz pendientes |
+| Imagen | Radiografía de pelvis: calcinosis masiva en placas y conglomerados | Fotografía clínica y radiografía de manos: depósitos cálcicos bilaterales en pulpejos | Radiografías de manos y nariz pendientes |
 | Complicaciones | Dolor, ulceración con salida de material, extracciones quirúrgicas previas | [__] | [__] |
 
 ---
