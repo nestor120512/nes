@@ -1,12 +1,12 @@
 # Caso 7 – Espectro de la calcinosis en esclerosis sistémica (serie de imágenes, borrador en español para PANLAR 2027)
 
-Estado: **versión 5**: dos patrones contrastantes (ya no se presenta como "serie de casos") (se excluye la paciente 3, con lesión del dorso nasal, a pedido del autor). Los datos de la paciente 2 se completaron con sus dos notas de reumatología (agosto y noviembre de 2026) y el informe de la radiografía de mano.
+Estado: **versión 6** ("versión para vender"): dos extremos del espectro, con calcio y fósforo normales confirmados por el autor (calcinosis distrófica).
 
-**Título propuesto:** Del pulpejo a la cadera: dos patrones clínico-radiológicos de calcinosis en esclerosis sistémica
+**Título propuesto:** Lo que la piel esconde: dos extremos clínico-radiológicos de la calcinosis en esclerosis sistémica
 
 Alternativas:
+- Del pulpejo a la cadera: dos patrones clínico-radiológicos de calcinosis en esclerosis sistémica
 - Calcinosis acral y calcinosis masiva de partes blandas en esclerosis sistémica: correlación clínico-radiológica
-- Dos extremos de la calcinosis en esclerosis sistémica: hallazgos clínicos y radiológicos
 
 **Tópico:** 7. Imágenes en Reumatología
 
@@ -16,21 +16,21 @@ Alternativas:
 
 ### Antecedentes/Objetivo
 
-La calcinosis cutánea es una complicación frecuente de la esclerosis sistémica (ES), causa de dolor, ulceración, infección y discapacidad, y su extensión real puede subestimarse en el examen físico. Objetivo: ilustrar, mediante imágenes clínicas y radiológicas, dos patrones contrastantes de calcinosis en la ES: acral y masiva de partes blandas.
+La calcinosis es una manifestación frecuente de la esclerosis sistémica (ES), pero su verdadera carga suele subestimarse: el examen físico detecta solo los depósitos superficiales, mientras que la radiografía revela su extensión real y las lesiones acompañantes. Se asocia a dolor, ulceración, infección y discapacidad, y carece de un tratamiento eficaz establecido. Objetivo: ilustrar, mediante la correlación entre imagen clínica y radiológica, los dos extremos del espectro de la calcinosis en la ES: la forma acral y la masiva de partes blandas.
 
 ### Métodos
 
-Revisión retrospectiva de las historias clínicas, fotografías clínicas y radiografías de dos pacientes con ES y calcinosis atendidas en reumatología. Se describieron localización, distribución, patrón y complicaciones visibles de la calcinosis.
+Revisión retrospectiva de las historias clínicas, fotografías clínicas, radiografías y estudios de laboratorio de dos pacientes con ES y calcinosis atendidas en reumatología. Se describieron localización, distribución, patrón radiológico, lesiones asociadas y complicaciones visibles.
 
 ### Resultados
 
-Paciente 1: mujer de 48 años con ES y anticuerpos anticentrómero 1:640. La radiografía de pelvis mostró calcinosis masiva, bilateral y simétrica de tejidos blandos, con depósitos confluentes en placas y conglomerados de aspecto tumoral en región glútea, regiones trocantéricas y cara lateral de los muslos (Figura 1A). Clínicamente se correspondía con nódulos subcutáneos dolorosos en flanco y región glútea, varios ulcerados con salida de material blanquecino, y cicatrices de extracciones previas (Figura 1B). Paciente 2: mujer de 41 años con ES (puntaje cutáneo de Rodnan modificado de 18), fenómeno de Raynaud, antecedente de úlceras digitales, microstomía y síndrome de Sjögren asociado. Presentaba depósitos blanquecinos puntiformes y agrupados en los pulpejos de varios dedos, con contracturas en flexión (Figura 1C). La radiografía de manos mostró calcificaciones múltiples de partes blandas en los pulpejos, bilaterales y más prominentes en el pulgar y el dedo medio izquierdos y en el dedo medio derecho, junto con resorción de las falanges distales (acroosteólisis) (Figura 1D).
+Ambas pacientes tenían calcio y fósforo séricos normales, compatibles con calcinosis distrófica. Paciente 1: mujer de 48 años con ES de perfil anticentrómero (ANA 1:640, patrón centromérico; anti-Scl-70 negativo), esclerodactilia y microstomía. La radiografía de pelvis reveló una calcinosis masiva, bilateral y simétrica, con placas confluentes y conglomerados de aspecto tumoral en las regiones glútea y trocantérica y en la cara lateral de los muslos (Figura 1A), mucho más extensa de lo que sugerían las lesiones visibles. En superficie se expresaba como nódulos subcutáneos dolorosos en flanco y glúteos, varios ulcerados con salida de material blanquecino de aspecto calcáreo, y cicatrices de extracciones previas (Figura 1B). Paciente 2: mujer de 41 años con ES (puntaje cutáneo de Rodnan modificado de 18), fenómeno de Raynaud, antecedente de úlceras digitales, microstomía y síndrome de Sjögren. Presentaba depósitos blanquecinos puntiformes y agrupados en los pulpejos, con contracturas en flexión (Figura 1C). La radiografía de manos mostró calcificaciones múltiples de partes blandas en los pulpejos, bilaterales y más prominentes en el pulgar y el dedo medio izquierdos y en el dedo medio derecho, coexistentes con acroosteólisis (Figura 1D).
 
 ### Conclusión
 
-Estos dos patrones muestran que la calcinosis en la ES abarca desde depósitos acrales puntiformes hasta formas masivas de partes blandas en la región glútea y los muslos. La radiografía permite dimensionar una extensión que el examen físico subestima e identificar hallazgos asociados, como la acroosteólisis, que reflejan la vasculopatía digital; la correlación entre imagen y clínica facilita reconocer complicaciones como la ulceración.
+La calcinosis de la ES no es una sola entidad: abarca desde depósitos acrales puntiformes hasta conglomerados masivos en la región glútea y los muslos. La piel muestra solo una fracción; la radiografía, accesible y de bajo costo, revela la extensión real y lesiones asociadas, como la acroosteólisis, que señalan la vasculopatía digital subyacente. Integrar la imagen a la evaluación rutinaria permite dimensionar la carga de la enfermedad y anticipar complicaciones como la ulceración y la infección.
 
-**Total: 2.118 / 2.750 caracteres** (Antecedentes 346 · Métodos 244 · Resultados 1.089 · Conclusión 439).
+**Total: 2.589 / 2.750 caracteres** (Antecedentes 549 · Métodos 284 · Resultados 1.255 · Conclusión 501).
 
 ---
 
@@ -45,7 +45,8 @@ Figura 1. Espectro de la calcinosis en esclerosis sistémica. (A) Paciente 1, ra
 | Edad / sexo | 48 / F | 41 / F |
 | Características de ES | Esclerodactilia, facies esclerodérmica, microstomía, disfagia | Piel indurada en cara y manos (Rodnan modificado 18), Raynaud, úlceras digitales previas, microstomía |
 | Enfermedad asociada | — | Síndrome de Sjögren |
-| Anticuerpos | ANA 1:640, patrón centromérico (AC-3); anticentrómero 1:640; anti-Scl-70, anti-Ro, anti-La, anti-Sm y anti-RNP negativos | [__] |
+| Anticuerpos | ANA 1:640, patrón centromérico (AC-3); anticentrómero 1:640; anti-Scl-70, anti-Ro, anti-La, anti-Sm y anti-RNP negativos | No disponibles |
+| Calcio y fósforo séricos | Normales | Normales |
 | Localización de la calcinosis | Región glútea bilateral, ingle izquierda, brazos, pelvis y muslos | Pulpejos de ambas manos |
 | Radiografía | Pelvis: calcinosis masiva en placas y conglomerados | Manos: calcificaciones múltiples de partes blandas en pulpejos y acroosteólisis |
 | Complicaciones | Dolor, ulceración con salida de material, extracciones quirúrgicas previas | Contracturas en flexión |
@@ -57,7 +58,7 @@ Figura 1. Espectro de la calcinosis en esclerosis sistémica. (A) Paciente 1, ra
 - ANA 1:640, patrón centromérico (AC-3); anticentrómero 1:640 (IFI).
 - Anti-Scl-70 <5,0 UA/mL (negativo); anti-Ro <4,5; anti-La <7,0; anti-Sm <3,5; anti-RNP <3,7 UA/mL (todos negativos).
 - Hemoglobina 12,5 g/dL; leucocitos 8.390/µL; plaquetas 352.000/µL; VSG 37 mm/h; PCR 1,40 mg/L; creatinina 0,67 mg/dL; uroanálisis sin alteraciones relevantes.
-- No hay calcio ni fósforo séricos.
+- Calcio y fósforo séricos: normales en ambas pacientes (confirmado por el autor).
 
 ### Datos de la paciente 2 tomados de sus notas
 
@@ -71,5 +72,4 @@ Los PDF contienen datos personales y **no se suben al repositorio**.
 
 ### Pendiente
 
-1. Anticuerpos de la paciente 2 (si no hay, la fila se elimina de la tabla).
-2. Consentimiento informado de ambas pacientes.
+1. Consentimiento informado de ambas pacientes.
