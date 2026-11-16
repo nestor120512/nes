@@ -1,6 +1,6 @@
 # Caso 7 – Espectro de la calcinosis en esclerosis sistémica (serie de imágenes, borrador en español para PANLAR 2027)
 
-Estado: **versión 6** ("versión para vender"): dos extremos del espectro, con calcio y fósforo normales confirmados por el autor (calcinosis distrófica).
+Estado: **versión 7** (reforzada para revisores): ES cutánea limitada en ambas (decisión del autor), asociaciones conocidas de la calcinosis en Antecedentes, criterios ACR/EULAR 2013, calcinosis distrófica con calcio, fósforo y creatinina normales, y mensaje práctico final.
 
 **Título propuesto:** Lo que la piel esconde: dos extremos clínico-radiológicos de la calcinosis en esclerosis sistémica
 
@@ -16,21 +16,21 @@ Alternativas:
 
 ### Antecedentes/Objetivo
 
-La calcinosis es una manifestación frecuente de la esclerosis sistémica (ES), pero su verdadera carga suele subestimarse: el examen físico detecta solo los depósitos superficiales, mientras que la radiografía revela su extensión real y las lesiones acompañantes. Se asocia a dolor, ulceración, infección y discapacidad, y ningún tratamiento ha demostrado eficacia en ensayos clínicos controlados. Objetivo: ilustrar, mediante la correlación entre imagen clínica y radiológica, los dos extremos del espectro de la calcinosis en la ES: la forma acral y la masiva de partes blandas.
+La calcinosis cutánea es frecuente en la esclerosis sistémica (ES) y causa dolor, ulceración, infección y discapacidad; ningún tratamiento ha demostrado eficacia en ensayos clínicos controlados. Se asocia con el subtipo cutáneo limitado, los anticuerpos anticentrómero, las úlceras digitales y la acroosteólisis, lo que apoya un papel de la isquemia crónica. Su carga suele subestimarse en el examen físico. Objetivo: ilustrar, mediante la correlación clínico-radiológica, los dos extremos de su espectro: la forma acral y la masiva de partes blandas.
 
 ### Métodos
 
-Revisión retrospectiva de las historias clínicas, fotografías clínicas, radiografías y estudios de laboratorio de dos pacientes con ES y calcinosis atendidas en reumatología. Se describieron localización, distribución, patrón radiológico, lesiones asociadas y complicaciones visibles.
+Revisión retrospectiva de historias clínicas, fotografías clínicas, radiografías simples y laboratorios de dos pacientes con ES (criterios ACR/EULAR 2013) y calcinosis. Se describieron localización, distribución, patrón radiológico, lesiones óseas asociadas y complicaciones, y se revisaron calcio, fósforo y creatinina séricos para clasificar la calcinosis.
 
 ### Resultados
 
-Ambas pacientes tenían calcio y fósforo séricos normales, compatibles con calcinosis distrófica. Paciente 1: mujer de 48 años con ES de perfil anticentrómero (ANA 1:640, patrón centromérico; anti-Scl-70 negativo), esclerodactilia y microstomía. La radiografía de pelvis reveló una calcinosis masiva, bilateral y simétrica, con placas confluentes y conglomerados de aspecto tumoral en las regiones glútea y trocantérica y en la cara lateral de los muslos (Figura 1A), mucho más extensa de lo que sugerían las lesiones visibles. En superficie se expresaba como nódulos subcutáneos dolorosos en flanco y glúteos, varios ulcerados con salida de material blanquecino de aspecto calcáreo, y cicatrices de extracciones previas (Figura 1B). Paciente 2: mujer de 41 años con ES (puntaje cutáneo de Rodnan modificado de 18), fenómeno de Raynaud, antecedente de úlceras digitales, microstomía y síndrome de Sjögren. Presentaba depósitos blanquecinos puntiformes y agrupados en los pulpejos, con contracturas en flexión (Figura 2A). La radiografía de manos mostró calcificaciones múltiples de partes blandas en los pulpejos, bilaterales y más prominentes en el pulgar y el dedo medio izquierdos y en el dedo medio derecho, coexistentes con acroosteólisis (Figura 2B).
+En ambas pacientes, el calcio, el fósforo y la creatinina séricos fueron normales, lo que orientó a calcinosis distrófica. Paciente 1: mujer de 48 años con ES cutánea limitada (induración de manos, esclerodactilia y facies inexpresiva), ANA 1:640 con patrón centromérico, anticentrómero positivo y anti-Scl-70 negativo. La radiografía de pelvis reveló una calcinosis masiva, bilateral y simétrica, con placas confluentes y conglomerados de aspecto tumoral en las regiones glútea y trocantérica y en la cara lateral de los muslos (Figura 1A), mucho más extensa de lo que sugerían las lesiones visibles. Clínicamente se expresaba como nódulos subcutáneos dolorosos en flanco y glúteos, varios ulcerados con salida de material blanquecino de aspecto calcáreo, y cicatrices de extracciones previas (Figura 1B). Paciente 2: mujer de 41 años con ES cutánea limitada (puntaje cutáneo de Rodnan modificado de 18), fenómeno de Raynaud, úlceras digitales previas, microstomía y síndrome de Sjögren. Presentaba depósitos blanquecinos puntiformes y agrupados en los pulpejos, con contracturas en flexión (Figura 2A). La radiografía de manos mostró calcificaciones múltiples de partes blandas en los pulpejos, bilaterales y más prominentes en el pulgar izquierdo y en ambos dedos medios, coexistentes con acroosteólisis (Figura 2B).
 
 ### Conclusión
 
-La calcinosis de la ES no es una sola entidad: abarca desde depósitos acrales puntiformes hasta conglomerados masivos en la región glútea y los muslos. La piel muestra solo una fracción; la radiografía, accesible y de bajo costo, revela la extensión real y lesiones asociadas, como la acroosteólisis, que señalan la vasculopatía digital subyacente. Integrar la imagen a la evaluación rutinaria permite dimensionar la carga de la enfermedad y anticipar complicaciones como la ulceración y la infección.
+La calcinosis de la ES no es una sola entidad: va desde depósitos acrales puntiformes, asociados a la vasculopatía digital, hasta conglomerados masivos proximales que pueden aparecer incluso en la forma cutánea limitada, lejos de la piel engrosada. La piel muestra solo una fracción; la radiografía simple, accesible y de bajo costo, revela su extensión real y lesiones asociadas como la acroosteólisis. Ante nódulos dolorosos o ulcerados en pacientes con ES, especialmente con perfil anticentrómero o úlceras digitales, debe considerarse un estudio radiológico dirigido.
 
-**Total: 2.619 / 2.750 caracteres** (Antecedentes 579 · Métodos 284 · Resultados 1.255 · Conclusión 501).
+**Total: 2.799 caracteres en español** (lo que cuenta es el inglés: 2.697 / 2.750).
 
 ---
 
