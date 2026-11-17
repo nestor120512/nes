@@ -35,16 +35,16 @@ module.exports = {
     ], right: [
       { name: 'Tabla 1', table: {
         title: 'Tabla 1. Sydney frente a ACR/EULAR 2023',
-        colW: [0.30, 0.35, 0.35], pt: 26,
-        header: ['', 'Sydney 2006', 'ACR/EULAR 2023'],
+        colW: [0.40, 0.27, 0.33], pt: 26,
+        header: ['Hallazgos positivos de la paciente', 'Sydney 2006', 'ACR/EULAR 2023'],
         rows: [
-          [{ text: 'Dominio clínico', bold: true }, 'Trombosis (infarto esplénico)', 'Trombosis arterial (infarto esplénico)'],
-          [{ text: 'Dominio de laboratorio', bold: true }, 'aCL y aβ2GPI IgM positivas y persistentes a 12 semanas: cumple el criterio de laboratorio', 'aCL y aβ2GPI IgM positivas y persistentes: 1 punto (se requieren ≥3)'],
+          [{ text: 'Infarto esplénico', bold: true }, { text: 'Cumple', bold: true, color: '1E7D4F' }, 'Trombosis arterial: 2 a 4 puntos'],
+          [{ text: 'aCL y aβ2GPI IgM positivas y persistentes a 12 semanas', bold: true }, { text: 'Cumple', bold: true, color: '1E7D4F' }, { text: '1 punto: no cumple', bold: true, color: 'C8323F' }],
           [{ text: '¿Clasifica como SAF?', bold: true }, { text: 'Sí', bold: true, color: '1E7D4F' }, { text: 'No', bold: true, color: 'C8323F' }],
           [{ text: 'Sensibilidad', bold: true }, '99 %', '84 %'],
           [{ text: 'Especificidad', bold: true }, '86 %', '99 %'],
         ],
-        note: 'Sensibilidad y especificidad en la cohorte de validación de los criterios ACR/EULAR 2023 (2). aCL: anticardiolipina; aβ2GPI: anti-β2-glicoproteína I.' } },
+        note: 'ACR/EULAR 2023 exige al menos 3 puntos en el dominio de laboratorio. Sensibilidad y especificidad en la cohorte de validación (2). aCL: anticardiolipina; aβ2GPI: anti-β2-glicoproteína I.' } },
     ] },
     { left: [
       { h: 'Discusión', p: [
