@@ -5,33 +5,26 @@ module.exports = {
   affiliations: '¹Programa de Especialización en Medicina Interna, Universidad Libre, Barranquilla, Colombia. ²Investigación Médica Atlántico (IMA) y Clínica General del Norte, Barranquilla, Colombia. *Expositor',
   logos: { band: [__dirname + '/../logos/logo_clinica_general_del_norte.png', __dirname + '/../logos/logo_universidad_libre.png', __dirname + '/../logos/logo_ima_reumatologia.png'] },
   logoBand: true, bandH: 2.1, logoH: 1.6,
-  bodyPt: 28, refPt: 22, justify: true,
+  bodyPt: 30, refPt: 22, justify: true,
   // Diseño para impresión: paleta tomada de los logos (azul IMA, verde y rojo de la Clínica General del Norte)
   primary: '1F3D7A', accent: '2E9C8A', tint: 'E7F3F0', border: 'BCCBE0', statColor: 'C8323F',
   titleColor: '1F3D7A', titlePt: 54, bandHeads: true, statPt: 58,
-  stats: [
-    { big: '12.588', small: 'CK al diagnóstico (U/L)' },
-    { big: '4', small: 'recaídas en 19 meses' },
-    { big: '2', small: 'rescates con IGIV, ambos con mejoría' },
-    { big: '202', small: 'CK (U/L) al 3.er ciclo mensual de IGIV' },
-  ],
   keywords: 'dermatomiositis juvenil; anticuerpos anti-Mi-2; inmunoglobulinas intravenosas; disfagia; miopatía esteroidea; resonancia magnética.',
   segments: [
     { left: [
       { h: 'Resumen', p: [
-        'Mujer de 17 años con dermatomiositis juvenil anti-Mi-2α/β, disfagia e hiperCKemia grave, confirmada por biopsia. Ante la respuesta incompleta a glucocorticoides y azatioprina, la inmunoglobulina intravenosa (IGIV) permitió recuperar la deglución. Tuvo cuatro recaídas en 19 meses; en la última, la CK y la resonancia magnética (RM) orientaron a actividad inflamatoria y no a miopatía esteroidea, y la IGIV mensual se asoció con descenso de la CK a 202 U/L, resolución de la disfagia y recuperación de la marcha con apoyo.'] },
+        'Mujer de 19 años con dermatomiositis juvenil anti-Mi-2α/β, diagnosticada a los 17 años y confirmada por biopsia, que ingresó por su cuarta recaída en 19 meses: fuerza proximal 2/5, incapacidad para caminar y CK de 5.720 U/L. Pese a los signos cushingoides, la CK y la resonancia magnética (RM) orientaron a actividad inflamatoria y no a miopatía esteroidea. Ante la respuesta incompleta a metilprednisolona y la reaparición de la disfagia, se reinició la inmunoglobulina intravenosa (IGIV), eficaz ya al diagnóstico; al tercer ciclo mensual, la CK bajó a 202 U/L, la disfagia se resolvió y recuperó la marcha con apoyo.'] },
       { h: 'Introducción', p: [
         'La dermatomiositis juvenil es una miopatía inflamatoria con debilidad proximal simétrica y lesiones cutáneas características, cuyo fenotipo varía según el autoanticuerpo específico. Los pacientes anti-Mi-2 tienen compromiso muscular prominente, menor riesgo de enfermedad pulmonar intersticial y de neoplasia, y buena respuesta a la inmunosupresión, aunque se describen cursos policíclicos (1,2). La superposición con lupus eritematoso sistémico (LES) es un reto diagnóstico (2).',
         [['Aporte del caso: ', true], 'un curso grave y policíclico en un fenotipo considerado favorable, con respuesta repetida a la IGIV.']] },
     ], right: [
       { h: 'Información del caso', p: [
-        [['Datos demográficos y motivo de consulta: ', true], 'mujer de 17 años hospitalizada en enero de 2025 por deterioro funcional y disfagia para sólidos.'],
-        [['Enfermedad actual: ', true], 'desde diciembre de 2024, lesiones papulares eritemato-hiperpigmentadas faciales, interescapulares y extensoras, mialgias y debilidad proximal progresiva.'],
-        [['Antecedentes relevantes: ', true], 'previamente sana.'],
-        [['Examen físico: ', true], 'signo de Gottron, fuerza proximal 3/5 y disfagia.'],
-        [['Estudios relevantes: ', true], 'CK 12.588 U/L, LDH 1.247 U/L, AST 657,9 y ALT 293,7 U/L (origen muscular); ANA 1:160 moteado; anti-Mi-2α y anti-Mi-2β positivos; anti-Jo-1 negativo. Biopsia muscular: cambios miopáticos, infiltrado linfoide y fibras atróficas.'],
-        [['Diagnósticos diferenciales: ', true], 'superposición con LES (ANA hasta 1:1280, eritema facial, alopecia, artralgias, derrames pleurales), descartada por anti-ADNdc negativo, complemento normal, antifosfolípidos negativos y sin nefritis; enfermedad mixta, descartada por anti-RNP negativo; miopatía esteroidea (cuarta recaída).'],
-        [['Confirmación diagnóstica: ', true], 'criterios EULAR/ACR 2017 con 9,6 puntos (probabilidad ≥90 %): dermatomiositis juvenil anti-Mi-2.']] },
+        [['Datos demográficos y motivo de consulta: ', true], 'mujer de 19 años que ingresó en agosto de 2026 por un mes de debilidad proximal progresiva, hasta no poder caminar, y mialgias incapacitantes.'],
+        [['Antecedentes relevantes: ', true], 'dermatomiositis juvenil anti-Mi-2α/β diagnosticada a los 17 años (enero de 2025) por signo de Gottron, debilidad proximal 3/5, disfagia y CK de 12.588 U/L; biopsia con cambios miopáticos, infiltrado linfoide y fibras atróficas (EULAR/ACR 2017: 9,6 puntos). Respondió a la IGIV tras una respuesta incompleta a glucocorticoides y azatioprina, y tuvo tres recaídas previas (Tabla 1).'],
+        [['Examen físico: ', true], 'fuerza proximal 2/5, incapacidad para la marcha, facies cushingoide y estrías.'],
+        [['Estudios relevantes: ', true], 'CK 5.720 U/L; RM de muslos con edema muscular difuso transcompartimental y compromiso fascial; TC de tórax sin enfermedad pulmonar intersticial; FEVI 63 %.'],
+        [['Diagnósticos diferenciales: ', true], 'miopatía esteroidea, por la exposición prolongada a glucocorticoides; superposición con LES (ANA hasta 1:1280, eritema facial, alopecia, artralgias, derrames pleurales), descartada por anti-ADNdc negativo, complemento normal, antifosfolípidos negativos y sin nefritis; enfermedad mixta, descartada por anti-RNP negativo.'],
+        [['Confirmación diagnóstica: ', true], 'la CK elevada y el edema en la RM confirmaron una recaída inflamatoria y no una miopatía esteroidea.']] },
     ] },
     { full: { name: 'Tabla 1', table: {
       title: 'Tabla 1. Evolución clínica y tratamiento',
