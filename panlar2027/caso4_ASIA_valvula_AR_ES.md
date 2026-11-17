@@ -1,6 +1,6 @@
 # Caso 4 – Artritis reumatoide tras reemplazo valvular mecánico: ¿ASIA? (borrador en español para PANLAR 2027)
 
-Estado: **versión 2**, reescrita para que se sostenga sin los datos pendientes (no afirma nada que no esté en el documento del autor). Los datos pendientes la refuerzan, pero no la bloquean.
+Estado: **versión 2: NO se envía a PANLAR 2027** (decisión del autor). Sin anti-CCP, sin etiología valvular (posible cardiopatía reumática) y sin datos de reexposición, el caso queda vulnerable a preguntas en la presentación. Se puede retomar para otro congreso si se completan los datos.
 
 **Título propuesto:**
 - Español: Artritis reumatoide seropositiva tras reemplazo valvular mecánico: ¿síndrome ASIA o coincidencia temporal? Reporte de caso
