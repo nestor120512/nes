@@ -20,12 +20,13 @@ const COLW = (W - 2 * M - GAP) / 2;
 const FONT = 'Arial', BLACK = '000000';
 const PRIMARY = C.primary || '1D5C63';   // círculos de íconos, línea de tiempo, bordes
 const TINT = C.tint || 'E3EFEE';         // fondo del encabezado y de mensajes clave
-const CARD = 'FFFFFF', BORDER = 'C9DCDA';
+const CARD = 'FFFFFF', BORDER = C.border || 'C9DCDA', ACCENT = C.accent || PRIMARY, STAT = C.statColor || PRIMARY;
+const PT_TITLE = C.titlePt || 44, BANDH = !!C.bandHeads;
 const PT_T = 44, PT_B = C.bodyPt || 32, PT_S = C.smallPt || 24, PT_R = C.refPt || PT_S;
 const LH = 1.17, PAD = 0.32, HEAD = 0.95, ICON = 0.88;
 
 function lines(text, widthIn, pt, bold) {
-  const cw = pt * (bold ? 0.51 : 0.47) / 72;
+  const cw = pt * (bold ? 0.50 : 0.46) / 72;
   const cpl = Math.floor((widthIn - 0.15) / cw);
   let n = 0;
   for (const para of String(text).split('\n')) {
@@ -59,10 +60,25 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
   const s = pres.addSlide();
   s.background = { color: 'FFFFFF' };
 
-  const card = (x, y, w, h, name, fill = CARD) => s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x, y, w, h, rectRadius: 0.25,
-    fill: { color: fill }, line: { color: BORDER, width: 1.5 },
+  const card = (x, y, w, h, name, fill = CARD, edge) => s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x, y, w, h, rectRadius: 0.25,
+    fill: { color: fill }, line: edge || { color: BORDER, width: 1.5 },
     shadow: { type: 'outer', color: '7F9C99', opacity: 0.25, blur: 8, offset: 3, angle: 90 }, objectName: 'Tarjeta ' + name });
   const headRow = (x, y, w, title, iconKey) => {
+    if (BANDH) {
+      // Franja de color en la parte superior de la tarjeta, con título blanco
+      const bx = x - PAD, by = y - PAD, bw = w + 2 * PAD, bh = PAD + HEAD + 0.05;
+      s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: bx, y: by, w: bw, h: bh, rectRadius: 0.25, fill: { color: PRIMARY }, line: { color: PRIMARY },
+        objectName: 'Franja ' + title });
+      s.addShape(pres.shapes.RECTANGLE, { x: bx, y: by + bh - 0.3, w: bw, h: 0.3, fill: { color: PRIMARY }, line: { color: PRIMARY },
+        objectName: 'Franja base ' + title });
+      s.addShape(pres.shapes.OVAL, { x, y: by + (bh - ICON) / 2, w: ICON, h: ICON, fill: { color: ACCENT }, line: { color: 'FFFFFF', width: 2 },
+        objectName: 'Círculo ' + title });
+      s.addImage({ data: icons[iconKey] || icons['Resumen'], x: x + ICON * 0.24, y: by + (bh - ICON) / 2 + ICON * 0.24, w: ICON * 0.52, h: ICON * 0.52,
+        altText: '', objectName: 'Ícono ' + title });
+      s.addText(title, { x: x + ICON + 0.3, y: by, w: w - ICON - 0.3, h: bh, fontFace: FONT, fontSize: PT_T, bold: true, color: 'FFFFFF',
+        valign: 'middle', margin: 0, isTextBox: true, objectName: 'Sección ' + title });
+      return;
+    }
     s.addShape(pres.shapes.OVAL, { x, y: y + (HEAD - ICON) / 2, w: ICON, h: ICON, fill: { color: PRIMARY }, line: { color: PRIMARY },
       objectName: 'Círculo ' + title });
     s.addImage({ data: icons[iconKey] || icons['Resumen'], x: x + ICON * 0.24, y: y + (HEAD - ICON) / 2 + ICON * 0.24, w: ICON * 0.52, h: ICON * 0.52,
@@ -75,12 +91,12 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
   const BAND = !!(C.logos && C.logoBand);
   const LOGO = BAND ? -0.9 : (C.logos ? (C.logoW || 6.2) : 3.4);
   const hx = M, hw = W - 2 * M, tx = hx + LOGO + 0.9, tw = hw - 2 * (LOGO + 0.9);
-  const tl = lines(C.title, tw, PT_T, true);
+  const tl = lines(C.title, tw, PT_TITLE, true);
   const al = lines(C.authors, tw, PT_B), fl = lines(C.affiliations, tw, PT_S);
   const pillH = 0.75;
   const kwW = hw - 1.0, kwTxt = 'Palabras clave: ' + C.keywords, kl = lines(kwTxt, kwW, PT_B);
   const bandH = BAND ? (C.bandH || 2.6) : 0;
-  let topH = (BAND ? 0.3 + bandH + 0.45 : 0.5) + pillH + 0.3 + hText(tl, PT_T) + 0.3 + hText(al, PT_B) + 0.12 + hText(fl, PT_S) + 0.4;
+  let topH = (BAND ? 0.3 + bandH + 0.45 : 0.5) + pillH + 0.3 + hText(tl, PT_TITLE) + 0.3 + hText(al, PT_B) + 0.12 + hText(fl, PT_S) + 0.4;
   if (C.logos && C.minTopH) topH = Math.max(topH, C.minTopH);
   const headerH = topH + hText(kl, PT_B) + 0.5;
   s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: hx, y: M, w: hw, h: headerH, rectRadius: 0.35, fill: { color: TINT }, line: { color: TINT },
@@ -124,9 +140,9 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
   s.addText(C.label || 'REPORTE DE CASO', { x: tx + (tw - pillW) / 2, y, w: pillW, h: pillH, fontFace: FONT, fontSize: PT_S, bold: true,
     color: BLACK, align: 'center', valign: 'middle', margin: 0, charSpacing: 2, isTextBox: true, objectName: 'Texto etiqueta' });
   y += pillH + 0.3;
-  s.addText(C.title, { x: tx, y, w: tw, h: hText(tl, PT_T) + 0.05, fontFace: FONT, fontSize: PT_T, bold: true, color: BLACK,
+  s.addText(C.title, { x: tx, y, w: tw, h: hText(tl, PT_TITLE) + 0.05, fontFace: FONT, fontSize: PT_TITLE, bold: true, color: C.titleColor || BLACK,
     align: 'center', valign: 'middle', margin: 0, isTextBox: true, objectName: 'Título' });
-  y += hText(tl, PT_T) + 0.3;
+  y += hText(tl, PT_TITLE) + 0.3;
   s.addText(C.authors, { x: tx, y, w: tw, h: hText(al, PT_B), fontFace: FONT, fontSize: PT_B, color: BLACK, align: 'center',
     margin: 0, isTextBox: true, objectName: 'Autores' });
   y += hText(al, PT_B) + 0.12;
@@ -139,6 +155,23 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
   s.addText([{ text: 'Palabras clave: ', options: { bold: true } }, { text: C.keywords }], { x: hx + 0.5, y: ky + 0.05, w: kwW, h: hText(kl, PT_B),
     fontFace: FONT, fontSize: PT_B, color: BLACK, valign: 'middle', margin: 0, isTextBox: true, objectName: 'Palabras clave' });
   y = M + headerH + 0.45;
+
+  // Cifras destacadas (opcional)
+  if (C.stats) {
+    const n = C.stats.length, g = 0.5, tw2 = (W - 2 * M - g * (n - 1)) / n, bigPt = C.statPt || 64, lblPt = 26;
+    const ml = Math.max(...C.stats.map(st => lines(st.small, tw2 - 0.5, lblPt)));
+    const th = 0.3 + bigPt * 1.15 / 72 + 0.05 + hText(ml, lblPt) + 0.3;
+    C.stats.forEach((st, i) => {
+      const x = M + i * (tw2 + g);
+      s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x, y, w: tw2, h: th, rectRadius: 0.25, fill: { color: 'FFFFFF' }, line: { color: PRIMARY, width: 3 },
+        shadow: { type: 'outer', color: '7F9C99', opacity: 0.25, blur: 8, offset: 3, angle: 90 }, objectName: 'Cifra ' + (i + 1) });
+      s.addText(st.big, { x: x + 0.2, y: y + 0.3, w: tw2 - 0.4, h: bigPt * 1.15 / 72, fontFace: FONT, fontSize: bigPt, bold: true, color: STAT,
+        align: 'center', valign: 'middle', margin: 0, isTextBox: true, objectName: 'Cifra valor ' + (i + 1) });
+      s.addText(st.small, { x: x + 0.25, y: y + 0.35 + bigPt * 1.15 / 72, w: tw2 - 0.5, h: hText(ml, lblPt), fontFace: FONT, fontSize: lblPt, color: BLACK,
+        align: 'center', valign: 'top', margin: 0, isTextBox: true, objectName: 'Cifra texto ' + (i + 1) });
+    });
+    y += th + 0.5;
+  }
 
   // Figura a ancho completo (opcional)
   for (const f of (C.full || [])) {
@@ -193,7 +226,7 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
     if (b.p) {
       const { runs, h } = runsOf(b.p, IW);
       const total = PAD + HEAD + 0.3 + h + PAD;
-      return { h: total, draw: (y, hh = total) => { card(gx, y, gw, hh, name); headRow(gx + PAD, y + PAD, IW, b.h, b.h);
+      return { h: total, draw: (y, hh = total) => { card(gx, y, gw, hh, name, b.hl ? TINT : CARD, b.hl ? { color: PRIMARY, width: 4 } : undefined); headRow(gx + PAD, y + PAD, IW, b.h, b.h);
         s.addText(runs, { x: gx + PAD, y: y + PAD + HEAD + 0.3, w: IW, h, fontFace: FONT, fontSize: PT_B, color: BLACK, valign: 'top', align: C.justify ? 'justify' : 'left',
           margin: 0, isTextBox: true, objectName: name }); } };
     }
@@ -216,7 +249,7 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
     }
     if (b.table) {
       const t = b.table, pt = t.pt || 26, widths = t.colW.map(f => f * IW);
-      const rows = [t.header.map(c => ({ text: c, options: { bold: true, fill: { color: TINT } } })), ...t.rows.map((r, ri) => r.map(c => ({ text: c, options: ri % 2 ? { fill: { color: 'F6FAF9' } } : {} })))];
+      const rows = [t.header.map(c => ({ text: c, options: { bold: true, fill: { color: BANDH ? ACCENT : TINT }, color: BANDH ? 'FFFFFF' : BLACK } })), ...t.rows.map((r, ri) => r.map(c => ({ text: c, options: ri % 2 ? { fill: { color: 'F6FAF9' } } : {} })))];
       let tb = 0; rows.forEach(r => { const m = Math.max(...r.map((c, i) => lines(c.text, widths[i] - 0.16, pt))); tb += hText(m, pt) + 0.1; });
       const titleTxt = t.title.replace(/^Tabla \d+\.\s*/, ''); const lbl = (t.title.match(/^Tabla \d+/) || ['Tabla'])[0];
       const nh = t.note ? hText(lines(t.note, IW, PT_S), PT_S) + 0.15 : 0;
@@ -224,10 +257,11 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
       const head = Math.max(HEAD, th);
       const total = PAD + head + 0.3 + tb + 0.2 + nh + PAD;
       return { h: total, draw: (y, hh = total) => { card(gx, y, gw, hh, name);
+        if (BANDH) headRow(gx + PAD, y + PAD, IW, lbl + '. ' + titleTxt, 'Tabla'); else {
         s.addShape(pres.shapes.OVAL, { x: gx + PAD, y: y + PAD + (HEAD - ICON) / 2, w: ICON, h: ICON, fill: { color: PRIMARY }, line: { color: PRIMARY }, objectName: 'Círculo ' + name });
         s.addImage({ data: icons['Tabla'], x: gx + PAD + ICON * 0.24, y: y + PAD + (HEAD - ICON) / 2 + ICON * 0.24, w: ICON * 0.52, h: ICON * 0.52, altText: '', objectName: 'Ícono ' + name });
         s.addText([{ text: lbl + '. ', options: { bold: true } }, { text: titleTxt, options: { bold: true } }], { x: gx + PAD + ICON + 0.3, y: y + PAD, w: IW - ICON - 0.3, h: head,
-          fontFace: FONT, fontSize: PT_T, color: BLACK, valign: 'middle', margin: 0, isTextBox: true, objectName: name + ' título' });
+          fontFace: FONT, fontSize: PT_T, color: BLACK, valign: 'middle', margin: 0, isTextBox: true, objectName: name + ' título' }); }
         s.addTable(rows, { x: gx + PAD, y: y + PAD + head + 0.3, w: IW, colW: widths, fontFace: FONT, fontSize: pt, color: BLACK, valign: 'middle',
           border: { type: 'solid', pt: 1, color: BORDER }, margin: [0.06, 0.1, 0.06, 0.1], objectName: name });
         if (t.note) s.addText(t.note, { x: gx + PAD, y: y + PAD + head + 0.3 + tb + 0.2, w: IW, h: nh, fontFace: FONT, fontSize: PT_S, color: BLACK,
@@ -276,12 +310,13 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
   const avail = refTop - 0.55 - TOP;
   let warn = false;
   if (segs) {
-    const G = 0.45;
+    const G = 0.4;
     const segH = segs.map(sg => sg.full ? sg.full.h : Math.max(...sg.cols.map(c => c.reduce((a, it) => a + it.h, 0) + (c.length - 1) * G)));
     const used = segH.reduce((a, v) => a + v, 0);
-    const between = Math.min(Math.max((avail - used) / Math.max(segs.length - 1, 1), 0.45), 1.2);
+    const between = Math.min(Math.max((avail - used) / Math.max(segs.length - 1, 1), 0.4), 1.2);
+    segs.forEach((sg, k) => { if (sg.cols) console.log('  seg ' + (k + 1) + ': izq ' + sg.cols[0].reduce((a, it) => a + it.h, 0).toFixed(1) + ' / der ' + sg.cols[1].reduce((a, it) => a + it.h, 0).toFixed(1)); });
     console.log('  segmentos: ' + segH.map(v => v.toFixed(1)).join(' / ') + `; usa ${used.toFixed(1)} de ${avail.toFixed(1)} in`);
-    if (used + (segs.length - 1) * 0.45 > avail) { warn = true; console.log('AVISO: el contenido no cabe'); }
+    if (used + (segs.length - 1) * 0.4 > avail) { warn = true; console.log('AVISO: el contenido no cabe'); }
     let yy = TOP;
     segs.forEach((sg, k) => {
       if (sg.full) sg.full.draw(yy);
