@@ -35,14 +35,14 @@ module.exports = {
     ], right: [
       { name: 'Tabla 1', table: {
         title: 'Tabla 1. Sydney frente a ACR/EULAR 2023',
-        colW: [0.40, 0.27, 0.33], pt: 26,
-        header: ['Hallazgos positivos de la paciente', 'Sydney 2006', 'ACR/EULAR 2023'],
+        colW: [0.40, 0.28, 0.32], pt: 27, tiles: true, rowH: [0.8, 0.85, 1.15, 1.0, 0.72, 0.72],
+        header: ['Hallazgos de la paciente', 'Sydney 2006', 'ACR/EULAR 2023'],
         rows: [
-          [{ text: 'Infarto esplénico', bold: true }, { text: 'Cumple', bold: true, color: '1E7D4F' }, { text: '4 puntos (cumple)', bold: true, color: '1E7D4F' }],
-          [{ text: 'aCL y aβ2GPI IgM positivas y persistentes a 12 semanas', bold: true }, { text: 'Cumple', bold: true, color: '1E7D4F' }, { text: '1 punto: no cumple', bold: true, color: 'C8323F' }],
-          [{ text: '¿Clasifica como SAF?', bold: true }, { text: 'Sí', bold: true, color: '1E7D4F' }, { text: 'No', bold: true, color: 'C8323F' }],
-          [{ text: 'Sensibilidad', bold: true }, '99 %', '84 %'],
-          [{ text: 'Especificidad', bold: true }, '86 %', '99 %'],
+          [{ text: 'Infarto esplénico', bold: true, fill: 'E7F3F0' }, { text: 'Cumple', bold: true, color: '17663F', fill: 'DDF1E6', align: 'center' }, { text: '4 puntos (cumple)', bold: true, color: '17663F', fill: 'DDF1E6', align: 'center' }],
+          [{ text: 'aCL y aβ2GPI IgM positivas y persistentes a 12 semanas', bold: true, fill: 'E7F3F0' }, { text: 'Cumple', bold: true, color: '17663F', fill: 'DDF1E6', align: 'center' }, { text: '1 punto (no cumple)', bold: true, color: 'A3202E', fill: 'FADADD', align: 'center' }],
+          [{ text: '¿Clasifica como SAF?', bold: true, fill: 'E7F3F0', size: 30 }, { text: 'SÍ', bold: true, color: 'FFFFFF', fill: '1E7D4F', align: 'center', size: 32 }, { text: 'NO', bold: true, color: 'FFFFFF', fill: 'C8323F', align: 'center', size: 32 }],
+          [{ text: 'Sensibilidad', bold: true, fill: 'E7F3F0' }, { text: '99 %', bold: true, align: 'center' }, { text: '84 %', align: 'center' }],
+          [{ text: 'Especificidad', bold: true, fill: 'E7F3F0' }, { text: '86 %', align: 'center' }, { text: '99 %', bold: true, align: 'center' }],
         ],
         note: 'ACR/EULAR 2023 exige al menos 3 puntos en el dominio de laboratorio. Sensibilidad y especificidad en la cohorte de validación (2). aCL: anticardiolipina; aβ2GPI: anti-β2-glicoproteína I.' } },
     ] },

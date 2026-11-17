@@ -251,8 +251,11 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
     if (b.table) {
       const t = b.table, pt = t.pt || 26, widths = t.colW.map(f => f * IW);
       const rows = [t.header.map(c => ({ text: c, options: { bold: true, fill: { color: BANDH ? ACCENT : TINT }, color: BANDH ? 'FFFFFF' : BLACK } })), ...t.rows.map((r, ri) => r.map(c => { const o = typeof c === 'string' ? { text: c } : c;
-        return { text: o.text, options: Object.assign(ri % 2 ? { fill: { color: 'F6FAF9' } } : {}, o.bold ? { bold: true } : {}, o.color ? { color: o.color } : {}) }; }))];
-      let tb = 0; rows.forEach(r => { const m = Math.max(...r.map((c, i) => lines(c.text, widths[i] - 0.35, pt))); tb += hText(m, pt) + 0.14; });
+        const base = t.tiles ? (o.fill ? {} : { fill: { color: ri % 2 ? 'F4F7FB' : 'FFFFFF' } }) : (ri % 2 ? { fill: { color: 'F6FAF9' } } : {});
+        return { text: o.text, options: Object.assign(base, o.bold ? { bold: true } : {}, o.color ? { color: o.color } : {}, o.fill ? { fill: { color: o.fill } } : {},
+          o.align ? { align: o.align } : {}, o.size ? { fontSize: o.size } : {}) }; }))];
+      if (t.tiles) rows[0] = t.header.map((c, i) => ({ text: c, options: { bold: true, fill: { color: PRIMARY }, color: 'FFFFFF', align: i ? 'center' : 'left' } }));
+      let tb = 0; rows.forEach((r, ri) => { const m = Math.max(...r.map((c, i) => lines(c.text, widths[i] - 0.35, pt))); tb += t.rowH ? t.rowH[ri] : hText(m, pt) + 0.14; });
       const titleTxt = t.title.replace(/^Tabla \d+\.\s*/, ''); const lbl = (t.title.match(/^Tabla \d+/) || ['Tabla'])[0];
       const nh = t.note ? hText(lines(t.note, IW, PT_S), PT_S) + 0.15 : 0;
       const th = hText(lines(lbl + '. ' + titleTxt, IW - ICON - 0.3, PT_T, true), PT_T);
@@ -265,7 +268,8 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
         s.addText([{ text: lbl + '. ', options: { bold: true } }, { text: titleTxt, options: { bold: true } }], { x: gx + PAD + ICON + 0.3, y: y + PAD, w: IW - ICON - 0.3, h: head,
           fontFace: FONT, fontSize: PT_T, color: BLACK, valign: 'middle', margin: 0, isTextBox: true, objectName: name + ' título' }); }
         s.addTable(rows, { x: gx + PAD, y: y + PAD + head + 0.3, w: IW, colW: widths, fontFace: FONT, fontSize: pt, color: BLACK, valign: 'middle',
-          border: { type: 'solid', pt: 1, color: BORDER }, margin: [0.06, 0.1, 0.06, 0.1], objectName: name });
+          border: t.tiles ? { type: 'solid', pt: 4, color: 'FFFFFF' } : { type: 'solid', pt: 1, color: BORDER }, margin: t.tiles ? [0.08, 0.16, 0.08, 0.16] : [0.06, 0.1, 0.06, 0.1],
+          ...(t.rowH ? { rowH: t.rowH } : {}), objectName: name });
         if (t.note) s.addText(t.note, { x: gx + PAD, y: y + PAD + head + 0.3 + tb + 0.2, w: IW, h: nh, fontFace: FONT, fontSize: PT_S, color: BLACK,
           margin: 0, isTextBox: true, objectName: name + ' nota' }); } };
     }
