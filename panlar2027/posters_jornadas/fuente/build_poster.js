@@ -194,7 +194,7 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
       const { runs, h } = runsOf(b.p, IW);
       const total = PAD + HEAD + 0.3 + h + PAD;
       return { h: total, draw: (y, hh = total) => { card(gx, y, gw, hh, name); headRow(gx + PAD, y + PAD, IW, b.h, b.h);
-        s.addText(runs, { x: gx + PAD, y: y + PAD + HEAD + 0.3, w: IW, h, fontFace: FONT, fontSize: PT_B, color: BLACK, valign: 'top',
+        s.addText(runs, { x: gx + PAD, y: y + PAD + HEAD + 0.3, w: IW, h, fontFace: FONT, fontSize: PT_B, color: BLACK, valign: 'top', align: C.justify ? 'justify' : 'left',
           margin: 0, isTextBox: true, objectName: name }); } };
     }
     if (b.key) {
@@ -268,7 +268,7 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
   halves.forEach(([a, b], k) => {
     const items = C.refs.slice(a, b);
     s.addText(items.map((r, i) => ({ text: `${a + i + 1}. ${r}`, options: { breakLine: i < items.length - 1, paraSpaceAfter: 4 } })),
-      { x: M + PAD + k * (RCW + 0.6), y: refTop + PAD + HEAD + 0.2, w: RCW, h: rh, fontFace: FONT, fontSize: PT_R, color: BLACK, margin: 0,
+      { x: M + PAD + k * (RCW + 0.6), y: refTop + PAD + HEAD + 0.2, w: RCW, h: rh, fontFace: FONT, fontSize: PT_R, color: BLACK, margin: 0, align: C.justify ? 'justify' : 'left',
         valign: 'top', isTextBox: true, objectName: 'Referencias ' + (k + 1) });
   });
 
