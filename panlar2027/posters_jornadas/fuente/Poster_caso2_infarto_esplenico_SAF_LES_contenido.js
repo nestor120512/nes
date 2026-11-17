@@ -40,7 +40,7 @@ module.exports = {
         rows: [
           [{ text: 'Dominio clínico', bold: true }, 'Trombosis (infarto esplénico)', 'Trombosis arterial (infarto esplénico)'],
           [{ text: 'Dominio de laboratorio', bold: true }, 'aCL y aβ2GPI IgM persistentes a 12 semanas: cumple', 'aCL y aβ2GPI IgM persistentes: 1 punto (se requieren ≥3)'],
-          [{ text: 'Anticoagulante lúpico', bold: true }, 'Negativo en ambas determinaciones', 'Negativo en ambas determinaciones: 0 puntos'],
+          [{ text: 'Anticoagulante lúpico', bold: true }, 'Negativo en ambas determinaciones: no contribuye', 'Negativo en ambas determinaciones: 0 puntos'],
           [{ text: '¿Clasifica como SAF?', bold: true }, { text: 'Sí', bold: true, color: '1E7D4F' }, { text: 'No', bold: true, color: 'C8323F' }],
           [{ text: 'Sensibilidad', bold: true }, '99 %', '84 %'],
           [{ text: 'Especificidad', bold: true }, '86 %', '99 %'],
