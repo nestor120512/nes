@@ -72,21 +72,39 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
   };
 
   // ---------- Encabezado ----------
-  const LOGO = 3.4;
+  const LOGO = C.logos ? (C.logoW || 6.2) : 3.4;
   const hx = M, hw = W - 2 * M, tx = hx + LOGO + 0.9, tw = hw - 2 * (LOGO + 0.9);
   const tl = lines(C.title, tw, PT_T, true);
   const al = lines(C.authors, tw, PT_B), fl = lines(C.affiliations, tw, PT_S);
   const pillH = 0.75;
   const kwW = hw - 1.0, kwTxt = 'Palabras clave: ' + C.keywords, kl = lines(kwTxt, kwW, PT_B);
-  const topH = 0.5 + pillH + 0.3 + hText(tl, PT_T) + 0.3 + hText(al, PT_B) + 0.12 + hText(fl, PT_S) + 0.4;
+  let topH = 0.5 + pillH + 0.3 + hText(tl, PT_T) + 0.3 + hText(al, PT_B) + 0.12 + hText(fl, PT_S) + 0.4;
+  if (C.logos && C.minTopH) topH = Math.max(topH, C.minTopH);
   const headerH = topH + hText(kl, PT_B) + 0.5;
   s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: hx, y: M, w: hw, h: headerH, rectRadius: 0.35, fill: { color: TINT }, line: { color: TINT },
     objectName: 'Fondo encabezado' });
+  if (C.logos) {
+    // Logos reales: un panel blanco por lado, con los logos apilados y centrados
+    [['left', hx + 0.45], ['right', hx + hw - 0.45 - LOGO]].forEach(([side, lx]) => {
+      const files = C.logos[side] || []; if (!files.length) return;
+      const ph = topH - 0.7, py = M + 0.35;
+      s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: lx, y: py, w: LOGO, h: ph, rectRadius: 0.25, fill: { color: 'FFFFFF' },
+        line: { color: BORDER, width: 1 }, objectName: 'Panel logos ' + side });
+      const pad = 0.3, slotH = (ph - pad * (files.length + 1)) / files.length;
+      files.forEach((f, k) => {
+        const d = sizeOf(f); let w = LOGO - 2 * pad, h = w * d.h / d.w;
+        if (h > slotH) { h = slotH; w = h * d.w / d.h; }
+        s.addImage({ path: f, x: lx + (LOGO - w) / 2, y: py + pad + k * (slotH + pad) + (slotH - h) / 2, w, h,
+          altText: path.basename(f, '.png').replace(/_/g, ' '), objectName: 'Logo ' + side + ' ' + (k + 1) });
+      });
+    });
+  } else {
   for (const [i, lx] of [[0, hx + 0.45], [1, hx + hw - 0.45 - LOGO]]) {
     s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: lx, y: M + (topH - LOGO) / 2, w: LOGO, h: LOGO, rectRadius: 0.2,
       fill: { color: 'FFFFFF' }, line: { color: PRIMARY, width: 1.5, dashType: 'dash' }, objectName: 'Espacio logo ' + (i + 1) });
     s.addText('Logo', { x: lx, y: M + (topH - LOGO) / 2, w: LOGO, h: LOGO, fontFace: FONT, fontSize: PT_S, color: BLACK,
       align: 'center', valign: 'middle', margin: 0, isTextBox: true, objectName: 'Texto logo ' + (i + 1) });
+  }
   }
   let y = M + 0.5;
   const pillW = C.label && C.label.length > 16 ? 7.2 : 5.6;

@@ -1,7 +1,9 @@
 module.exports = {
   title: 'Dermatomiositis juvenil anti-Mi-2 de curso policíclico con respuesta repetida a inmunoglobulina intravenosa: reporte de caso',
-  authors: '[Nombre Apellido]¹*, [Nombre Apellido]¹, [Nombre Apellido]²',
-  affiliations: '¹[Servicio de Reumatología, Institución], [Ciudad], Colombia. ²[Institución], [Ciudad], Colombia. *Expositor',
+  authors: 'Nestor Fabian Sanabria Duarte¹*, José Ángel Salas Siado², Sandra Sofía Sánchez Hernández¹, Juan Camilo Tafur Vidal¹',
+  affiliations: '¹Programa de Especialización en Medicina Interna, Universidad Libre, Barranquilla, Colombia. ²Investigación Médica Atlántico (IMA) y Clínica General del Norte, Barranquilla, Colombia. *Expositor',
+  logos: { left: [__dirname + '/../logos/logo_universidad_libre.png'], right: [__dirname + '/../logos/logo_clinica_general_del_norte.png', __dirname + '/../logos/logo_ima_reumatologia.png'] },
+  logoW: 5.6, minTopH: 5.2,
   keywords: 'dermatomiositis juvenil; anticuerpos anti-Mi-2; inmunoglobulinas intravenosas; miopatía esteroidea; resonancia magnética; disfagia.',
   blocks: [
     { col: 0, h: 'Resumen', p: [
@@ -18,7 +20,7 @@ module.exports = {
       [['Estudios relevantes: ', true], 'CK 12.588 U/L; ANA 1:160; anti-Mi-2α/β positivos; biopsia muscular con miopatía inflamatoria. TC de tórax sin enfermedad pulmonar intersticial.'],
       [['Diagnósticos diferenciales: ', true], 'superposición con lupus, planteada por ANA 1:1280 y eritema facial y no sustentada (anti-ADNdc y anti-RNP negativos, complemento normal, sin nefritis); en la cuarta recaída, miopatía esteroidea por signos cushingoides.'],
       [['Confirmación diagnóstica: ', true], 'dermatomiositis juvenil definida por biopsia, anticuerpo específico y criterios EULAR/ACR 2017 (9,6 puntos).'],
-      [['Tratamiento y evolución: ', true], 'cronología en la Tabla 1. En la cuarta recaída, la CK elevada y el edema muscular difuso con compromiso fascial en la RM de muslos orientaron a actividad inflamatoria.']] },
+      [['Tratamiento y evolución: ', true], 'cronología en la Tabla 1 y la Figura 1; en la cuarta recaída, la RM de muslos mostró edema muscular difuso y fascial.']] },
     { col: 1, name: 'Tabla 1', table: {
       title: 'Tabla 1. Evolución clínica y tratamiento',
       colW: [0.17, 0.43, 0.40], pt: 24,
@@ -34,7 +36,7 @@ module.exports = {
       ],
       note: 'AZA: azatioprina; CK: creatina quinasa; GC: glucocorticoides; IGIV: inmunoglobulina intravenosa; MMF: micofenolato mofetilo; MPIV: metilprednisolona intravenosa; RM: resonancia magnética.' } },
     { col: 1, name: 'Figura 1', chart: {
-      title: 'Creatina quinasa (U/L) a lo largo de la evolución', series: 'CK (U/L)', yTitle: 'CK (U/L)', h: 6.8,
+      title: 'Creatina quinasa (U/L) a lo largo de la evolución', series: 'CK (U/L)', yTitle: 'CK (U/L)', h: 6.0,
       labels: ['Dx ene-25', 'R1 oct-25', 'R2 dic-25', 'Tras MMF', 'R3 may-26', 'R4 ago-26', 'MPIV día 5', 'Rebrote', '3.er IGIV'],
       values: [12588, 2760, 1399, 393, 11284, 5720, 2073, 3492, 202],
       caption: 'Figura 1. Evolución de la CK. Dx: diagnóstico; R1-R4: recaídas; MMF: micofenolato; MPIV: metilprednisolona intravenosa; IGIV: inmunoglobulina intravenosa mensual.' } },
