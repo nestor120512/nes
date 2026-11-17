@@ -3,7 +3,7 @@ module.exports = {
   title: 'Dermatomiositis juvenil anti-Mi-2 de curso policíclico con respuesta repetida a inmunoglobulina intravenosa: reporte de caso',
   authors: 'Nestor Fabian Sanabria Duarte¹*, José Ángel Salas Siado², Sandra Sofía Sánchez Hernández¹, Juan Camilo Tafur Vidal¹',
   affiliations: '¹Programa de Especialización en Medicina Interna, Universidad Libre, Barranquilla, Colombia. ²Investigación Médica Atlántico (IMA) y Clínica General del Norte, Barranquilla, Colombia. *Expositor',
-  logos: { band: [__dirname + '/../logos/logo_universidad_libre.png', __dirname + '/../logos/logo_clinica_general_del_norte.png', __dirname + '/../logos/logo_ima_reumatologia.png'] },
+  logos: { band: [__dirname + '/../logos/logo_clinica_general_del_norte.png', __dirname + '/../logos/logo_universidad_libre.png', __dirname + '/../logos/logo_ima_reumatologia.png'] },
   logoBand: true, bandH: 2.4, logoH: 1.75,
   bodyPt: 28, refPt: 22,
   keywords: 'dermatomiositis juvenil; anticuerpos anti-Mi-2; inmunoglobulinas intravenosas; disfagia; miopatía esteroidea; resonancia magnética.',
