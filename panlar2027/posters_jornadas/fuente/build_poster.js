@@ -252,7 +252,7 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
       const t = b.table, pt = t.pt || 26, widths = t.colW.map(f => f * IW);
       const rows = [t.header.map(c => ({ text: c, options: { bold: true, fill: { color: BANDH ? ACCENT : TINT }, color: BANDH ? 'FFFFFF' : BLACK } })), ...t.rows.map((r, ri) => r.map(c => { const o = typeof c === 'string' ? { text: c } : c;
         return { text: o.text, options: Object.assign(ri % 2 ? { fill: { color: 'F6FAF9' } } : {}, o.bold ? { bold: true } : {}, o.color ? { color: o.color } : {}) }; }))];
-      let tb = 0; rows.forEach(r => { const m = Math.max(...r.map((c, i) => lines(c.text, widths[i] - 0.16, pt))); tb += hText(m, pt) + 0.1; });
+      let tb = 0; rows.forEach(r => { const m = Math.max(...r.map((c, i) => lines(c.text, widths[i] - 0.35, pt))); tb += hText(m, pt) + 0.14; });
       const titleTxt = t.title.replace(/^Tabla \d+\.\s*/, ''); const lbl = (t.title.match(/^Tabla \d+/) || ['Tabla'])[0];
       const nh = t.note ? hText(lines(t.note, IW, PT_S), PT_S) + 0.15 : 0;
       const th = hText(lines(lbl + '. ' + titleTxt, IW - ICON - 0.3, PT_T, true), PT_T);

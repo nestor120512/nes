@@ -35,7 +35,7 @@ module.exports = {
     ], right: [
       { name: 'Tabla 1', table: {
         title: 'Tabla 1. Sydney frente a ACR/EULAR 2023',
-        colW: [0.30, 0.35, 0.35], pt: 28,
+        colW: [0.30, 0.35, 0.35], pt: 26,
         header: ['', 'Sydney 2006', 'ACR/EULAR 2023'],
         rows: [
           [{ text: 'Dominio clínico', bold: true }, 'Trombosis (infarto esplénico)', 'Trombosis arterial (infarto esplénico)'],
