@@ -18,7 +18,7 @@ module.exports = {
       [['Diagnósticos diferenciales: ', true], 'neuropatía carencial, metabólica, infecciosa, paraproteinémica o vasculítica (Tabla 2).'],
       [['Confirmación diagnóstica: ', true], 'cumplía los criterios SLICC 2012; los ANA negativos impedían la clasificación EULAR/ACR 2019. La biopsia renal confirmó nefritis lúpica clase IV + V.']] },
     { col: 1, name: 'Tabla 1', table: {
-      title: 'Tabla 1. Perfil inmunológico', colW: [0.55, 0.45], pt: 26,
+      title: 'Tabla 1. Perfil inmunológico', colW: [0.55, 0.45], pt: 24,
       header: ['Prueba', 'Resultado'],
       rows: [
         ['ANA (IFI en células HEp-2)', 'Negativos (2 determinaciones)'],
@@ -29,7 +29,7 @@ module.exports = {
         ['Proteinuria', '1,7 g/24 h'],
       ] } },
     { col: 1, name: 'Tabla 2', table: {
-      title: 'Tabla 2. Estudio de causas alternativas de neuropatía', colW: [0.55, 0.45], pt: 26,
+      title: 'Tabla 2. Estudio de causas alternativas de neuropatía', colW: [0.55, 0.45], pt: 24,
       header: ['Estudio', 'Resultado'],
       rows: [
         ['Vitamina B12 y folato', 'Normales'],

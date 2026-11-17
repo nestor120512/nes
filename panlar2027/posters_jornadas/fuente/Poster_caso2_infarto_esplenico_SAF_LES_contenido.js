@@ -14,8 +14,8 @@ module.exports = {
       [['Datos demográficos y motivo de consulta: ', true], 'mujer de 63 años que reingresó en septiembre de 2026 por pancitopenia.'],
       [['Antecedentes relevantes: ', true], 'LES diagnosticado en julio de 2026, con debut por pancitopenia, tratado con pulsos de metilprednisolona, prednisolona y azatioprina. Perfil inicial de aPL con doble positividad IgM (Tabla 1).'],
       [['Examen físico: ', true], 'livedo reticularis y ascitis.'],
-      [['Estudios relevantes: ', true], 'hemoglobina 8,6 g/dL y plaquetas 46.000/µL, sin esquistocitos; Coombs directo positivo; proteinuria de 3,8 g/24 h; C3 52 mg/dL y C4 <2,9 mg/dL. La tomografía abdominal mostró una lesión periférica en cuña en el polo inferior del bazo, compatible con infarto esplénico (Figura 1). Gradiente de albúmina sérica-ascitis <1,1.'],
-      [['Diagnósticos diferenciales: ', true], 'embolia de origen cardíaco (electrocardiograma en ritmo sinusal y ecocardiograma normal); trombosis o hipertensión portal (Doppler normal); microangiopatía trombótica (sin esquistocitos). La proteinuria en rango nefrótico pudo contribuir como factor protrombótico.'],
+      [['Estudios relevantes: ', true], 'hemoglobina 8,6 g/dL y plaquetas 46.000/µL, sin esquistocitos; Coombs directo positivo; proteinuria de 3,8 g/24 h; C3 52 mg/dL y C4 <2,9 mg/dL. La tomografía abdominal mostró una lesión periférica en cuña en el polo inferior del bazo, compatible con infarto esplénico (Figura 1).'],
+      [['Diagnósticos diferenciales: ', true], 'embolia cardíaca (ritmo sinusal, ecocardiograma normal), trombosis o hipertensión portal (Doppler normal) y microangiopatía trombótica (sin esquistocitos).'],
       [['Confirmación diagnóstica: ', true], 'a las 12 semanas persistió la doble positividad IgM, con anticoagulante lúpico negativo: cumplía Sydney, pero no ACR/EULAR 2023. Se consideró un SAF clínico secundario a LES.'],
       [['Tratamiento y evolución: ', true], 'nuevos pulsos de metilprednisolona, hidroxicloroquina y micofenolato mofetilo por nefritis lúpica presunta (la paciente no aceptó la biopsia). Con plaquetas de 127.000/µL se inició enoxaparina 1 mg/kg como puente a warfarina (INR 2-3). A las 2 semanas: plaquetas 239.000/µL y hemoglobina 10,0 g/dL.']] },
     { col: 1, name: 'Figura 1', img: P + 'caso2_figura1_TC_infarto_esplenico.png',
@@ -37,7 +37,7 @@ module.exports = {
       [['Limitaciones: ', true], 'sin biopsia renal; seguimiento corto para eventos trombóticos y hemorrágicos; la proteinuria nefrótica pudo contribuir a la trombosis.'],
       [['Aporte a la práctica: ', true], 'los criterios ACR/EULAR 2023 sacrifican sensibilidad para ganar especificidad y fueron diseñados para clasificación, no para el diagnóstico individual. Un perfil IgM aislado, persistente y de título alto, con trombosis en el contexto de un LES, puede justificar la anticoagulación, en línea con las recomendaciones EULAR.']] },
     { col: 1, key: ["Los aPL IgM aislados, persistentes y de título alto pueden acompañar a una trombosis.", "No cumplir ACR/EULAR 2023 no excluye el diagnóstico clínico de SAF.", "La anticoagulación se decide con el evento, el perfil de aPL y el riesgo hemorrágico."] },
-    { col: 1, h: 'Conclusión', p: [
+    { col: 0, h: 'Conclusión', p: [
       'Los criterios de clasificación no sustituyen el juicio clínico: la decisión terapéutica debe integrar el evento trombótico, el perfil de aPL, los factores de riesgo alternativos y el riesgo hemorrágico.',
       [['Consideraciones éticas: ', true], 'se obtuvo consentimiento informado de la paciente.']] },
   ],
