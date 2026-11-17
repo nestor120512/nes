@@ -24,13 +24,13 @@ Revisión retrospectiva de las historias clínicas, fotografías clínicas y rad
 
 ### Resultados
 
-En ambas pacientes, el calcio, el fósforo y la creatinina séricos fueron normales, lo que orientó a calcinosis distrófica. Paciente 1: mujer de 48 años con ES cutánea limitada (induración de manos, esclerodactilia y facies inexpresiva), ANA 1:640 con patrón centromérico, anticentrómero positivo y anti-Scl-70 negativo. La radiografía de pelvis reveló una calcinosis masiva, bilateral y simétrica, con placas confluentes y conglomerados de aspecto tumoral en las regiones glútea y trocantérica y en la cara lateral de los muslos (Figura 1A), mucho más extensa de lo que sugerían las lesiones visibles. Clínicamente se expresaba como nódulos subcutáneos dolorosos en flanco y glúteos, varios ulcerados con salida de material blanquecino de aspecto calcáreo, y cicatrices de extracciones previas (Figura 1B). Paciente 2: mujer de 41 años con ES cutánea limitada (induración de cara y manos), fenómeno de Raynaud, úlceras digitales previas, microstomía y síndrome de Sjögren. Presentaba depósitos blanquecinos puntiformes y agrupados en los pulpejos, con contracturas en flexión (Figura 2A). La radiografía de manos mostró calcificaciones múltiples de partes blandas en los pulpejos, bilaterales y más prominentes en el pulgar izquierdo y en ambos dedos medios, coexistentes con acroosteólisis (Figura 2B).
+En ambas pacientes, el calcio, el fósforo y la creatinina séricos fueron normales, lo que orientó a calcinosis distrófica. Paciente 1: mujer de 48 años con ES cutánea limitada (induración de manos, esclerodactilia y facies inexpresiva), ANA 1:640 con patrón centromérico, anticentrómero positivo y anti-Scl-70 negativo. La radiografía de pelvis reveló una calcinosis masiva, bilateral y simétrica, con placas confluentes y conglomerados de aspecto tumoral en las regiones glútea y trocantérica y en la cara lateral de los muslos (Figura 1A), mucho más extensa de lo que sugerían las lesiones visibles. Clínicamente se expresaba como nódulos subcutáneos dolorosos en flanco y glúteos, varios ulcerados con salida de material blanquecino de aspecto calcáreo, y cicatrices de extracciones previas (Figura 1B). Paciente 2: mujer de 41 años con ES cutánea limitada (induración de cara y manos), fenómeno de Raynaud, úlceras digitales previas, microstomía y síndrome de Sjögren. Presentaba depósitos blanquecinos puntiformes y agrupados en los pulpejos, con contracturas en flexión (Figura 2A). La radiografía de manos, en proyecciones posteroanterior y oblicua, mostró calcificaciones múltiples de partes blandas en los pulpejos, bilaterales y más prominentes en el pulgar izquierdo y en ambos dedos medios, coexistentes con acroosteólisis (Figuras 2B y 2C).
 
 ### Conclusión
 
 La calcinosis de la ES no es una sola entidad: va desde depósitos acrales puntiformes, asociados a la vasculopatía digital, hasta conglomerados masivos proximales que pueden aparecer incluso en la forma cutánea limitada, lejos de la piel engrosada. La piel muestra solo una fracción; la radiografía simple, accesible y de bajo costo, revela su extensión real y lesiones asociadas como la acroosteólisis. Ante nódulos dolorosos o ulcerados en pacientes con ES, especialmente con perfil anticentrómero o úlceras digitales, debe considerarse un estudio radiológico dirigido.
 
-**Total: 2.631 caracteres en español** (lo que cuenta es el inglés: 2.541 / 2.750).
+**Total: 2.681 caracteres en español** (lo que cuenta es el inglés: 2.577 / 2.750).
 
 ---
 
@@ -40,7 +40,7 @@ Figura 1. Calcinosis masiva de partes blandas en esclerosis sistémica (paciente
 
 ### Figura 2 – Paciente 2 (`caso7_figura2_paciente2.jpg`)
 
-Figura 2. Calcinosis acral en esclerosis sistémica (paciente 2). (A) Calcinosis puntiforme en los pulpejos (flechas). (B) Radiografía de manos: depósitos cálcicos en partes blandas de los pulpejos (flechas).
+Figura 2. Calcinosis acral en esclerosis sistémica (paciente 2). (A) Calcinosis puntiforme en los pulpejos (flechas). Radiografías de ambas manos en proyección posteroanterior (B) y oblicua (C): calcificaciones de partes blandas en los pulpejos y acroosteólisis.
 
 Sin tabla, a pedido del autor (el formulario permite 2 imágenes).
 
