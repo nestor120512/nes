@@ -12,7 +12,7 @@ Calcinosis cutis is common in systemic sclerosis (SSc) and causes pain, ulcerati
 
 ### Methods
 
-Retrospective review of medical records, clinical photographs, plain radiographs and laboratory tests of two patients with SSc (2013 ACR/EULAR criteria) and calcinosis. Location, distribution, radiological pattern, associated bone lesions and complications were described, and serum calcium, phosphate and creatinine were reviewed to classify the calcinosis.
+Retrospective review of the medical records, clinical photographs and plain radiographs of two patients with limited cutaneous SSc and calcinosis, correlating clinical and radiological findings.
 
 ### Results
 
@@ -22,7 +22,7 @@ In both patients, serum calcium, phosphate and creatinine were normal, supportin
 
 Calcinosis in SSc is not a single entity: it ranges from punctate acral deposits, associated with digital vasculopathy, to massive proximal conglomerates that may occur even in limited cutaneous disease, far from thickened skin. The skin shows only a fraction; plain radiography, widely available and inexpensive, reveals its true extent and associated lesions such as acro-osteolysis. In patients with SSc and painful or ulcerated nodules, particularly those with anticentromere antibodies or digital ulcers, targeted radiographs should be considered.
 
-**Total: 2,705 / 2,750 characters.** References: none.
+**Total: 2,541 / 2,750 characters.** References: none.
 
 ---
 

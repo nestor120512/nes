@@ -20,7 +20,7 @@ La calcinosis cutánea es frecuente en la esclerosis sistémica (ES) y causa dol
 
 ### Métodos
 
-Revisión retrospectiva de historias clínicas, fotografías clínicas, radiografías simples y laboratorios de dos pacientes con ES (criterios ACR/EULAR 2013) y calcinosis. Se describieron localización, distribución, patrón radiológico, lesiones óseas asociadas y complicaciones, y se revisaron calcio, fósforo y creatinina séricos para clasificar la calcinosis.
+Revisión retrospectiva de las historias clínicas, fotografías clínicas y radiografías simples de dos pacientes con ES cutánea limitada y calcinosis, con correlación de los hallazgos clínicos y radiológicos.
 
 ### Resultados
 
@@ -30,7 +30,7 @@ En ambas pacientes, el calcio, el fósforo y la creatinina séricos fueron norma
 
 La calcinosis de la ES no es una sola entidad: va desde depósitos acrales puntiformes, asociados a la vasculopatía digital, hasta conglomerados masivos proximales que pueden aparecer incluso en la forma cutánea limitada, lejos de la piel engrosada. La piel muestra solo una fracción; la radiografía simple, accesible y de bajo costo, revela su extensión real y lesiones asociadas como la acroosteólisis. Ante nódulos dolorosos o ulcerados en pacientes con ES, especialmente con perfil anticentrómero o úlceras digitales, debe considerarse un estudio radiológico dirigido.
 
-**Total: 2.783 caracteres en español** (lo que cuenta es el inglés: 2.705 / 2.750).
+**Total: 2.631 caracteres en español** (lo que cuenta es el inglés: 2.541 / 2.750).
 
 ---
 
