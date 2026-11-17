@@ -240,10 +240,11 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
             isTextBox: true, objectName: 'Mensajes clave' }); } };
     }
     if (b.img) {
-      const d = sizeOf(b.img); const ih = IW * d.h / d.w; const ch = hText(lines(b.caption, IW, PT_S), PT_S);
+      const d = sizeOf(b.img); let ih = IW * d.h / d.w; if (b.maxH && ih > b.maxH) ih = b.maxH; const iw = ih * d.w / d.h;
+      const ch = hText(lines(b.caption, IW, PT_S), PT_S);
       const total = PAD + ih + 0.2 + ch + PAD;
       return { h: total, draw: (y, hh = total) => { card(gx, y, gw, hh, name);
-        s.addImage({ path: b.img, x: gx + PAD, y: y + PAD, w: IW, h: ih, altText: b.caption, objectName: name });
+        s.addImage({ path: b.img, x: gx + PAD + (IW - iw) / 2, y: y + PAD, w: iw, h: ih, altText: b.caption, objectName: name });
         s.addText(b.caption, { x: gx + PAD, y: y + PAD + ih + 0.2, w: IW, h: ch, fontFace: FONT, fontSize: PT_S, color: BLACK, margin: 0,
           isTextBox: true, objectName: name + ' leyenda' }); } };
     }
