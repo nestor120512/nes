@@ -16,7 +16,7 @@ Alternativas:
 
 ### Antecedentes/Objetivo
 
-La calcinosis cutánea es frecuente en la esclerosis sistémica (ES) y causa dolor, ulceración, infección y discapacidad. Su extensión suele subestimarse en el examen físico, porque la inspección cutánea solo muestra los depósitos superficiales. Objetivo: contrastar, mediante la correlación clínico-radiológica, dos extremos de la calcinosis en la ES: una forma acral de menor extensión y una forma proximal masiva.
+La calcinosis cutánea es frecuente en la esclerosis sistémica (ES) y causa dolor, ulceración, infección y discapacidad. El examen físico puede subestimar la extensión de la calcificación de partes blandas. Objetivo: contrastar, mediante la correlación clínico-radiológica, dos extremos de la calcinosis en la ES: una forma acral de menor extensión y una forma proximal masiva.
 
 ### Métodos
 
@@ -28,9 +28,9 @@ En ambas pacientes, el calcio, el fósforo y la creatinina séricos fueron norma
 
 ### Conclusión
 
-La calcinosis de la ES no es una sola entidad: va desde depósitos acrales de menor extensión hasta conglomerados proximales masivos, que pueden aparecer incluso en la forma cutánea limitada, lejos de la piel engrosada. La inspección cutánea muestra solo una fracción del problema: en la paciente 1, la radiografía reveló un compromiso glúteo, trocantérico y de muslos mucho más extenso que el sugerido por las lesiones visibles. Ante nódulos dolorosos o ulcerados en pacientes con ES, la radiografía simple dirigida, accesible y de bajo costo, permite dimensionar la extensión real de la calcinosis e identificar lesiones asociadas, como la acroosteólisis.
+La calcinosis de la ES va desde depósitos acrales de menor extensión hasta conglomerados proximales masivos, que pueden aparecer incluso en la forma cutánea limitada, lejos de la piel engrosada. En la paciente 1, la radiografía delimitó una extensión mucho mayor que la sugerida por la inspección cutánea. Ante nódulos dolorosos o ulcerados en pacientes con ES, la radiografía simple dirigida, accesible y de bajo costo, permite dimensionar la extensión real de la calcinosis e identificar lesiones asociadas, como la acroosteólisis.
 
-**Total: 2.629 caracteres en español** (lo que cuenta es el inglés: 2.489 / 2.750).
+**Total: 2.468 caracteres en español** (lo que cuenta es el inglés: 2.351 / 2.750).
 
 ---
 

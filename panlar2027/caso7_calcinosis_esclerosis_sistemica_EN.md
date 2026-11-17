@@ -8,7 +8,7 @@
 
 ### Background/Objective
 
-Calcinosis cutis is common in systemic sclerosis (SSc) and causes pain, ulceration, infection and disability. Its extent is often underestimated on physical examination, as skin inspection reveals only superficial deposits. Objective: to contrast, through clinical-radiological correlation, two extremes of calcinosis in SSc: a less extensive acral form and a massive proximal form.
+Calcinosis cutis is common in systemic sclerosis (SSc) and causes pain, ulceration, infection and disability. Physical examination may underestimate the extent of soft-tissue calcification. Objective: to contrast, through clinical-radiological correlation, two extremes of calcinosis in SSc: a less extensive acral form and a massive proximal form.
 
 ### Methods
 
@@ -20,9 +20,9 @@ In both patients, serum calcium, phosphate and creatinine were normal, supportin
 
 ### Conclusion
 
-Calcinosis in SSc is not a single entity: it ranges from less extensive acral deposits to massive proximal conglomerates, which may develop even in limited cutaneous disease, far from areas of skin thickening. Skin inspection reveals only a fraction of the burden: in patient 1, radiography uncovered gluteal, trochanteric and thigh involvement well beyond the visible lesions. In patients with SSc and painful or ulcerated nodules, targeted plain radiography, widely available and inexpensive, helps define the true extent of calcinosis and identify associated lesions such as acro-osteolysis.
+Calcinosis in SSc ranges from less extensive acral deposits to massive proximal conglomerates, which may develop even in limited cutaneous disease, far from areas of skin thickening. In patient 1, radiography delineated an extent far greater than skin inspection suggested. In patients with SSc and painful or ulcerated nodules, targeted plain radiography, widely available and inexpensive, helps define the true extent of calcinosis and identify associated lesions such as acro-osteolysis.
 
-**Total: 2,489 / 2,750 characters.** References: none.
+**Total: 2,351 / 2,750 characters.** References: none.
 
 ---
 
