@@ -39,8 +39,7 @@ module.exports = {
         header: ['', 'Sydney 2006', 'ACR/EULAR 2023'],
         rows: [
           [{ text: 'Dominio clínico', bold: true }, 'Trombosis (infarto esplénico)', 'Trombosis arterial (infarto esplénico)'],
-          [{ text: 'Dominio de laboratorio', bold: true }, 'aCL y aβ2GPI IgM persistentes a 12 semanas: cumple', 'aCL y aβ2GPI IgM persistentes: 1 punto (se requieren ≥3)'],
-          [{ text: 'Anticoagulante lúpico', bold: true }, 'Negativo en ambas determinaciones: no contribuye', 'Negativo en ambas determinaciones: 0 puntos'],
+          [{ text: 'Dominio de laboratorio', bold: true }, 'aCL y aβ2GPI IgM positivas y persistentes a 12 semanas: cumple el criterio de laboratorio', 'aCL y aβ2GPI IgM positivas y persistentes: 1 punto (se requieren ≥3)'],
           [{ text: '¿Clasifica como SAF?', bold: true }, { text: 'Sí', bold: true, color: '1E7D4F' }, { text: 'No', bold: true, color: 'C8323F' }],
           [{ text: 'Sensibilidad', bold: true }, '99 %', '84 %'],
           [{ text: 'Especificidad', bold: true }, '86 %', '99 %'],
