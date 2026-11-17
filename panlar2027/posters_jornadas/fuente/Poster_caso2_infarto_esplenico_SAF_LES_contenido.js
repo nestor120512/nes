@@ -38,7 +38,7 @@ module.exports = {
         colW: [0.40, 0.27, 0.33], pt: 26,
         header: ['Hallazgos positivos de la paciente', 'Sydney 2006', 'ACR/EULAR 2023'],
         rows: [
-          [{ text: 'Infarto esplénico', bold: true }, { text: 'Cumple', bold: true, color: '1E7D4F' }, 'Trombosis arterial: 2 a 4 puntos'],
+          [{ text: 'Infarto esplénico', bold: true }, { text: 'Cumple', bold: true, color: '1E7D4F' }, { text: '4 puntos (cumple)', bold: true, color: '1E7D4F' }],
           [{ text: 'aCL y aβ2GPI IgM positivas y persistentes a 12 semanas', bold: true }, { text: 'Cumple', bold: true, color: '1E7D4F' }, { text: '1 punto: no cumple', bold: true, color: 'C8323F' }],
           [{ text: '¿Clasifica como SAF?', bold: true }, { text: 'Sí', bold: true, color: '1E7D4F' }, { text: 'No', bold: true, color: 'C8323F' }],
           [{ text: 'Sensibilidad', bold: true }, '99 %', '84 %'],
