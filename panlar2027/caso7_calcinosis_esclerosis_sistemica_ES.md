@@ -1,6 +1,6 @@
 # Caso 7 – Espectro de la calcinosis en esclerosis sistémica (serie de imágenes, borrador en español para PANLAR 2027)
 
-Estado: **versión 8**: correcciones de ChatGPT evaluadas. Sin la frase de tratamiento ni el anticentrómero como criterio; objetivo como contraste acral de menor extensión frente a proximal masiva; la resorción distal se atribuye al informe radiológico (28/09/2026) y no se afirma en la leyenda, porque en las proyecciones de la figura no es inequívoca.
+Estado: **versión 8**: correcciones de ChatGPT evaluadas. Sin la frase de tratamiento ni el anticentrómero como criterio; objetivo como contraste acral de menor extensión frente a proximal masiva; la acroosteólisis se mantiene porque está confirmada en el informe radiológico (28/09/2026), por decisión del autor.
 
 **Título propuesto:** Lo que la piel esconde: dos extremos clínico-radiológicos de la calcinosis en esclerosis sistémica
 
@@ -24,13 +24,13 @@ Revisión retrospectiva de las historias clínicas, fotografías clínicas y rad
 
 ### Resultados
 
-En ambas pacientes, el calcio, el fósforo y la creatinina séricos fueron normales, lo que orientó a calcinosis distrófica. Paciente 1: mujer de 48 años con ES cutánea limitada (induración de manos, esclerodactilia y facies inexpresiva), ANA 1:640 con patrón centromérico, anticentrómero positivo y anti-Scl-70 negativo. La radiografía de pelvis reveló una calcinosis masiva, bilateral y simétrica, con placas confluentes y conglomerados de aspecto tumoral en las regiones glútea y trocantérica y en la cara lateral de los muslos (Figura 1A), mucho más extensa de lo que sugerían las lesiones visibles. Clínicamente se expresaba como nódulos subcutáneos dolorosos en flanco y glúteos, varios ulcerados con salida de material blanquecino de aspecto calcáreo, y cicatrices de extracciones previas (Figura 1B). Paciente 2: mujer de 41 años con ES cutánea limitada (induración de cara y manos), fenómeno de Raynaud, úlceras digitales previas, microstomía y síndrome de Sjögren. Presentaba depósitos blanquecinos puntiformes y agrupados en los pulpejos, con contracturas en flexión (Figura 2A). La radiografía de manos, en proyecciones posteroanterior y oblicua, mostró calcificaciones múltiples de partes blandas en los pulpejos, bilaterales y más prominentes en el pulgar izquierdo y en ambos dedos medios (Figuras 2B y 2C); el informe radiológico describió además resorción distal de las falanges.
+En ambas pacientes, el calcio, el fósforo y la creatinina séricos fueron normales, lo que orientó a calcinosis distrófica. Paciente 1: mujer de 48 años con ES cutánea limitada (induración de manos, esclerodactilia y facies inexpresiva), ANA 1:640 con patrón centromérico, anticentrómero positivo y anti-Scl-70 negativo. La radiografía de pelvis reveló una calcinosis masiva, bilateral y simétrica, con placas confluentes y conglomerados de aspecto tumoral en las regiones glútea y trocantérica y en la cara lateral de los muslos (Figura 1A), mucho más extensa de lo que sugerían las lesiones visibles. Clínicamente se expresaba como nódulos subcutáneos dolorosos en flanco y glúteos, varios ulcerados con salida de material blanquecino de aspecto calcáreo, y cicatrices de extracciones previas (Figura 1B). Paciente 2: mujer de 41 años con ES cutánea limitada (induración de cara y manos), fenómeno de Raynaud, úlceras digitales previas, microstomía y síndrome de Sjögren. Presentaba depósitos blanquecinos puntiformes y agrupados en los pulpejos, con contracturas en flexión (Figura 2A). La radiografía de manos, en proyecciones posteroanterior y oblicua, mostró calcificaciones múltiples de partes blandas en los pulpejos, bilaterales y más prominentes en el pulgar izquierdo y en ambos dedos medios, coexistentes con acroosteólisis (Figuras 2B y 2C).
 
 ### Conclusión
 
-La calcinosis de la ES no es una sola entidad: va desde depósitos acrales de menor extensión hasta conglomerados proximales masivos, que pueden aparecer incluso en la forma cutánea limitada, lejos de la piel engrosada. La inspección cutánea muestra solo una fracción del problema: en la paciente 1, la radiografía reveló un compromiso glúteo, trocantérico y de muslos mucho más extenso que el sugerido por las lesiones visibles. Ante nódulos dolorosos o ulcerados en pacientes con ES, la radiografía simple dirigida, accesible y de bajo costo, permite dimensionar la extensión real de la calcinosis.
+La calcinosis de la ES no es una sola entidad: va desde depósitos acrales de menor extensión hasta conglomerados proximales masivos, que pueden aparecer incluso en la forma cutánea limitada, lejos de la piel engrosada. La inspección cutánea muestra solo una fracción del problema: en la paciente 1, la radiografía reveló un compromiso glúteo, trocantérico y de muslos mucho más extenso que el sugerido por las lesiones visibles. Ante nódulos dolorosos o ulcerados en pacientes con ES, la radiografía simple dirigida, accesible y de bajo costo, permite dimensionar la extensión real de la calcinosis e identificar lesiones asociadas, como la acroosteólisis.
 
-**Total: 2.613 caracteres en español** (lo que cuenta es el inglés: 2.454 / 2.750).
+**Total: 2.629 caracteres en español** (lo que cuenta es el inglés: 2.477 / 2.750).
 
 ---
 
@@ -40,7 +40,7 @@ Figura 1. Calcinosis masiva de partes blandas en esclerosis sistémica (paciente
 
 ### Figura 2 – Paciente 2 (`caso7_figura2_paciente2.jpg`)
 
-Figura 2. Calcinosis acral en esclerosis sistémica (paciente 2). (A) Calcinosis puntiforme en los pulpejos (flechas). Radiografías de ambas manos en proyección posteroanterior (B) y oblicua (C): calcificaciones de partes blandas en los pulpejos.
+Figura 2. Calcinosis acral en esclerosis sistémica (paciente 2). (A) Calcinosis puntiforme en los pulpejos (flechas). Radiografías de ambas manos en proyección posteroanterior (B) y oblicua (C): calcificaciones de partes blandas en los pulpejos y acroosteólisis.
 
 Sin tabla, a pedido del autor (el formulario permite 2 imágenes).
 
