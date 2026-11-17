@@ -250,7 +250,8 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
     }
     if (b.table) {
       const t = b.table, pt = t.pt || 26, widths = t.colW.map(f => f * IW);
-      const rows = [t.header.map(c => ({ text: c, options: { bold: true, fill: { color: BANDH ? ACCENT : TINT }, color: BANDH ? 'FFFFFF' : BLACK } })), ...t.rows.map((r, ri) => r.map(c => ({ text: c, options: ri % 2 ? { fill: { color: 'F6FAF9' } } : {} })))];
+      const rows = [t.header.map(c => ({ text: c, options: { bold: true, fill: { color: BANDH ? ACCENT : TINT }, color: BANDH ? 'FFFFFF' : BLACK } })), ...t.rows.map((r, ri) => r.map(c => { const o = typeof c === 'string' ? { text: c } : c;
+        return { text: o.text, options: Object.assign(ri % 2 ? { fill: { color: 'F6FAF9' } } : {}, o.bold ? { bold: true } : {}, o.color ? { color: o.color } : {}) }; }))];
       let tb = 0; rows.forEach(r => { const m = Math.max(...r.map((c, i) => lines(c.text, widths[i] - 0.16, pt))); tb += hText(m, pt) + 0.1; });
       const titleTxt = t.title.replace(/^Tabla \d+\.\s*/, ''); const lbl = (t.title.match(/^Tabla \d+/) || ['Tabla'])[0];
       const nh = t.note ? hText(lines(t.note, IW, PT_S), PT_S) + 0.15 : 0;
@@ -285,7 +286,8 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
     throw new Error('bloque sin tipo: ' + JSON.stringify(b).slice(0, 80));
   }
   const segs = C.segments ? C.segments.map(sg => sg.full ? { full: build(sg.full, { x: M, w: W - 2 * M }) }
-    : { cols: [sg.left.map(b => build(b, { x: X(0), w: COLW })), sg.right.map(b => build(b, { x: X(1), w: COLW }))] }) : null;
+    : (() => { const tw = W - 2 * M - GAP, w0 = sg.split ? tw * sg.split : COLW, w1 = sg.split ? tw - w0 : COLW;
+        return { cols: [sg.left.map(b => build(b, { x: M, w: w0 })), sg.right.map(b => build(b, { x: M + w0 + GAP, w: w1 }))] }; })()) : null;
   const cols = [[], []];
   if (!segs) for (const b of C.blocks) cols[b.col].push(build(b));
 

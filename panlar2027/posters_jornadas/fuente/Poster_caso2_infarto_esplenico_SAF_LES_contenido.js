@@ -29,11 +29,26 @@ module.exports = {
         [['Confirmación diagnóstica: ', true], 'a las 12 semanas persistió la doble positividad IgM (aCL 80 U/mL; aβ2GPI en título alto), con anticoagulante lúpico negativo: cumplía Sydney, pero no ACR/EULAR 2023, al sumar solo 1 de los 3 puntos de laboratorio. Se consideró un SAF clínico secundario a LES.'],
         [['Tratamiento y evolución: ', true], 'nuevos pulsos de metilprednisolona, hidroxicloroquina y micofenolato mofetilo por nefritis lúpica presunta (la paciente no aceptó la biopsia). Con plaquetas de 127.000/µL se inició enoxaparina 1 mg/kg como puente a warfarina (INR 2-3). A las 2 semanas: plaquetas 239.000/µL y hemoglobina 10,0 g/dL.']] },
     ] },
-    { full: { name: 'Figura 1', img: P + 'caso2_figura1_TC_infarto_esplenico.png', maxH: 7.8,
-      caption: 'Figura 1. Tomografía abdominal con contraste: área hipodensa periférica en el bazo (flechas amarillas), compatible con infarto esplénico. Ascitis perihepática. (A) Corte coronal; (B) corte axial.' } },
+    { split: 0.56, left: [
+      { name: 'Figura 1', img: P + 'caso2_figura1_TC_infarto_esplenico.png',
+        caption: 'Figura 1. Tomografía abdominal con contraste: área hipodensa periférica en el bazo (flechas amarillas), compatible con infarto esplénico. Ascitis perihepática. (A) Corte coronal; (B) corte axial.' },
+    ], right: [
+      { name: 'Tabla 1', table: {
+        title: 'Tabla 1. Sydney frente a ACR/EULAR 2023',
+        colW: [0.30, 0.35, 0.35], pt: 28,
+        header: ['', 'Sydney 2006', 'ACR/EULAR 2023'],
+        rows: [
+          [{ text: 'Dominio clínico', bold: true }, 'Trombosis (infarto esplénico)', 'Trombosis arterial (infarto esplénico)'],
+          [{ text: 'Dominio de laboratorio', bold: true }, 'aCL y aβ2GPI IgM persistentes a 12 semanas', 'IgM aisladas: 1 de los 3 puntos requeridos'],
+          [{ text: '¿Clasifica como SAF?', bold: true }, { text: 'Sí', bold: true, color: '1E7D4F' }, { text: 'No', bold: true, color: 'C8323F' }],
+          [{ text: 'Sensibilidad', bold: true }, '99 %', '84 %'],
+          [{ text: 'Especificidad', bold: true }, '86 %', '99 %'],
+        ],
+        note: 'Sensibilidad y especificidad en la cohorte de validación de los criterios ACR/EULAR 2023 (2). aCL: anticardiolipina; aβ2GPI: anti-β2-glicoproteína I.' } },
+    ] },
     { left: [
       { h: 'Discusión', p: [
-        'Los criterios ACR/EULAR 2023 sacrifican sensibilidad para ganar especificidad y fueron diseñados para clasificar pacientes en estudios, no para el diagnóstico individual (2). Un perfil IgM aislado, persistente y de título alto, con trombosis en un sitio inusual en el contexto de un LES, cumple Sydney (3) y puede justificar la anticoagulación, en línea con las recomendaciones EULAR (4,5).',
+        'Los criterios ACR/EULAR 2023 sacrifican sensibilidad para ganar especificidad y fueron diseñados para clasificar pacientes en estudios, no para el diagnóstico individual (2); la Tabla 1 resume la discordancia en esta paciente. Un perfil IgM aislado, persistente y de título alto, con trombosis en un sitio inusual en el contexto de un LES, cumple Sydney (3) y puede justificar la anticoagulación, en línea con las recomendaciones EULAR (4,5).',
         [['Fortalezas y limitaciones: ', true], 'perfil completo de aPL repetido a las 12 semanas, imagen característica y exclusión de embolia cardíaca y trombosis portal; sin biopsia renal, seguimiento corto y proteinuria nefrótica como posible factor protrombótico.']] },
     ], right: [
       { h: 'Conclusión', hl: true, p: [
