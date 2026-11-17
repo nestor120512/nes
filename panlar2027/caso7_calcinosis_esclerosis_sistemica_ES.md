@@ -30,7 +30,7 @@ En ambas pacientes, el calcio, el fósforo y la creatinina séricos fueron norma
 
 La calcinosis de la ES no es una sola entidad: va desde depósitos acrales de menor extensión hasta conglomerados proximales masivos, que pueden aparecer incluso en la forma cutánea limitada, lejos de la piel engrosada. La inspección cutánea muestra solo una fracción del problema: en la paciente 1, la radiografía reveló un compromiso glúteo, trocantérico y de muslos mucho más extenso que el sugerido por las lesiones visibles. Ante nódulos dolorosos o ulcerados en pacientes con ES, la radiografía simple dirigida, accesible y de bajo costo, permite dimensionar la extensión real de la calcinosis e identificar lesiones asociadas, como la acroosteólisis.
 
-**Total: 2.629 caracteres en español** (lo que cuenta es el inglés: 2.477 / 2.750).
+**Total: 2.629 caracteres en español** (lo que cuenta es el inglés: 2.489 / 2.750).
 
 ---
 
