@@ -21,7 +21,7 @@ const FONT = 'Arial', BLACK = '000000';
 const PRIMARY = C.primary || '1D5C63';   // círculos de íconos, línea de tiempo, bordes
 const TINT = C.tint || 'E3EFEE';         // fondo del encabezado y de mensajes clave
 const CARD = 'FFFFFF', BORDER = 'C9DCDA';
-const PT_T = 44, PT_B = 32, PT_S = 24;
+const PT_T = 44, PT_B = C.bodyPt || 32, PT_S = C.smallPt || 24, PT_R = C.refPt || PT_S;
 const LH = 1.17, PAD = 0.32, HEAD = 0.95, ICON = 0.88;
 
 function lines(text, widthIn, pt, bold) {
@@ -177,7 +177,7 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
   // ---------- Bloques (medir y luego dibujar) ----------
   const X = col => M + col * (COLW + GAP);
   const IW = COLW - 2 * PAD;
-  function runsOf(paras) {
+  function runsOf(paras, IW) {
     const runs = []; let n = 0;
     paras.forEach((p, i) => {
       const parts = Array.isArray(p) ? p : [p];
@@ -187,30 +187,31 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
     });
     return { runs, h: hText(n, PT_B) + (paras.length - 1) * 12 / 72 + 0.1 };
   }
-  function build(b) {
-    const col = b.col, name = b.name || b.h || 'Bloque';
+  function build(b, geo) {
+    const name = b.name || b.h || 'Bloque';
+    const gx = geo ? geo.x : X(b.col), gw = geo ? geo.w : COLW, IW = gw - 2 * PAD;
     if (b.p) {
-      const { runs, h } = runsOf(b.p);
+      const { runs, h } = runsOf(b.p, IW);
       const total = PAD + HEAD + 0.3 + h + PAD;
-      return { h: total, draw: y => { card(X(col), y, COLW, total, name); headRow(X(col) + PAD, y + PAD, IW, b.h, b.h);
-        s.addText(runs, { x: X(col) + PAD, y: y + PAD + HEAD + 0.3, w: IW, h, fontFace: FONT, fontSize: PT_B, color: BLACK, valign: 'top',
+      return { h: total, draw: (y, hh = total) => { card(gx, y, gw, hh, name); headRow(gx + PAD, y + PAD, IW, b.h, b.h);
+        s.addText(runs, { x: gx + PAD, y: y + PAD + HEAD + 0.3, w: IW, h, fontFace: FONT, fontSize: PT_B, color: BLACK, valign: 'top',
           margin: 0, isTextBox: true, objectName: name }); } };
     }
     if (b.key) {
       const n = b.key.reduce((a, t) => a + lines(t, IW - 0.6, PT_B), 0);
       const bh = hText(n, PT_B) + b.key.length * 12 / 72;
       const total = PAD + HEAD + 0.3 + bh + PAD;
-      return { h: total, draw: y => { card(X(col), y, COLW, total, 'Mensajes clave', TINT); headRow(X(col) + PAD, y + PAD, IW, 'Mensajes clave', 'Mensajes clave');
+      return { h: total, draw: (y, hh = total) => { card(gx, y, gw, hh, 'Mensajes clave', TINT); headRow(gx + PAD, y + PAD, IW, 'Mensajes clave', 'Mensajes clave');
         s.addText(b.key.map((t, i) => ({ text: t, options: { bullet: { indent: 32 }, breakLine: i < b.key.length - 1, paraSpaceAfter: 12 } })),
-          { x: X(col) + PAD, y: y + PAD + HEAD + 0.3, w: IW, h: bh, fontFace: FONT, fontSize: PT_B, color: BLACK, valign: 'top', margin: 0,
+          { x: gx + PAD, y: y + PAD + HEAD + 0.3, w: IW, h: bh, fontFace: FONT, fontSize: PT_B, color: BLACK, valign: 'top', margin: 0,
             isTextBox: true, objectName: 'Mensajes clave' }); } };
     }
     if (b.img) {
       const d = sizeOf(b.img); const ih = IW * d.h / d.w; const ch = hText(lines(b.caption, IW, PT_S), PT_S);
       const total = PAD + ih + 0.2 + ch + PAD;
-      return { h: total, draw: y => { card(X(col), y, COLW, total, name);
-        s.addImage({ path: b.img, x: X(col) + PAD, y: y + PAD, w: IW, h: ih, altText: b.caption, objectName: name });
-        s.addText(b.caption, { x: X(col) + PAD, y: y + PAD + ih + 0.2, w: IW, h: ch, fontFace: FONT, fontSize: PT_S, color: BLACK, margin: 0,
+      return { h: total, draw: (y, hh = total) => { card(gx, y, gw, hh, name);
+        s.addImage({ path: b.img, x: gx + PAD, y: y + PAD, w: IW, h: ih, altText: b.caption, objectName: name });
+        s.addText(b.caption, { x: gx + PAD, y: y + PAD + ih + 0.2, w: IW, h: ch, fontFace: FONT, fontSize: PT_S, color: BLACK, margin: 0,
           isTextBox: true, objectName: name + ' leyenda' }); } };
     }
     if (b.table) {
@@ -222,42 +223,44 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
       const th = hText(lines(lbl + '. ' + titleTxt, IW - ICON - 0.3, PT_T, true), PT_T);
       const head = Math.max(HEAD, th);
       const total = PAD + head + 0.3 + tb + 0.2 + nh + PAD;
-      return { h: total, draw: y => { card(X(col), y, COLW, total, name);
-        s.addShape(pres.shapes.OVAL, { x: X(col) + PAD, y: y + PAD + (HEAD - ICON) / 2, w: ICON, h: ICON, fill: { color: PRIMARY }, line: { color: PRIMARY }, objectName: 'Círculo ' + name });
-        s.addImage({ data: icons['Tabla'], x: X(col) + PAD + ICON * 0.24, y: y + PAD + (HEAD - ICON) / 2 + ICON * 0.24, w: ICON * 0.52, h: ICON * 0.52, altText: '', objectName: 'Ícono ' + name });
-        s.addText([{ text: lbl + '. ', options: { bold: true } }, { text: titleTxt, options: { bold: true } }], { x: X(col) + PAD + ICON + 0.3, y: y + PAD, w: IW - ICON - 0.3, h: head,
+      return { h: total, draw: (y, hh = total) => { card(gx, y, gw, hh, name);
+        s.addShape(pres.shapes.OVAL, { x: gx + PAD, y: y + PAD + (HEAD - ICON) / 2, w: ICON, h: ICON, fill: { color: PRIMARY }, line: { color: PRIMARY }, objectName: 'Círculo ' + name });
+        s.addImage({ data: icons['Tabla'], x: gx + PAD + ICON * 0.24, y: y + PAD + (HEAD - ICON) / 2 + ICON * 0.24, w: ICON * 0.52, h: ICON * 0.52, altText: '', objectName: 'Ícono ' + name });
+        s.addText([{ text: lbl + '. ', options: { bold: true } }, { text: titleTxt, options: { bold: true } }], { x: gx + PAD + ICON + 0.3, y: y + PAD, w: IW - ICON - 0.3, h: head,
           fontFace: FONT, fontSize: PT_T, color: BLACK, valign: 'middle', margin: 0, isTextBox: true, objectName: name + ' título' });
-        s.addTable(rows, { x: X(col) + PAD, y: y + PAD + head + 0.3, w: IW, colW: widths, fontFace: FONT, fontSize: pt, color: BLACK, valign: 'middle',
+        s.addTable(rows, { x: gx + PAD, y: y + PAD + head + 0.3, w: IW, colW: widths, fontFace: FONT, fontSize: pt, color: BLACK, valign: 'middle',
           border: { type: 'solid', pt: 1, color: BORDER }, margin: [0.06, 0.1, 0.06, 0.1], objectName: name });
-        if (t.note) s.addText(t.note, { x: X(col) + PAD, y: y + PAD + head + 0.3 + tb + 0.2, w: IW, h: nh, fontFace: FONT, fontSize: PT_S, color: BLACK,
+        if (t.note) s.addText(t.note, { x: gx + PAD, y: y + PAD + head + 0.3 + tb + 0.2, w: IW, h: nh, fontFace: FONT, fontSize: PT_S, color: BLACK,
           margin: 0, isTextBox: true, objectName: name + ' nota' }); } };
     }
     if (b.chart) {
       const c = b.chart, ch = c.h || 6.8, cap = hText(lines(c.caption, IW, PT_S), PT_S);
       const total = PAD + ch + 0.2 + cap + PAD;
-      return { h: total, draw: y => { card(X(col), y, COLW, total, name);
+      return { h: total, draw: (y, hh = total) => { card(gx, y, gw, hh, name);
         s.addChart(pres.charts.LINE, [{ name: c.series, labels: c.labels, values: c.values }], {
-          x: X(col) + PAD, y: y + PAD, w: IW, h: ch, objectName: name, showTitle: true, title: c.title, titleFontFace: FONT, titleFontSize: PT_B,
+          x: gx + PAD, y: y + PAD, w: IW, h: ch, objectName: name, showTitle: true, title: c.title, titleFontFace: FONT, titleFontSize: PT_B,
           titleColor: BLACK, showLegend: false, chartColors: [PRIMARY], lineSize: 4, lineDataSymbol: 'circle', lineDataSymbolSize: 14,
           showValue: true, dataLabelPosition: 't', dataLabelFontSize: 20, dataLabelFontFace: FONT, dataLabelColor: BLACK, dataLabelFormatCode: '#,##0',
           catAxisLabelFontSize: 18, catAxisLabelFontFace: FONT, catAxisLabelColor: BLACK, valAxisLabelFontSize: 18, valAxisLabelFontFace: FONT,
           valAxisLabelColor: BLACK, valAxisLabelFormatCode: '#,##0', valGridLine: { color: 'D9D9D9', size: 1 }, catGridLine: { style: 'none' },
           showValAxisTitle: true, valAxisTitle: c.yTitle, valAxisTitleFontSize: 20, valAxisTitleColor: BLACK, valAxisTitleFontFace: FONT });
-        s.addText(c.caption, { x: X(col) + PAD, y: y + PAD + ch + 0.2, w: IW, h: cap, fontFace: FONT, fontSize: PT_S, color: BLACK, margin: 0,
+        s.addText(c.caption, { x: gx + PAD, y: y + PAD + ch + 0.2, w: IW, h: cap, fontFace: FONT, fontSize: PT_S, color: BLACK, margin: 0,
           isTextBox: true, objectName: name + ' leyenda' }); } };
     }
     throw new Error('bloque sin tipo: ' + JSON.stringify(b).slice(0, 80));
   }
+  const segs = C.segments ? C.segments.map(sg => sg.full ? { full: build(sg.full, { x: M, w: W - 2 * M }) }
+    : { cols: [sg.left.map(b => build(b, { x: X(0), w: COLW })), sg.right.map(b => build(b, { x: X(1), w: COLW }))] }) : null;
   const cols = [[], []];
-  for (const b of C.blocks) cols[b.col].push(build(b));
+  if (!segs) for (const b of C.blocks) cols[b.col].push(build(b));
 
   // ---------- Referencias al pie ----------
   const RW = W - 2 * M, RIW = RW - 2 * PAD, RCW = (RIW - 0.6) / 2;
-  const refL = C.refs.map((r, i) => lines(`${i + 1}. ${r}`, RCW, PT_S));
+  const refL = C.refs.map((r, i) => lines(`${i + 1}. ${r}`, RCW, PT_R));
   const tot = refL.reduce((a, v) => a + v, 0);
   let cut = 0, acc = 0; while (cut < C.refs.length && acc + refL[cut] <= tot / 2 + 1) { acc += refL[cut]; cut++; }
   const halves = [[0, cut], [cut, C.refs.length]];
-  const rh = Math.max(...halves.map(([a, b]) => hText(refL.slice(a, b).reduce((x, v) => x + v, 0), PT_S) + (b - a) * 4 / 72)) + 0.05;
+  const rh = Math.max(...halves.map(([a, b]) => hText(refL.slice(a, b).reduce((x, v) => x + v, 0), PT_R) + (b - a) * 4 / 72)) + 0.05;
   const refH = PAD + HEAD + 0.2 + rh + PAD;
   const refTop = H - M - refH;
   card(M, refTop, RW, refH, 'Referencias');
@@ -265,14 +268,30 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
   halves.forEach(([a, b], k) => {
     const items = C.refs.slice(a, b);
     s.addText(items.map((r, i) => ({ text: `${a + i + 1}. ${r}`, options: { breakLine: i < items.length - 1, paraSpaceAfter: 4 } })),
-      { x: M + PAD + k * (RCW + 0.6), y: refTop + PAD + HEAD + 0.2, w: RCW, h: rh, fontFace: FONT, fontSize: PT_S, color: BLACK, margin: 0,
+      { x: M + PAD + k * (RCW + 0.6), y: refTop + PAD + HEAD + 0.2, w: RCW, h: rh, fontFace: FONT, fontSize: PT_R, color: BLACK, margin: 0,
         valign: 'top', isTextBox: true, objectName: 'Referencias ' + (k + 1) });
   });
 
   // ---------- Reparto vertical ----------
   const avail = refTop - 0.55 - TOP;
   let warn = false;
+  if (segs) {
+    const G = 0.45;
+    const segH = segs.map(sg => sg.full ? sg.full.h : Math.max(...sg.cols.map(c => c.reduce((a, it) => a + it.h, 0) + (c.length - 1) * G)));
+    const used = segH.reduce((a, v) => a + v, 0);
+    const between = Math.min(Math.max((avail - used) / Math.max(segs.length - 1, 1), 0.45), 1.2);
+    console.log('  segmentos: ' + segH.map(v => v.toFixed(1)).join(' / ') + `; usa ${used.toFixed(1)} de ${avail.toFixed(1)} in`);
+    if (used + (segs.length - 1) * 0.45 > avail) { warn = true; console.log('AVISO: el contenido no cabe'); }
+    let yy = TOP;
+    segs.forEach((sg, k) => {
+      if (sg.full) sg.full.draw(yy);
+      else sg.cols.forEach(c => { let y2 = yy; c.forEach((it, i) => { const last = i === c.length - 1;
+        const hh = last ? (yy + segH[k]) - y2 : it.h; it.draw(y2, hh); y2 += it.h + G; }); });
+      yy += segH[k] + between;
+    });
+  }
   cols.forEach((items, ci) => {
+    if (segs) return;
     const used = items.reduce((a, it) => a + it.h, 0);
     const gap = Math.min(Math.max((avail - used) / Math.max(items.length - 1, 1), 0.4), 1.4);
     let yy = TOP;
