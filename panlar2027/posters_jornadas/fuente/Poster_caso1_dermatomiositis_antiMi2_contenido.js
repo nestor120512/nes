@@ -2,12 +2,12 @@ module.exports = {
   title: 'Dermatomiositis juvenil anti-Mi-2 de curso policíclico con respuesta repetida a inmunoglobulina intravenosa: reporte de caso',
   authors: 'Nestor Fabian Sanabria Duarte¹*, José Ángel Salas Siado², Sandra Sofía Sánchez Hernández¹, Juan Camilo Tafur Vidal¹',
   affiliations: '¹Programa de Especialización en Medicina Interna, Universidad Libre, Barranquilla, Colombia. ²Investigación Médica Atlántico (IMA) y Clínica General del Norte, Barranquilla, Colombia. *Expositor',
-  logos: { left: [__dirname + '/../logos/logo_universidad_libre.png'], right: [__dirname + '/../logos/logo_clinica_general_del_norte.png', __dirname + '/../logos/logo_ima_reumatologia.png'] },
-  logoW: 5.6, minTopH: 5.2,
+  logos: { band: [__dirname + '/../logos/logo_universidad_libre.png', __dirname + '/../logos/logo_clinica_general_del_norte.png', __dirname + '/../logos/logo_ima_reumatologia.png'] },
+  logoBand: true, bandH: 2.4, logoH: 1.75,
   keywords: 'dermatomiositis juvenil; anticuerpos anti-Mi-2; inmunoglobulinas intravenosas; miopatía esteroidea; resonancia magnética; disfagia.',
   blocks: [
     { col: 0, h: 'Resumen', p: [
-      'Mujer de 17 años con signo de Gottron, mialgias, debilidad proximal y disfagia, CK de 12.588 U/L y anti-Mi-2α/β positivos; la biopsia mostró miopatía inflamatoria. Ante la respuesta incompleta a glucocorticoides y azatioprina se añadió inmunoglobulina intravenosa (IGIV), con recuperación. En 19 meses tuvo cuatro recaídas; en la última, con fuerza 2/5 e incapacidad para caminar, la CK y la resonancia magnética (RM) orientaron a actividad inflamatoria y no a miopatía esteroidea. La IGIV mensual se asoció con descenso de la CK a 202 U/L, resolución de la disfagia y recuperación de la marcha con apoyo.'] },
+      'Mujer de 17 años con signo de Gottron, mialgias, debilidad proximal y disfagia, CK de 12.588 U/L y anti-Mi-2α/β positivos; la biopsia mostró miopatía inflamatoria. Ante la respuesta incompleta a glucocorticoides y azatioprina se añadió inmunoglobulina intravenosa (IGIV), con recuperación. Tuvo cuatro recaídas en 19 meses; en la última, la CK y la resonancia magnética (RM) orientaron a actividad inflamatoria y no a miopatía esteroidea. La IGIV mensual se asoció con descenso de la CK a 202 U/L, resolución de la disfagia y recuperación de la marcha con apoyo.'] },
     { col: 0, h: 'Introducción', p: [
       'La dermatomiositis juvenil es la miopatía inflamatoria más frecuente en la edad pediátrica. Los autoanticuerpos específicos de miositis definen fenotipos: el anti-Mi-2 se asocia con compromiso cutáneo y muscular prominente, bajo riesgo de enfermedad pulmonar intersticial y buena respuesta al tratamiento.',
       'El manejo se basa en glucocorticoides y un inmunosupresor ahorrador; la IGIV se reserva para enfermedad grave o refractaria.',
@@ -18,12 +18,13 @@ module.exports = {
       [['Antecedentes relevantes: ', true], '[completar].'],
       [['Examen físico: ', true], 'signo de Gottron, fuerza proximal 3/5 y disfagia.'],
       [['Estudios relevantes: ', true], 'CK 12.588 U/L; ANA 1:160; anti-Mi-2α/β positivos; biopsia muscular con miopatía inflamatoria. TC de tórax sin enfermedad pulmonar intersticial.'],
-      [['Diagnósticos diferenciales: ', true], 'superposición con lupus, planteada por ANA 1:1280 y eritema facial y no sustentada (anti-ADNdc y anti-RNP negativos, complemento normal, sin nefritis); en la cuarta recaída, miopatía esteroidea por signos cushingoides.'],
+      [['Diagnósticos diferenciales: ', true], 'superposición con lupus por ANA 1:1280 y eritema facial, no sustentada (anti-ADNdc y anti-RNP negativos, complemento normal, sin nefritis); miopatía esteroidea en la cuarta recaída.'],
       [['Confirmación diagnóstica: ', true], 'dermatomiositis juvenil definida por biopsia, anticuerpo específico y criterios EULAR/ACR 2017 (9,6 puntos).'],
-      [['Tratamiento y evolución: ', true], 'cronología en la Tabla 1 y la Figura 1; en la cuarta recaída, la RM de muslos mostró edema muscular difuso y fascial.']] },
+      [['Tratamiento y evolución: ', true], 'cronología en la Tabla 1; en la cuarta recaída, la RM de muslos mostró edema muscular difuso y fascial.']] },
+    { col: 0, key: ["El fenotipo anti-Mi-2 puede tener un curso grave y policíclico.", "La IGIV es una opción de rescate ante respuesta incompleta a glucocorticoides.", "La CK y la RM ayudan a distinguir la recaída de la miopatía esteroidea."] },
     { col: 1, name: 'Tabla 1', table: {
       title: 'Tabla 1. Evolución clínica y tratamiento',
-      colW: [0.17, 0.43, 0.40], pt: 24,
+      colW: [0.16, 0.43, 0.41], pt: 27,
       header: ['Fecha', 'Hallazgos', 'Tratamiento y respuesta'],
       rows: [
         ['Dic 2024', 'Inicio: signo de Gottron, mialgias, debilidad proximal', '—'],
@@ -35,17 +36,11 @@ module.exports = {
         ['3.er ciclo de IGIV', 'CK 202 U/L, disfagia resuelta, fuerza 4/5, marcha con apoyo', 'Rehabilitación; IGIV hasta completar 6 meses'],
       ],
       note: 'AZA: azatioprina; CK: creatina quinasa; GC: glucocorticoides; IGIV: inmunoglobulina intravenosa; MMF: micofenolato mofetilo; MPIV: metilprednisolona intravenosa; RM: resonancia magnética.' } },
-    { col: 1, name: 'Figura 1', chart: {
-      title: 'Creatina quinasa (U/L) a lo largo de la evolución', series: 'CK (U/L)', yTitle: 'CK (U/L)', h: 6.0,
-      labels: ['Dx ene-25', 'R1 oct-25', 'R2 dic-25', 'Tras MMF', 'R3 may-26', 'R4 ago-26', 'MPIV día 5', 'Rebrote', '3.er IGIV'],
-      values: [12588, 2760, 1399, 393, 11284, 5720, 2073, 3492, 202],
-      caption: 'Figura 1. Evolución de la CK. Dx: diagnóstico; R1-R4: recaídas; MMF: micofenolato; MPIV: metilprednisolona intravenosa; IGIV: inmunoglobulina intravenosa mensual.' } },
     { col: 1, h: 'Discusión', p: [
       [['Fortalezas: ', true], 'confirmación con biopsia, anticuerpo específico y criterios EULAR/ACR; seguimiento seriado con CK y RM, que permitió distinguir actividad inflamatoria de miopatía esteroidea pese a los signos cushingoides.'],
       [['Limitaciones: ', true], 'caso único y retrospectivo; la respuesta no puede atribuirse solo a la IGIV, administrada junto con glucocorticoides; seguimiento corto tras el esquema mensual, sin descenso del glucocorticoide aún.'],
       [['Aporte a la práctica: ', true], 'el fenotipo anti-Mi-2 no garantiza un curso benigno. Las recaídas coincidieron con la suspensión del micofenolato y el descenso del glucocorticoide, lo que apoya descensos lentos y mantener el ahorrador. En línea con las recomendaciones de manejo de la dermatomiositis juvenil, la IGIV es una opción de rescate ante respuesta incompleta.']] },
-    { col: 1, key: ["El fenotipo anti-Mi-2 puede tener un curso grave y policíclico.", "La IGIV es una opción de rescate ante respuesta incompleta a glucocorticoides.", "La CK y la RM ayudan a distinguir la recaída de la miopatía esteroidea."] },
-    { col: 0, h: 'Conclusión', p: [
+    { col: 1, h: 'Conclusión', p: [
       'El fenotipo anti-Mi-2 no excluye un curso grave y policíclico. La adición de IGIV ante respuesta incompleta a glucocorticoides se asoció en dos ocasiones con mejoría clínica. Ante nueva debilidad con exposición prolongada a esteroides, la CK y la RM ayudan a distinguir la actividad inflamatoria de la miopatía esteroidea.',
       [['Consideraciones éticas: ', true], 'se obtuvo consentimiento informado de la paciente.']] },
   ],

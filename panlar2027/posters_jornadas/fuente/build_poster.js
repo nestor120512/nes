@@ -72,18 +72,29 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
   };
 
   // ---------- Encabezado ----------
-  const LOGO = C.logos ? (C.logoW || 6.2) : 3.4;
+  const BAND = !!(C.logos && C.logoBand);
+  const LOGO = BAND ? -0.9 : (C.logos ? (C.logoW || 6.2) : 3.4);
   const hx = M, hw = W - 2 * M, tx = hx + LOGO + 0.9, tw = hw - 2 * (LOGO + 0.9);
   const tl = lines(C.title, tw, PT_T, true);
   const al = lines(C.authors, tw, PT_B), fl = lines(C.affiliations, tw, PT_S);
   const pillH = 0.75;
   const kwW = hw - 1.0, kwTxt = 'Palabras clave: ' + C.keywords, kl = lines(kwTxt, kwW, PT_B);
-  let topH = 0.5 + pillH + 0.3 + hText(tl, PT_T) + 0.3 + hText(al, PT_B) + 0.12 + hText(fl, PT_S) + 0.4;
+  const bandH = BAND ? (C.bandH || 2.6) : 0;
+  let topH = (BAND ? 0.3 + bandH + 0.45 : 0.5) + pillH + 0.3 + hText(tl, PT_T) + 0.3 + hText(al, PT_B) + 0.12 + hText(fl, PT_S) + 0.4;
   if (C.logos && C.minTopH) topH = Math.max(topH, C.minTopH);
   const headerH = topH + hText(kl, PT_B) + 0.5;
   s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: hx, y: M, w: hw, h: headerH, rectRadius: 0.35, fill: { color: TINT }, line: { color: TINT },
     objectName: 'Fondo encabezado' });
-  if (C.logos) {
+  if (BAND) {
+    s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: hx + 0.3, y: M + 0.3, w: hw - 0.6, h: bandH, rectRadius: 0.25, fill: { color: 'FFFFFF' },
+      line: { color: BORDER, width: 1 }, objectName: 'Franja de logos' });
+    const files = C.logos.band, lh = C.logoH || 1.8, inner = hw - 0.6 - 2 * 1.0;
+    const dims = files.map(f => { const d = sizeOf(f); return { f, w: lh * d.w / d.h, h: lh }; });
+    const free = inner - dims.reduce((a, d) => a + d.w, 0), step = free / Math.max(dims.length - 1, 1);
+    let lx = hx + 0.3 + 1.0;
+    dims.forEach((d, k) => { s.addImage({ path: d.f, x: lx, y: M + 0.3 + (bandH - d.h) / 2, w: d.w, h: d.h,
+      altText: path.basename(d.f, '.png').replace(/_/g, ' '), objectName: 'Logo ' + (k + 1) }); lx += d.w + step; });
+  } else if (C.logos) {
     // Logos reales: un panel blanco por lado, con los logos apilados y centrados
     [['left', hx + 0.45], ['right', hx + hw - 0.45 - LOGO]].forEach(([side, lx]) => {
       const files = C.logos[side] || []; if (!files.length) return;
@@ -106,7 +117,7 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
       align: 'center', valign: 'middle', margin: 0, isTextBox: true, objectName: 'Texto logo ' + (i + 1) });
   }
   }
-  let y = M + 0.5;
+  let y = M + (BAND ? 0.3 + bandH + 0.45 : 0.5);
   const pillW = C.label && C.label.length > 16 ? 7.2 : 5.6;
   s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: tx + (tw - pillW) / 2, y, w: pillW, h: pillH, rectRadius: 0.37, fill: { color: 'FFFFFF' },
     line: { color: PRIMARY, width: 2 }, objectName: 'Etiqueta tipo' });
