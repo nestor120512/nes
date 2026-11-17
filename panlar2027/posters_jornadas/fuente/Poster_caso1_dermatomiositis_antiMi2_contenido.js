@@ -5,7 +5,7 @@ module.exports = {
   affiliations: '¹Programa de Especialización en Medicina Interna, Universidad Libre, Barranquilla, Colombia. ²Investigación Médica Atlántico (IMA) y Clínica General del Norte, Barranquilla, Colombia. *Expositor',
   logos: { band: [__dirname + '/../logos/logo_clinica_general_del_norte.png', __dirname + '/../logos/logo_universidad_libre.png', __dirname + '/../logos/logo_ima_reumatologia.png'] },
   logoBand: true, bandH: 2.4, logoH: 1.75,
-  bodyPt: 28, refPt: 22, justify: true,
+  bodyPt: 30, refPt: 22, justify: true,
   keywords: 'dermatomiositis juvenil; anticuerpos anti-Mi-2; inmunoglobulinas intravenosas; disfagia; miopatía esteroidea; resonancia magnética.',
   segments: [
     { left: [
