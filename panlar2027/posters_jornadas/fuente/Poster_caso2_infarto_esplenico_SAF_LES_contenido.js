@@ -17,19 +17,19 @@ module.exports = {
         'Mujer de 63 años con lupus eritematoso sistémico (LES) de inicio tardío y anticardiolipina (aCL) y anti-β2-glicoproteína I (aβ2GPI) IgM persistentes, que reingresó con pancitopenia, serositis, proteinuria en rango nefrótico e infarto esplénico en la tomografía. Cumplía los criterios de Sydney, pero no los ACR/EULAR 2023, por sumar solo 1 punto de laboratorio. Se consideró un síndrome antifosfolípido (SAF) clínico secundario a LES y se anticoaguló con warfarina, con recuperación hematológica.'] },
       { h: 'Introducción', p: [
         'El SAF se asocia con frecuencia al LES y empeora su pronóstico (1). Los criterios ACR/EULAR 2023 ponderan los anticuerpos antifosfolípidos (aPL) por isotipo: la aCL y la aβ2GPI IgM aisladas suman solo 1 de los 3 puntos de laboratorio requeridos (2), mientras que los criterios de Sydney las aceptan (3). Tras una trombosis, las recomendaciones EULAR indican anticoagulación con antagonistas de la vitamina K (4).',
-        'El infarto esplénico es raro en el SAF: se describe en el 1,1-1,8 % de los pacientes, con frecuencia en el contexto de un SAF catastrófico, y rara vez como manifestación trombótica inicial (5). Obliga a descartar embolia de origen cardíaco, trombosis portal, enfermedades hematológicas y otros estados de hipercoagulabilidad.',
-        [['Aporte del caso: ', true], 'una trombosis en sitio inusual que muestra la discordancia entre ambos sistemas y recuerda que los criterios de clasificación no son diagnósticos.']] },
+        'El infarto esplénico es raro en el SAF: se describe en el 1,1-1,8 % de los pacientes, con frecuencia en el contexto de un SAF catastrófico, y rara vez como manifestación trombótica inicial (5). Obliga a descartar embolia cardíaca, trombosis portal y otros estados de hipercoagulabilidad.',
+        [['Aporte del caso: ', true], 'una trombosis en sitio inusual que muestra la discordancia entre ambos sistemas de criterios.']] },
     ], right: [
       { h: 'Información del caso', p: [
         [['Datos demográficos y motivo de consulta: ', true], 'mujer de 63 años que reingresó en septiembre de 2026 por pancitopenia.'],
-        [['Antecedentes relevantes: ', true], 'LES diagnosticado en julio de 2026, con debut por pancitopenia, tratado con pulsos de metilprednisolona, prednisolona y azatioprina. Perfil inicial de aPL: aCL IgM 69,38 U/mL y aβ2GPI IgM >200 UR/mL, con aCL y aβ2GPI IgG y anticoagulante lúpico negativos.'],
+        [['Antecedentes relevantes: ', true], 'LES diagnosticado en julio de 2026, con debut por pancitopenia, tratado con metilprednisolona y azatioprina. Perfil inicial de aPL: aCL IgM 69,38 U/mL y aβ2GPI IgM >200 UR/mL, con aCL y aβ2GPI IgG y anticoagulante lúpico negativos.'],
         [['Examen físico: ', true], 'livedo reticularis y ascitis.'],
         [['Estudios relevantes: ', true], 'hemoglobina 8,6 g/dL y plaquetas 46.000/µL, sin esquistocitos; Coombs directo positivo; proteinuria de 3,8 g/24 h; C3 52 mg/dL y C4 <2,9 mg/dL. La tomografía abdominal mostró una lesión periférica en cuña en el polo inferior del bazo, compatible con infarto esplénico (Figura 1).'],
         [['Diagnósticos diferenciales: ', true], 'embolia cardíaca (ritmo sinusal, ecocardiograma normal), trombosis o hipertensión portal (Doppler normal) y microangiopatía trombótica (sin esquistocitos).'],
         [['Confirmación diagnóstica: ', true], 'a las 12 semanas persistió la doble positividad IgM (aCL 80 U/mL; aβ2GPI en título alto), con anticoagulante lúpico negativo: cumplía Sydney, pero no ACR/EULAR 2023, al sumar solo 1 de los 3 puntos de laboratorio. Se consideró un SAF clínico secundario a LES.'],
-        [['Tratamiento y evolución: ', true], 'nuevos pulsos de metilprednisolona, hidroxicloroquina y micofenolato mofetilo por nefritis lúpica presunta (la paciente no aceptó la biopsia). Con plaquetas de 127.000/µL se inició enoxaparina 1 mg/kg como puente a warfarina (INR 2-3). A las 2 semanas: plaquetas 239.000/µL y hemoglobina 10,0 g/dL.']] },
+        [['Tratamiento y evolución: ', true], 'pulsos de metilprednisolona, hidroxicloroquina y micofenolato por nefritis lúpica presunta (biopsia rechazada). Con plaquetas de 127.000/µL, enoxaparina como puente a warfarina (INR 2-3); a las 2 semanas, plaquetas 239.000/µL y hemoglobina 10,0 g/dL.']] },
     ] },
-    { split: 0.56, left: [
+    { split: 0.53, left: [
       { name: 'Figura 1', img: P + 'caso2_figura1_TC_infarto_esplenico.png',
         caption: 'Figura 1. Tomografía abdominal con contraste: área hipodensa periférica en el bazo (flechas amarillas), compatible con infarto esplénico. Ascitis perihepática. (A) Corte coronal; (B) corte axial.' },
     ], right: [
@@ -48,13 +48,13 @@ module.exports = {
     ] },
     { left: [
       { h: 'Discusión', p: [
-        'Los criterios ACR/EULAR 2023 sacrifican sensibilidad para ganar especificidad y fueron diseñados para clasificar pacientes en estudios, no para el diagnóstico individual (2); la Tabla 1 resume la discordancia en esta paciente. Un perfil IgM aislado, persistente y de título alto, con trombosis en un sitio inusual en el contexto de un LES, cumple Sydney (3) y puede justificar la anticoagulación, en línea con las recomendaciones EULAR (4,6).',
-        [['Fortalezas y limitaciones: ', true], 'perfil de aPL repetido a las 12 semanas, imagen característica y exclusión de embolia y trombosis portal; sin biopsia renal, con seguimiento corto y proteinuria nefrótica como factor protrombótico.']] },
+        'En el LES, los aPL son frecuentes y se asocian con mayor riesgo trombótico, por lo que las recomendaciones EULAR indican buscarlos desde el diagnóstico (1,6). En esta paciente, la doble positividad IgM persistente y de título alto, junto con un infarto esplénico sin causa embólica ni portal, orientó a un SAF secundario al LES y no a una complicación atribuible solo a la actividad lúpica.',
+        'ACR/EULAR 2023 asigna poco peso a la IgM y fue diseñado para clasificar, no para diagnosticar (2) (Tabla 1); por ello se anticoaguló con antagonista de la vitamina K, como recomienda EULAR (4).',
+        [['Fortalezas y limitaciones: ', true], 'aPL repetidos a las 12 semanas y exclusión de embolia y trombosis portal; sin biopsia renal y con seguimiento corto.']] },
     ], right: [
       { h: 'Conclusión', hl: true, p: [
-        'No cumplir los criterios ACR/EULAR 2023 no excluye el diagnóstico clínico de SAF ni debe retrasar la anticoagulación.',
-        'Los aPL IgM aislados, persistentes y de título alto pueden acompañar a una trombosis en un sitio inusual en el LES.',
-        'La decisión terapéutica debe integrar el evento trombótico, el perfil de aPL, los factores de riesgo alternativos y el riesgo hemorrágico.',
+        'Este caso ilustra la discordancia entre ambos sistemas: un perfil IgM aislado, persistente y de títulos altos, con trombosis en un sitio inusual en el contexto de un LES, cumple Sydney pero no ACR/EULAR 2023, que sacrifican sensibilidad para ganar especificidad.',
+        'Los criterios de clasificación no sustituyen el juicio clínico: la decisión terapéutica debe integrar el evento trombótico, el perfil de aPL, los factores de riesgo alternativos y el riesgo hemorrágico.',
         [['Consideraciones éticas: ', true], 'se obtuvo consentimiento informado de la paciente.']] },
     ] },
   ],
