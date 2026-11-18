@@ -17,7 +17,7 @@ module.exports = {
         'Mujer de 63 años con lupus eritematoso sistémico (LES) de inicio tardío y anticardiolipina (aCL) y anti-β2-glicoproteína I (aβ2GPI) IgM persistentes, que reingresó con pancitopenia, serositis, proteinuria en rango nefrótico e infarto esplénico en la tomografía. Cumplía los criterios de Sydney, pero no los ACR/EULAR 2023, por sumar solo 1 punto de laboratorio. Se consideró un síndrome antifosfolípido (SAF) clínico secundario a LES y se anticoaguló con warfarina, con recuperación hematológica.'] },
       { h: 'Introducción', p: [
         'El SAF se asocia con frecuencia al LES y empeora su pronóstico (1). Los criterios ACR/EULAR 2023 ponderan los anticuerpos antifosfolípidos (aPL) por isotipo: la aCL y la aβ2GPI IgM aisladas suman solo 1 de los 3 puntos de laboratorio requeridos (2), mientras que los criterios de Sydney las aceptan (3). Tras una trombosis, las recomendaciones EULAR indican anticoagulación con antagonistas de la vitamina K (4).',
-        'El infarto esplénico es raro en el SAF: se describe en el 1,1-1,8 % de los pacientes, con frecuencia en el contexto de un SAF catastrófico, y rara vez como manifestación trombótica inicial (5). Obliga a descartar embolia cardíaca, trombosis portal y otros estados de hipercoagulabilidad.',
+        'El infarto esplénico es raro en el SAF: se describe en el 1,1-1,8 % de los pacientes, con frecuencia en el contexto de un SAF catastrófico (5). Obliga a descartar embolia cardíaca, trombosis portal y otros estados de hipercoagulabilidad.',
         [['Aporte del caso: ', true], 'una trombosis en sitio inusual que muestra la discordancia entre ambos sistemas de criterios.']] },
     ], right: [
       { h: 'Información del caso', p: [
