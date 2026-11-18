@@ -45,7 +45,7 @@ module.exports = {
         'Antes de inmunosuprimir es obligatorio excluir una causa infecciosa, porque la escleritis infecciosa empeora con glucocorticoides. Descartadas la infección y la enfermedad sistémica, la decisión de inmunosuprimir depende de la gravedad ocular y no de cumplir criterios de clasificación (4,5).',
         'Los glucocorticoides solos rara vez controlan la escleritis necrosante y suele requerirse un inmunosupresor (4). La ciclofosfamida, el rituximab y los anti-TNF se describen sobre todo en escleritis asociada a artritis reumatoide o vasculitis (5); sin un diagnóstico sistémico que oriente, escalar a estas terapias es una decisión empírica, guiada por la amenaza para el órgano. Como la escleritis puede preceder a la enfermedad sistémica, se requiere seguimiento reumatológico prolongado (3).',
         [['Fortalezas: ', true], 'estudio sistémico, inmunológico e infeccioso amplio antes de inmunosuprimir; decisión documentada y compartida; globo preservado hasta la cirugía.'],
-        [['Limitaciones: ', true], 'progresión del adelgazamiento con el tratamiento y seguimiento aún corto.']] },
+        [['Limitaciones: ', true], 'seguimiento aún corto para detectar una enfermedad sistémica emergente.']] },
     ] },
   ],
   refs: [
