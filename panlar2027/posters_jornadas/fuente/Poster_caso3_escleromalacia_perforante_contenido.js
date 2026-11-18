@@ -28,7 +28,7 @@ module.exports = {
         [['Examen físico: ', true], 'destrucción corneoescleral extensa con herniación uveal e iridiana, sin dolor (Figura 1). Sin artritis ni compromiso otorrinolaringológico.'],
         [['Estudios relevantes: ', true], 'factor reumatoide limítrofe (14,8) con anti-CCP negativo; ANA, anti-ADNdc, antígenos nucleares extraíbles, anticentrómero y ANCA anti-PR3/MPO negativos; complemento normal. Tuberculina, TC de tórax y serologías para sífilis y hepatitis B y C negativas.'],
         [['Diagnósticos diferenciales: ', true], 'artritis reumatoide (sin artritis, anti-CCP negativo), granulomatosis con poliangeítis (ANCA negativos), lupus (ANA negativos), escleritis infecciosa (tuberculosis, sífilis y herpes zóster descartados) y escleritis posquirúrgica o traumática.'],
-        [['Confirmación diagnóstica: ', true], 'diagnóstico clínico oftalmológico; biopsia escleral tomada en la cirugía, con histopatología pendiente.']] },
+        [['Confirmación diagnóstica: ', true], 'diagnóstico clínico oftalmológico, tras excluir causas sistémicas, infecciosas, quirúrgicas y traumáticas.']] },
     ] },
     { left: [
       { h: 'Tratamiento y evolución', p: [
@@ -44,7 +44,7 @@ module.exports = {
         'Antes de inmunosuprimir es obligatorio excluir una causa infecciosa, porque la escleritis infecciosa empeora con glucocorticoides. Descartadas la infección y la enfermedad sistémica, la decisión de inmunosuprimir depende de la gravedad ocular y no de cumplir criterios de clasificación (4,5).',
         'Los glucocorticoides solos rara vez controlan la escleritis necrosante y suele requerirse un inmunosupresor (4). La ciclofosfamida, el rituximab y los anti-TNF se describen sobre todo en escleritis asociada a artritis reumatoide o vasculitis (5); sin un diagnóstico sistémico que oriente, escalar a estas terapias es una decisión empírica, guiada por la amenaza para el órgano. Como la escleritis puede preceder a la enfermedad sistémica, se requiere seguimiento reumatológico prolongado (3).',
         [['Fortalezas: ', true], 'estudio sistémico, inmunológico e infeccioso amplio antes de inmunosuprimir; decisión documentada y compartida; globo preservado hasta la cirugía.'],
-        [['Limitaciones: ', true], 'histopatología pendiente, progresión del adelgazamiento con el tratamiento y seguimiento aún corto.']] },
+        [['Limitaciones: ', true], 'progresión del adelgazamiento con el tratamiento y seguimiento aún corto.']] },
     ] },
   ],
   refs: [
