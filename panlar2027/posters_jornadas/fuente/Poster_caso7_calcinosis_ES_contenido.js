@@ -8,7 +8,7 @@ module.exports = {
   affiliations: '¹Investigación Médica Atlántico (IMA) y Clínica General del Norte, Barranquilla, Colombia. ²Programa de Especialización en Medicina Interna, Universidad Libre, Barranquilla, Colombia. ³Internado Médico, Fundación Universitaria San Martín, Barranquilla, Colombia. *Expositor',
   logos: { band: [L + 'logo_clinica_general_del_norte.png', L + 'logo_universidad_libre.png', L + 'logo_fundacion_san_martin.png', L + 'logo_ima_reumatologia.png'] },
   logoBand: true, bandH: 2.1, logoH: 1.5,
-  bodyPt: 29, refPt: 22, justify: true,
+  bodyPt: 30, refPt: 22, justify: true,
   primary: '1F3D7A', accent: '2E9C8A', tint: 'E7F3F0', border: 'BCCBE0',
   titleColor: '1F3D7A', titlePt: 54, bandHeads: true,
   keywords: 'esclerosis sistémica; esclerodermia limitada; calcinosis; calcinosis cutis; radiografía; acroosteólisis.',
@@ -29,26 +29,23 @@ module.exports = {
         [['Confirmación diagnóstica: ', true], 'calcinosis distrófica, por la imagen radiológica y el estudio metabólico normal.']] },
     ] },
     { split: 0.546, left: [
-      { name: 'Figura 1', img: P + 'caso7_figura1_paciente1.jpg', maxH: 6.5,
+      { name: 'Figura 1', img: P + 'caso7_figura1_paciente1.jpg', maxH: 7.6,
         caption: 'Figura 1. Paciente 1, calcinosis masiva de partes blandas. (A) Radiografía de pelvis: calcinosis bilateral en región glútea, caderas y muslos. (B) Nódulos subcutáneos de calcinosis en flanco, algunos ulcerados con salida de material blanquecino.' },
     ], right: [
-      { name: 'Figura 2', img: P + 'caso7_figura2_paciente2.jpg', maxH: 6.5,
+      { name: 'Figura 2', img: P + 'caso7_figura2_paciente2.jpg', maxH: 7.6,
         caption: 'Figura 2. Paciente 2, calcinosis acral. (A) Calcinosis puntiforme en los pulpejos (flechas). Radiografías de ambas manos en proyección posteroanterior (B) y oblicua (C): calcificaciones de partes blandas y acroosteólisis.' },
     ] },
     { left: [
-      { h: 'Manejo', p: [
-        [['Paciente 1: ', true], 'colchicina y metotrexato, con extracciones quirúrgicas previas de calcificaciones.'],
-        [['Paciente 2: ', true], 'nifedipino, sildenafil, metotrexato, azatioprina y prednisolona; se indicó rituximab por compromiso cutáneo, úlceras digitales y calcinosis.']] },
-      { h: 'Conclusión', hl: true, p: [
-        'La calcinosis de la ES va desde depósitos acrales de menor extensión hasta conglomerados proximales masivos, que pueden aparecer incluso en la forma cutánea limitada, lejos de la piel engrosada. En la paciente 1, la radiografía delimitó una extensión mucho mayor que la sugerida por la inspección cutánea.',
-        'Ante nódulos dolorosos o ulcerados en pacientes con ES, la radiografía simple dirigida, accesible y de bajo costo, permite dimensionar la extensión real de la calcinosis e identificar lesiones asociadas, como la acroosteólisis.',
-        [['Consideraciones éticas: ', true], 'consentimiento informado de ambas pacientes.']] },
-    ], right: [
       { h: 'Discusión', p: [
         'La calcinosis de la ES es distrófica: se deposita sobre tejido dañado, con calcio y fósforo normales, y se relaciona con la hipoxia crónica y la vasculopatía digital (3). Por eso se asocia con úlceras digitales (1) y con acroosteólisis (2), como en la paciente 2.',
         'El subtipo cutáneo limitado se define por la extensión del engrosamiento de la piel y no por la localización de la calcinosis (4). La paciente 1 muestra que los depósitos masivos pueden aparecer en regiones proximales, lejos de la piel engrosada, y que la inspección cutánea subestima una extensión que solo la radiografía permitió dimensionar.',
         [['Fortalezas: ', true], 'correlación entre fotografía clínica y radiografía; estudio metabólico que clasifica la calcinosis como distrófica.'],
         [['Limitaciones: ', true], 'dos casos retrospectivos; sin tomografía, ecografía ni análisis del material extraído.']] },
+    ], right: [
+      { h: 'Conclusión', hl: true, p: [
+        'La calcinosis de la ES va desde depósitos acrales de menor extensión hasta conglomerados proximales masivos, que pueden aparecer incluso en la forma cutánea limitada, lejos de la piel engrosada. En la paciente 1, la radiografía delimitó una extensión mucho mayor que la sugerida por la inspección cutánea.',
+        'Ante nódulos dolorosos o ulcerados en pacientes con ES, la radiografía simple dirigida, accesible y de bajo costo, permite dimensionar la extensión real de la calcinosis e identificar lesiones asociadas, como la acroosteólisis.',
+        [['Consideraciones éticas: ', true], 'se obtuvo consentimiento informado firmado de ambas pacientes, incluidas las fotografías.']] },
     ] },
   ],
   refs: [
