@@ -19,7 +19,7 @@ module.exports = {
         'Mujer de 71 años sin enfermedad autoinmune conocida, con destrucción corneoescleral extensa y herniación uveal del ojo derecho por escleromalacia perforante. El estudio inmunológico e infeccioso fue negativo. Ante la amenaza para el órgano recibió pulsos de metilprednisolona, prednisona y azatioprina, en una decisión compartida con oftalmología. El globo se mantuvo sin perforación hasta un parche esclerocorneal tectónico, y el ojo izquierdo permanece sin compromiso.'] },
       { h: 'Introducción', p: [
         'La escleromalacia perforante es una escleritis anterior necrosante sin inflamación (1). Es rara y se asocia clásicamente con artritis reumatoide de larga evolución; también se ha descrito en granulomatosis con poliangeítis, policondritis recidivante y enfermedad de Behçet (2,3). La escleritis necrosante requiere inmunosupresión sistémica (4).',
-        [['Aporte del caso: ', true], 'sin enfermedad sistémica identificable, el reumatólogo debe indicar y mantener la inmunosupresión sin diagnóstico ni criterios de clasificación. Este caso muestra cómo resolver ese dilema guiándose por la amenaza para el órgano.']] },
+        [['Aporte del caso: ', true], 'sin enfermedad sistémica identificable, el reumatólogo debe indicar y mantener la inmunosupresión sin diagnóstico ni criterios de clasificación para una enfermedad definida. Este caso muestra cómo resolver ese dilema guiándose por la amenaza para el órgano.']] },
     ], right: [
       { h: 'Información del caso', p: [
         [['Datos demográficos y motivo de consulta: ', true], 'mujer de 71 años que ingresó en junio de 2026 por pérdida visual del ojo derecho (cuenta dedos) con destrucción corneoescleral.'],
@@ -36,13 +36,13 @@ module.exports = {
         'La junta de oftalmología estimó un compromiso del 60-70 % de la pared ocular; con reumatología se mantuvo la inmunosupresión para preservar el globo y proteger el ojo izquierdo, pese a que en octubre aumentaron el adelgazamiento y la herniación iridiana.',
         'El 3 de noviembre de 2026 se colocó un parche esclerocorneal tectónico con membrana amniótica y tarsorrafia temporal, sin perforación previa. El ojo izquierdo, operado de catarata en octubre, se mantiene sin compromiso escleral.'] },
       { h: 'Conclusión', hl: true, p: [
-        'La escleromalacia perforante grave puede presentarse sin enfermedad autoinmune sistémica identificable, y no cumplir criterios de clasificación no excluye un proceso ocular inmunomediado.',
+        'La escleromalacia perforante grave puede presentarse sin enfermedad autoinmune sistémica identificable, y no cumplir criterios de clasificación para una enfermedad definida no excluye un proceso ocular inmunomediado.',
         'Este caso ilustra la necesidad de individualizar la inmunosupresión según la gravedad ocular, con decisiones compartidas entre oftalmología y reumatología, exclusión razonable de infección y seguimiento para detectar enfermedad sistémica emergente y toxicidad.',
         [['Consideraciones éticas: ', true], 'consentimiento informado firmado, incluidas las fotos.']] },
     ], right: [
       { h: 'Discusión', p: [
         'La escleritis necrosante es la forma más grave de escleritis y la que con mayor frecuencia se asocia con enfermedad sistémica (2,3). La escleromalacia perforante es indolora y progresa de forma insidiosa, por lo que suele diagnosticarse tarde (1), como en esta paciente, que consultó con destrucción establecida tras abandonar el seguimiento.',
-        'Antes de inmunosuprimir es obligatorio excluir una causa infecciosa, porque la escleritis infecciosa empeora con glucocorticoides. Descartadas la infección y la enfermedad sistémica, la decisión de inmunosuprimir depende de la gravedad ocular y no de cumplir criterios de clasificación (4,5).',
+        'Antes de inmunosuprimir es obligatorio excluir una causa infecciosa, porque la escleritis infecciosa empeora con glucocorticoides. Descartadas la infección y la enfermedad sistémica, la decisión de inmunosuprimir depende de la gravedad ocular y no de cumplir criterios de clasificación para una enfermedad definida (4,5).',
         'Los glucocorticoides solos rara vez controlan la escleritis necrosante y suele requerirse un inmunosupresor (4). La ciclofosfamida, el rituximab y los anti-TNF se describen sobre todo en escleritis asociada a artritis reumatoide o vasculitis (5); sin un diagnóstico sistémico que oriente, escalar a estas terapias es una decisión empírica, guiada por la amenaza para el órgano. Como la escleritis puede preceder a la enfermedad sistémica, se requiere seguimiento reumatológico prolongado (3).',
         [['Fortalezas: ', true], 'estudio sistémico, inmunológico e infeccioso amplio antes de inmunosuprimir; decisión documentada y compartida; globo preservado hasta la cirugía.'],
         [['Limitaciones: ', true], 'seguimiento aún corto para detectar una enfermedad sistémica emergente.']] },
