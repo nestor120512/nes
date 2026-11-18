@@ -12,7 +12,7 @@ module.exports = {
   titleColor: '1F3D7A', titlePt: 54, bandHeads: true,
   keywords: 'escleritis; escleromalacia perforante; inmunosupresores; azatioprina; glucocorticoides; grupo de atención al paciente.',
   segments: [
-    { full: { name: 'Figura 1', img: P + 'caso3_figura1_escleromalacia_3paneles.jpg', maxH: 4.75,
+    { full: { name: 'Figura 1', img: P + 'caso3_figura1_escleromalacia_3paneles.jpg', maxH: 4.3,
       caption: 'Figura 1. Ojo derecho con escleromalacia perforante. (A) Al ingreso, destrucción corneoescleral extensa con herniación de tejido uveal. (B) Ocho días después. (C) Tres meses después, con prednisona y azatioprina, en espera del parche esclerocorneal. Flechas: tejido uveal herniado.' } },
     { left: [
       { h: 'Resumen', p: [
@@ -32,9 +32,9 @@ module.exports = {
     ] },
     { left: [
       { h: 'Tratamiento y evolución', p: [
-        'Oftalmología la remitió a urgencias por la escleromalacia perforante; por el riesgo para el órgano se inició metilprednisolona IV 500 mg/día por 5 días, luego prednisona en descenso y azatioprina como ahorrador, por la edad y el riesgo de toxicidad.',
-        'La junta de oftalmología estimó un compromiso del 60-70 % de la pared ocular; con reumatología se mantuvo la inmunosupresión para preservar el globo y proteger el ojo izquierdo, pese a la progresión en octubre.',
-        'El 3 de noviembre de 2026 se colocó un parche esclerocorneal tectónico con membrana amniótica y tarsorrafia temporal, sin perforación previa. El ojo izquierdo, operado de catarata en octubre, se mantiene sin compromiso escleral.'] },
+        'Oftalmología la remitió a urgencias por la escleromalacia perforante; por el riesgo para el órgano recibió metilprednisolona IV 500 mg/día por 5 días, prednisona en descenso y azatioprina como ahorrador, por la edad y la toxicidad.',
+        'Se mantuvo la inmunosupresión mientras se buscaba una etiología autoinmune, sin características clínicas ni paraclínicas de enfermedad autoinmune sistémica. Durante el seguimiento, la junta de oftalmología estimó un compromiso del 60-70 % de la pared ocular y, junto con reumatología, se decidió continuarla para preservar el globo y proteger el ojo izquierdo, pese a la progresión en octubre.',
+        'El 3 de noviembre de 2026 se colocó un parche esclerocorneal tectónico, sin perforación previa. El ojo izquierdo, operado de catarata en octubre, se mantiene sin compromiso escleral.'] },
       { h: 'Conclusión', hl: true, p: [
         'La escleromalacia perforante grave puede presentarse sin enfermedad autoinmune sistémica identificable, y no cumplir criterios de clasificación para una enfermedad definida no excluye un proceso ocular inmunomediado.',
         'Este caso ilustra la necesidad de individualizar la inmunosupresión según la gravedad ocular, con decisiones compartidas entre oftalmología y reumatología, exclusión razonable de infección y seguimiento para detectar enfermedad sistémica emergente y toxicidad.',
