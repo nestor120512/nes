@@ -32,8 +32,8 @@ module.exports = {
     ] },
     { left: [
       { h: 'Tratamiento y evolución', p: [
-        'Sin diagnóstico sistémico, la indicación se basó en la amenaza para el órgano: metilprednisolona IV 500 mg/día por 5 días, prednisona en descenso y azatioprina como ahorrador, elegida por la edad y el riesgo de toxicidad.',
-        'La junta de oftalmología estimó un compromiso del 60-70 % de la pared ocular; con reumatología se mantuvo la inmunosupresión para preservar el globo y proteger el ojo izquierdo, pese a que en octubre aumentaron el adelgazamiento y la herniación iridiana.',
+        'Oftalmología la remitió a urgencias por la escleromalacia perforante; por el riesgo para el órgano se inició metilprednisolona IV 500 mg/día por 5 días, luego prednisona en descenso y azatioprina como ahorrador, por la edad y el riesgo de toxicidad.',
+        'La junta de oftalmología estimó un compromiso del 60-70 % de la pared ocular; con reumatología se mantuvo la inmunosupresión para preservar el globo y proteger el ojo izquierdo, pese a la progresión en octubre.',
         'El 3 de noviembre de 2026 se colocó un parche esclerocorneal tectónico con membrana amniótica y tarsorrafia temporal, sin perforación previa. El ojo izquierdo, operado de catarata en octubre, se mantiene sin compromiso escleral.'] },
       { h: 'Conclusión', hl: true, p: [
         'La escleromalacia perforante grave puede presentarse sin enfermedad autoinmune sistémica identificable, y no cumplir criterios de clasificación para una enfermedad definida no excluye un proceso ocular inmunomediado.',
