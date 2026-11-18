@@ -7,12 +7,12 @@ module.exports = {
   affiliations: '¹Programa de Especialización en Medicina Interna, Universidad Libre, Barranquilla, Colombia. ²Investigación Médica Atlántico (IMA) y Clínica General del Norte, Barranquilla, Colombia. *Expositora',
   logos: { band: [L + 'logo_clinica_general_del_norte.png', L + 'logo_universidad_libre.png', L + 'logo_ima_reumatologia.png'] },
   logoBand: true, bandH: 2.1, logoH: 1.6,
-  bodyPt: 29, refPt: 22, justify: true, textSlack: 0.15,
+  bodyPt: 28, refPt: 22, justify: true, textSlack: 0.15,
   primary: '1F3D7A', accent: '2E9C8A', tint: 'E7F3F0', border: 'BCCBE0',
   titleColor: '1F3D7A', titlePt: 54, bandHeads: true,
   keywords: 'escleritis; escleromalacia perforante; inmunosupresores; azatioprina; glucocorticoides; grupo de atención al paciente.',
   segments: [
-    { full: { name: 'Figura 1', img: P + 'caso3_figura1_escleromalacia_3paneles.jpg', maxH: 5.9,
+    { full: { name: 'Figura 1', img: P + 'caso3_figura1_escleromalacia_3paneles.jpg', maxH: 5.6,
       caption: 'Figura 1. Ojo derecho con escleromalacia perforante. (A) Al ingreso, destrucción corneoescleral extensa con herniación de tejido uveal. (B) Ocho días después. (C) Tres meses después, con prednisona y azatioprina, en espera del parche esclerocorneal. Flechas: tejido uveal herniado.' } },
     { left: [
       { h: 'Resumen', p: [
@@ -34,15 +34,17 @@ module.exports = {
       { h: 'Tratamiento y evolución', p: [
         'Sin diagnóstico sistémico, la indicación se basó en la amenaza para el órgano: metilprednisolona intravenosa 500 mg/día por 5 días, prednisona oral en descenso y azatioprina como ahorrador de esteroides, elegida por la edad y el riesgo de toxicidad.',
         'La junta de oftalmología estimó un compromiso del 60-70 % de la pared ocular y, junto con reumatología, se decidió mantener la inmunosupresión para preservar el globo y proteger el ojo izquierdo. En octubre aumentaron el adelgazamiento escleral y la herniación iridiana con prednisona 15 mg y azatioprina.',
-        'El 3 de noviembre de 2026 se colocó un parche esclerocorneal tectónico con membrana amniótica y tarsorrafia temporal, sin perforación previa. El ojo izquierdo, operado de catarata en octubre bajo inmunosupresión, permanece sin compromiso.'] },
+        'El 3 de noviembre de 2026 se colocó un parche esclerocorneal tectónico con membrana amniótica y tarsorrafia temporal, sin perforación previa, y se tomó biopsia del tejido. El ojo izquierdo, operado de catarata en octubre bajo inmunosupresión, se mantiene sin compromiso escleral.'] },
+      { h: 'Conclusión', hl: true, p: [
+        'La escleromalacia perforante grave puede presentarse sin enfermedad autoinmune sistémica identificable; la inmunosupresión debe individualizarse según la gravedad ocular, con decisiones compartidas entre oftalmología y reumatología.',
+        [['Consideraciones éticas: ', true], 'consentimiento informado de la paciente, incluidas las fotografías.']] },
     ], right: [
       { h: 'Discusión', p: [
-        'En la escleritis necrosante, la decisión de inmunosuprimir depende de la gravedad ocular y no de cumplir criterios de clasificación (4,5). La escleritis puede preceder a la enfermedad sistémica, por lo que se requiere seguimiento reumatológico prolongado (3).',
-        [['Fortalezas y limitaciones: ', true], 'estudio amplio antes de inmunosuprimir, decisión compartida y globo preservado hasta la cirugía; histopatología pendiente, progresión del adelgazamiento y seguimiento corto.']] },
-      { h: 'Conclusión', hl: true, p: [
-        'La escleromalacia perforante grave puede presentarse sin enfermedad autoinmune sistémica identificable, y la ausencia de criterios de clasificación no excluye un proceso ocular inmunomediado.',
-        'La inmunosupresión debe individualizarse según la gravedad ocular, con decisiones compartidas entre oftalmología y reumatología.',
-        [['Consideraciones éticas: ', true], 'se obtuvo consentimiento informado de la paciente, incluida la publicación de las fotografías.']] },
+        'La escleritis necrosante es la forma más grave de escleritis y la que con mayor frecuencia se asocia con enfermedad sistémica (2,3). La escleromalacia perforante es indolora y progresa de forma insidiosa, por lo que suele diagnosticarse tarde (1), como en esta paciente, que consultó con destrucción establecida tras abandonar el seguimiento.',
+        'Antes de inmunosuprimir es obligatorio excluir una causa infecciosa, porque la escleritis infecciosa empeora con glucocorticoides. Descartadas la infección y la enfermedad sistémica, la decisión de inmunosuprimir depende de la gravedad ocular y no de cumplir criterios de clasificación (4,5).',
+        'Los glucocorticoides solos rara vez controlan la escleritis necrosante y suele requerirse un inmunosupresor (4); en la enfermedad refractaria se describen ciclofosfamida, rituximab y anti-TNF (5). La progresión pese a prednisona y azatioprina obliga a vigilar la respuesta tras el injerto. Como la escleritis puede preceder a la enfermedad sistémica, se requiere seguimiento reumatológico prolongado (3).',
+        [['Fortalezas: ', true], 'estudio sistémico, inmunológico e infeccioso amplio antes de inmunosuprimir; decisión documentada y compartida; globo preservado hasta la cirugía.'],
+        [['Limitaciones: ', true], 'histopatología pendiente, progresión del adelgazamiento con el tratamiento y seguimiento aún corto.']] },
     ] },
   ],
   refs: [
