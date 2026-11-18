@@ -17,7 +17,7 @@ module.exports = {
         'Mujer de 63 años con lupus eritematoso sistémico (LES) de inicio tardío y anticardiolipina (aCL) y anti-β2-glicoproteína I (aβ2GPI) IgM persistentes, que reingresó con pancitopenia, serositis, proteinuria en rango nefrótico e infarto esplénico en la tomografía. Cumplía los criterios de Sydney, pero no los ACR/EULAR 2023, por sumar solo 1 punto de laboratorio. Se consideró un síndrome antifosfolípido (SAF) clínico secundario a LES y se anticoaguló con warfarina, con recuperación hematológica.'] },
       { h: 'Introducción', p: [
         'El SAF se asocia con frecuencia al LES y empeora su pronóstico (1). Los criterios ACR/EULAR 2023 ponderan los anticuerpos antifosfolípidos (aPL) por isotipo: la aCL y la aβ2GPI IgM aisladas suman solo 1 de los 3 puntos de laboratorio requeridos (2), mientras que los criterios de Sydney las aceptan (3). Tras una trombosis, las recomendaciones EULAR indican anticoagulación con antagonistas de la vitamina K (4).',
-        'El infarto esplénico es una manifestación trombótica infrecuente del SAF y obliga a descartar embolia de origen cardíaco, trombosis portal, enfermedades hematológicas y otros estados de hipercoagulabilidad.',
+        'El infarto esplénico es raro en el SAF: se describe en el 1,1-1,8 % de los pacientes, con frecuencia en el contexto de un SAF catastrófico, y rara vez como manifestación trombótica inicial (5). Obliga a descartar embolia de origen cardíaco, trombosis portal, enfermedades hematológicas y otros estados de hipercoagulabilidad.',
         [['Aporte del caso: ', true], 'una trombosis en sitio inusual que muestra la discordancia entre ambos sistemas y recuerda que los criterios de clasificación no son diagnósticos.']] },
     ], right: [
       { h: 'Información del caso', p: [
@@ -48,8 +48,8 @@ module.exports = {
     ] },
     { left: [
       { h: 'Discusión', p: [
-        'Los criterios ACR/EULAR 2023 sacrifican sensibilidad para ganar especificidad y fueron diseñados para clasificar pacientes en estudios, no para el diagnóstico individual (2); la Tabla 1 resume la discordancia en esta paciente. Un perfil IgM aislado, persistente y de título alto, con trombosis en un sitio inusual en el contexto de un LES, cumple Sydney (3) y puede justificar la anticoagulación, en línea con las recomendaciones EULAR (4,5).',
-        [['Fortalezas y limitaciones: ', true], 'perfil completo de aPL repetido a las 12 semanas, imagen característica y exclusión de embolia cardíaca y trombosis portal; sin biopsia renal, seguimiento corto y proteinuria nefrótica como posible factor protrombótico.']] },
+        'Los criterios ACR/EULAR 2023 sacrifican sensibilidad para ganar especificidad y fueron diseñados para clasificar pacientes en estudios, no para el diagnóstico individual (2); la Tabla 1 resume la discordancia en esta paciente. Un perfil IgM aislado, persistente y de título alto, con trombosis en un sitio inusual en el contexto de un LES, cumple Sydney (3) y puede justificar la anticoagulación, en línea con las recomendaciones EULAR (4,6).',
+        [['Fortalezas y limitaciones: ', true], 'perfil de aPL repetido a las 12 semanas, imagen característica y exclusión de embolia y trombosis portal; sin biopsia renal, con seguimiento corto y proteinuria nefrótica como factor protrombótico.']] },
     ], right: [
       { h: 'Conclusión', hl: true, p: [
         'No cumplir los criterios ACR/EULAR 2023 no excluye el diagnóstico clínico de SAF ni debe retrasar la anticoagulación.',
@@ -63,6 +63,7 @@ module.exports = {
     'Barbhaiya M, Zuily S, Naden R, Hendry A, Manneville F, Amigo MC, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. Arthritis Rheumatol. 2023;75(10):1687-702.',
     'Miyakis S, Lockshin MD, Atsumi T, Branch DW, Brey RL, Cervera R, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). J Thromb Haemost. 2006;4(2):295-306.',
     'Tektonidou MG, Andreoli L, Limper M, Amoura Z, Cervera R, Costedoat-Chalumeau N, et al. EULAR recommendations for the management of antiphospholipid syndrome in adults. Ann Rheum Dis. 2019;78(10):1296-304.',
+    'Azañero-Haro J, Chambi L, Soto A. Infarto esplénico como presentación del síndrome antifosfolipídico y lupus eritematoso sistémico: reporte de un caso. Rev Colomb Reumatol. 2024;31(1):127-32.',
     'Fanouriakis A, Kostopoulou M, Andersen J, Aringer M, Arnaud L, Bae SC, et al. EULAR recommendations for the management of systemic lupus erythematosus: 2023 update. Ann Rheum Dis. 2024;83(1):15-29.',
   ],
 };
