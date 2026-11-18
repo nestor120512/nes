@@ -25,7 +25,7 @@ module.exports = {
         [['Antecedentes relevantes: ', true], 'LES diagnosticado en julio de 2026, con debut por pancitopenia, tratado con metilprednisolona y azatioprina. Perfil inicial de aPL: aCL IgM 69,38 U/mL y aβ2GPI IgM >200 UR/mL, con aCL y aβ2GPI IgG y anticoagulante lúpico negativos.'],
         [['Examen físico: ', true], 'livedo reticularis y ascitis.'],
         [['Estudios relevantes: ', true], 'hemoglobina 8,6 g/dL y plaquetas 46.000/µL, sin esquistocitos; Coombs directo positivo; proteinuria de 3,8 g/24 h; C3 52 mg/dL y C4 <2,9 mg/dL. La tomografía abdominal mostró una lesión periférica en cuña en el polo inferior del bazo, compatible con infarto esplénico (Figura 1).'],
-        [['Diagnósticos diferenciales: ', true], 'embolia cardíaca (ritmo sinusal, ecocardiograma normal), trombosis o hipertensión portal (Doppler normal) y microangiopatía trombótica (sin esquistocitos).'],
+        [['Diagnósticos diferenciales: ', true], 'embolia cardíaca (ritmo sinusal, ecocardiograma normal), trombosis o hipertensión portal (Doppler normal; GASA <1,1) y microangiopatía trombótica (sin esquistocitos).'],
         [['Confirmación diagnóstica: ', true], 'a las 12 semanas persistió la doble positividad IgM (aCL 80 U/mL; aβ2GPI en título alto), con anticoagulante lúpico negativo: cumplía Sydney, pero no ACR/EULAR 2023, al sumar solo 1 de los 3 puntos de laboratorio. Se consideró un SAF clínico secundario a LES.'],
         [['Tratamiento y evolución: ', true], 'pulsos de metilprednisolona, hidroxicloroquina y micofenolato por nefritis lúpica presunta (biopsia rechazada). Con plaquetas de 127.000/µL, enoxaparina como puente a warfarina (INR 2-3); a las 2 semanas, plaquetas 239.000/µL y hemoglobina 10,0 g/dL.']] },
     ] },
