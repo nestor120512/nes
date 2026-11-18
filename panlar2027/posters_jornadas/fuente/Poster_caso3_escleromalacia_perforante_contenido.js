@@ -1,35 +1,49 @@
+// Póster 3 – escleromalacia perforante sin enfermedad autoinmune sistémica (formato de los pósteres 1 y 2).
 const P = __dirname + '/../../';
+const L = __dirname + '/../logos/';
 module.exports = {
   title: 'Escleromalacia perforante grave sin enfermedad autoinmune sistémica identificable: un dilema terapéutico para el reumatólogo. Reporte de caso',
-  authors: '[Nombre Apellido]¹*, [Nombre Apellido]¹, [Nombre Apellido]²',
-  affiliations: '¹[Servicio de Reumatología, Institución], [Ciudad], Colombia. ²[Servicio de Oftalmología, Institución], [Ciudad], Colombia. *Expositor',
+  authors: 'Erlinda Esther Rivera Pertuz¹*, Nestor Fabian Sanabria Duarte¹, José Ángel Salas Siado²',
+  affiliations: '¹Programa de Especialización en Medicina Interna, Universidad Libre, Barranquilla, Colombia. ²Investigación Médica Atlántico (IMA) y Clínica General del Norte, Barranquilla, Colombia. *Expositora',
+  logos: { band: [L + 'logo_clinica_general_del_norte.png', L + 'logo_universidad_libre.png', L + 'logo_ima_reumatologia.png'] },
+  logoBand: true, bandH: 2.1, logoH: 1.6,
+  bodyPt: 29, refPt: 22, justify: true, textSlack: 0.15,
+  primary: '1F3D7A', accent: '2E9C8A', tint: 'E7F3F0', border: 'BCCBE0',
+  titleColor: '1F3D7A', titlePt: 54, bandHeads: true,
   keywords: 'escleritis; escleromalacia perforante; inmunosupresores; azatioprina; glucocorticoides; grupo de atención al paciente.',
-  full: [{ name: 'Figura 1', maxH: 4.4, img: P + 'caso3_figura1_escleromalacia_3paneles.jpg', caption: 'Figura 1. Ojo derecho con escleromalacia perforante. (A) Al ingreso, destrucción corneoescleral extensa con herniación de tejido uveal. (B) Ocho días después. (C) Tres meses después, con prednisona y azatioprina, en espera del parche esclerocorneal. Flechas: tejido uveal herniado.' }],
-  blocks: [
-    { col: 0, h: 'Resumen', p: [
-      'Mujer de 71 años sin enfermedad autoinmune conocida, con destrucción corneoescleral extensa y herniación uveal del ojo derecho por escleromalacia perforante. El estudio reumatológico, inmunológico e infeccioso fue negativo. Ante la amenaza para el órgano recibió pulsos de metilprednisolona, prednisona y azatioprina, en una decisión compartida con oftalmología. El globo se mantuvo sin perforación hasta un parche esclerocorneal tectónico, y el ojo izquierdo permanece sin compromiso.'] },
-    { col: 0, h: 'Introducción', p: [
-      'La escleromalacia perforante es una escleritis anterior necrosante sin inflamación. Es rara y se asocia clásicamente con artritis reumatoide de larga evolución; también se ha descrito en granulomatosis con poliangeítis, policondritis recidivante y enfermedad de Behçet. La escleritis necrosante requiere inmunosupresión sistémica.',
-      [['Aporte del caso: ', true], 'sin enfermedad sistémica identificable, el reumatólogo debe indicar y mantener la inmunosupresión sin diagnóstico ni criterios de clasificación. Este caso muestra cómo resolver ese dilema guiándose por la amenaza para el órgano.']] },
-    { col: 0, h: 'Información del caso', p: [
-      [['Datos demográficos y motivo de consulta: ', true], 'mujer de 71 años que ingresó en junio de 2026 por pérdida visual del ojo derecho (cuenta dedos) con destrucción corneoescleral.'],
-      [['Enfermedad actual: ', true], 'hemorragia conjuntival derecha indolora en octubre de 2024 y defecto escleral temporal en febrero de 2025; luego abandonó el seguimiento.'],
-      [['Antecedentes relevantes: ', true], 'sin enfermedad autoinmune conocida, cirugía ocular ni trauma previos.'],
-      [['Examen físico: ', true], 'destrucción corneoescleral extensa con herniación uveal e iridiana, sin dolor (Figura 1). Sin artritis, úlceras ni compromiso otorrinolaringológico.'],
-      [['Estudios relevantes: ', true], 'factor reumatoide limítrofe (14,8) con anti-CCP negativo; ANA, anti-ADNdc, perfil de antígenos nucleares extraíbles, anticentrómero y ANCA anti-PR3/MPO negativos; complemento normal. Tuberculina, TC de tórax y serologías para sífilis y hepatitis B y C negativas.'],
-      [['Diagnósticos diferenciales: ', true], 'artritis reumatoide (sin artritis, anti-CCP negativo), granulomatosis con poliangeítis (ANCA negativos), lupus (ANA negativos), escleritis infecciosa (tuberculosis, sífilis y herpes zóster descartados) y escleritis posquirúrgica o traumática.'],
-      [['Confirmación diagnóstica: ', true], 'diagnóstico clínico oftalmológico; biopsia del tejido escleral tomada en la cirugía, con histopatología pendiente.']] },
-    { col: 1, h: 'Tratamiento y evolución', p: [
-      'Sin diagnóstico sistémico, la indicación se basó en la amenaza para el órgano: metilprednisolona intravenosa 500 mg/día por 5 días, prednisona oral en descenso y azatioprina como ahorrador de esteroides, elegida por la edad y el riesgo de toxicidad.',
-      'La junta de oftalmología estimó un compromiso del 60-70 % de la pared ocular y, junto con reumatología, se decidió mantener la inmunosupresión para preservar el globo y proteger el ojo izquierdo. En octubre se documentó aumento del adelgazamiento escleral y de la herniación iridiana con prednisona 15 mg y azatioprina.',
-      'El 3 de noviembre de 2026 se colocó un parche esclerocorneal tectónico con membrana amniótica y tarsorrafia temporal, sin perforación previa. El ojo izquierdo, operado de catarata en octubre bajo inmunosupresión, permanece sin compromiso.'] },
-    { col: 1, h: 'Discusión', p: [
-      [['Fortalezas: ', true], 'estudio sistémico, inmunológico e infeccioso amplio antes de inmunosuprimir; decisión documentada y compartida entre reumatología y oftalmología; preservación del globo hasta la cirugía.'],
-      [['Limitaciones: ', true], 'histopatología pendiente; progresión del adelgazamiento con prednisona y azatioprina; seguimiento aún corto para detectar una enfermedad sistémica emergente.'],
-      [['Aporte a la práctica: ', true], 'en la escleritis necrosante, la decisión de inmunosuprimir depende de la gravedad ocular y no de cumplir criterios de clasificación. La escleritis puede preceder a la enfermedad sistémica, por lo que se requiere seguimiento reumatológico prolongado.']] },
-    { col: 1, h: 'Conclusión', p: [
-      'La escleromalacia perforante grave puede presentarse sin enfermedad autoinmune sistémica identificable, y la ausencia de criterios de clasificación no excluye un proceso ocular inmunomediado. La inmunosupresión debe individualizarse según la gravedad ocular, con decisiones compartidas entre oftalmología y reumatología.',
-      [['Consideraciones éticas: ', true], 'se obtuvo consentimiento informado de la paciente, incluida la publicación de las fotografías.']] },
+  segments: [
+    { full: { name: 'Figura 1', img: P + 'caso3_figura1_escleromalacia_3paneles.jpg', maxH: 5.9,
+      caption: 'Figura 1. Ojo derecho con escleromalacia perforante. (A) Al ingreso, destrucción corneoescleral extensa con herniación de tejido uveal. (B) Ocho días después. (C) Tres meses después, con prednisona y azatioprina, en espera del parche esclerocorneal. Flechas: tejido uveal herniado.' } },
+    { left: [
+      { h: 'Resumen', p: [
+        'Mujer de 71 años sin enfermedad autoinmune conocida, con destrucción corneoescleral extensa y herniación uveal del ojo derecho por escleromalacia perforante. El estudio inmunológico e infeccioso fue negativo. Ante la amenaza para el órgano recibió pulsos de metilprednisolona, prednisona y azatioprina, en una decisión compartida con oftalmología. El globo se mantuvo sin perforación hasta un parche esclerocorneal tectónico, y el ojo izquierdo permanece sin compromiso.'] },
+      { h: 'Introducción', p: [
+        'La escleromalacia perforante es una escleritis anterior necrosante sin inflamación (1). Es rara y se asocia clásicamente con artritis reumatoide de larga evolución; también se ha descrito en granulomatosis con poliangeítis, policondritis recidivante y enfermedad de Behçet (2,3). La escleritis necrosante requiere inmunosupresión sistémica (4).',
+        [['Aporte del caso: ', true], 'sin enfermedad sistémica identificable, el reumatólogo debe indicar y mantener la inmunosupresión sin diagnóstico ni criterios de clasificación. Este caso muestra cómo resolver ese dilema guiándose por la amenaza para el órgano.']] },
+    ], right: [
+      { h: 'Información del caso', p: [
+        [['Datos demográficos y motivo de consulta: ', true], 'mujer de 71 años que ingresó en junio de 2026 por pérdida visual del ojo derecho (cuenta dedos) con destrucción corneoescleral.'],
+        [['Enfermedad actual: ', true], 'hemorragia conjuntival derecha indolora en octubre de 2024 y defecto escleral temporal en febrero de 2025; luego abandonó el seguimiento.'],
+        [['Antecedentes relevantes: ', true], 'sin enfermedad autoinmune conocida, cirugía ocular ni trauma previos.'],
+        [['Examen físico: ', true], 'destrucción corneoescleral extensa con herniación uveal e iridiana, sin dolor (Figura 1). Sin artritis ni compromiso otorrinolaringológico.'],
+        [['Estudios relevantes: ', true], 'factor reumatoide limítrofe (14,8) con anti-CCP negativo; ANA, anti-ADNdc, antígenos nucleares extraíbles, anticentrómero y ANCA anti-PR3/MPO negativos; complemento normal. Tuberculina, TC de tórax y serologías para sífilis y hepatitis B y C negativas.'],
+        [['Diagnósticos diferenciales: ', true], 'artritis reumatoide (sin artritis, anti-CCP negativo), granulomatosis con poliangeítis (ANCA negativos), lupus (ANA negativos), escleritis infecciosa (tuberculosis, sífilis y herpes zóster descartados) y escleritis posquirúrgica o traumática.'],
+        [['Confirmación diagnóstica: ', true], 'diagnóstico clínico oftalmológico; biopsia escleral tomada en la cirugía, con histopatología pendiente.']] },
+    ] },
+    { left: [
+      { h: 'Tratamiento y evolución', p: [
+        'Sin diagnóstico sistémico, la indicación se basó en la amenaza para el órgano: metilprednisolona intravenosa 500 mg/día por 5 días, prednisona oral en descenso y azatioprina como ahorrador de esteroides, elegida por la edad y el riesgo de toxicidad.',
+        'La junta de oftalmología estimó un compromiso del 60-70 % de la pared ocular y, junto con reumatología, se decidió mantener la inmunosupresión para preservar el globo y proteger el ojo izquierdo. En octubre aumentaron el adelgazamiento escleral y la herniación iridiana con prednisona 15 mg y azatioprina.',
+        'El 3 de noviembre de 2026 se colocó un parche esclerocorneal tectónico con membrana amniótica y tarsorrafia temporal, sin perforación previa. El ojo izquierdo, operado de catarata en octubre bajo inmunosupresión, permanece sin compromiso.'] },
+    ], right: [
+      { h: 'Discusión', p: [
+        'En la escleritis necrosante, la decisión de inmunosuprimir depende de la gravedad ocular y no de cumplir criterios de clasificación (4,5). La escleritis puede preceder a la enfermedad sistémica, por lo que se requiere seguimiento reumatológico prolongado (3).',
+        [['Fortalezas y limitaciones: ', true], 'estudio amplio antes de inmunosuprimir, decisión compartida y globo preservado hasta la cirugía; histopatología pendiente, progresión del adelgazamiento y seguimiento corto.']] },
+      { h: 'Conclusión', hl: true, p: [
+        'La escleromalacia perforante grave puede presentarse sin enfermedad autoinmune sistémica identificable, y la ausencia de criterios de clasificación no excluye un proceso ocular inmunomediado.',
+        'La inmunosupresión debe individualizarse según la gravedad ocular, con decisiones compartidas entre oftalmología y reumatología.',
+        [['Consideraciones éticas: ', true], 'se obtuvo consentimiento informado de la paciente, incluida la publicación de las fotografías.']] },
+    ] },
   ],
   refs: [
     'Watson PG, Hayreh SS. Scleritis and episcleritis. Br J Ophthalmol. 1976;60(3):163-91.',

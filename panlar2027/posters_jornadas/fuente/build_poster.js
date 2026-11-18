@@ -218,7 +218,7 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
       parts.forEach((r, j) => { const last = j === parts.length - 1;
         runs.push({ text: typeof r === 'string' ? r : r[0], options: { bold: typeof r !== 'string' && !!r[1], breakLine: last && i < paras.length - 1, paraSpaceAfter: last ? 12 : 0 } }); });
     });
-    return { runs, h: hText(n, PT_B) + (paras.length - 1) * 12 / 72 + 0.1 };
+    return { runs, h: hText(n, PT_B) + (paras.length - 1) * 12 / 72 + 0.1 + (C.textSlack || 0) };
   }
   function build(b, geo) {
     const name = b.name || b.h || 'Bloque';
