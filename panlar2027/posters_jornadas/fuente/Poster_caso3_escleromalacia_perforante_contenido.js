@@ -7,12 +7,12 @@ module.exports = {
   affiliations: '¹Programa de Especialización en Medicina Interna, Universidad Libre, Barranquilla, Colombia. ²Investigación Médica Atlántico (IMA) y Clínica General del Norte, Barranquilla, Colombia. *Expositora',
   logos: { band: [L + 'logo_clinica_general_del_norte.png', L + 'logo_universidad_libre.png', L + 'logo_ima_reumatologia.png'] },
   logoBand: true, bandH: 2.1, logoH: 1.6,
-  bodyPt: 28, refPt: 22, justify: true, textSlack: 0.15,
+  bodyPt: 29, refPt: 20, justify: true, textSlack: 0,
   primary: '1F3D7A', accent: '2E9C8A', tint: 'E7F3F0', border: 'BCCBE0',
   titleColor: '1F3D7A', titlePt: 54, bandHeads: true,
   keywords: 'escleritis; escleromalacia perforante; inmunosupresores; azatioprina; glucocorticoides; grupo de atención al paciente.',
   segments: [
-    { full: { name: 'Figura 1', img: P + 'caso3_figura1_escleromalacia_3paneles.jpg', maxH: 5.3,
+    { full: { name: 'Figura 1', img: P + 'caso3_figura1_escleromalacia_3paneles.jpg', maxH: 4.75,
       caption: 'Figura 1. Ojo derecho con escleromalacia perforante. (A) Al ingreso, destrucción corneoescleral extensa con herniación de tejido uveal. (B) Ocho días después. (C) Tres meses después, con prednisona y azatioprina, en espera del parche esclerocorneal. Flechas: tejido uveal herniado.' } },
     { left: [
       { h: 'Resumen', p: [
@@ -33,7 +33,7 @@ module.exports = {
     { left: [
       { h: 'Tratamiento y evolución', p: [
         'Sin diagnóstico sistémico, la indicación se basó en la amenaza para el órgano: metilprednisolona IV 500 mg/día por 5 días, prednisona en descenso y azatioprina como ahorrador, elegida por la edad y el riesgo de toxicidad.',
-        'La junta de oftalmología estimó un compromiso del 60-70 % de la pared ocular y, junto con reumatología, se decidió mantener la inmunosupresión para preservar el globo y proteger el ojo izquierdo. En octubre aumentaron el adelgazamiento escleral y la herniación iridiana con prednisona 15 mg y azatioprina.',
+        'La junta de oftalmología estimó un compromiso del 60-70 % de la pared ocular; con reumatología se mantuvo la inmunosupresión para preservar el globo y proteger el ojo izquierdo, pese a que en octubre aumentaron el adelgazamiento y la herniación iridiana.',
         'El 3 de noviembre de 2026 se colocó un parche esclerocorneal tectónico con membrana amniótica y tarsorrafia temporal, sin perforación previa. El ojo izquierdo, operado de catarata en octubre, se mantiene sin compromiso escleral.'] },
       { h: 'Conclusión', hl: true, p: [
         'La escleromalacia perforante grave puede presentarse sin enfermedad autoinmune sistémica identificable, y no cumplir criterios de clasificación no excluye un proceso ocular inmunomediado.',
