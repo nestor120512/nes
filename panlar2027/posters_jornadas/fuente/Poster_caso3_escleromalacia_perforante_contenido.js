@@ -12,7 +12,7 @@ module.exports = {
   titleColor: '1F3D7A', titlePt: 54, bandHeads: true,
   keywords: 'escleritis; escleromalacia perforante; inmunosupresores; azatioprina; glucocorticoides; grupo de atención al paciente.',
   segments: [
-    { full: { name: 'Figura 1', img: P + 'caso3_figura1_escleromalacia_3paneles.jpg', maxH: 5.6,
+    { full: { name: 'Figura 1', img: P + 'caso3_figura1_escleromalacia_3paneles.jpg', maxH: 5.3,
       caption: 'Figura 1. Ojo derecho con escleromalacia perforante. (A) Al ingreso, destrucción corneoescleral extensa con herniación de tejido uveal. (B) Ocho días después. (C) Tres meses después, con prednisona y azatioprina, en espera del parche esclerocorneal. Flechas: tejido uveal herniado.' } },
     { left: [
       { h: 'Resumen', p: [
@@ -32,12 +32,13 @@ module.exports = {
     ] },
     { left: [
       { h: 'Tratamiento y evolución', p: [
-        'Sin diagnóstico sistémico, la indicación se basó en la amenaza para el órgano: metilprednisolona intravenosa 500 mg/día por 5 días, prednisona oral en descenso y azatioprina como ahorrador de esteroides, elegida por la edad y el riesgo de toxicidad.',
+        'Sin diagnóstico sistémico, la indicación se basó en la amenaza para el órgano: metilprednisolona IV 500 mg/día por 5 días, prednisona en descenso y azatioprina como ahorrador, elegida por la edad y el riesgo de toxicidad.',
         'La junta de oftalmología estimó un compromiso del 60-70 % de la pared ocular y, junto con reumatología, se decidió mantener la inmunosupresión para preservar el globo y proteger el ojo izquierdo. En octubre aumentaron el adelgazamiento escleral y la herniación iridiana con prednisona 15 mg y azatioprina.',
-        'El 3 de noviembre de 2026 se colocó un parche esclerocorneal tectónico con membrana amniótica y tarsorrafia temporal, sin perforación previa, y se tomó biopsia del tejido. El ojo izquierdo, operado de catarata en octubre bajo inmunosupresión, se mantiene sin compromiso escleral.'] },
+        'El 3 de noviembre de 2026 se colocó un parche esclerocorneal tectónico con membrana amniótica y tarsorrafia temporal, sin perforación previa. El ojo izquierdo, operado de catarata en octubre, se mantiene sin compromiso escleral.'] },
       { h: 'Conclusión', hl: true, p: [
-        'La escleromalacia perforante grave puede presentarse sin enfermedad autoinmune sistémica identificable; la inmunosupresión debe individualizarse según la gravedad ocular, con decisiones compartidas entre oftalmología y reumatología.',
-        [['Consideraciones éticas: ', true], 'consentimiento informado de la paciente, incluidas las fotografías.']] },
+        'La escleromalacia perforante grave puede presentarse sin enfermedad autoinmune sistémica identificable, y no cumplir criterios de clasificación no excluye un proceso ocular inmunomediado.',
+        'Este caso ilustra la necesidad de individualizar la inmunosupresión según la gravedad ocular, con decisiones compartidas entre oftalmología y reumatología, exclusión razonable de infección y seguimiento para detectar enfermedad sistémica emergente y toxicidad.',
+        [['Consideraciones éticas: ', true], 'consentimiento informado firmado, incluidas las fotos.']] },
     ], right: [
       { h: 'Discusión', p: [
         'La escleritis necrosante es la forma más grave de escleritis y la que con mayor frecuencia se asocia con enfermedad sistémica (2,3). La escleromalacia perforante es indolora y progresa de forma insidiosa, por lo que suele diagnosticarse tarde (1), como en esta paciente, que consultó con destrucción establecida tras abandonar el seguimiento.',
