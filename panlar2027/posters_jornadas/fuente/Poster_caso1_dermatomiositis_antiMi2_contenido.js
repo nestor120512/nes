@@ -5,7 +5,7 @@ module.exports = {
   affiliations: '¹Programa de Especialización en Medicina Interna, Universidad Libre, Barranquilla, Colombia. ²Investigación Médica Atlántico (IMA) y Clínica General del Norte, Barranquilla, Colombia. *Expositor',
   logos: { band: [__dirname + '/../logos/logo_clinica_general_del_norte.png', __dirname + '/../logos/logo_universidad_libre.png', __dirname + '/../logos/logo_ima_reumatologia.png'] },
   logoBand: true, bandH: 2.1, logoH: 1.6,
-  bodyPt: 30, refPt: 22, justify: true,
+  bodyPt: 32, refPt: 22, justify: true,
   // Diseño para impresión: paleta tomada de los logos (azul IMA, verde y rojo de la Clínica General del Norte)
   primary: '1F3D7A', accent: '2E9C8A', tint: 'E7F3F0', border: 'BCCBE0', statColor: 'C8323F',
   titleColor: '1F3D7A', titlePt: 54, bandHeads: true, statPt: 58,
@@ -28,7 +28,7 @@ module.exports = {
     ] },
     { full: { name: 'Tabla 1', table: {
       title: 'Tabla 1. Evolución clínica y tratamiento',
-      colW: [0.11, 0.13, 0.41, 0.35], pt: 28,
+      colW: [0.11, 0.13, 0.41, 0.35], pt: 30,
       header: ['Fecha', 'Evento', 'Hallazgos', 'Tratamiento y respuesta'],
       rows: [
         ['Dic 2024', 'Inicio (17 años)', 'Lesiones cutáneas con signo de Gottron, mialgias y debilidad proximal progresiva', '—'],

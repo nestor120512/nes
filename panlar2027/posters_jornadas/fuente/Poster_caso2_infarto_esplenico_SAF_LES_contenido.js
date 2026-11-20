@@ -7,7 +7,7 @@ module.exports = {
   affiliations: '¹Programa de Especialización en Medicina Interna, Universidad Libre, Barranquilla, Colombia. ²Programa de Especialización en Medicina Interna, Universidad Metropolitana, Barranquilla, Colombia. ³Investigación Médica Atlántico (IMA) y Clínica General del Norte, Barranquilla, Colombia. *Expositor',
   logos: { band: [L + 'logo_clinica_general_del_norte.png', L + 'logo_universidad_libre.png', L + 'logo_universidad_metropolitana.png', L + 'logo_ima_reumatologia.png'] },
   logoBand: true, bandH: 2.1, logoH: 1.5,
-  bodyPt: 30, refPt: 22, justify: true,
+  bodyPt: 32, refPt: 22, justify: true,
   primary: '1F3D7A', accent: '2E9C8A', tint: 'E7F3F0', border: 'BCCBE0',
   titleColor: '1F3D7A', titlePt: 54, bandHeads: true,
   keywords: 'síndrome antifosfolípido; lupus eritematoso sistémico; infarto del bazo; anticuerpos anticardiolipina; beta 2-glicoproteína I; criterios de clasificación; anticoagulación.',

@@ -29,10 +29,10 @@ module.exports = {
         [['Confirmación diagnóstica: ', true], 'calcinosis distrófica, por la imagen radiológica y el estudio metabólico normal.']] },
     ] },
     { split: 0.546, left: [
-      { name: 'Figura 1', img: P + 'caso7_figura1_paciente1.jpg', maxH: 6.6,
+      { name: 'Figura 1', img: P + 'caso7_figura1_paciente1.jpg', maxH: 8.4,
         caption: 'Figura 1. Paciente 1, calcinosis masiva de partes blandas. (A) Radiografía de pelvis: calcinosis bilateral en región glútea, caderas y muslos. (B) Nódulos subcutáneos de calcinosis en flanco, algunos ulcerados con salida de material blanquecino.' },
     ], right: [
-      { name: 'Figura 2', img: P + 'caso7_figura2_paciente2.jpg', maxH: 6.6,
+      { name: 'Figura 2', img: P + 'caso7_figura2_paciente2.jpg', maxH: 8.4,
         caption: 'Figura 2. Paciente 2, calcinosis acral. (A) Calcinosis puntiforme en los pulpejos (flechas). Radiografías de ambas manos en proyección posteroanterior (B) y oblicua (C): calcificaciones de partes blandas y acroosteólisis.' },
     ] },
     { left: [

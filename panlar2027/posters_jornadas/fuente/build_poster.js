@@ -14,7 +14,10 @@ const C = require(path.resolve(process.argv[2]));
 const OUT = process.argv[3];
 
 // ---------- Diseño ----------
-const W = 35.433, H = 47.244;            // 90 x 120 cm
+// Tamaño final: 70 x 100 cm. El diseño se calcula en un lienzo virtual de 90 cm de ancho
+// con la misma proporción (70:100) y luego todo se escala por K al tamaño real.
+const OUT_W = 27.559, OUT_H = 39.370;    // 70 x 100 cm
+const W = 35.433, K = OUT_W / W, H = OUT_H / K;
 const M = 1.0, GAP = 0.7;
 const COLW = (W - 2 * M - GAP) / 2;
 const FONT = 'Arial', BLACK = '000000';
@@ -53,12 +56,37 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
   for (const [k, v] of Object.entries(ICONS)) icons[k] = await icon(v);
 
   const pres = new pptxgen();
-  pres.defineLayout({ name: 'POSTER_90x120', width: W, height: H });
-  pres.layout = 'POSTER_90x120';
+  pres.defineLayout({ name: 'POSTER_70x100', width: OUT_W, height: OUT_H });
+  pres.layout = 'POSTER_70x100';
   pres.theme = { headFontFace: FONT, bodyFontFace: FONT };
   pres.title = C.title;
-  const s = pres.addSlide();
-  s.background = { color: 'FFFFFF' };
+  const raw = pres.addSlide();
+  raw.background = { color: 'FFFFFF' };
+  // Escala todas las medidas (pulgadas y puntos) por K
+  const LEN = new Set(['x', 'y', 'w', 'h', 'fontSize', 'rectRadius', 'paraSpaceAfter', 'charSpacing', 'indent', 'blur', 'offset']);
+  function sc(o) {
+    if (Array.isArray(o)) return o.map(sc);
+    if (!o || typeof o !== 'object') return o;
+    const r = {};
+    for (const [k, v] of Object.entries(o)) {
+      if (LEN.has(k) && typeof v === 'number') r[k] = v * K;
+      else if ((k === 'colW' || k === 'rowH') && Array.isArray(v)) r[k] = v.map(n => n * K);
+      else if (k === 'margin') r[k] = Array.isArray(v) ? v.map(n => n * K) : v * K;
+      else if (k === 'line' && v && typeof v === 'object') r[k] = Object.assign({}, v, v.width ? { width: v.width * K } : {});
+      else if (k === 'border' && v && typeof v === 'object' && !Array.isArray(v)) r[k] = Object.assign({}, v, v.pt ? { pt: v.pt * K } : {});
+      else if (k === 'options' || k === 'shadow' || k === 'bullet') r[k] = sc(v);
+      else r[k] = v;
+    }
+    return r;
+  }
+  const runs = v => Array.isArray(v) ? v.map(r => (r && typeof r === 'object' && 'text' in r) ? Object.assign({}, r, { options: sc(r.options || {}) }) : r) : v;
+  const s = {
+    addText: (t, o) => raw.addText(runs(t), sc(o)),
+    addShape: (sh, o) => raw.addShape(sh, sc(o)),
+    addImage: o => raw.addImage(sc(o)),
+    addTable: (rows, o) => raw.addTable(rows.map(r => r.map(c => Object.assign({}, c, { options: sc(c.options || {}) }))), sc(o)),
+    addChart: (ty, d, o) => raw.addChart(ty, d, sc(o)),
+  };
 
   const card = (x, y, w, h, name, fill = CARD, edge) => s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x, y, w, h, rectRadius: 0.25,
     fill: { color: fill }, line: edge || { color: BORDER, width: 1.5 },
