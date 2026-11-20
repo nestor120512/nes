@@ -10,7 +10,7 @@ module.exports = {
   bodyPt: 30, refPt: 20, justify: true, textSlack: 0,
   primary: '1F3D7A', accent: '2E9C8A', tint: 'E7F3F0', border: 'BCCBE0',
   titleColor: '1F3D7A', titlePt: 54, bandHeads: true,
-  keywords: 'escleritis; escleromalacia perforante; inmunosupresores; azatioprina; glucocorticoides; grupo de atención al paciente.',
+  keywords: 'escleritis; escleromalacia perforante; inmunosupresores; azatioprina; glucocorticoides; toma de decisiones clínicas.',
   segments: [
     { full: { name: 'Figura 1', img: P + 'caso3_figura1_escleromalacia_3paneles.jpg', maxH: 5.6,
       caption: 'Figura 1. Ojo derecho con escleromalacia perforante. (A) Al ingreso, destrucción corneoescleral extensa con herniación de tejido uveal. (B) Ocho días después. (C) Tres meses después, con prednisona y azatioprina, en espera del parche esclerocorneal. Flechas: tejido uveal herniado.' } },
