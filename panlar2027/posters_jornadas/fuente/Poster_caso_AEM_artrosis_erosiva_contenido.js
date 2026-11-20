@@ -21,11 +21,11 @@ module.exports = {
         [['Aporte: ', true], 'la artrosis también erosiona, y sus erosiones difieren de las de la AR.']] },
     ], right: [
       { h: 'Información de los casos', p: [
-        [['Paciente 1. ', true], 'Mujer de 63 años con artrosis y síndrome de túnel del carpo izquierdo confirmado por electromiografía. La radiografía de manos mostró erosiones óseas e imágenes en alas de gaviota en interfalángicas proximales y distales de ambas manos (Figura 1). Recibe metotrexato 12,5 mg semanales, ácido fólico y acetaminofén.'],
-        [['Paciente 2. ', true], 'Hombre de 73 años remitido con diagnóstico de AR seronegativa por 6 meses de dolor poliarticular, rigidez, fatiga y trastorno del sueño. Presentaba nódulos de Heberden, crepitación en hombros y rodillas y más de 12 puntos dolorosos. Factor reumatoide <6 UI/mL, proteína C reactiva normal y VSG 22 mm/h. La radiografía de mano mostró erosiones centrales y colapso en alas de gaviota en las interfalángicas, con destrucción de la interfalángica del pulgar (Figura 2); la de cadera, coxartrosis.'],
+        [['Paciente 1. ', true], 'Mujer de 63 años con artrosis y síndrome de túnel del carpo izquierdo confirmado por electromiografía. La radiografía de manos mostró erosiones óseas e imágenes en alas de gaviota en interfalángicas proximales y distales de ambas manos (Figura 1). Factor reumatoide y anticuerpos antipéptido cíclico citrulinado (anti-CCP) negativos. Recibe metotrexato 12,5 mg semanales, ácido fólico y acetaminofén.'],
+        [['Paciente 2. ', true], 'Hombre de 73 años remitido con diagnóstico de AR seronegativa por 6 meses de dolor poliarticular, rigidez, fatiga y trastorno del sueño. Presentaba nódulos de Heberden, crepitación en hombros y rodillas y más de 12 puntos dolorosos. Factor reumatoide <6 UI/mL y anti-CCP negativos, proteína C reactiva normal y VSG 22 mm/h. La radiografía de mano mostró erosiones centrales y colapso en alas de gaviota en las interfalángicas, con destrucción de la interfalángica del pulgar (Figura 2); la de cadera, coxartrosis.'],
         [['Diagnóstico y manejo del paciente 2: ', true], 'AEM, coxartrosis y fibromialgia. Al igual que la paciente 1, recibe metotrexato 12,5 mg semanales, además de hidroxicloroquina, metilprednisolona a dosis baja, pregabalina y sertralina; fue remitido a ortopedia.']] },
     ] },
-    { full: { name: 'Figura 1', img: P + 'caso_AEM_figura1_paciente1.jpg', maxH: 6.6,
+    { full: { name: 'Figura 1', img: P + 'caso_AEM_figura1_paciente1.jpg', maxH: 6.2,
       caption: 'Figura 1. Paciente 1. Radiografías de ambas manos en proyección posteroanterior (A) y oblicua (B): erosiones centrales e imágenes en alas de gaviota en interfalángicas proximales y distales (círculos), con respeto de metacarpofalángicas y carpo.' } },
     { split: 0.42, left: [
       { name: 'Figura 2', img: P + 'caso_AEM_figura2_paciente2.jpg',
@@ -54,7 +54,7 @@ module.exports = {
       { h: 'Conclusión', hl: true, p: [
         'La artrosis puede ser erosiva. Las erosiones centrales en alas de gaviota en interfalángicas, con formación ósea y serología negativa, orientan a AEM y la distinguen de la AR.',
         'El metotrexato es una alternativa fuera de indicación en el fenotipo inflamatorio con dolor refractario, a dosis plenas y con monitorización.',
-        [['Fortalezas y limitaciones: ', true], 'correlación clínico-radiológica; sin anti-CCP, ecografía ni seguimiento.'],
+        [['Fortalezas y limitaciones: ', true], 'correlación clínico-radiológica y anticuerpos de artritis reumatoide negativos en ambos; sin ecografía ni seguimiento.'],
         [['Consideraciones éticas: ', true], 'se obtuvo consentimiento informado firmado de ambos pacientes.']] },
     ] },
   ],
