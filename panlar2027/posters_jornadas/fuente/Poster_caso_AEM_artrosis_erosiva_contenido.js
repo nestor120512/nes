@@ -15,7 +15,7 @@ module.exports = {
   segments: [
     { left: [
       { h: 'Resumen', p: [
-        'Dos pacientes con artrosis erosiva de manos (AEM): una mujer de 63 años y un hombre de 73 años. En ambos, la radiografía mostró erosiones centrales e imágenes en alas de gaviota en las interfalángicas, con respeto de metacarpofalángicas y carpo. Ambos reciben metotrexato.'] },
+        'Dos pacientes con artrosis erosiva de manos (AEM): una mujer de 63 años y un hombre de 73 años. En ambos, la radiografía mostró erosiones centrales e imágenes en alas de gaviota en las interfalángicas, con respeto de metacarpofalángicas y carpo. Ambos reciben metotrexato 12,5 mg semanales como alternativa para el componente inflamatorio.'] },
       { h: 'Introducción', p: [
         'La AEM es un subtipo inflamatorio y agresivo de la artrosis de manos, con una prevalencia cercana al 2,8 %, con erosiones subcondrales centrales en las interfalángicas, dolor y mayor discapacidad (1,2). Por su componente inflamatorio puede confundirse con la artritis reumatoide (AR), y el patrón radiológico es la clave del diagnóstico (2).',
         [['Aporte: ', true], 'la artrosis también erosiona, y sus erosiones difieren de las de la AR.']] },
@@ -23,17 +23,17 @@ module.exports = {
       { h: 'Información de los casos', p: [
         [['Paciente 1. ', true], 'Mujer de 63 años con artrosis y síndrome de túnel del carpo izquierdo confirmado por electromiografía. La radiografía de manos mostró erosiones óseas e imágenes en alas de gaviota en interfalángicas proximales y distales de ambas manos (Figura 1). Recibe metotrexato 12,5 mg semanales, ácido fólico y acetaminofén.'],
         [['Paciente 2. ', true], 'Hombre de 73 años remitido con diagnóstico de AR seronegativa por 6 meses de dolor poliarticular, rigidez, fatiga y trastorno del sueño. Presentaba nódulos de Heberden, crepitación en hombros y rodillas y más de 12 puntos dolorosos. Factor reumatoide <6 UI/mL, proteína C reactiva normal y VSG 22 mm/h. La radiografía de mano mostró erosiones centrales y colapso en alas de gaviota en las interfalángicas, con destrucción de la interfalángica del pulgar (Figura 2); la de cadera, coxartrosis.'],
-        [['Diagnóstico y manejo: ', true], 'AEM, coxartrosis y fibromialgia. Recibe metotrexato 12,5 mg semanales, hidroxicloroquina, metilprednisolona a dosis baja, pregabalina y sertralina, y fue remitido a ortopedia.']] },
+        [['Diagnóstico y manejo del paciente 2: ', true], 'AEM, coxartrosis y fibromialgia. Al igual que la paciente 1, recibe metotrexato 12,5 mg semanales, además de hidroxicloroquina, metilprednisolona a dosis baja, pregabalina y sertralina; fue remitido a ortopedia.']] },
     ] },
-    { full: { name: 'Figura 1', img: P + 'caso_AEM_figura1_paciente1.jpg', maxH: 7.0,
+    { full: { name: 'Figura 1', img: P + 'caso_AEM_figura1_paciente1.jpg', maxH: 6.6,
       caption: 'Figura 1. Paciente 1. Radiografías de ambas manos en proyección posteroanterior (A) y oblicua (B): erosiones centrales e imágenes en alas de gaviota en interfalángicas proximales y distales (círculos), con respeto de metacarpofalángicas y carpo.' } },
-    { split: 0.47, left: [
+    { split: 0.42, left: [
       { name: 'Figura 2', img: P + 'caso_AEM_figura2_paciente2.jpg',
         caption: 'Figura 2. Paciente 2. Radiografías de la mano derecha en proyección posteroanterior (A) y oblicua (B): erosiones centrales con colapso en alas de gaviota en interfalángicas distales y proximales, y destrucción de la interfalángica del pulgar (círculos).' },
     ], right: [
       { name: 'Tabla 1', table: {
         title: 'Tabla 1. Erosiones en AEM frente a AR',
-        colW: [0.24, 0.37, 0.39], pt: 26, tiles: true, rowH: [0.58, 1.02, 0.58, 0.58, 1.02, 1.02],
+        colW: [0.24, 0.37, 0.39], pt: 26, tiles: true, rowH: [0.58, 1.02, 0.58, 0.58, 0.62, 1.02],
         header: ['', 'Artrosis erosiva', 'Artritis reumatoide'],
         rows: [
           [{ text: 'Articulaciones', bold: true, fill: 'E7F3F0' }, 'Interfalángicas distales y proximales', 'Metacarpofalángicas, interfalángicas proximales y carpo'],
@@ -44,26 +44,28 @@ module.exports = {
         ],
         note: 'AEM: artrosis erosiva de manos; AR: artritis reumatoide; anti-CCP: anticuerpos antipéptido cíclico citrulinado (1,2).' } },
       { h: 'Evidencia del metotrexato', p: [
-        'EULAR no recomienda los FARME convencionales de rutina en la artrosis de manos (3). El ensayo METHODS mostró que el metotrexato redujo el dolor a 6 meses en la artrosis de manos con sinovitis (4), y PROMOTE lo confirmó en la de rodilla (5), mientras que la hidroxicloroquina no superó al placebo (6). En la AEM la evidencia específica es escasa.'] },
+        'Ninguna guía lo recomienda de rutina (3). En AEM, 10 mg/semana no superó al placebo en una población tardía con escasa sinovitis (4). En artrosis de manos con sinovitis por resonancia, 20 mg/semana redujo el dolor a 6 meses (tamaño del efecto 0,45) sin más eventos adversos (5). En rodilla el beneficio fue modesto o nulo (6,7), y un metaanálisis de 6 ensayos mostró una reducción moderada del dolor (8).'] },
     ] },
     { left: [
       { h: 'Discusión', p: [
-        [['La artrosis también erosiona. ', true], 'La AEM cursa con sinovitis y erosiones centrales que evolucionan a remodelación y anquilosis (1,2).'],
-        [['Diferencia con la AR. ', true], 'En la AEM las erosiones son centrales, en interfalángicas y con formación ósea; en la AR son marginales, en metacarpofalángicas y carpo, con osteopenia y sin osteofitos (Tabla 1). El paciente 2 llegó con diagnóstico de AR seronegativa: el patrón radiológico, los nódulos de Heberden y la serología negativa reorientaron el diagnóstico.']] },
+        [['Diferencia con la AR. ', true], 'En la AEM las erosiones son centrales y con formación ósea; en la AR, marginales y con osteopenia (Tabla 1) (1,2). En el paciente 2, remitido como AR seronegativa, la imagen, los nódulos de Heberden y la serología negativa reorientaron el diagnóstico.'],
+        [['¿Por qué metotrexato? ', true], 'No hay fármacos modificadores aprobados para la AEM. El único ensayo con fenotipo inflamatorio y dosis plenas fue positivo (5), y el negativo usó dosis bajas en enfermedad tardía (4). Es barato, conocido y seguro con monitorización: una alternativa razonable fuera de indicación, aunque de efecto modesto y sin beneficio estructural demostrado (4,8).']] },
     ], right: [
       { h: 'Conclusión', hl: true, p: [
         'La artrosis puede ser erosiva. Las erosiones centrales en alas de gaviota en interfalángicas, con formación ósea y serología negativa, orientan a AEM y la distinguen de la AR.',
-        'El metotrexato puede considerarse en fenotipos inflamatorios con dolor persistente, aunque su evidencia en la forma erosiva aún es limitada.',
-        [['Fortalezas y limitaciones: ', true], 'correlación clínico-radiológica en dos pacientes; sin anti-CCP, ecografía ni seguimiento.'],
-        [['Consideraciones éticas: ', true], 'consentimiento informado de ambos pacientes [confirmar].']] },
+        'El metotrexato es una alternativa fuera de indicación en el fenotipo inflamatorio con dolor refractario, a dosis plenas y con monitorización.',
+        [['Fortalezas y limitaciones: ', true], 'correlación clínico-radiológica; sin anti-CCP, ecografía ni seguimiento.'],
+        [['Consideraciones éticas: ', true], 'se obtuvo consentimiento informado firmado de ambos pacientes.']] },
     ] },
   ],
   refs: [
     'Favero M, Belluzzi E, Ortolan A, Lorenzin M, Oliviero F, Doria A, et al. Erosive hand osteoarthritis: latest findings and outlook. Nat Rev Rheumatol. 2022;18(3):171-83.',
     'Bean MB, Favero M, Ramonda R, Scanzello CR. Erosive hand osteoarthritis: recent advances and future treatments. Curr Rheumatol Rep. 2024;26(4):103-11.',
     'Kloppenburg M, Kroon FP, Blanco FJ, Doherty M, Dziedzic KS, Greibrokk E, et al. 2018 update of the EULAR recommendations for the management of hand osteoarthritis. Ann Rheum Dis. 2019;78(1):16-24.',
+    'Ferrero S, Wittoek R, Allado E, Cruzel C, Fontas E, Breuil V, et al. Methotrexate treatment in hand osteoarthritis refractory to usual treatments: a randomised, double-blind, placebo-controlled trial. Semin Arthritis Rheum. 2021;51(4):831-8.',
     'Wang Y, Jones G, Keen HI, Hill CL, Wluka AE, Kasza J, et al. Methotrexate to treat hand osteoarthritis with synovitis (METHODS): an Australian, multisite, parallel-group, double-blind, randomised, placebo-controlled trial. Lancet. 2023;402(10414):1764-72.',
     'Kingsbury SR, Tharmanathan P, Keding A, Watt FE, Scott DL, Roddy E, et al. Pain reduction with oral methotrexate in knee osteoarthritis: a randomized, placebo-controlled clinical trial. Ann Intern Med. 2024;177(9):1145-56.',
-    'Kingsbury SR, Tharmanathan P, Arden NK, Batley M, Birrell F, Cocks K, et al. Hydroxychloroquine effectiveness in reducing symptoms of hand osteoarthritis: a randomized trial. Ann Intern Med. 2018;168(6):385-95.',
+    'Zhu Z, Yu Q, Leng X, et al. Low-dose methotrexate for the treatment of inflammatory knee osteoarthritis: a randomized clinical trial. JAMA Intern Med. 2025.',
+    'Wong W, Huang Y, Wichienwantana N, et al. Efficacy and safety of methotrexate in osteoarthritis: a systematic review and meta-analysis of randomized controlled trials. Osteoarthritis Cartilage. 2025.',
   ],
 };
