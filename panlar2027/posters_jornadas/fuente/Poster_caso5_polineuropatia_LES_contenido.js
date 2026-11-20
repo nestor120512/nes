@@ -51,7 +51,7 @@ module.exports = {
       { h: 'Discusión', p: [
         [['ANA negativos, LES indudable. ', true], 'Los ANA fueron negativos dos veces por la técnica de referencia, lo que impedía la clasificación EULAR/ACR 2019 (3). Sin embargo, el anti-ADN de doble cadena, la hipocomplementemia, las citopenias y la serositis cumplían SLICC 2012 (4), y la nefritis lúpica clase IV + V comprobada por biopsia despejó cualquier duda. Los criterios de clasificación no sustituyen el diagnóstico clínico (2).'],
         [['Una manifestación rara que exige excluir otras causas. ', true], 'La polineuropatía axonal en el LES solo puede atribuirse tras descartar causas alternativas (1), como se hizo de forma sistemática (Tabla 1).'],
-        [['Tratamiento de manifestaciones raras. ', true], 'Su evidencia es escasa. Las recomendaciones europeas para las manifestaciones raras del LES (red ERN ReCONNET) (5) y para el LES neuropsiquiátrico (6) apoyan los pulsos de glucocorticoides y, en formas graves o refractarias, el rituximab o la ciclofosfamida. En esta paciente, el rituximab se indicó por la neuropatía, antes de disponer de la biopsia renal.'],
+        [['Tratamiento de manifestaciones raras. ', true], 'Su evidencia es escasa. El consenso internacional ERN ReCONNET-SLICC-SLEuro para las manifestaciones raras del LES (5) y para el LES neuropsiquiátrico (6) apoyan los pulsos de glucocorticoides y, en formas graves o refractarias, el rituximab o la ciclofosfamida. En esta paciente, el rituximab se indicó por la neuropatía, antes de disponer de la biopsia renal.'],
         [['Fortalezas y limitaciones: ', true], 'estudio etiológico exhaustivo y confirmación histológica renal; seguimiento aún corto.']] },
     ] },
   ],
@@ -60,7 +60,7 @@ module.exports = {
     'Choi MY, Clarke AE, St Pierre Y, Hanly JG, Urowitz MB, Romero-Diaz J, et al. Antinuclear antibody-negative systemic lupus erythematosus in an international inception cohort. Arthritis Care Res (Hoboken). 2019;71(7):893-902.',
     'Aringer M, Costenbader K, Daikh D, Brinks R, Mosca M, Ramsey-Goldman R, et al. 2019 European League Against Rheumatism/American College of Rheumatology classification criteria for systemic lupus erythematosus. Arthritis Rheumatol. 2019;71(9):1400-12.',
     'Petri M, Orbai AM, Alarcón GS, Gordon C, Merrill JT, Fortin PR, et al. Derivation and validation of the Systemic Lupus International Collaborating Clinics classification criteria for systemic lupus erythematosus. Arthritis Rheum. 2012;64(8):2677-86.',
-    '[ERN ReCONNET: recomendaciones para el manejo de manifestaciones raras del LES. Completar autores, título, revista, año, volumen y páginas].',
+    "Arnaud L, Ruiz-Irastorza G, Aranow C, Bernatsky S, Dall'Era M, Adelowo O, et al. ERN ReCONNET-SLICC-SLEuro expert consensus on the therapeutic management of rare systemic lupus erythematosus manifestations. Lancet Rheumatol. 2025;7(7):e505-18.",
     'Bertsias GK, Ioannidis JP, Aringer M, Bollen E, Bombardieri S, Bruce IN, et al. EULAR recommendations for the management of systemic lupus erythematosus with neuropsychiatric manifestations: report of a task force of the EULAR standing committee for clinical affairs. Ann Rheum Dis. 2010;69(12):2074-82.',
   ],
 };
