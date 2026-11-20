@@ -4,7 +4,7 @@ const L = __dirname + '/../logos/';
 module.exports = {
   label: 'REPORTE DE DOS CASOS',
   title: 'Lo que la piel esconde: dos extremos clínico-radiológicos de la calcinosis en esclerosis sistémica. Reporte de dos casos',
-  authors: 'José Ángel Salas Siado¹, Nestor Fabian Sanabria Duarte²*, Xamy Paola Arrieta Escorcia³',
+  authors: 'José Ángel Salas Siado¹, Nestor Fabian Sanabria Duarte²*, Xamy Paola Arrieta Escorcia³, Silena María Arias Fuentes³',
   affiliations: '¹Investigación Médica Atlántico (IMA) y Clínica General del Norte, Barranquilla, Colombia. ²Programa de Especialización en Medicina Interna, Universidad Libre, Barranquilla, Colombia. ³Internado Médico, Fundación Universitaria San Martín, Barranquilla, Colombia. *Expositor',
   logos: { band: [L + 'logo_clinica_general_del_norte.png', L + 'logo_universidad_libre.png', L + 'logo_fundacion_san_martin.png', L + 'logo_ima_reumatologia.png'] },
   logoBand: true, bandH: 2.1, logoH: 1.5,
