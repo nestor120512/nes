@@ -38,10 +38,11 @@ module.exports = {
         [['Diagnósticos diferenciales: ', true], 'artritis reumatoide (sin artritis, anti-CCP negativo), granulomatosis con poliangeítis (ANCA negativos, senos paranasales normales), lupus (ANA negativos), escleritis infecciosa (tuberculosis, sífilis y herpes zóster descartados) y escleritis posquirúrgica o traumática.'],
         [['Confirmación diagnóstica: ', true], 'diagnóstico clínico oftalmológico; la biopsia conjuntival (muestra escasa) mostró fibrosis e inflamación crónica no granulomatosa, sin displasia.']] },
       { h: 'Discusión', p: [
-        'La escleromalacia perforante es una forma grave de escleritis necrosante, clásicamente asociada con artritis reumatoide y vasculitis sistémicas (1,2). Su curso indoloro e insidioso favorece el diagnóstico tardío, como en esta paciente, que llegó con destrucción corneoescleral extensa tras interrumpir el seguimiento (1).',
-        'Antes de inmunosuprimir deben descartarse la infección, causa de alrededor del 5-10 % de las escleritis (4), y la enfermedad sistémica (2). Sin un diagnóstico definido y con una biopsia sin granulomas, la gravedad ocular guió el tratamiento: glucocorticoides con azatioprina, reservando la ciclofosfamida, el rituximab y los anti-TNF para casos seleccionados o refractarios (3).',
-        [['Fortalezas: ', true], 'evaluación etiológica dirigida y decisión multidisciplinaria, con preservación del globo hasta la reconstrucción quirúrgica.'],
-        [['Limitaciones: ', true], 'biopsia escasa y no diagnóstica, y seguimiento aún corto, considerando que la escleritis puede preceder a la enfermedad sistémica (2).']] },
+        'La escleromalacia perforante es una forma grave de escleritis necrosante, clásicamente asociada con artritis reumatoide y vasculitis sistémicas (1,2); la escleritis necrosante es, además, la forma que con mayor frecuencia se asocia con enfermedad sistémica (2). Su curso indoloro e insidioso favorece el diagnóstico tardío, como en esta paciente, que llegó con destrucción corneoescleral extensa tras interrumpir el seguimiento (1).',
+        'Antes de inmunosuprimir deben descartarse la infección, causa de alrededor del 5-10 % de las escleritis (4), y la enfermedad sistémica (2). Descartadas ambas, la decisión depende de la gravedad ocular y no de cumplir criterios de clasificación para una enfermedad definida (3).',
+        'Sin un diagnóstico definido y con una biopsia sin granulomas, la gravedad ocular guió el tratamiento: glucocorticoides con azatioprina, reservando la ciclofosfamida, el rituximab y los anti-TNF para casos seleccionados o refractarios (3). Como la escleritis puede preceder a la enfermedad sistémica, se requiere seguimiento reumatológico prolongado (2).',
+        [['Fortalezas: ', true], 'evaluación etiológica dirigida (inmunológica, infecciosa, de senos paranasales y abdominopélvica) y decisión multidisciplinaria, con preservación del globo hasta la reconstrucción quirúrgica.'],
+        [['Limitaciones: ', true], 'seguimiento aún corto para detectar una enfermedad sistémica emergente.']] },
     ] },
   ],
   refs: [
