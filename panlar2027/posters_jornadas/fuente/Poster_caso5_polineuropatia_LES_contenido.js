@@ -52,7 +52,7 @@ module.exports = {
         [['ANA negativos, LES indudable. ', true], 'Los ANA fueron negativos dos veces por la técnica de referencia, lo que impedía la clasificación EULAR/ACR 2019 (3). Sin embargo, el anti-ADN de doble cadena, la hipocomplementemia, las citopenias y la serositis cumplían SLICC 2012 (4), y la nefritis lúpica clase IV + V comprobada por biopsia despejó cualquier duda. Los criterios de clasificación no sustituyen el diagnóstico clínico (2).'],
         [['Una manifestación rara que exige excluir otras causas. ', true], 'La polineuropatía axonal en el LES solo puede atribuirse tras descartar causas alternativas (1), como se hizo de forma sistemática (Tabla 1).'],
         [['Tratamiento de manifestaciones raras. ', true], 'Su evidencia es escasa. Las recomendaciones europeas para las manifestaciones raras del LES (red ERN ReCONNET) (5) y para el LES neuropsiquiátrico (6) apoyan los pulsos de glucocorticoides y, en formas graves o refractarias, el rituximab o la ciclofosfamida. En esta paciente, el rituximab se indicó por la neuropatía, antes de disponer de la biopsia renal.'],
-        [['Fortalezas y limitaciones: ', true], 'estudio etiológico exhaustivo y confirmación histológica renal; glucocorticoides concomitantes y seguimiento corto.']] },
+        [['Fortalezas y limitaciones: ', true], 'estudio etiológico exhaustivo y confirmación histológica renal; seguimiento aún corto.']] },
     ] },
   ],
   refs: [
