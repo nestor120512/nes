@@ -1,62 +1,67 @@
+// Póster – polineuropatía axonal severa en LES con ANA negativos (formato de los demás pósteres, 70 x 100 cm).
+const L = __dirname + '/../logos/';
 module.exports = {
-  title: 'Polineuropatía sensitivo-motora axonal severa como manifestación incapacitante de lupus eritematoso sistémico con ANA negativos: reporte de caso',
-  authors: '[Nombre Apellido]¹*, [Nombre Apellido]¹, [Nombre Apellido]²',
-  affiliations: '¹[Servicio de Reumatología, Institución], [Ciudad], Colombia. ²[Institución], [Ciudad], Colombia. *Expositor',
+  title: 'Polineuropatía sensitivo-motora axonal severa como manifestación incapacitante de lupus eritematoso sistémico con anticuerpos antinucleares negativos: reporte de caso',
+  authors: '[Autor 1]¹*, Nestor Fabian Sanabria Duarte¹, [Autor 3]¹, José Ángel Salas Siado²',
+  affiliations: '¹Programa de Especialización en Medicina Interna, Universidad Libre, Barranquilla, Colombia. ²Investigación Médica Atlántico (IMA) y Clínica General del Norte, Barranquilla, Colombia. *Expositor',
+  logos: { band: [L + 'logo_clinica_general_del_norte.png', L + 'logo_universidad_libre.png', L + 'logo_ima_reumatologia.png'] },
+  logoBand: true, bandH: 2.1, logoH: 1.6,
+  bodyPt: 30, refPt: 22, justify: true,
+  primary: '1F3D7A', accent: '2E9C8A', tint: 'E7F3F0', border: 'BCCBE0',
+  titleColor: '1F3D7A', titlePt: 50, bandHeads: true,
   keywords: 'lupus eritematoso sistémico; polineuropatías; anticuerpos antinucleares; lupus eritematoso sistémico neuropsiquiátrico; nefritis lúpica; rituximab.',
-  blocks: [
-    { col: 0, h: 'Resumen', p: [
-      'Mujer de 33 años con pancitopenia, hipocomplementemia, anti-ADNdc positivo, proteinuria y anticuerpos antinucleares (ANA) negativos en dos determinaciones, que desarrolló una polineuropatía sensitivo-motora axonal severa con pérdida de la marcha independiente. Tras excluir causas alternativas, recibió pulsos de metilprednisolona y rituximab, con recuperación de la marcha. La biopsia renal confirmó nefritis lúpica clase IV + V.'] },
-    { col: 0, h: 'Introducción', p: [
-      'La neuropatía periférica es uno de los síndromes neuropsiquiátricos del lupus eritematoso sistémico (LES) definidos por el ACR en 1999; es infrecuente y su atribución exige excluir causas metabólicas, infecciosas, tóxicas y neoplásicas. El LES con ANA negativos es raro y no cumple el criterio de entrada de la clasificación EULAR/ACR 2019. Las recomendaciones EULAR proponen glucocorticoides e inmunosupresión para las manifestaciones neuropsiquiátricas de origen inflamatorio.',
-      [['Aporte del caso: ', true], 'una neuropatía axonal grave e incapacitante en un LES con ANA negativos, con recuperación funcional tras intensificar la inmunosupresión.']] },
-    { col: 0, h: 'Información del caso', p: [
-      [['Datos demográficos y motivo de consulta: ', true], 'mujer de 33 años hospitalizada en julio de 2026 por hemorragia digestiva y pancitopenia.'],
-      [['Enfermedad actual: ', true], 'poliartralgias inflamatorias, rigidez matutina y alopecia; desde seis semanas antes, parestesias en las cuatro extremidades y debilidad progresiva de los miembros inferiores.'],
-      [['Antecedentes relevantes: ', true], 'sin enfermedad autoinmune conocida.'],
-      [['Examen físico: ', true], 'alopecia, debilidad de miembros inferiores y alteración sensitiva en las cuatro extremidades. Parálisis del VI par izquierdo, no atribuida al LES (resonancia con cambios microangiopáticos).'],
-      [['Estudios relevantes: ', true], 'leucopenia, trombocitopenia, C3 bajo y C4 de 8,7 mg/dL; anti-ADNdc positivo por Crithidia luciliae (1:40); proteinuria de 1,7 g/24 h; derrame pericárdico mínimo. ANA por inmunofluorescencia en células HEp-2 negativos en dos determinaciones (Tabla 1). La electromiografía mostró una polineuropatía sensitivo-motora axonal severa y difusa, sin patrón de mononeuritis múltiple ni radiculopatía.'],
-      [['Diagnósticos diferenciales: ', true], 'neuropatía carencial, metabólica, infecciosa, paraproteinémica o vasculítica (Tabla 2).'],
-      [['Confirmación diagnóstica: ', true], 'cumplía los criterios SLICC 2012; los ANA negativos impedían la clasificación EULAR/ACR 2019. La biopsia renal confirmó nefritis lúpica clase IV + V.']] },
-    { col: 1, name: 'Tabla 1', table: {
-      title: 'Tabla 1. Perfil inmunológico', colW: [0.55, 0.45], pt: 24,
-      header: ['Prueba', 'Resultado'],
+  segments: [
+    { left: [
+      { h: 'Resumen', p: [
+        'Mujer de 33 años con pancitopenia, hipocomplementemia, anti-ADN de doble cadena positivo y anticuerpos antinucleares (ANA) negativos en dos determinaciones, que desarrolló una polineuropatía sensitivo-motora axonal severa con pérdida de la marcha independiente. Tras excluir causas alternativas recibió pulsos de metilprednisolona y rituximab, y recuperó la marcha. La biopsia renal confirmó nefritis lúpica clase IV + V.'] },
+      { h: 'Introducción', p: [
+        'La neuropatía periférica es uno de los síndromes neuropsiquiátricos del lupus eritematoso sistémico (LES); es infrecuente y su atribución exige excluir causas metabólicas, infecciosas, tóxicas y neoplásicas (1). El LES con ANA negativos es raro (2) y no cumple el criterio de entrada de la clasificación EULAR/ACR 2019 (3), aunque los criterios SLICC 2012 permiten clasificarlo (4).',
+        [['Aporte del caso: ', true], 'una manifestación rara y grave del LES en una paciente con ANA negativos, tratada de forma dirigida antes de conocer la biopsia renal.']] },
+    ], right: [
+      { h: 'Información del caso', p: [
+        [['Datos demográficos y motivo de consulta: ', true], 'mujer de 33 años, sin enfermedad autoinmune conocida, hospitalizada en julio de 2026 por hemorragia digestiva y pancitopenia.'],
+        [['Enfermedad actual: ', true], 'poliartralgias inflamatorias, rigidez matutina, alopecia y lesiones vesiculares pruriginosas en miembros inferiores; desde seis semanas antes, parestesias en las cuatro extremidades, debilidad progresiva y caídas, hasta perder la marcha independiente.'],
+        [['Examen físico: ', true], 'debilidad de miembros inferiores, alteración sensitiva distal y paresia del VI par izquierdo, no atribuida al LES (resonancia magnética con cambios microangiopáticos).'],
+        [['Estudios relevantes: ', true], 'ver Tabla 1. La electromiografía mostró una polineuropatía sensitivo-motora axonal severa y difusa, sin mononeuritis múltiple ni radiculopatía.'],
+        [['Diagnósticos diferenciales: ', true], 'neuropatía carencial, metabólica, infecciosa, paraproteinémica, neoplásica y vasculítica, todas descartadas (Tabla 1).'],
+        [['Confirmación diagnóstica: ', true], 'LES por criterios SLICC 2012 (4); la biopsia renal con nefritis lúpica clase IV + V confirmó el diagnóstico.']] },
+    ] },
+    { full: { name: 'Tabla 1', table: {
+      title: 'Tabla 1. Estudios y hallazgos por dominio',
+      colW: [0.19, 0.81], pt: 30, tiles: true, rowH: [0.62, 1.62, 0.64, 1.13, 1.13, 0.64, 0.64, 1.13],
+      header: ['Dominio', 'Hallazgos'],
       rows: [
-        ['ANA (IFI en células HEp-2)', 'Negativos (2 determinaciones)'],
-        ['Anti-ADNdc (Crithidia luciliae)', 'Positivo 1:40'],
-        ['Antígenos nucleares extraíbles', 'Negativos'],
-        ['C3 / C4', 'Bajo / 8,7 mg/dL (nadir)'],
-        ['ANCA', 'Negativos'],
-        ['Proteinuria', '1,7 g/24 h'],
-      ] } },
-    { col: 1, name: 'Tabla 2', table: {
-      title: 'Tabla 2. Estudio de causas alternativas de neuropatía', colW: [0.55, 0.45], pt: 24,
-      header: ['Estudio', 'Resultado'],
-      rows: [
-        ['Vitamina B12 y folato', 'Normales'],
-        ['HbA1c y TSH', 'Normales'],
-        ['CK', 'Normal'],
-        ['VIH, hepatitis B y C, sífilis', 'Negativos'],
-        ['Componente monoclonal', 'Ausente'],
-        ['Médula ósea', 'Sin neoplasia'],
-        ['Biopsia cutánea', 'Sin vasculitis'],
-      ] } },
-    { col: 1, h: 'Tratamiento y evolución', p: [
-      'Recibió prednisolona, hidroxicloroquina y azatioprina, suspendida por hepatotoxicidad colestásica, y luego micofenolato mofetilo. Pese a ello perdió la marcha independiente por los síntomas neuropáticos, por lo que se trató la neuropatía con metilprednisolona intravenosa 500 mg/día por 3 días y rituximab 1.000 mg los días 1 y 15, antes de conocer el resultado de la biopsia renal.',
-      'Unos 7 días después del rituximab mejoró y recuperó la marcha independiente, con síntomas sensitivos persistentes.'] },
-    { col: 1, h: 'Discusión', p: [
-      [['Fortalezas: ', true], 'estudio electrofisiológico y búsqueda sistemática de causas alternativas; ANA repetidos con la técnica de referencia; confirmación histológica de nefritis lúpica.'],
-      [['Limitaciones: ', true], 'sin biopsia de nervio ni punción lumbar; la mejoría no puede atribuirse solo al rituximab, por los pulsos concomitantes; seguimiento corto.'],
-      [['Aporte a la práctica: ', true], 'los criterios EULAR/ACR 2019 son de clasificación: unos ANA negativos no excluyen el LES cuando el resto del perfil es consistente. La neuropatía grave e incapacitante puede justificar intensificar la inmunosupresión.']] },
-    { col: 1, key: ["Unos ANA negativos no excluyen el LES si el resto del perfil es consistente.", "La neuropatía en el LES exige excluir causas alternativas.", "La neuropatía incapacitante puede justificar intensificar la inmunosupresión."] },
-    { col: 0, h: 'Conclusión', p: [
-      'La polineuropatía axonal severa puede ser una manifestación incapacitante del LES, incluso con ANA negativos. Tras excluir causas alternativas, la pérdida de la marcha independiente justificó intensificar la inmunosupresión, con recuperación funcional.',
-      [['Consideraciones éticas: ', true], 'se obtuvo consentimiento informado de la paciente.']] },
+        [{ text: 'Inmunológico', bold: true, fill: 'E7F3F0' }, 'ANA por inmunofluorescencia indirecta en células HEp-2 negativos en dos determinaciones; anti-ADN de doble cadena positivo (Crithidia luciliae 1:40); C3 y C4 bajos; antígenos nucleares extraíbles, anticuerpos antifosfolípidos y anticoagulante lúpico negativos; inmunoglobulinas normales'],
+        [{ text: 'Hematológico', bold: true, fill: 'E7F3F0' }, 'Hemoglobina 10,6 g/dL; leucocitos 1.890/µL; plaquetas 75.000/µL; médula ósea sin población neoplásica por citometría de flujo'],
+        [{ text: 'Renal', bold: true, fill: 'E7F3F0' }, 'Proteinuria 1.732,5 mg/24 h; creatinina 0,62 mg/dL; biopsia: glomerulonefritis proliferativa difusa con componente membranoso (nefritis lúpica clase IV + V)'],
+        [{ text: 'Neurológico', bold: true, fill: 'E7F3F0' }, 'Electromiografía: polineuropatía sensitivo-motora axonal severa y difusa; resonancia cerebral: cambios microangiopáticos sin lesión estructural explicativa'],
+        [{ text: 'Cutáneo y articular', bold: true, fill: 'E7F3F0' }, 'Alopecia; lesiones vesiculares erosivas en miembros inferiores (biopsia: cambios posinflamatorios, sin vasculitis); poliartralgias inflamatorias'],
+        [{ text: 'Cardiovascular y hepático', bold: true, fill: 'E7F3F0' }, 'Derrame pericárdico leve; colestasis por azatioprina, con mejoría al suspenderla'],
+        [{ text: 'Causas alternativas excluidas', bold: true, fill: 'E7F3F0' }, 'Vitamina B12, folato, TSH y creatina quinasa normales; VIH, hepatitis B y C y sífilis negativos; anti-MPO y anti-PR3 negativos; sin componente monoclonal'],
+      ],
+      note: 'MPO: mieloperoxidasa; PR3: proteinasa 3; TSH: hormona estimulante de la tiroides; VIH: virus de la inmunodeficiencia humana.' } } },
+    { left: [
+      { h: 'Tratamiento y evolución', p: [
+        'Recibió prednisolona, hidroxicloroquina y azatioprina (suspendida por hepatotoxicidad colestásica), y luego micofenolato mofetilo; pese a ello perdió la marcha independiente.',
+        'Se trató la neuropatía con metilprednisolona intravenosa 500 mg/día por 3 días y rituximab 1.000 mg los días 1 y 15, antes de conocer el resultado de la biopsia renal. Unos 7 días después del rituximab mejoró y recuperó la marcha independiente, con síntomas sensitivos persistentes.'] },
+      { h: 'Conclusión', hl: true, p: [
+        'La polineuropatía axonal severa puede ser una manifestación incapacitante del LES, incluso con ANA negativos. Tras excluir causas alternativas, la pérdida de la marcha independiente justificó intensificar la inmunosupresión, con recuperación funcional.',
+        'Unos ANA negativos no deben descartar el LES cuando el perfil clínico, serológico e histológico es consistente.',
+        [['Consideraciones éticas: ', true], 'se obtuvo consentimiento informado firmado de la paciente.']] },
+    ], right: [
+      { h: 'Discusión', p: [
+        [['ANA negativos, LES indudable. ', true], 'Los ANA fueron negativos dos veces por la técnica de referencia, lo que impedía la clasificación EULAR/ACR 2019 (3). Sin embargo, el anti-ADN de doble cadena, la hipocomplementemia, las citopenias y la serositis cumplían SLICC 2012 (4), y la nefritis lúpica clase IV + V comprobada por biopsia despejó cualquier duda. Los criterios de clasificación no sustituyen el diagnóstico clínico (2).'],
+        [['Una manifestación rara que exige excluir otras causas. ', true], 'La polineuropatía axonal en el LES solo puede atribuirse tras descartar causas alternativas (1), como se hizo de forma sistemática (Tabla 1).'],
+        [['Tratamiento de manifestaciones raras. ', true], 'Su evidencia es escasa. Las recomendaciones europeas para las manifestaciones raras del LES (red ERN ReCONNET) (5) y para el LES neuropsiquiátrico (6) apoyan los pulsos de glucocorticoides y, en formas graves o refractarias, el rituximab o la ciclofosfamida. Aquí el rituximab trató también la nefritis.'],
+        [['Fortalezas y limitaciones: ', true], 'estudio etiológico exhaustivo y confirmación histológica renal; sin biopsia de nervio ni punción lumbar, glucocorticoides concomitantes y seguimiento corto.']] },
+    ] },
   ],
   refs: [
     'ACR Ad Hoc Committee on Neuropsychiatric Lupus Nomenclature. The American College of Rheumatology nomenclature and case definitions for neuropsychiatric lupus syndromes. Arthritis Rheum. 1999;42(4):599-608.',
-    'Florica B, Aghdassi E, Su J, Gladman DD, Urowitz MB, Fortin PR. Peripheral neuropathy in patients with systemic lupus erythematosus. Semin Arthritis Rheum. 2011;41(2):203-11.',
     'Choi MY, Clarke AE, St Pierre Y, Hanly JG, Urowitz MB, Romero-Diaz J, et al. Antinuclear antibody-negative systemic lupus erythematosus in an international inception cohort. Arthritis Care Res (Hoboken). 2019;71(7):893-902.',
+    'Aringer M, Costenbader K, Daikh D, Brinks R, Mosca M, Ramsey-Goldman R, et al. 2019 European League Against Rheumatism/American College of Rheumatology classification criteria for systemic lupus erythematosus. Arthritis Rheumatol. 2019;71(9):1400-12.',
     'Petri M, Orbai AM, Alarcón GS, Gordon C, Merrill JT, Fortin PR, et al. Derivation and validation of the Systemic Lupus International Collaborating Clinics classification criteria for systemic lupus erythematosus. Arthritis Rheum. 2012;64(8):2677-86.',
-    'Fanouriakis A, Kostopoulou M, Andersen J, Aringer M, Arnaud L, Bae SC, et al. EULAR recommendations for the management of systemic lupus erythematosus: 2023 update. Ann Rheum Dis. 2024;83(1):15-29.',
+    '[ERN ReCONNET: recomendaciones para el manejo de manifestaciones raras del LES. Completar autores, título, revista, año, volumen y páginas].',
+    'Bertsias GK, Ioannidis JP, Aringer M, Bollen E, Bombardieri S, Bruce IN, et al. EULAR recommendations for the management of systemic lupus erythematosus with neuropsychiatric manifestations: report of a task force of the EULAR standing committee for clinical affairs. Ann Rheum Dis. 2010;69(12):2074-82.',
   ],
 };
