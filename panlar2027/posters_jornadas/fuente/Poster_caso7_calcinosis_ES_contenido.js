@@ -45,7 +45,7 @@ module.exports = {
       { h: 'Conclusión', hl: true, p: [
         'La calcinosis de la ES va desde depósitos acrales de menor extensión hasta conglomerados proximales masivos, que pueden aparecer incluso en la forma cutánea limitada, lejos de la piel engrosada. En la paciente 1, la radiografía delimitó una extensión mucho mayor que la sugerida por la inspección cutánea.',
         'Ante nódulos dolorosos o ulcerados en pacientes con ES, la radiografía simple dirigida, accesible y de bajo costo, permite dimensionar la extensión real de la calcinosis e identificar lesiones asociadas, como la acroosteólisis.',
-        [['Consideraciones éticas: ', true], 'se obtuvo consentimiento informado firmado de ambas pacientes, incluidas las fotografías.']] },
+        [['Consideraciones éticas: ', true], 'se obtuvo consentimiento informado firmado de ambas pacientes.']] },
     ] },
   ],
   refs: [
