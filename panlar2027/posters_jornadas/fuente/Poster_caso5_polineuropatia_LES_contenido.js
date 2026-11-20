@@ -2,9 +2,9 @@
 const L = __dirname + '/../logos/';
 module.exports = {
   title: 'Polineuropatía sensitivo-motora axonal severa como manifestación incapacitante de lupus eritematoso sistémico con anticuerpos antinucleares negativos: reporte de caso',
-  authors: '[Autor 1]¹*, Nestor Fabian Sanabria Duarte¹, [Autor 3]¹, José Ángel Salas Siado²',
-  affiliations: '¹Programa de Especialización en Medicina Interna, Universidad Libre, Barranquilla, Colombia. ²Investigación Médica Atlántico (IMA) y Clínica General del Norte, Barranquilla, Colombia. *Expositor',
-  logos: { band: [L + 'logo_clinica_general_del_norte.png', L + 'logo_universidad_libre.png', L + 'logo_ima_reumatologia.png'] },
+  authors: 'Jessica Morales Holguin¹*, Nestor Fabian Sanabria Duarte¹, Jhonatan Padilla Navarro¹, Karen Milagros Pérez Molinares², José Ángel Salas Siado³',
+  affiliations: '¹Programa de Especialización en Medicina Interna, Universidad Libre, Barranquilla, Colombia. ²Programa de Especialización en Medicina Interna, Universidad Metropolitana, Barranquilla, Colombia. ³Investigación Médica Atlántico (IMA) y Clínica General del Norte, Barranquilla, Colombia. *Expositora',
+  logos: { band: [L + 'logo_clinica_general_del_norte.png', L + 'logo_universidad_libre.png', L + 'logo_universidad_metropolitana.png'] },
   logoBand: true, bandH: 2.1, logoH: 1.6,
   bodyPt: 30, refPt: 22, justify: true,
   primary: '1F3D7A', accent: '2E9C8A', tint: 'E7F3F0', border: 'BCCBE0',
@@ -13,7 +13,7 @@ module.exports = {
   segments: [
     { left: [
       { h: 'Resumen', p: [
-        'Mujer de 33 años con pancitopenia, hipocomplementemia, anti-ADN de doble cadena positivo y anticuerpos antinucleares (ANA) negativos en dos determinaciones, que desarrolló una polineuropatía sensitivo-motora axonal severa con pérdida de la marcha independiente. Tras excluir causas alternativas recibió pulsos de metilprednisolona y rituximab, y recuperó la marcha. La biopsia renal confirmó nefritis lúpica clase IV + V.'] },
+        'Mujer de 33 años con pancitopenia, hipocomplementemia, anti-ADN de doble cadena positivo y anticuerpos antinucleares (ANA) negativos en dos determinaciones, que desarrolló una polineuropatía sensitivo-motora axonal severa con pérdida de la marcha independiente. Tras excluir causas alternativas, durante la hospitalización recibió pulsos de metilprednisolona y rituximab por la neuropatía, y recuperó la marcha. En el seguimiento, la biopsia renal mostró nefritis lúpica clase IV + V.'] },
       { h: 'Introducción', p: [
         'La neuropatía periférica es uno de los síndromes neuropsiquiátricos del lupus eritematoso sistémico (LES); es infrecuente y su atribución exige excluir causas metabólicas, infecciosas, tóxicas y neoplásicas (1). El LES con ANA negativos es raro (2) y no cumple el criterio de entrada de la clasificación EULAR/ACR 2019 (3), aunque los criterios SLICC 2012 permiten clasificarlo (4).',
         [['Aporte del caso: ', true], 'una manifestación rara y grave del LES en una paciente con ANA negativos, tratada de forma dirigida antes de conocer la biopsia renal.']] },
@@ -24,7 +24,7 @@ module.exports = {
         [['Examen físico: ', true], 'debilidad de miembros inferiores, alteración sensitiva distal y paresia del VI par izquierdo, no atribuida al LES (resonancia magnética con cambios microangiopáticos).'],
         [['Estudios relevantes: ', true], 'ver Tabla 1. La electromiografía mostró una polineuropatía sensitivo-motora axonal severa y difusa, sin mononeuritis múltiple ni radiculopatía.'],
         [['Diagnósticos diferenciales: ', true], 'neuropatía carencial, metabólica, infecciosa, paraproteinémica, neoplásica y vasculítica, todas descartadas (Tabla 1).'],
-        [['Confirmación diagnóstica: ', true], 'LES por criterios SLICC 2012 (4); la biopsia renal con nefritis lúpica clase IV + V confirmó el diagnóstico.']] },
+        [['Confirmación diagnóstica: ', true], 'LES por criterios SLICC 2012 (4); en el seguimiento, la biopsia renal con nefritis lúpica clase IV + V confirmó el diagnóstico.']] },
     ] },
     { full: { name: 'Tabla 1', table: {
       title: 'Tabla 1. Estudios y hallazgos por dominio',
@@ -42,18 +42,17 @@ module.exports = {
       note: 'MPO: mieloperoxidasa; PR3: proteinasa 3; TSH: hormona estimulante de la tiroides; VIH: virus de la inmunodeficiencia humana.' } } },
     { left: [
       { h: 'Tratamiento y evolución', p: [
-        'Recibió prednisolona, hidroxicloroquina y azatioprina (suspendida por hepatotoxicidad colestásica), y luego micofenolato mofetilo; pese a ello perdió la marcha independiente.',
-        'Se trató la neuropatía con metilprednisolona intravenosa 500 mg/día por 3 días y rituximab 1.000 mg los días 1 y 15, antes de conocer el resultado de la biopsia renal. Unos 7 días después del rituximab mejoró y recuperó la marcha independiente, con síntomas sensitivos persistentes.'] },
+        'Recibió prednisolona, hidroxicloroquina, azatioprina (suspendida por colestasis) y luego micofenolato; pese a ello perdió la marcha independiente.',
+        'Durante la hospitalización, y sin contar aún con biopsia renal, la polineuropatía se trató con metilprednisolona intravenosa 500 mg/día por 3 días y rituximab 1.000 mg los días 1 y 15. Unos 7 días después del rituximab mejoró y recuperó la marcha independiente, con síntomas sensitivos persistentes. La biopsia renal, valorada en el seguimiento, mostró nefritis lúpica clase IV + V.'] },
       { h: 'Conclusión', hl: true, p: [
-        'La polineuropatía axonal severa puede ser una manifestación incapacitante del LES, incluso con ANA negativos. Tras excluir causas alternativas, la pérdida de la marcha independiente justificó intensificar la inmunosupresión, con recuperación funcional.',
-        'Unos ANA negativos no deben descartar el LES cuando el perfil clínico, serológico e histológico es consistente.',
+        'La polineuropatía axonal severa puede ser una manifestación incapacitante del LES, incluso con ANA negativos. Tras excluir causas alternativas, la pérdida de la marcha justificó intensificar la inmunosupresión, con recuperación funcional. Unos ANA negativos no descartan el LES si el perfil clínico, serológico e histológico es consistente.',
         [['Consideraciones éticas: ', true], 'se obtuvo consentimiento informado firmado de la paciente.']] },
     ], right: [
       { h: 'Discusión', p: [
         [['ANA negativos, LES indudable. ', true], 'Los ANA fueron negativos dos veces por la técnica de referencia, lo que impedía la clasificación EULAR/ACR 2019 (3). Sin embargo, el anti-ADN de doble cadena, la hipocomplementemia, las citopenias y la serositis cumplían SLICC 2012 (4), y la nefritis lúpica clase IV + V comprobada por biopsia despejó cualquier duda. Los criterios de clasificación no sustituyen el diagnóstico clínico (2).'],
         [['Una manifestación rara que exige excluir otras causas. ', true], 'La polineuropatía axonal en el LES solo puede atribuirse tras descartar causas alternativas (1), como se hizo de forma sistemática (Tabla 1).'],
-        [['Tratamiento de manifestaciones raras. ', true], 'Su evidencia es escasa. Las recomendaciones europeas para las manifestaciones raras del LES (red ERN ReCONNET) (5) y para el LES neuropsiquiátrico (6) apoyan los pulsos de glucocorticoides y, en formas graves o refractarias, el rituximab o la ciclofosfamida. Aquí el rituximab trató también la nefritis.'],
-        [['Fortalezas y limitaciones: ', true], 'estudio etiológico exhaustivo y confirmación histológica renal; sin biopsia de nervio ni punción lumbar, glucocorticoides concomitantes y seguimiento corto.']] },
+        [['Tratamiento de manifestaciones raras. ', true], 'Su evidencia es escasa. Las recomendaciones europeas para las manifestaciones raras del LES (red ERN ReCONNET) (5) y para el LES neuropsiquiátrico (6) apoyan los pulsos de glucocorticoides y, en formas graves o refractarias, el rituximab o la ciclofosfamida. En esta paciente, el rituximab se indicó por la neuropatía, antes de disponer de la biopsia renal.'],
+        [['Fortalezas y limitaciones: ', true], 'estudio etiológico exhaustivo y confirmación histológica renal; glucocorticoides concomitantes y seguimiento corto.']] },
     ] },
   ],
   refs: [
