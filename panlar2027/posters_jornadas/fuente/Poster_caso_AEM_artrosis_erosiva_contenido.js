@@ -49,12 +49,12 @@ module.exports = {
     { left: [
       { h: 'Discusión', p: [
         [['Diferencia con la AR. ', true], 'En la AEM las erosiones son centrales y con formación ósea; en la AR, marginales y con osteopenia (Tabla 1) (1,2). En el paciente 2, remitido como AR seronegativa, la imagen, los nódulos de Heberden y la serología negativa reorientaron el diagnóstico.'],
-        [['¿Por qué metotrexato? ', true], 'No hay fármacos modificadores aprobados para la AEM. El único ensayo con fenotipo inflamatorio y dosis plenas fue positivo (5), y el negativo usó dosis bajas en enfermedad tardía (4). Es barato, conocido y seguro con monitorización: una alternativa razonable fuera de indicación, aunque de efecto modesto y sin beneficio estructural demostrado (4,8).']] },
+        [['¿Por qué metotrexato? ', true], 'No hay fármacos modificadores aprobados para la AEM. El único ensayo con fenotipo inflamatorio y dosis plenas fue positivo (5), y el negativo usó dosis bajas en enfermedad tardía (4). Es barato, conocido y seguro con monitorización: una alternativa razonable fuera de indicación, aunque de efecto modesto y sin beneficio estructural demostrado (4,8).'],
+        [['Fortalezas y limitaciones: ', true], 'correlación clínico-radiológica y anticuerpos de artritis reumatoide negativos en ambos; sin ecografía ni seguimiento.']] },
     ], right: [
       { h: 'Conclusión', hl: true, p: [
-        'La artrosis puede ser erosiva. Las erosiones centrales en alas de gaviota en interfalángicas, con formación ósea y serología negativa, orientan a AEM y la distinguen de la AR.',
-        'El metotrexato es una alternativa fuera de indicación en el fenotipo inflamatorio con dolor refractario, a dosis plenas y con monitorización.',
-        [['Fortalezas y limitaciones: ', true], 'correlación clínico-radiológica y anticuerpos de artritis reumatoide negativos en ambos; sin ecografía ni seguimiento.'],
+        'No hay que olvidar que, aunque la artrosis habitualmente no se asocia con erosiones, sí puede producirlas. En la AEM, las erosiones centrales en alas de gaviota de las interfalángicas, con formación ósea y anticuerpos de AR negativos, permiten distinguirla de la AR y evitar un diagnóstico y un tratamiento equivocados.',
+        'En el fenotipo inflamatorio con dolor refractario, el metotrexato a dosis plenas y con monitorización es una alternativa razonable fuera de indicación.',
         [['Consideraciones éticas: ', true], 'se obtuvo consentimiento informado firmado de ambos pacientes.']] },
     ] },
   ],
