@@ -5,7 +5,7 @@ const OK = { bold: true, color: '17663F', fill: 'DDF1E6', align: 'center' };
 const NO = { bold: true, color: 'A3202E', fill: 'FADADD', align: 'center' };
 const H = { bold: true, fill: 'E7F3F0' };
 module.exports = {
-  title: 'Lupus cutáneo con lupus eritematoso sistémico de laboratorio: cuando diez puntos no cuentan toda la historia. Reporte de caso',
+  title: 'Lupus cutáneo con lupus sistémico de laboratorio: cuando diez puntos no cuentan toda la historia. Reporte de caso',
   authors: 'Manuel Alejandro Pertuz Garcia¹, Nestor Fabian Sanabria Duarte²*, José Ángel Salas Siado³',
   affiliations: '¹Programa de Especialización en Medicina Interna, Universidad Metropolitana, Barranquilla, Colombia. ²Programa de Especialización en Medicina Interna, Universidad Libre, Barranquilla, Colombia. ³Investigación Médica Atlántico (IMA) y Clínica General del Norte, Barranquilla, Colombia. *Expositor',
   logos: { band: [L + 'logo_clinica_general_del_norte.png', L + 'logo_universidad_libre.png', L + 'logo_universidad_metropolitana.png', L + 'logo_ima_reumatologia.png'] },
