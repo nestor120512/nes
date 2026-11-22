@@ -23,18 +23,18 @@ module.exports = {
       { h: 'Información de los casos', p: [
         [['Paciente 1. ', true], 'Mujer de 63 años con artrosis y túnel del carpo izquierdo. La radiografía mostró erosiones e imágenes en alas de gaviota en interfalángicas proximales y distales de ambas manos (Figura 1). Factor reumatoide y anticuerpos antipéptido cíclico citrulinado (anti-CCP) negativos. Recibe metotrexato 12,5 mg semanales, ácido fólico y acetaminofén.'],
         [['Paciente 2. ', true], 'Hombre de 73 años remitido como AR seronegativa por 6 meses de dolor poliarticular, rigidez y fatiga, con nódulos de Heberden; factor reumatoide y anti-CCP negativos y proteína C reactiva normal. La radiografía mostró erosiones centrales en alas de gaviota y destrucción de la interfalángica del pulgar (Figura 2). Se diagnosticaron AEM, coxartrosis y fibromialgia; recibe metotrexato 12,5 mg semanales, hidroxicloroquina, metilprednisolona a dosis baja, pregabalina y sertralina.'],
-        [['Paciente 3. ', true], 'Mujer de 79 años con AEM y artritis; radiografía de 2021 compatible con AEM. La de 2026 mostró erosiones y cambios osteoartrósicos en interfalángicas distales y en ambos pulgares, con esclerosis subcondral y osteofitos marginales (Figura 3). Recibe acetaminofén según dolor y colágeno hidrolizado.']] },
+        [['Paciente 3. ', true], 'Mujer de 79 años con AEM y artritis; radiografía de 2021 compatible con AEM. La de 2026 mostró erosiones y cambios osteoartrósicos en interfalángicas distales y en ambos pulgares, con esclerosis subcondral y osteofitos marginales (Figura 3). Factor reumatoide y anti-CCP negativos. Recibe acetaminofén según dolor y colágeno hidrolizado.']] },
     ] },
-    { split: 0.76, left: [
+    { split: 0.68, left: [
       { name: 'Figura 1', img: P + 'caso_AEM_figura1_paciente1.jpg',
         caption: 'Figura 1. Paciente 1. Ambas manos en proyección posteroanterior (A) y oblicua (B): erosiones centrales en alas de gaviota en interfalángicas proximales y distales (círculos), con respeto de metacarpofalángicas y carpo.' },
     ], right: [
-      { name: 'Figura 3', img: P + 'caso_AEM_figura3_paciente3.jpg',
-        caption: 'Figura 3. Paciente 3. Ambas manos: erosiones y cambios osteoartrósicos en interfalángicas distales y ambos pulgares (círculos), con esclerosis subcondral y osteofitos.' },
-    ] },
-    { split: 0.36, left: [
       { name: 'Figura 2', img: P + 'caso_AEM_figura2_paciente2.jpg',
-        caption: 'Figura 2. Paciente 2. Mano derecha en proyección posteroanterior (A) y oblicua (B): erosiones centrales en alas de gaviota en interfalángicas y destrucción de la interfalángica del pulgar (círculos).' },
+        caption: 'Figura 2. Paciente 2. Mano derecha, proyección posteroanterior (A) y oblicua (B): erosiones centrales en alas de gaviota y destrucción de la interfalángica del pulgar (círculos).' },
+    ] },
+    { split: 0.33, left: [
+      { name: 'Figura 3', img: P + 'caso_AEM_figura3_paciente3.jpg',
+        caption: 'Figura 3. Paciente 3. Ambas manos: erosiones y cambios osteoartrósicos en interfalángicas distales y pulgares, con esclerosis y osteofitos (círculos).' },
     ], right: [
       { name: 'Tabla 1', table: {
         title: 'Tabla 1. Erosiones en AEM frente a AR',
@@ -55,12 +55,12 @@ module.exports = {
       { h: 'Discusión', p: [
         [['Diferencia con la AR. ', true], 'En la AEM las erosiones son centrales y con formación ósea; en la AR, marginales y con osteopenia (Tabla 1) (1,2). En el paciente 2, remitido como AR seronegativa, la imagen, los nódulos de Heberden y la serología negativa reorientaron el diagnóstico.'],
         [['¿Por qué metotrexato? ', true], 'No hay fármacos modificadores aprobados para la AEM. El único ensayo con fenotipo inflamatorio y dosis plenas fue positivo (5); el negativo usó dosis bajas en enfermedad tardía (4). Su efecto es modesto y sin beneficio estructural demostrado (4,8).'],
-        [['Fortalezas y limitaciones: ', true], 'correlación clínico-radiológica en tres pacientes; sin ecografía ni seguimiento.']] },
+        [['Fortalezas y limitaciones: ', true], 'correlación clínico-radiológica y serología negativa en los tres pacientes; sin ecografía ni seguimiento.']] },
     ], right: [
       { h: 'Conclusión', hl: true, p: [
         'No hay que olvidar que, aunque la artrosis habitualmente no se asocia con erosiones, sí puede producirlas. En la AEM, las erosiones centrales en alas de gaviota de las interfalángicas, con formación ósea y anticuerpos de AR negativos, permiten distinguirla de la AR y evitar un diagnóstico y un tratamiento equivocados.',
         'En el fenotipo inflamatorio con dolor refractario, el metotrexato a dosis plenas y con monitorización es una alternativa razonable fuera de indicación.',
-        [['Consideraciones éticas: ', true], 'se obtuvo consentimiento informado firmado de los tres pacientes [confirmar paciente 3].']] },
+        [['Consideraciones éticas: ', true], 'se obtuvo consentimiento informado firmado de los tres pacientes.']] },
     ] },
   ],
   refs: [
