@@ -1,6 +1,6 @@
 // Póster 5 – calcinosis en esclerosis sistémica (formato de los pósteres 1 a 3).
-const P = __dirname + '/../../';
-const L = __dirname + '/../logos/';
+const P = '/home/user/nes/panlar2027/';
+const L = __dirname + '/logos/';
 module.exports = {
   label: 'REPORTE DE DOS CASOS',
   title: 'Lo que la piel esconde: dos extremos clínico-radiológicos de la calcinosis en esclerosis sistémica. Reporte de dos casos',
@@ -54,10 +54,10 @@ module.exports = {
   ],
   refs: [
     'Valenzuela A, Song P, Chung L. Calcinosis in scleroderma. Curr Opin Rheumatol. 2018;30(6):601-7.',
-    'Avanoglu-Guler A, et al. Semin Arthritis Rheum. 2024.',
+    'Avanoglu-Guler A, Campochiaro C, De Luca G, Hughes M, Tufan A, Green L, et al. Calcinosis in systemic sclerosis: an update on pathogenesis, related complications, and management: a heavy burden still waiting to be lifted off patients\' hands. Semin Arthritis Rheum. 2024;66:152431.',
     'LeRoy EC, Black C, Fleischmajer R, Jablonska S, Krieg T, Medsger TA Jr, et al. Scleroderma (systemic sclerosis): classification, subsets and pathogenesis. J Rheumatol. 1988;15(2):202-5.',
-    'Samões B, Guimarães da Fonseca D, Beirão T, et al. Assessment of calcinosis in Portuguese patients with systemic sclerosis: a multicenter study. Clin Rheumatol. 2023;42(8).',
+    'Samões B, Guimarães da Fonseca D, Beirão T, et al. Assessment of calcinosis in Portuguese patients with systemic sclerosis: a multicenter study. Clin Rheumatol. 2023;42(8):2125-34.',
     'Richardson C, Plaas A, Varga J. Calcinosis in systemic sclerosis: updates in pathophysiology, evaluation, and treatment. Curr Rheumatol Rep. 2020;22(10):73.',
-    'Mar D, Valenzuela A, Stevens KJ, Chung L, Fairchild RM. A narrative review of imaging in calcinosis associated with systemic sclerosis. Clin Rheumatol. 2021;40(10).',
+    'Mar D, Valenzuela A, Stevens KJ, Chung L, Fairchild RM. A narrative review of imaging in calcinosis associated with systemic sclerosis. Clin Rheumatol. 2021;40(10). doi:10.1007/s10067-021-05696-6.',
   ],
 };

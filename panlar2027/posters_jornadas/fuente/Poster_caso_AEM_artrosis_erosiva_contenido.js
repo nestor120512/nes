@@ -1,6 +1,6 @@
 // Póster – artrosis erosiva de manos, dos casos (Jornadas de la Clínica General del Norte, 70 x 100 cm).
-const P = __dirname + '/../';
-const L = __dirname + '/../logos/';
+const P = '/home/user/nes/panlar2027/posters_jornadas/';
+const L = __dirname + '/logos/';
 module.exports = {
   label: 'SERIE DE CASOS',
   title: 'Artrosis erosiva de manos: dos rostros de una misma enfermedad. Serie de casos',
@@ -70,7 +70,7 @@ module.exports = {
     'Ferrero S, Wittoek R, Allado E, Cruzel C, Fontas E, Breuil V, et al. Methotrexate treatment in hand osteoarthritis refractory to usual treatments: a randomised, double-blind, placebo-controlled trial. Semin Arthritis Rheum. 2021;51(4):831-8.',
     'Wang Y, Jones G, Keen HI, Hill CL, Wluka AE, Kasza J, et al. Methotrexate to treat hand osteoarthritis with synovitis (METHODS): an Australian, multisite, parallel-group, double-blind, randomised, placebo-controlled trial. Lancet. 2023;402(10414):1764-72.',
     'Kingsbury SR, Tharmanathan P, Keding A, Watt FE, Scott DL, Roddy E, et al. Pain reduction with oral methotrexate in knee osteoarthritis: a randomized, placebo-controlled clinical trial. Ann Intern Med. 2024;177(9):1145-56.',
-    'Zhu Z, Yu Q, Leng X, et al. Low-dose methotrexate for the treatment of inflammatory knee osteoarthritis: a randomized clinical trial. JAMA Intern Med. 2025.',
-    'Wong W, Huang Y, Wichienwantana N, et al. Efficacy and safety of methotrexate in osteoarthritis: a systematic review and meta-analysis of randomized controlled trials. Osteoarthritis Cartilage. 2025.',
+    'Zhu Z, Yu Q, Leng X, et al. Low-dose methotrexate for the treatment of inflammatory knee osteoarthritis: a randomized clinical trial. JAMA Intern Med. 2025;185(7):808-16.',
+    'Wong W, Huang Y, Wichienwantana N, Sun H, Pang J, Shi Y. Efficacy and safety of methotrexate in osteoarthritis: a systematic review and meta-analysis of randomized controlled trials. Osteoarthritis Cartilage. 2025;33(6):680-91.',
   ],
 };

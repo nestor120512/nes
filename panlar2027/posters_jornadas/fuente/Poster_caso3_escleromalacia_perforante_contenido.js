@@ -1,6 +1,6 @@
 // Póster 3 – escleromalacia perforante sin enfermedad autoinmune sistémica (formato de los pósteres 1 y 2).
-const P = __dirname + '/../../';
-const L = __dirname + '/../logos/';
+const P = '/home/user/nes/panlar2027/';
+const L = __dirname + '/logos/';
 module.exports = {
   title: 'Escleromalacia perforante grave sin enfermedad autoinmune sistémica identificable: un dilema terapéutico para el reumatólogo. Reporte de caso',
   authors: 'Erlinda Esther Rivera Pertuz¹*, Nestor Fabian Sanabria Duarte¹, José Ángel Salas Siado²',
@@ -50,7 +50,7 @@ module.exports = {
     'Dutta Majumder P, Agarwal S, Shah M, Srinivasan B, K P, Iyer G, et al. Necrotizing scleritis: a review. Ocul Immunol Inflamm. 2024;32(7):1405-19.',
     'Greenbaum R, Castiblanco C. Update on scleritis diagnosis and management: a narrative review. Ann Eye Sci. 2026.',
     'Soubrier M, Vasseneix C, Jacquot R, Bert A, Gerfaud-Valentin M, Mathis T, et al. Scleritis and associated systemic diseases: contribution of systemic examination, follow-up, and additional investigations. J Ophthalmic Inflamm Infect. 2026;16:7.',
-    'Richey A, Sattarova V, Kopplin LJ, Armbrust KR. Update on therapy for non-infectious scleritis. Clin Ophthalmol. 2026;20. doi:10.2147/OPTH.S563490.',
+    'Richey A, Sattarova V, Kopplin LJ, Armbrust KR. Update on therapy for non-infectious scleritis. Clin Ophthalmol. 2026;20:563490. doi:10.2147/OPTH.S563490.',
     'Ghanbari H, Rahimi M, Momeni A, Hassanpour K, Bayan N, Lee KE, et al. Infectious scleritis: a comprehensive narrative review of epidemiology, clinical characteristics, and management strategies. Ther Adv Ophthalmol. 2025;17:25158414251357776.',
   ],
 };
