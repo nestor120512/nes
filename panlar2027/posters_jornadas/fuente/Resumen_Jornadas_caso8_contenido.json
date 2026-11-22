@@ -9,21 +9,34 @@
  ],
  "keywords": "lupus eritematoso discoide; lupus eritematoso sistémico; anticuerpos antinucleares; anticuerpos anti-ADN de doble cadena; hidroxicloroquina; clasificación.",
  "sections": [
-  ["Resumen", [
-   "Mujer de 67 años con lupus eritematoso discoide (LED) facial confirmado por biopsia, anticuerpos antinucleares (ANA) 1:640 y anti-ADN de doble cadena positivo, sin ninguna manifestación extracutánea. Alcanza el umbral de clasificación de lupus eritematoso sistémico (LES) de 2019, pero no los criterios previos. Se interpretó como LED con serología de LES, tratado con hidroxicloroquina y terapia tópica, y en vigilancia."
-  ]],
-  ["Introducción", [
-   "El LED es la forma más frecuente de lupus cutáneo crónico; hasta el 28 % de los pacientes desarrolla LES (5). Los criterios de la European Alliance of Associations for Rheumatology y el American College of Rheumatology (EULAR/ACR) 2019 exigen ANA ≥1:80 y al menos 10 puntos: el LED aporta 4 y el anti-ADN de doble cadena, 6 (1). Así, una enfermedad limitada a la piel puede clasificarse como LES."
-  ]],
-  ["Información del caso", [
-   "Mujer de 67 años remitida por dermatología para descartar LES, con lesiones faciales asintomáticas de ocho meses, sin fotosensibilidad. Presentaba placas eritematovioláceas descamativas en arcos ciliares, mejillas, dorso nasal y piel del labio superior, la mayor en la punta nasal, y alopecia cicatricial de las cejas con escama adherente, atrofia central e hiperpigmentación periférica. Refería dolor mecánico de hombros y rodillas, sin sinovitis, atribuido a artrosis, y negó fiebre, pérdida de peso, úlceras orales, alopecia no cicatricial, fenómeno de Raynaud, serositis y síntomas neurológicos.",
-   "La biopsia mostró daño de interfase vacuolar con cuerpos apoptóticos, infiltrado linfoplasmocitario perivascular y perianexial y mucina dérmica, compatible con LED. Los ANA fueron 1:640 con patrón nuclear homogéneo en células HEp-2, y el anti-ADN de doble cadena, positivo 1:80 por Crithidia luciliae; anti-Ro, anti-La, anti-Sm, antirribonucleoproteína y antihistonas fueron negativos. El complemento, el hemograma, la creatinina y el uroanálisis fueron normales; la velocidad de sedimentación globular fue de 55 mm/h. Con hidroxicloroquina 200 mg/día, tacrolimus y mometasona tópicos y fotoprotección, las lesiones mejoraron notablemente."
-  ]],
-  ["Discusión", [
-   "La paciente alcanza 10 puntos EULAR/ACR 2019, pero solo 3 de los 4 criterios exigidos por el American College of Rheumatology (ACR) 1997 y por las Systemic Lupus International Collaborating Clinics (SLICC) 2012 (1-3). Estos criterios fueron diseñados para clasificar, no para diagnosticar (7). En 184 pacientes con lupus cutáneo confirmado por biopsia, el 14,7 % cumplía EULAR/ACR 2019, con compromiso orgánico nulo o leve y estable a casi cinco años (4); por ello no se indicó inmunosupresión sistémica. Sin embargo, los ANA ≥1:320 son el principal predictor de progresión del LED a LES grave (6), y el anti-ADN de doble cadena y la sedimentación elevada también se asocian con ella (5), lo que justifica control periódico de hemograma, orina, complemento y anti-ADN. Limitaciones: anti-ADN de doble cadena en una sola determinación y seguimiento aún corto.",
-   "Conclusión: un LED con ANA de título alto y anti-ADN de doble cadena positivo puede alcanzar el umbral EULAR/ACR 2019 para LES sin ninguna manifestación extracutánea. Cumplir criterios de clasificación no equivale a tener enfermedad sistémica: el tratamiento se dirige a la piel, y el seguimiento, a detectar a tiempo la progresión.",
-   "Se obtuvo consentimiento informado firmado de la paciente."
-  ]]
+  [
+   "Resumen",
+   [
+    "Mujer de 67 años con lupus eritematoso discoide (LED) facial confirmado por biopsia, anticuerpos antinucleares (ANA) 1:640 y anti-ADN de doble cadena positivo, sin evidencia de compromiso extracutáneo, que alcanza el umbral de clasificación de lupus eritematoso sistémico (LES) de 2019, pero no los criterios previos."
+   ]
+  ],
+  [
+   "Introducción",
+   [
+    "Hasta el 28 % de los pacientes con LED desarrolla LES (5). Los criterios de la European Alliance of Associations for Rheumatology y el American College of Rheumatology (EULAR/ACR) 2019 exigen ANA ≥1:80 y al menos 10 puntos: el LED aporta 4 y el anti-ADN de doble cadena, 6 (1). Así, una enfermedad limitada a la piel puede clasificarse como LES."
+   ]
+  ],
+  [
+   "Información del caso",
+   [
+    "Mujer de 67 años remitida por dermatología para descartar LES, con lesiones faciales asintomáticas de ocho meses, sin fotosensibilidad. Presentaba placas eritematovioláceas descamativas en arcos ciliares, mejillas, dorso nasal y piel del labio superior, la mayor en la punta nasal, y alopecia cicatricial de las cejas. Refería artralgias mecánicas sin sinovitis, atribuidas a artrosis, y negó síntomas constitucionales, úlceras orales, alopecia no cicatricial, fenómeno de Raynaud, serositis y síntomas neurológicos.",
+    "La biopsia mostró dermatitis de interfase vacuolar, infiltrado perivascular y perianexial y mucina, compatible con LED. Los ANA fueron 1:640 con patrón nuclear homogéneo en células HEp-2, y el anti-ADN de doble cadena, positivo 1:80 por Crithidia luciliae; anti-Ro, anti-La, anti-Smith, antirribonucleoproteína y antihistonas fueron negativos. El complemento, el hemograma, la creatinina y el uroanálisis fueron normales; la velocidad de sedimentación globular fue de 55 mm/h. Con hidroxicloroquina 200 mg/día, tacrolimus y mometasona tópicos y fotoprotección, las lesiones mejoraron notablemente."
+   ]
+  ],
+  [
+   "Discusión",
+   [
+    "La paciente alcanza 10 puntos EULAR/ACR 2019, pero solo 3 de los 4 criterios del American College of Rheumatology (ACR) 1997 y de las Systemic Lupus International Collaborating Clinics (SLICC) 2012 (1-3); estos criterios clasifican, no diagnostican (7). Los 6 puntos del anti-ADN exigen un ensayo con especificidad ≥90 %; Crithidia luciliae suele cumplirlo, pero debe confirmarse (1).",
+    "En 184 pacientes con lupus cutáneo confirmado por biopsia, el 14,7 % cumplía EULAR/ACR 2019, sin compromiso visceral significativo a 58 meses (4). En cambio, en 149 pacientes seguidos 11,3 años, el 25 % de quienes tenían lupus cutáneo con serología de LES progresó a LES grave, frente al 4 % con lupus cutáneo aislado (8); ese grupo tenía una mediana de 23 años, y su riesgo no se traslada a esta paciente. Los ANA ≥1:320 son el principal predictor de progresión a LES grave (6), y el anti-ADN y la sedimentación elevada también se asocian con ella (5), lo que justifica vigilancia periódica. No se consideraron necesarios glucocorticoides sistémicos ni otros inmunosupresores. Limitaciones: anti-ADN en una sola determinación y seguimiento aún corto.",
+    "Conclusión: un LED con serología de LES puede alcanzar el umbral EULAR/ACR 2019 sin manifestaciones extracutáneas. Cumplir criterios de clasificación no equivale a tener enfermedad sistémica, aunque sí puede tener valor pronóstico: el tratamiento se dirige a la piel, y el seguimiento, a detectar a tiempo la progresión.",
+    "Se obtuvo consentimiento informado firmado de la paciente."
+   ]
+  ]
  ],
  "refs": [
   "Aringer M, Costenbader K, Daikh D, Brinks R, Mosca M, Ramsey-Goldman R, et al. 2019 European League Against Rheumatism/American College of Rheumatology classification criteria for systemic lupus erythematosus. Arthritis Rheumatol. 2019;71(9):1400-12.",
@@ -32,6 +45,7 @@
   "Stec-Polak M, Matyja-Bednarczyk A, Wojas-Pelc A, Pastuszczak M. Higher specificity of the new EULAR/ACR 2019 criteria for diagnosing systemic lupus erythematosus in patients with biopsy-proven cutaneous lupus. Clin Exp Rheumatol. 2021;39(5):955-60.",
   "Chong BF, Song J, Olsen NJ. Determining risk factors for developing systemic lupus erythematosus in patients with discoid lupus erythematosus. Br J Dermatol. 2012;166(1):29-35.",
   "Fredeau L, Courvoisier DS, Ait Mehdi R, Ingen-Housz-Oro S, Mahe E, Costedoat-Chalumeau N, et al. Risk factors of progression from discoid lupus to severe systemic lupus erythematosus: a registry-based cohort study of 164 patients. J Am Acad Dermatol. 2023;88(3):551-9.",
-  "Hoi A, Igel T, Mok CC, Arnaud L. Systemic lupus erythematosus. Lancet. 2024;403(10441):2326-38."
+  "Hoi A, Igel T, Mok CC, Arnaud L. Systemic lupus erythematosus. Lancet. 2024;403(10441):2326-38.",
+  "Masseran C, Perray L, Murat de Montai Q, Mathian A, Teboul A, Francès C, et al. Comparison of patients with isolated cutaneous lupus erythematosus versus systemic lupus erythematosus with cutaneous lupus erythematosus as the sole clinical feature: a monocentric study of 149 patients. J Am Acad Dermatol. 2024;90(6):1210-7."
  ]
 }
