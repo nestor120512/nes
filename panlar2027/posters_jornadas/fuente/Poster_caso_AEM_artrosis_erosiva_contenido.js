@@ -15,9 +15,9 @@ module.exports = {
   segments: [
     { left: [
       { h: 'Resumen', p: [
-        'Tres pacientes con artrosis erosiva de manos (AEM): mujeres de 63 y 79 años y un hombre de 73 años. En todos, la radiografía mostró erosiones centrales de predominio interfalángico, con esclerosis y osteofitos. Dos reciben metotrexato 12,5 mg semanales como alternativa para el componente inflamatorio.'] },
+        'Tres pacientes con artrosis erosiva de manos (AEM): mujeres de 63 y 79 años y un hombre de 73 años. En todos, la radiografía mostró erosiones centrales de predominio interfalángico, con esclerosis, osteofitos y anticuerpos de artritis reumatoide (AR) negativos. Dos reciben metotrexato 12,5 mg semanales como alternativa para el componente inflamatorio.'] },
       { h: 'Introducción', p: [
-        'La AEM es un subtipo inflamatorio y agresivo de la artrosis de manos, con una prevalencia cercana al 2,8 %, con erosiones subcondrales centrales en las interfalángicas, dolor y mayor discapacidad (1,2). Por su componente inflamatorio puede confundirse con la artritis reumatoide (AR), y el patrón radiológico es la clave del diagnóstico (2).',
+        'La AEM es un subtipo inflamatorio y agresivo de la artrosis de manos, con una prevalencia cercana al 2,8 %, con erosiones subcondrales centrales en las interfalángicas, dolor y mayor discapacidad (1,2). Por su componente inflamatorio puede confundirse con la AR, y el patrón radiológico es la clave del diagnóstico (2).',
         [['Aporte: ', true], 'la artrosis también erosiona, y sus erosiones difieren de las de la AR.']] },
     ], right: [
       { h: 'Información de los casos', p: [
@@ -55,7 +55,7 @@ module.exports = {
       { h: 'Discusión', p: [
         [['Diferencia con la AR. ', true], 'En la AEM las erosiones son centrales y con formación ósea; en la AR, marginales y con osteopenia (Tabla 1) (1,2). En el paciente 2, remitido como AR seronegativa, la imagen, los nódulos de Heberden y la serología negativa reorientaron el diagnóstico.'],
         [['¿Por qué metotrexato? ', true], 'No hay fármacos modificadores aprobados para la AEM. El único ensayo con fenotipo inflamatorio y dosis plenas fue positivo (5); el negativo usó dosis bajas en enfermedad tardía (4). Su efecto es modesto y sin beneficio estructural demostrado (4,8).'],
-        [['Fortalezas y limitaciones: ', true], 'correlación clínico-radiológica y serología negativa en los tres pacientes; sin ecografía ni seguimiento.']] },
+        [['Fortalezas y limitaciones: ', true], 'correlación clínico-radiológica y serología negativa en los tres pacientes; sin estudio ecográfico.']] },
     ], right: [
       { h: 'Conclusión', hl: true, p: [
         'No hay que olvidar que, aunque la artrosis habitualmente no se asocia con erosiones, sí puede producirlas. En la AEM, las erosiones centrales en alas de gaviota de las interfalángicas, con formación ósea y anticuerpos de AR negativos, permiten distinguirla de la AR y evitar un diagnóstico y un tratamiento equivocados.',
