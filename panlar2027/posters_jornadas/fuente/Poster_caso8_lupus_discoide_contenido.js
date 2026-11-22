@@ -6,7 +6,7 @@ const NO = { bold: true, color: 'A3202E', fill: 'FADADD', align: 'center' };
 const H = { bold: true, fill: 'E7F3F0' };
 module.exports = {
   title: 'Lupus discoide con serología de lupus sistémico y sin manifestaciones extracutáneas: cuando la clasificación supera a la clínica. Reporte de caso',
-  authors: 'José Ángel Salas Siado¹, Manuel [APELLIDOS]²*, Nestor Fabian Sanabria Duarte³',
+  authors: 'José Ángel Salas Siado¹, Manuel Alejandro Pertuz Garcia², Nestor Fabian Sanabria Duarte³*',
   affiliations: '¹Investigación Médica Atlántico (IMA) y Clínica General del Norte, Barranquilla, Colombia. ²Programa de Especialización en Medicina Interna, Universidad Metropolitana, Barranquilla, Colombia. ³Programa de Especialización en Medicina Interna, Universidad Libre, Barranquilla, Colombia. *Expositor',
   logos: { band: [L + 'logo_clinica_general_del_norte.png', L + 'logo_universidad_libre.png', L + 'logo_universidad_metropolitana.png', L + 'logo_ima_reumatologia.png'] },
   logoBand: true, bandH: 2.1, logoH: 1.5,
