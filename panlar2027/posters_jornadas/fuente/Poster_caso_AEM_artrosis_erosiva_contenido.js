@@ -27,14 +27,14 @@ module.exports = {
     ] },
     { split: 0.68, left: [
       { name: 'Figura 1', img: P + 'caso_AEM_figura1_paciente1.jpg',
-        caption: 'Figura 1. Paciente 1. Ambas manos en proyección posteroanterior (A) y oblicua (B): erosiones centrales en alas de gaviota en interfalángicas proximales y distales (círculos), con respeto de metacarpofalángicas y carpo.' },
+        caption: 'Figura 1. Paciente 1. Ambas manos en proyección posteroanterior (A) y oblicua (B). Círculos: erosiones centrales en alas de gaviota en interfalángicas proximales y distales, con respeto de metacarpofalángicas y carpo.' },
     ], right: [
       { name: 'Figura 2', img: P + 'caso_AEM_figura2_paciente2.jpg',
-        caption: 'Figura 2. Paciente 2. Mano derecha, proyección posteroanterior (A) y oblicua (B): erosiones centrales en alas de gaviota y destrucción de la interfalángica del pulgar (círculos).' },
+        caption: 'Figura 2. Paciente 2. Mano derecha, proyección posteroanterior (A) y oblicua (B). Círculos: erosiones centrales en alas de gaviota y destrucción de la interfalángica del pulgar.' },
     ] },
     { split: 0.33, left: [
       { name: 'Figura 3', img: P + 'caso_AEM_figura3_paciente3.jpg',
-        caption: 'Figura 3. Paciente 3. Ambas manos: erosiones y cambios osteoartrósicos en interfalángicas distales y pulgares, con esclerosis y osteofitos (círculos).' },
+        caption: 'Figura 3. Paciente 3. Ambas manos. Círculos: erosiones en interfalángicas distales y pulgares; además, esclerosis subcondral y osteofitos marginales.' },
     ], right: [
       { name: 'Tabla 1', table: {
         title: 'Tabla 1. Erosiones en AEM frente a AR',
