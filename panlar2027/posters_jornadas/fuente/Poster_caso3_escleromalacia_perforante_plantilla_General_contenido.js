@@ -18,7 +18,7 @@ module.exports = {
     { f: __dirname + '/../logos/logo_universidad_libre.png', h: 1.9 },
     { f: __dirname + '/../logos/logo_ima_reumatologia.png', h: 2.2 } ] },
   bandLabel: { text: 'REPORTE DE CASO', x: 26.0, y: 4.65, w: 8.4, h: 1.15, pt: 30 },
-  bodyPt: 27.5, refPt: 19, smallPt: 22, justify: true, textSlack: -0.15,
+  bodyPt: 28.5, refPt: 19, smallPt: 22, justify: true, textSlack: -0.15, lineSpacing: 0.94, blockGap: 0.3,
   // Paleta tomada de la plantilla: azul de "Jornadas Médicas" y verde de la franja "Medicina integrada"
   primary: '0E3149', accent: '38B599', tint: 'E8F6F2', border: 'B5DDD2', statColor: 'E62C4A',
   titleColor: '0E3149', titlePt: 50, bandHeads: true,
@@ -41,7 +41,7 @@ module.exports = {
         'Este caso ilustra la necesidad de individualizar la inmunosupresión según la gravedad ocular, con decisiones compartidas entre oftalmología y reumatología, exclusión razonable de infección y seguimiento para detectar enfermedad sistémica emergente y toxicidad.',
         [['Consideraciones éticas: ', true], 'se obtuvo consentimiento informado firmado de la paciente.']] },
     ], right: [
-      { h: 'Información del caso', slack: 0.3, p: [
+      { h: 'Información del caso', slack: -0.2, p: [
         [['Datos demográficos y motivo de consulta: ', true], 'mujer de 71 años que ingresó en junio de 2026 por pérdida visual del ojo derecho (cuenta dedos) con destrucción corneoescleral.'],
         [['Enfermedad actual: ', true], 'hemorragia conjuntival derecha indolora en octubre de 2024 y defecto escleral temporal en febrero de 2025; luego abandonó el seguimiento.'],
         [['Antecedentes relevantes: ', true], 'sin enfermedad autoinmune conocida, cirugía ocular ni trauma previos.'],
@@ -49,7 +49,7 @@ module.exports = {
         [['Estudios relevantes: ', true], 'factor reumatoide limítrofe (14,8) con anticuerpos antipéptido cíclico citrulinado (anti-CCP) negativos; anticuerpos antinucleares (ANA), anti-ADN de doble cadena, anti-Ro, anti-La, anticentrómero y anticuerpos anticitoplasma de neutrófilo (ANCA) antiproteinasa 3 y antimieloperoxidasa negativos; complemento normal. Tuberculina, tomografía computarizada (TC) de tórax y serologías para sífilis y hepatitis B y C negativas. TC de senos paranasales sin enfermedad inflamatoria; TC de abdomen y pelvis sin masas ni adenopatías.'],
         [['Diagnósticos diferenciales: ', true], 'artritis reumatoide (sin artritis, anti-CCP negativo), granulomatosis con poliangeítis (ANCA negativos, senos paranasales normales), lupus (ANA negativos), escleritis infecciosa (tuberculosis, sífilis y herpes zóster descartados) y escleritis posquirúrgica o traumática.'],
         [['Confirmación diagnóstica: ', true], 'diagnóstico clínico oftalmológico; la biopsia conjuntival (muestra escasa) mostró fibrosis e inflamación crónica no granulomatosa, sin displasia.']] },
-      { h: 'Discusión', p: [
+      { h: 'Discusión', slack: 0.35, p: [
         'La escleromalacia perforante es una forma grave de escleritis necrosante, clásicamente asociada con artritis reumatoide y vasculitis sistémicas (2,3); la escleritis necrosante es, además, la forma que con mayor frecuencia se asocia con enfermedad sistémica (4). Su curso indoloro e insidioso favorece el diagnóstico tardío, como en esta paciente, que llegó con destrucción corneoescleral extensa tras interrumpir el seguimiento (2).',
         'Antes de inmunosuprimir deben descartarse la infección, causa de alrededor del 5-10 % de las escleritis (6), y la enfermedad sistémica (4). Descartadas ambas, la decisión depende de la gravedad ocular y no de cumplir criterios de clasificación para una enfermedad definida (5).',
         'Sin un diagnóstico definido y con una biopsia sin granulomas, la gravedad ocular guió el tratamiento: glucocorticoides con azatioprina, reservando la ciclofosfamida, el rituximab y los inhibidores del factor de necrosis tumoral para casos seleccionados o refractarios (3,5). Como la escleritis puede preceder a la enfermedad sistémica, se requiere seguimiento reumatológico prolongado (4).',

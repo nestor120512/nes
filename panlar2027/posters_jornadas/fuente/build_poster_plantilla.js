@@ -26,7 +26,7 @@ const TINT = C.tint || 'E3EFEE';         // fondo del encabezado y de mensajes c
 const CARD = 'FFFFFF', BORDER = C.border || 'C9DCDA', ACCENT = C.accent || PRIMARY, STAT = C.statColor || PRIMARY;
 const PT_TITLE = C.titlePt || 44, BANDH = !!C.bandHeads;
 const PT_T = 44, PT_B = C.bodyPt || 32, PT_S = C.smallPt || 24, PT_R = C.refPt || PT_S;
-const LH = 1.17, PAD = 0.32, HEAD = 0.95, ICON = 0.88;
+const LS = C.lineSpacing || 0, LH = 1.17 * (LS || 1), PAD = 0.32, HEAD = 0.95, ICON = 0.88;
 
 function lines(text, widthIn, pt, bold) {
   const cw = pt * (bold ? 0.50 : 0.46) / 72;
@@ -309,7 +309,7 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
       const total = PAD + HEAD + 0.3 + h + PAD + (b.slack || 0);
       return { h: total, draw: (y, hh = total) => { card(gx, y, gw, hh, name, b.hl ? TINT : CARD, b.hl ? { color: PRIMARY, width: 4 } : undefined); headRow(gx + PAD, y + PAD, IW, b.h, b.h);
         s.addText(runs, { x: gx + PAD, y: y + PAD + HEAD + 0.3, w: IW, h, fontFace: FONT, fontSize: PT_B, color: BLACK, valign: 'top', align: C.justify ? 'justify' : 'left',
-          margin: 0, isTextBox: true, objectName: name }); } };
+          margin: 0, isTextBox: true, objectName: name, ...(LS ? { lineSpacingMultiple: LS } : {}) }); } };
     }
     if (b.key) {
       const n = b.key.reduce((a, t) => a + lines(t, IW - 0.6, PT_B), 0);
@@ -398,7 +398,7 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
   const avail = refTop - 0.55 - TOP;
   let warn = false;
   if (segs) {
-    const G = 0.4;
+    const G = C.blockGap || 0.4;
     const segH = segs.map(sg => sg.full ? sg.full.h : Math.max(...sg.cols.map(c => c.reduce((a, it) => a + it.h, 0) + (c.length - 1) * G)));
     const used = segH.reduce((a, v) => a + v, 0);
     const between = Math.min(Math.max((avail - used) / Math.max(segs.length - 1, 1), 0.4), 1.2);
