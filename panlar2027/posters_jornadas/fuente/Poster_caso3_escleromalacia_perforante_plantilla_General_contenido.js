@@ -18,13 +18,13 @@ module.exports = {
     { f: __dirname + '/../logos/logo_universidad_libre.png', h: 1.9 },
     { f: __dirname + '/../logos/logo_ima_reumatologia.png', h: 2.2 } ] },
   bandLabel: { text: 'REPORTE DE CASO', x: 26.0, y: 4.65, w: 8.4, h: 1.15, pt: 30 },
-  bodyPt: 28, refPt: 19, smallPt: 22, justify: true, textSlack: -0.09,
+  bodyPt: 27.5, refPt: 19, smallPt: 22, justify: true, textSlack: -0.15,
   // Paleta tomada de la plantilla: azul de "Jornadas Médicas" y verde de la franja "Medicina integrada"
   primary: '0E3149', accent: '38B599', tint: 'E8F6F2', border: 'B5DDD2', statColor: 'E62C4A',
   titleColor: '0E3149', titlePt: 50, bandHeads: true,
   keywords: 'escleritis; escleromalacia perforante; inmunosupresores; azatioprina; glucocorticoides; toma de decisiones clínicas.',
   segments: [
-    { full: { name: 'Figura 1', img: P + 'caso3_figura1_escleromalacia_3paneles.jpg', maxH: 4.9,
+    { full: { name: 'Figura 1', img: P + 'caso3_figura1_escleromalacia_3paneles.jpg', maxH: 5.6,
       caption: 'Figura 1. Ojo derecho con escleromalacia perforante. (A) Al ingreso, destrucción corneoescleral extensa con herniación de tejido uveal. (B) Ocho días después. (C) Tres meses después, con prednisona y azatioprina, en espera del parche esclerocorneal. Flechas: tejido uveal herniado.' } },
     { left: [
       { h: 'Resumen', p: [
@@ -39,7 +39,7 @@ module.exports = {
       { h: 'Conclusión', hl: true, p: [
         'La escleromalacia perforante grave puede presentarse sin enfermedad autoinmune sistémica identificable, y no cumplir criterios de clasificación para una enfermedad definida no excluye un proceso ocular inmunomediado.',
         'Este caso ilustra la necesidad de individualizar la inmunosupresión según la gravedad ocular, con decisiones compartidas entre oftalmología y reumatología, exclusión razonable de infección y seguimiento para detectar enfermedad sistémica emergente y toxicidad.',
-        [['Consideraciones éticas: ', true], 'consentimiento informado firmado, incluidas las fotos.']] },
+        [['Consideraciones éticas: ', true], 'se obtuvo consentimiento informado firmado de la paciente.']] },
     ], right: [
       { h: 'Información del caso', slack: 0.3, p: [
         [['Datos demográficos y motivo de consulta: ', true], 'mujer de 71 años que ingresó en junio de 2026 por pérdida visual del ojo derecho (cuenta dedos) con destrucción corneoescleral.'],
@@ -60,7 +60,7 @@ module.exports = {
   refs: [
     'Watson PG, Hayreh SS. Scleritis and episcleritis. Br J Ophthalmol. 1976;60(3):163-91.',
     'Dutta Majumder P, Agarwal S, Shah M, Srinivasan B, K P, Iyer G, et al. Necrotizing scleritis: a review. Ocul Immunol Inflamm. 2024;32(7):1405-19.',
-    'Greenbaum R, Castiblanco C. Update on scleritis diagnosis and management: a narrative review. Ann Eye Sci. 2026.',
+    'Greenbaum R, Castiblanco C. Update on scleritis diagnosis and management: a narrative review. Ann Eye Sci. 2026;11:34.',
     'Soubrier M, Vasseneix C, Jacquot R, Bert A, Gerfaud-Valentin M, Mathis T, et al. Scleritis and associated systemic diseases: contribution of systemic examination, follow-up, and additional investigations. J Ophthalmic Inflamm Infect. 2026;16:7.',
     'Richey A, Sattarova V, Kopplin LJ, Armbrust KR. Update on therapy for non-infectious scleritis. Clin Ophthalmol. 2026;20:563490. doi:10.2147/OPTH.S563490.',
     'Ghanbari H, Rahimi M, Momeni A, Hassanpour K, Bayan N, Lee KE, et al. Infectious scleritis: a comprehensive narrative review of epidemiology, clinical characteristics, and management strategies. Ther Adv Ophthalmol. 2025;17:25158414251357776.',
