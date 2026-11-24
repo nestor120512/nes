@@ -19,7 +19,7 @@ module.exports = {
     { f: __dirname + '/../logos/logo_universidad_metropolitana.png', h: 1.6 },
     { f: __dirname + '/../logos/logo_ima_reumatologia.png', h: 2.2 } ] },
   bandLabel: { text: 'SERIE DE CASOS', x: 26.0, y: 4.65, w: 8.4, h: 1.15, pt: 30 },
-  bodyPt: 26, refPt: 19, smallPt: 22, justify: true, textSlack: -0.2, lineSpacing: 0.94, blockGap: 0.3, segGap: 0.25,
+  bodyPt: 25, refPt: 17.5, smallPt: 22, justify: true, textSlack: -0.2, lineSpacing: 0.94, blockGap: 0.3, segGap: 0.25,
   // Paleta tomada de la plantilla: azul de "Jornadas Médicas" y verde de la franja "Medicina integrada"
   primary: '0E3149', accent: '38B599', tint: 'E8F6F2', border: 'B5DDD2', statColor: 'E62C4A',
   titleColor: '0E3149', titlePt: 50, bandHeads: true,
@@ -44,7 +44,7 @@ module.exports = {
       { name: 'Figura 2', img: P + 'caso_AEM_figura2_paciente2.jpg',
         caption: 'Figura 2. Paciente 2. Mano derecha, proyección posteroanterior (A) y oblicua (B). Círculos: erosiones centrales en alas de gaviota y destrucción de la interfalángica del pulgar.' },
     ] },
-    { split: 0.33, left: [
+    { split: 0.37, left: [
       { name: 'Figura 3', img: P + 'caso_AEM_figura3_paciente3.jpg',
         caption: 'Figura 3. Paciente 3. Ambas manos. Círculos: erosiones en interfalángicas distales y pulgares; además, esclerosis subcondral y osteofitos marginales.' },
     ], right: [
