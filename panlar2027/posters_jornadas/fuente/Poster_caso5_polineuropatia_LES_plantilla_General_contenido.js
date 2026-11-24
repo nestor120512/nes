@@ -18,7 +18,7 @@ module.exports = {
     { f: __dirname + '/../logos/logo_universidad_metropolitana.png', h: 1.6 },
     { f: __dirname + '/../logos/logo_ima_reumatologia.png', h: 2.2 } ] },
   bandLabel: { text: 'REPORTE DE CASO', x: 26.0, y: 4.65, w: 8.4, h: 1.15, pt: 30 },
-  bodyPt: 30, refPt: 19, smallPt: 22, justify: true, textSlack: -0.12, lineSpacing: 0.94, blockGap: 0.3,
+  bodyPt: 29, refPt: 19, smallPt: 22, justify: true, textSlack: -0.25, lineSpacing: 0.94, blockGap: 0.3,
   // Paleta tomada de la plantilla: azul de "Jornadas Médicas" y verde de la franja "Medicina integrada"
   primary: '0E3149', accent: '38B599', tint: 'E8F6F2', border: 'B5DDD2', statColor: 'E62C4A',
   titleColor: '0E3149', titlePt: 50, bandHeads: true,
@@ -27,11 +27,11 @@ module.exports = {
     { split: 0.53, left: [
       { h: 'Resumen', p: [
         'Mujer de 33 años con pancitopenia, hipocomplementemia, anti-ADN de doble cadena positivo y anticuerpos antinucleares (ANA) negativos en dos determinaciones, que desarrolló una polineuropatía sensitivo-motora axonal severa con pérdida de la marcha independiente. Tras excluir causas alternativas, durante la hospitalización recibió pulsos de metilprednisolona y rituximab por la neuropatía, y recuperó la marcha. En el seguimiento, la biopsia renal mostró nefritis lúpica clase IV + V.'] },
-      { h: 'Introducción', p: [
+      { h: 'Introducción', slack: -0.3, p: [
         'La neuropatía periférica es uno de los síndromes neuropsiquiátricos del lupus eritematoso sistémico (LES); es infrecuente y su atribución exige excluir causas metabólicas, infecciosas, tóxicas y neoplásicas (1). El LES con ANA negativos es raro (2) y no cumple el criterio de entrada de la clasificación de la European Alliance of Associations for Rheumatology y el American College of Rheumatology (EULAR/ACR) 2019 (3), aunque los criterios de las Systemic Lupus International Collaborating Clinics (SLICC) 2012 permiten clasificarlo (4).',
         [['Aporte del caso: ', true], 'una manifestación rara y grave del LES en una paciente con ANA negativos, tratada de forma dirigida antes de conocer la biopsia renal.']] },
     ], right: [
-      { h: 'Información del caso', p: [
+      { h: 'Información del caso', slack: -0.3, p: [
         [['Datos demográficos y motivo de consulta: ', true], 'mujer de 33 años, sin enfermedad autoinmune conocida, hospitalizada en julio de 2026 por hemorragia digestiva y pancitopenia.'],
         [['Enfermedad actual: ', true], 'poliartralgias inflamatorias, rigidez matutina, alopecia y lesiones vesiculares pruriginosas en miembros inferiores; desde seis semanas antes, parestesias en las cuatro extremidades, debilidad progresiva y caídas, hasta perder la marcha independiente.'],
         [['Examen físico: ', true], 'debilidad de miembros inferiores, alteración sensitiva distal y paresia del VI par izquierdo, no atribuida al LES (resonancia magnética con cambios microangiopáticos).'],
@@ -41,7 +41,7 @@ module.exports = {
     ] },
     { full: { name: 'Tabla 1', table: {
       title: 'Tabla 1. Estudios y hallazgos por dominio',
-      colW: [0.19, 0.81], pt: 27, tiles: true, rowH: [0.58, 1.0, 0.58, 0.62, 0.62, 0.58, 0.58, 0.62],
+      colW: [0.165, 0.835], pt: 30, tiles: true, rowH: [0.62, 1.12, 0.62, 1.12, 1.12, 0.62, 1.12, 1.12],
       header: ['Dominio', 'Hallazgos'],
       rows: [
         [{ text: 'Inmunológico', bold: true, fill: 'E7F3F0' }, 'ANA por inmunofluorescencia indirecta en células HEp-2 negativos en dos determinaciones; anti-ADN de doble cadena positivo (Crithidia luciliae 1:40); C3 y C4 bajos; antígenos nucleares extraíbles, anticuerpos antifosfolípidos y anticoagulante lúpico negativos; inmunoglobulinas normales'],
@@ -61,7 +61,7 @@ module.exports = {
         'La polineuropatía axonal severa puede ser una manifestación incapacitante del LES, incluso con ANA negativos. Tras excluir causas alternativas, la pérdida de la marcha justificó intensificar la inmunosupresión, con recuperación funcional. Unos ANA negativos no descartan el LES si el perfil clínico, serológico e histológico es consistente.',
         [['Consideraciones éticas: ', true], 'se obtuvo consentimiento informado firmado de la paciente.']] },
     ], right: [
-      { h: 'Discusión', p: [
+      { h: 'Discusión', slack: 0.3, p: [
         [['ANA negativos, LES indudable. ', true], 'Los ANA fueron negativos dos veces por la técnica de referencia, lo que impedía la clasificación EULAR/ACR 2019 (3). Sin embargo, el anti-ADN de doble cadena, la hipocomplementemia, las citopenias y la serositis cumplían SLICC 2012 (4), y la nefritis lúpica clase IV + V comprobada por biopsia despejó cualquier duda. Los criterios de clasificación no sustituyen el diagnóstico clínico (2).'],
         [['Una manifestación rara que exige excluir otras causas. ', true], 'La polineuropatía axonal en el LES solo puede atribuirse tras descartar causas alternativas (1), como se hizo de forma sistemática (Tabla 1).'],
         [['Tratamiento de manifestaciones raras. ', true], 'Su evidencia es escasa. El consenso internacional ERN ReCONNET-SLICC-SLEuro para las manifestaciones raras del LES (5) y para el LES neuropsiquiátrico (6) apoyan los pulsos de glucocorticoides y, en formas graves o refractarias, el rituximab o la ciclofosfamida. En esta paciente, el rituximab se indicó por la neuropatía, antes de disponer de la biopsia renal.'],
