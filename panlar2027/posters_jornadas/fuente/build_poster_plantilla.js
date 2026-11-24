@@ -134,8 +134,10 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
   }
   if (C.logoRow) {
     // Fila única de logos centrada en el encabezado blanco, con divisores verticales como en la plantilla
-    const R = C.logoRow, items = R.items.map(it => { const d = sizeOf(it.f); return { f: it.f, h: it.h, w: it.h * d.w / d.h }; });
-    const gap = R.gap || 1.0, totalW = items.reduce((a, it) => a + it.w, 0) + (items.length - 1) * 2 * gap;
+    const R = C.logoRow; let items = R.items.map(it => { const d = sizeOf(it.f); return { f: it.f, h: it.h, w: it.h * d.w / d.h }; });
+    let gap = R.gap || 1.0, totalW = items.reduce((a, it) => a + it.w, 0) + (items.length - 1) * 2 * gap;
+    const fit = Math.min(1, (W - 2.0) / totalW);   // si no caben, se reduce toda la fila proporcionalmente
+    if (fit < 1) { items = items.map(it => ({ f: it.f, h: it.h * fit, w: it.w * fit })); gap *= fit; totalW *= fit; }
     let lx = (W - totalW) / 2;
     items.forEach((it, k) => {
       s.addImage({ path: it.f, x: lx, y: R.cy - it.h / 2, w: it.w, h: it.h, altText: path.basename(it.f, '.png').replace(/_/g, ' '), objectName: 'Logo ' + (k + 1) });
