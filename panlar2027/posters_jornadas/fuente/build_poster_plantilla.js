@@ -118,6 +118,20 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
   // ---------- Encabezado ----------
   const Y0 = C.topY || M;   // con plantilla, el encabezado propio empieza debajo de la franja de la plantilla
   // Logos de las instituciones participantes en el espacio blanco del encabezado de la plantilla
+  if (C.footerImg) {
+    // Pie de la plantilla reconstruido en alta resolución (onda roja y verde con el símbolo)
+    const F = C.footerImg;
+    s.addImage({ path: F.path, x: 0, y: F.y, w: W, h: F.h, altText: 'Pie de la plantilla', objectName: 'Pie plantilla' });
+  }
+  if (C.templateBand) {
+    // Franja verde "Medicina integrada" de la plantilla, redibujada como forma y texto editables
+    const T = C.templateBand;
+    s.addShape(pres.shapes.RECTANGLE, { x: 0, y: T.y, w: W, h: T.h, fill: { color: T.color }, line: { color: T.color }, objectName: 'Franja plantilla' });
+    if (T.icon) s.addImage({ path: T.icon.path, x: T.icon.x, y: T.icon.y, w: T.icon.w, h: T.icon.h, altText: 'Ícono Medicina integrada', objectName: 'Ícono franja' });
+    for (const [k, t] of [['título', T.title], ['subtítulo', T.subtitle]]) if (t)
+      s.addText(t.text, { x: t.x, y: t.y, w: t.w, h: t.h, fontFace: FONT, fontSize: t.pt, bold: !!t.bold, color: 'FFFFFF', valign: 'middle', margin: 0,
+        isTextBox: true, objectName: 'Franja ' + k });
+  }
   if (C.logoRow) {
     // Fila única de logos centrada en el encabezado blanco, con divisores verticales como en la plantilla
     const R = C.logoRow, items = R.items.map(it => { const d = sizeOf(it.f); return { f: it.f, h: it.h, w: it.h * d.w / d.h }; });

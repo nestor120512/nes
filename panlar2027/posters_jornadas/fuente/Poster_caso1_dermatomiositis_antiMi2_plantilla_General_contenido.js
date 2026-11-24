@@ -4,10 +4,16 @@ module.exports = {
   authors: 'Nestor Fabian Sanabria Duarte¹*, José Ángel Salas Siado², Sandra Sofía Sánchez Hernández¹, Juan Camilo Tafur Vidal¹',
   affiliations: '¹Programa de Especialización en Medicina Interna, Universidad Libre, Barranquilla, Colombia. ²Investigación Médica Atlántico (IMA) y Clínica General del Norte, Barranquilla, Colombia. *Expositor',
   // Plantilla oficial de las Jornadas (fondo con encabezado y pie de la Clínica General del Norte)
-  bgImage: __dirname + '/../logos/fondo_jornadas_general_v2.png', topY: 6.85, bottomY: 47.85, noLogos: true, noPill: true,
+  // Plantilla de las Jornadas reconstruida en alta resolución: franja y textos editables, pie y logos en imágenes nítidas
+  topY: 6.85, bottomY: 47.85, noLogos: true, noPill: true,
+  templateBand: { y: 3.894, h: 2.69, color: '38B599',
+    icon: { path: __dirname + '/../logos/icono_franja_hd.png', x: 10.10, y: 4.14, w: 2.10, h: 2.08 },
+    title: { text: 'Medicina integrada:', x: 12.30, y: 4.22, w: 16, h: 1.12, pt: 66, bold: true },
+    subtitle: { text: 'Desde la prevención hasta la precisión', x: 12.30, y: 5.36, w: 16, h: 0.82, pt: 44 } },
+  footerImg: { path: __dirname + '/../logos/pie_plantilla_hd.png', y: 43.83, h: 6.79 },
   logoRow: { cy: 2.05, gap: 1.1, divH: 2.0, items: [
-    { f: __dirname + '/../logos/logo_general_plantilla.png', h: 2.75 },
-    { f: __dirname + '/../logos/logo_jornadas_xxix.png', h: 1.7 },
+    { f: __dirname + '/../logos/logo_clinica_general_del_norte.png', h: 2.75 },
+    { f: __dirname + '/../logos/logo_jornadas_xxix_hd.png', h: 1.7 },
     { f: __dirname + '/../logos/logo_universidad_libre.png', h: 1.9 },
     { f: __dirname + '/../logos/logo_ima_reumatologia.png', h: 2.2 } ] },
   bandLabel: { text: 'REPORTE DE CASO', x: 26.0, y: 4.65, w: 8.4, h: 1.15, pt: 30 },
