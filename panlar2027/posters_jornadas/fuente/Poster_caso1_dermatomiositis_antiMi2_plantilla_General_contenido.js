@@ -11,13 +11,13 @@ module.exports = {
     { f: __dirname + '/../logos/logo_universidad_libre.png', h: 1.9 },
     { f: __dirname + '/../logos/logo_ima_reumatologia.png', h: 2.2 } ] },
   bandLabel: { text: 'REPORTE DE CASO', x: 26.0, y: 4.65, w: 8.4, h: 1.15, pt: 30 },
-  bodyPt: 30, refPt: 21, smallPt: 23, justify: true,
+  bodyPt: 30, refPt: 19, smallPt: 22, justify: true, textSlack: -0.12,
   // Paleta tomada de la plantilla: azul de "Jornadas Médicas" y verde de la franja "Medicina integrada"
   primary: '0E3149', accent: '38B599', tint: 'E8F6F2', border: 'B5DDD2', statColor: 'E62C4A',
   titleColor: '0E3149', titlePt: 50, bandHeads: true, statPt: 58,
   keywords: 'dermatomiositis juvenil; anticuerpos anti-Mi-2; inmunoglobulinas intravenosas; disfagia; miopatía esteroidea; resonancia magnética.',
   segments: [
-    { left: [
+    { split: 0.47, left: [
       { h: 'Resumen', p: [
         'Mujer de 19 años con dermatomiositis juvenil anti-Mi-2α/β, diagnosticada a los 17 años y confirmada por biopsia, que ingresó por su cuarta recaída en 19 meses: fuerza proximal 2/5, incapacidad para caminar y CK de 5.720 U/L. Pese a los signos cushingoides, la CK y la resonancia magnética (RM) orientaron a actividad inflamatoria y no a miopatía esteroidea. Ante la respuesta incompleta a metilprednisolona y la reaparición de la disfagia, se reinició la inmunoglobulina intravenosa (IGIV), eficaz ya al diagnóstico; al tercer ciclo mensual, la CK bajó a 202 U/L, la disfagia se resolvió y recuperó la marcha con apoyo.'] },
       { h: 'Introducción', p: [
@@ -34,7 +34,7 @@ module.exports = {
     ] },
     { full: { name: 'Tabla 1', table: {
       title: 'Tabla 1. Evolución clínica y tratamiento',
-      colW: [0.11, 0.13, 0.41, 0.35], pt: 28, rowH: [0.56, 0.98, 0.98, 0.56, 0.56, 0.98, 0.98, 0.98],
+      colW: [0.095, 0.115, 0.42, 0.37], pt: 30, rowH: [0.57, 1.07, 1.52, 0.6, 0.58, 1.07, 1.07, 1.07],
       header: ['Fecha', 'Evento', 'Hallazgos', 'Tratamiento y respuesta'],
       rows: [
         ['Dic 2024', 'Inicio (17 años)', 'Lesiones cutáneas con signo de Gottron, mialgias y debilidad proximal progresiva', '—'],
