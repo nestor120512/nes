@@ -401,10 +401,10 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
     const G = C.blockGap || 0.4;
     const segH = segs.map(sg => sg.full ? sg.full.h : Math.max(...sg.cols.map(c => c.reduce((a, it) => a + it.h, 0) + (c.length - 1) * G)));
     const used = segH.reduce((a, v) => a + v, 0);
-    const between = Math.min(Math.max((avail - used) / Math.max(segs.length - 1, 1), 0.4), 1.2);
+    const between = Math.min(Math.max((avail - used) / Math.max(segs.length - 1, 1), C.segGap || 0.4), 1.2);
     segs.forEach((sg, k) => { if (sg.cols) console.log('  seg ' + (k + 1) + ': izq ' + sg.cols[0].reduce((a, it) => a + it.h, 0).toFixed(1) + ' / der ' + sg.cols[1].reduce((a, it) => a + it.h, 0).toFixed(1)); });
     console.log('  segmentos: ' + segH.map(v => v.toFixed(1)).join(' / ') + `; usa ${used.toFixed(1)} de ${avail.toFixed(1)} in`);
-    if (used + (segs.length - 1) * 0.4 > avail) { warn = true; console.log('AVISO: el contenido no cabe'); }
+    if (used + (segs.length - 1) * (C.segGap || 0.4) > avail) { warn = true; console.log('AVISO: el contenido no cabe'); }
     let yy = TOP;
     segs.forEach((sg, k) => {
       if (sg.full) sg.full.draw(yy);
