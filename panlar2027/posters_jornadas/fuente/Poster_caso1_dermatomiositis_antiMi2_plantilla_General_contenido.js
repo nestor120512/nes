@@ -4,13 +4,17 @@ module.exports = {
   authors: 'Nestor Fabian Sanabria Duarte¹*, José Ángel Salas Siado², Sandra Sofía Sánchez Hernández¹, Juan Camilo Tafur Vidal¹',
   affiliations: '¹Programa de Especialización en Medicina Interna, Universidad Libre, Barranquilla, Colombia. ²Investigación Médica Atlántico (IMA) y Clínica General del Norte, Barranquilla, Colombia. *Expositor',
   // Plantilla oficial de las Jornadas (fondo con encabezado y pie de la Clínica General del Norte)
-  bgImage: __dirname + '/../logos/fondo_jornadas_general.png', topY: 9.0, bottomY: 44.8, noLogos: true,
-  headerLogos: { h: 1.9, cy: 3.06, left: [__dirname + '/../logos/logo_universidad_libre.png'], leftArea: [0.8, 6.9],
-    right: [__dirname + '/../logos/logo_ima_reumatologia.png'], rightArea: [27.8, 34.6] },
-  bodyPt: 25, refPt: 18, smallPt: 20, justify: true,
+  bgImage: __dirname + '/../logos/fondo_jornadas_general_v2.png', topY: 6.85, bottomY: 47.85, noLogos: true, noPill: true,
+  logoRow: { cy: 2.05, gap: 1.1, divH: 2.0, items: [
+    { f: __dirname + '/../logos/logo_general_plantilla.png', h: 2.75 },
+    { f: __dirname + '/../logos/logo_jornadas_xxix.png', h: 1.7 },
+    { f: __dirname + '/../logos/logo_universidad_libre.png', h: 1.9 },
+    { f: __dirname + '/../logos/logo_ima_reumatologia.png', h: 2.2 } ] },
+  bandLabel: { text: 'REPORTE DE CASO', x: 26.0, y: 4.65, w: 8.4, h: 1.15, pt: 30 },
+  bodyPt: 30, refPt: 21, smallPt: 23, justify: true,
   // Paleta tomada de la plantilla: azul de "Jornadas Médicas" y verde de la franja "Medicina integrada"
   primary: '0E3149', accent: '38B599', tint: 'E8F6F2', border: 'B5DDD2', statColor: 'E62C4A',
-  titleColor: '0E3149', titlePt: 46, bandHeads: true, statPt: 58,
+  titleColor: '0E3149', titlePt: 50, bandHeads: true, statPt: 58,
   keywords: 'dermatomiositis juvenil; anticuerpos anti-Mi-2; inmunoglobulinas intravenosas; disfagia; miopatía esteroidea; resonancia magnética.',
   segments: [
     { left: [
@@ -30,7 +34,7 @@ module.exports = {
     ] },
     { full: { name: 'Tabla 1', table: {
       title: 'Tabla 1. Evolución clínica y tratamiento',
-      colW: [0.11, 0.13, 0.41, 0.35], pt: 23,
+      colW: [0.11, 0.13, 0.41, 0.35], pt: 28, rowH: [0.56, 0.98, 0.98, 0.56, 0.56, 0.98, 0.98, 0.98],
       header: ['Fecha', 'Evento', 'Hallazgos', 'Tratamiento y respuesta'],
       rows: [
         ['Dic 2024', 'Inicio (17 años)', 'Lesiones cutáneas con signo de Gottron, mialgias y debilidad proximal progresiva', '—'],
@@ -50,7 +54,7 @@ module.exports = {
     ], right: [
       { h: 'Conclusión', hl: true, p: [
         'El fenotipo anti-Mi-2, aunque habitualmente de buen pronóstico, no excluye un curso grave y policíclico. Las recaídas coincidieron con la suspensión del ahorrador y el descenso del glucocorticoide, lo que apoya descensos lentos y mantener el inmunosupresor.',
-        'Ante nueva debilidad con exposición prolongada a esteroides, la CK y la RM distinguen la actividad inflamatoria de la miopatía esteroidea; no toda debilidad es miopatía esteroidea.',
+        'Ante nueva debilidad con exposición prolongada a esteroides, la CK y la RM distinguen la actividad inflamatoria de la miopatía esteroidea.',
         'La IGIV es una alternativa de rescate ante respuesta incompleta a glucocorticoides, en especial con disfagia, y puede repetirse en ciclos periódicos. Un ANA positivo y manifestaciones compartidas no bastan para diagnosticar superposición con LES.',
         [['Consideraciones éticas: ', true], 'se obtuvo consentimiento informado de la paciente.']] },
     ] },

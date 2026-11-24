@@ -118,6 +118,27 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
   // ---------- Encabezado ----------
   const Y0 = C.topY || M;   // con plantilla, el encabezado propio empieza debajo de la franja de la plantilla
   // Logos de las instituciones participantes en el espacio blanco del encabezado de la plantilla
+  if (C.logoRow) {
+    // Fila única de logos centrada en el encabezado blanco, con divisores verticales como en la plantilla
+    const R = C.logoRow, items = R.items.map(it => { const d = sizeOf(it.f); return { f: it.f, h: it.h, w: it.h * d.w / d.h }; });
+    const gap = R.gap || 1.0, totalW = items.reduce((a, it) => a + it.w, 0) + (items.length - 1) * 2 * gap;
+    let lx = (W - totalW) / 2;
+    items.forEach((it, k) => {
+      s.addImage({ path: it.f, x: lx, y: R.cy - it.h / 2, w: it.w, h: it.h, altText: path.basename(it.f, '.png').replace(/_/g, ' '), objectName: 'Logo ' + (k + 1) });
+      lx += it.w;
+      if (k < items.length - 1) {
+        s.addShape(pres.shapes.LINE, { x: lx + gap, y: R.cy - (R.divH || 1.6) / 2, w: 0, h: R.divH || 1.6, line: { color: R.divColor || '6B6B69', width: 2 }, objectName: 'Divisor ' + (k + 1) });
+        lx += 2 * gap;
+      }
+    });
+  }
+  if (C.bandLabel) {
+    // Etiqueta del tipo de trabajo sobre la franja verde de la plantilla
+    const B = C.bandLabel;
+    s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: B.x, y: B.y, w: B.w, h: B.h, rectRadius: B.h / 2, fill: { color: 'FFFFFF' }, line: { color: 'FFFFFF', width: 1 }, objectName: 'Etiqueta tipo' });
+    s.addText(B.text, { x: B.x, y: B.y, w: B.w, h: B.h, fontFace: FONT, fontSize: B.pt || 30, bold: true, color: B.color || PRIMARY, align: 'center', valign: 'middle',
+      margin: 0, charSpacing: 2, isTextBox: true, objectName: 'Texto etiqueta' });
+  }
   if (C.headerLogos) {
     const HL = C.headerLogos;
     for (const side of ['left', 'right']) {
@@ -135,10 +156,10 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
   const hx = M, hw = W - 2 * M, tx = hx + LOGO + 0.9, tw = hw - 2 * (LOGO + 0.9);
   const tl = lines(C.title, tw, PT_TITLE, true);
   const al = lines(C.authors, tw, PT_B), fl = lines(C.affiliations, tw, PT_S);
-  const pillH = 0.75;
+  const pillH = C.noPill ? 0 : 0.75, pillGap = C.noPill ? 0 : 0.3;
   const kwW = hw - 1.0, kwTxt = 'Palabras clave: ' + C.keywords, kl = lines(kwTxt, kwW, PT_B);
   const bandH = BAND ? (C.bandH || 2.6) : 0;
-  let topH = (BAND ? 0.3 + bandH + 0.45 : 0.5) + pillH + 0.3 + hText(tl, PT_TITLE) + 0.3 + hText(al, PT_B) + 0.12 + hText(fl, PT_S) + 0.4;
+  let topH = (BAND ? 0.3 + bandH + 0.45 : 0.5) + pillH + pillGap + hText(tl, PT_TITLE) + 0.3 + hText(al, PT_B) + 0.12 + hText(fl, PT_S) + 0.4;
   if (C.logos && C.minTopH) topH = Math.max(topH, C.minTopH);
   const headerH = topH + hText(kl, PT_B) + 0.5;
   s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: hx, y: Y0, w: hw, h: headerH, rectRadius: 0.35, fill: { color: TINT }, line: { color: TINT },
@@ -177,11 +198,13 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
   }
   let y = Y0 + (BAND ? 0.3 + bandH + 0.45 : 0.5);
   const pillW = C.label && C.label.length > 16 ? 7.2 : 5.6;
+  if (!C.noPill) {
   s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: tx + (tw - pillW) / 2, y, w: pillW, h: pillH, rectRadius: 0.37, fill: { color: 'FFFFFF' },
     line: { color: PRIMARY, width: 2 }, objectName: 'Etiqueta tipo' });
   s.addText(C.label || 'REPORTE DE CASO', { x: tx + (tw - pillW) / 2, y, w: pillW, h: pillH, fontFace: FONT, fontSize: PT_S, bold: true,
     color: BLACK, align: 'center', valign: 'middle', margin: 0, charSpacing: 2, isTextBox: true, objectName: 'Texto etiqueta' });
-  y += pillH + 0.3;
+  }
+  y += pillH + pillGap;
   s.addText(C.title, { x: tx, y, w: tw, h: hText(tl, PT_TITLE) + 0.05, fontFace: FONT, fontSize: PT_TITLE, bold: true, color: C.titleColor || BLACK,
     align: 'center', valign: 'middle', margin: 0, isTextBox: true, objectName: 'Título' });
   y += hText(tl, PT_TITLE) + 0.3;
