@@ -306,7 +306,7 @@ const ICONS = { 'Resumen': 'FaFileLines', 'Introducción': 'FaBookOpen', 'Inform
     const gx = geo ? geo.x : X(b.col), gw = geo ? geo.w : COLW, IW = gw - 2 * PAD;
     if (b.p) {
       const { runs, h } = runsOf(b.p, IW);
-      const total = PAD + HEAD + 0.3 + h + PAD;
+      const total = PAD + HEAD + 0.3 + h + PAD + (b.slack || 0);
       return { h: total, draw: (y, hh = total) => { card(gx, y, gw, hh, name, b.hl ? TINT : CARD, b.hl ? { color: PRIMARY, width: 4 } : undefined); headRow(gx + PAD, y + PAD, IW, b.h, b.h);
         s.addText(runs, { x: gx + PAD, y: y + PAD + HEAD + 0.3, w: IW, h, fontFace: FONT, fontSize: PT_B, color: BLACK, valign: 'top', align: C.justify ? 'justify' : 'left',
           margin: 0, isTextBox: true, objectName: name }); } };
