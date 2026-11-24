@@ -4,9 +4,9 @@ module.exports = {
   authors: 'Nestor Fabian Sanabria Duarte¹*, José Ángel Salas Siado², Sandra Sofía Sánchez Hernández¹, Juan Camilo Tafur Vidal¹',
   affiliations: '¹Programa de Especialización en Medicina Interna, Universidad Libre, Barranquilla, Colombia. ²Investigación Médica Atlántico (IMA) y Clínica General del Norte, Barranquilla, Colombia. *Expositor',
   // Plantilla oficial de las Jornadas (fondo con encabezado y pie de la Clínica General del Norte)
-  bgImage: __dirname + '/logos/fondo_jornadas_general.png', topY: 9.0, bottomY: 44.8, noLogos: true,
-  headerLogos: { h: 1.9, cy: 3.06, left: [__dirname + '/logos/logo_universidad_libre.png'], leftArea: [0.8, 6.9],
-    right: [__dirname + '/logos/logo_ima_reumatologia.png'], rightArea: [27.8, 34.6] },
+  bgImage: __dirname + '/../logos/fondo_jornadas_general.png', topY: 9.0, bottomY: 44.8, noLogos: true,
+  headerLogos: { h: 1.9, cy: 3.06, left: [__dirname + '/../logos/logo_universidad_libre.png'], leftArea: [0.8, 6.9],
+    right: [__dirname + '/../logos/logo_ima_reumatologia.png'], rightArea: [27.8, 34.6] },
   bodyPt: 25, refPt: 18, smallPt: 20, justify: true,
   // Paleta tomada de la plantilla: azul de "Jornadas Médicas" y verde de la franja "Medicina integrada"
   primary: '0E3149', accent: '38B599', tint: 'E8F6F2', border: 'B5DDD2', statColor: 'E62C4A',
