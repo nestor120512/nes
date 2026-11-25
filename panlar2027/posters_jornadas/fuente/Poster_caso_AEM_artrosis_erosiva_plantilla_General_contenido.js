@@ -19,7 +19,7 @@ module.exports = {
     { f: __dirname + '/../logos/logo_universidad_metropolitana.png', h: 1.6 },
     { f: __dirname + '/../logos/logo_ima_reumatologia.png', h: 2.2 } ] },
   bandLabel: { text: 'SERIE DE CASOS', x: 26.0, y: 4.65, w: 8.4, h: 1.15, pt: 30 },
-  bodyPt: 25, refPt: 17.5, smallPt: 22, justify: true, textSlack: -0.2, lineSpacing: 0.94, blockGap: 0.3, segGap: 0.25,
+  bodyPt: 27, refPt: 17.5, smallPt: 22, justify: true, textSlack: -0.2, lineSpacing: 0.94, blockGap: 0.3, segGap: 0.15,
   // Paleta tomada de la plantilla: azul de "Jornadas Médicas" y verde de la franja "Medicina integrada"
   primary: '0E3149', accent: '38B599', tint: 'E8F6F2', border: 'B5DDD2', statColor: 'E62C4A',
   titleColor: '0E3149', titlePt: 50, bandHeads: true,
@@ -32,7 +32,7 @@ module.exports = {
         'La AEM es un subtipo inflamatorio y agresivo de la artrosis de manos, con una prevalencia cercana al 2,8 %, con erosiones subcondrales centrales en las interfalángicas, dolor y mayor discapacidad (1,2). Por su componente inflamatorio puede confundirse con la AR, y el patrón radiológico es la clave del diagnóstico (2).',
         [['Aporte: ', true], 'la artrosis también erosiona, y sus erosiones difieren de las de la AR.']] },
     ], right: [
-      { h: 'Información de los casos', p: [
+      { h: 'Información de los casos', slack: 0.1, p: [
         [['Paciente 1. ', true], 'Mujer de 63 años con artrosis y túnel del carpo izquierdo. La radiografía mostró erosiones e imágenes en alas de gaviota en interfalángicas proximales y distales de ambas manos (Figura 1). Factor reumatoide y anticuerpos antipéptido cíclico citrulinado (anti-CCP) negativos. Recibe metotrexato 12,5 mg semanales, ácido fólico y acetaminofén.'],
         [['Paciente 2. ', true], 'Hombre de 73 años remitido como AR seronegativa por 6 meses de dolor poliarticular, rigidez y fatiga, con nódulos de Heberden; factor reumatoide y anti-CCP negativos y proteína C reactiva normal. La radiografía mostró erosiones centrales en alas de gaviota y destrucción de la interfalángica del pulgar (Figura 2). Se diagnosticaron AEM, coxartrosis y fibromialgia; recibe metotrexato 12,5 mg semanales, hidroxicloroquina, metilprednisolona a dosis baja, pregabalina y sertralina.'],
         [['Paciente 3. ', true], 'Mujer de 79 años con AEM y artritis; radiografía de 2021 compatible con AEM. La de 2026 mostró erosiones y cambios osteoartrósicos en interfalángicas distales y en ambos pulgares, con esclerosis subcondral y osteofitos marginales (Figura 3). Factor reumatoide y anti-CCP negativos. Recibe acetaminofén según dolor y colágeno hidrolizado.']] },
@@ -44,7 +44,7 @@ module.exports = {
       { name: 'Figura 2', img: P + 'caso_AEM_figura2_paciente2.jpg',
         caption: 'Figura 2. Paciente 2. Mano derecha, proyección posteroanterior (A) y oblicua (B). Círculos: erosiones centrales en alas de gaviota y destrucción de la interfalángica del pulgar.' },
     ] },
-    { split: 0.37, left: [
+    { split: 0.35, left: [
       { name: 'Figura 3', img: P + 'caso_AEM_figura3_paciente3.jpg',
         caption: 'Figura 3. Paciente 3. Ambas manos. Círculos: erosiones en interfalángicas distales y pulgares; además, esclerosis subcondral y osteofitos marginales.' },
     ], right: [
@@ -60,11 +60,11 @@ module.exports = {
           [{ text: 'Laboratorio', bold: true, fill: 'E7F3F0' }, 'Factor reumatoide y anti-CCP negativos', 'Factor reumatoide o anti-CCP positivos con frecuencia'],
         ],
         note: 'AEM: artrosis erosiva de manos; AR: artritis reumatoide; anti-CCP: anticuerpos antipéptido cíclico citrulinado (1,2).' } },
-      { h: 'Evidencia del metotrexato', slack: 0.15, p: [
+      { h: 'Evidencia del metotrexato', p: [
         'Ninguna guía lo recomienda de rutina (3). En AEM, 10 mg/semana no superó al placebo en una población tardía con escasa sinovitis (4). En artrosis de manos con sinovitis por resonancia, 20 mg/semana redujo el dolor a 6 meses (tamaño del efecto 0,45), sin más eventos adversos (5). En rodilla fue modesto o nulo (6,7); un metaanálisis de 6 ensayos confirmó una reducción moderada del dolor (8).'] },
     ] },
-    { split: 0.52, left: [
-      { h: 'Discusión', p: [
+    { split: 0.505, left: [
+      { h: 'Discusión', slack: -0.45, p: [
         [['Diferencia con la AR. ', true], 'En la AEM las erosiones son centrales y con formación ósea; en la AR, marginales y con osteopenia (Tabla 1) (1,2). En el paciente 2, remitido como AR seronegativa, la imagen, los nódulos de Heberden y la serología negativa reorientaron el diagnóstico.'],
         [['¿Por qué metotrexato? ', true], 'No hay fármacos modificadores aprobados para la AEM. El único ensayo con fenotipo inflamatorio y dosis plenas fue positivo (5); el negativo usó dosis bajas en enfermedad tardía (4). Su efecto es modesto y sin beneficio estructural demostrado (4,8).'],
         [['Fortalezas y limitaciones: ', true], 'correlación clínico-radiológica y serología negativa en los tres pacientes; sin estudio ecográfico.']] },
