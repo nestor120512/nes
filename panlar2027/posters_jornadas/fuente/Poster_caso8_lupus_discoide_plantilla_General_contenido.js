@@ -22,7 +22,7 @@ module.exports = {
     { f: __dirname + '/../logos/logo_universidad_libre.png', h: 1.9 },
     { f: __dirname + '/../logos/logo_ima_reumatologia.png', h: 2.2 } ] },
   bandLabel: { text: 'REPORTE DE CASO', x: 26.0, y: 4.65, w: 8.4, h: 1.15, pt: 30 },
-  bodyPt: 26, refPt: 17, smallPt: 22, justify: true, textSlack: -0.16, lineSpacing: 0.94, blockGap: 0.25, segGap: 0.2,
+  bodyPt: 26.5, refPt: 17, smallPt: 22, justify: true, textSlack: -0.16, lineSpacing: 0.94, blockGap: 0.25, segGap: 0.2,
   // Paleta tomada de la plantilla: azul de "Jornadas Médicas" y verde de la franja "Medicina integrada"
   primary: '0E3149', accent: '38B599', tint: 'E8F6F2', border: 'B5DDD2', statColor: 'E62C4A',
   titleColor: '0E3149', titlePt: 50, bandHeads: true,
@@ -31,11 +31,11 @@ module.exports = {
     { split: 0.47, left: [
       { h: 'Resumen', p: [
         'Mujer de 67 años con lupus eritematoso discoide (LED) facial confirmado por biopsia, anticuerpos antinucleares (ANA) 1:640 y anti-ADN de doble cadena positivo, sin ninguna manifestación extracutánea. Alcanza 10 puntos de los criterios de clasificación de lupus eritematoso sistémico (LES) de 2019, pero no los previos. Se interpretó como LED con serología de LES, tratado con hidroxicloroquina y terapia tópica, con vigilancia sistémica.'] },
-      { h: 'Introducción', slack: 0.1, p: [
+      { h: 'Introducción', p: [
         'El LED es la forma más frecuente de lupus cutáneo crónico; hasta el 28 % de los pacientes desarrolla LES (5). Los criterios de la European Alliance of Associations for Rheumatology y el American College of Rheumatology (EULAR/ACR) 2019 exigen ANA ≥1:80 y al menos 10 puntos: el LED aporta 4 y el anti-ADN de doble cadena, 6 (1). Así, una enfermedad limitada a la piel puede clasificarse como LES.',
         [['Aporte del caso: ', true], 'cumplir criterios de clasificación no equivale a tener enfermedad sistémica.']] },
     ], right: [
-      { h: 'Información del caso', slack: 0.1, p: [
+      { h: 'Información del caso', p: [
         [['Datos demográficos y motivo de consulta: ', true], 'mujer de 67 años, sin enfermedad autoinmune conocida, remitida por dermatología a reumatología en 2026 para descartar LES.'],
         [['Enfermedad actual: ', true], 'lesiones faciales asintomáticas de ocho meses, sin fotosensibilidad.'],
         [['Examen físico: ', true], 'placas eritematovioláceas descamativas en arcos ciliares, mejillas, dorso nasal y piel del labio superior, la mayor en la punta nasal (Figura 1); en las cejas, alopecia cicatricial con escama adherente, atrofia central e hiperpigmentación periférica. Dolor mecánico de hombros y rodillas, sin sinovitis, atribuido a artrosis.'],
@@ -44,13 +44,13 @@ module.exports = {
         [['Diagnósticos diferenciales: ', true], 'LES con compromiso orgánico (sin evidencia de compromiso extracutáneo en la evaluación actual), lupus inducido por fármacos (antihistonas negativos), rosácea, sarcoidosis y dermatosis pigmentarias (descartadas por la histopatología).'],
         [['Tratamiento y evolución: ', true], 'hidroxicloroquina 200 mg/día, tacrolimus 0,1 % y mometasona tópicos y fotoprotección, con mejoría importante de las lesiones.']] },
     ] },
-    { split: 0.5, left: [
+    { split: 0.465, left: [
       { name: 'Figura 1', img: P + 'caso_LED_figura1.jpg',
         caption: 'Figura 1. Lupus eritematoso discoide facial. Vista frontal (A) y oblicua (B): placas eritematovioláceas en punta y dorso nasal, máculas hiperpigmentadas en la piel del labio superior y compromiso de los arcos ciliares.' },
     ], right: [
       { name: 'Tabla 1', table: {
         title: 'Tabla 1. Estudios de la paciente',
-        colW: [0.27, 0.73], pt: 24, tiles: true, rowH: [0.5, 1.3, 1.68, 0.5, 0.5, 0.9, 0.9],
+        colW: [0.25, 0.75], pt: 25, tiles: true, rowH: [0.5, 1.3, 1.68, 0.5, 0.5, 0.9, 0.9],
         header: ['Estudio', 'Resultado'],
         rows: [
           [{ text: 'Biopsia de piel', ...H }, 'Estrato córneo compacto, aplanamiento de la red de crestas y daño de interfase vacuolar con cuerpos apoptóticos; infiltrado linfoplasmocitario perivascular superficial y perianexial, con mucina dérmica'],
@@ -64,11 +64,12 @@ module.exports = {
     { full: { h: 'Discusión', slack: -0.35, p: [
         [['Clasificar no es diagnosticar. ', true], 'La paciente alcanza 10 puntos EULAR/ACR 2019, pero no cumple ACR 1997 ni SLICC 2012 (Tabla 2) (1-3); los criterios se diseñaron para clasificar, no para diagnosticar (7). Los 6 puntos del anti-ADN de doble cadena exigen un ensayo con especificidad ≥90 % para LES: la técnica de Crithidia luciliae suele cumplirlo, pero debe confirmarse y repetirse (1).'],
         [['¿Qué significa para el pronóstico? ', true], 'En 184 pacientes con lupus cutáneo confirmado por biopsia, el 14,7 % cumplía EULAR/ACR 2019 al inicio, sin compromiso visceral significativo ni cambios en 58 meses (4). En cambio, en 149 pacientes seguidos una mediana de 11,3 años, el 25 % de quienes tenían lupus cutáneo con serología de LES progresó a LES grave, frente al 4 % con lupus cutáneo aislado: un riesgo 6,7 veces mayor (8). No se contradicen: difieren en población, tiempo y desenlace, y ese grupo tenía una mediana de 23 años, por lo que su riesgo no se traslada a esta paciente de 67 años.'],
-        [['¿Por qué vigilar? ', true], 'Los ANA ≥1:320 fueron el principal predictor de progresión del LED a LES grave (6), y el anti-ADN de doble cadena y la velocidad de sedimentación elevada también se asocian con progresión (5). La paciente requiere control periódico de hemograma, orina, complemento y anti-ADN. No se consideraron necesarios glucocorticoides sistémicos ni otros inmunosupresores.']] } },
-    { split: 0.46, left: [
+        [['¿Por qué vigilar? ', true], 'Los ANA ≥1:320 fueron el principal predictor de progresión del LED a LES grave (6), y el anti-ADN de doble cadena y la velocidad de sedimentación elevada también se asocian con progresión (5). La paciente requiere control periódico de hemograma, orina, complemento y anti-ADN. No se consideraron necesarios glucocorticoides sistémicos ni otros inmunosupresores.'],
+        [['Fortalezas y limitaciones: ', true], 'confirmación histológica y estudio sistémico completo; anti-ADN de doble cadena en una sola determinación y seguimiento aún corto para establecer la estabilidad del fenotipo.']] } },
+    { split: 0.6, left: [
       { name: 'Tabla 2', table: {
         title: 'Tabla 2. Clasificación de LES en la paciente',
-        colW: [0.36, 0.2, 0.2, 0.24], pt: 26, tiles: true, rowH: [0.56, 0.54, 0.54, 0.54, 0.56, 0.64],
+        colW: [0.34, 0.2, 0.2, 0.26], pt: 29, tiles: true, rowH: [0.6, 0.58, 0.58, 0.58, 0.6, 0.7],
         header: ['Hallazgo', 'ACR 1997', 'SLICC 2012', 'EULAR/ACR 2019'],
         rows: [
           [{ text: 'Lupus discoide', ...H }, { text: '1 criterio', align: 'center' }, { text: '1 criterio', align: 'center' }, { text: '4 puntos', align: 'center' }],
@@ -79,8 +80,6 @@ module.exports = {
         ],
         note: 'SLICC: Systemic Lupus International Collaborating Clinics. ACR 1997 y SLICC 2012 exigen 4 criterios; EULAR/ACR 2019, ANA ≥1:80 y 10 puntos (1-3).' } },
     ], right: [
-      { h: 'Fortalezas y limitaciones', p: [
-        [['Fortalezas: ', true], 'confirmación histológica y estudio sistémico completo.'], [['Limitaciones: ', true], 'anti-ADN de doble cadena en una sola determinación y seguimiento aún corto para establecer la estabilidad del fenotipo.']] },
       { h: 'Conclusión', hl: true, p: [
         'Un LED con ANA de título alto y anti-ADN de doble cadena positivo puede alcanzar el umbral EULAR/ACR 2019 para LES sin ninguna manifestación extracutánea. Cumplir criterios de clasificación no equivale a tener enfermedad sistémica, aunque sí puede tener valor pronóstico: el tratamiento se dirige a la piel, y el seguimiento, a detectar a tiempo la progresión.',
         [['Consideraciones éticas: ', true], 'se obtuvo consentimiento informado firmado de la paciente.']] },
