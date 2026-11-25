@@ -18,17 +18,17 @@ module.exports = {
     { f: __dirname + '/../logos/logo_universidad_metropolitana.png', h: 1.6 },
     { f: __dirname + '/../logos/logo_ima_reumatologia.png', h: 2.2 } ] },
   bandLabel: { text: 'REPORTE DE CASO', x: 26.0, y: 4.65, w: 8.4, h: 1.15, pt: 30 },
-  bodyPt: 29, refPt: 19, smallPt: 22, justify: true, textSlack: -0.25, lineSpacing: 0.94, blockGap: 0.3,
+  bodyPt: 29, refPt: 19, smallPt: 22, justify: true, textSlack: -0.25, lineSpacing: 0.94, blockGap: 0.3, segGap: 0.2,
   // Paleta tomada de la plantilla: azul de "Jornadas Médicas" y verde de la franja "Medicina integrada"
   primary: '0E3149', accent: '38B599', tint: 'E8F6F2', border: 'B5DDD2', statColor: 'E62C4A',
   titleColor: '0E3149', titlePt: 50, bandHeads: true,
   keywords: 'lupus eritematoso sistémico; polineuropatías; anticuerpos antinucleares; lupus eritematoso sistémico neuropsiquiátrico; nefritis lúpica; rituximab.',
   segments: [
-    { split: 0.53, left: [
+    { split: 0.56, left: [
       { h: 'Resumen', p: [
-        'Mujer de 33 años con pancitopenia, hipocomplementemia, anti-ADN de doble cadena positivo y anticuerpos antinucleares (ANA) negativos en dos determinaciones, que desarrolló una polineuropatía sensitivo-motora axonal severa con pérdida de la marcha independiente. Tras excluir causas alternativas, durante la hospitalización recibió pulsos de metilprednisolona y rituximab por la neuropatía, y recuperó la marcha. En el seguimiento, la biopsia renal mostró nefritis lúpica clase IV + V.'] },
-      { h: 'Introducción', slack: -0.3, p: [
-        'La neuropatía periférica es uno de los síndromes neuropsiquiátricos del lupus eritematoso sistémico (LES); es infrecuente y su atribución exige excluir causas metabólicas, infecciosas, tóxicas y neoplásicas (1). El LES con ANA negativos es raro (2) y no cumple el criterio de entrada de la clasificación de la European Alliance of Associations for Rheumatology y el American College of Rheumatology (EULAR/ACR) 2019 (3), aunque los criterios de las Systemic Lupus International Collaborating Clinics (SLICC) 2012 permiten clasificarlo (4).',
+        'Mujer de 33 años, sin enfermedad autoinmune conocida, hospitalizada por pancitopenia, con poliartralgias, alopecia y seis semanas de parestesias y debilidad progresiva hasta perder la marcha independiente. La electromiografía mostró una polineuropatía sensitivo-motora axonal severa. Con anti-ADN de doble cadena positivo, hipocomplementemia y anticuerpos antinucleares (ANA) negativos en dos determinaciones, y tras excluir causas alternativas, se diagnosticó lupus eritematoso sistémico (LES). Recibió pulsos de metilprednisolona y rituximab por la neuropatía y, unos siete días después, recuperó la marcha. En el seguimiento, la biopsia renal mostró nefritis lúpica clase IV + V.'] },
+      { h: 'Introducción', slack: -0.08, p: [
+        'La neuropatía periférica es uno de los síndromes neuropsiquiátricos del LES; es infrecuente y su atribución exige excluir causas metabólicas, infecciosas, tóxicas y neoplásicas (1). El LES con ANA negativos es raro (2) y no cumple el criterio de entrada de la clasificación de la European Alliance of Associations for Rheumatology y el American College of Rheumatology (EULAR/ACR) 2019 (3), aunque los criterios de las Systemic Lupus International Collaborating Clinics (SLICC) 2012 permiten clasificarlo (4).',
         [['Aporte del caso: ', true], 'una manifestación rara y grave del LES en una paciente con ANA negativos, tratada de forma dirigida antes de conocer la biopsia renal.']] },
     ], right: [
       { h: 'Información del caso', slack: -0.3, p: [
