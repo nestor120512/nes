@@ -22,7 +22,7 @@ module.exports = {
     { f: __dirname + '/../logos/logo_universidad_libre.png', h: 1.9 },
     { f: __dirname + '/../logos/logo_ima_reumatologia.png', h: 2.2 } ] },
   bandLabel: { text: 'REPORTE DE CASO', x: 26.0, y: 4.65, w: 8.4, h: 1.15, pt: 30 },
-  bodyPt: 26.5, refPt: 17, smallPt: 22, justify: true, textSlack: -0.16, lineSpacing: 0.94, blockGap: 0.25, segGap: 0.2,
+  bodyPt: 26.5, refPt: 17, smallPt: 22, justify: true, textSlack: -0.16, lineSpacing: 0.94, blockGap: 0.25, segGap: 0.12,
   // Paleta tomada de la plantilla: azul de "Jornadas Médicas" y verde de la franja "Medicina integrada"
   primary: '0E3149', accent: '38B599', tint: 'E8F6F2', border: 'B5DDD2', statColor: 'E62C4A',
   titleColor: '0E3149', titlePt: 50, bandHeads: true,
@@ -69,7 +69,7 @@ module.exports = {
     { split: 0.6, left: [
       { name: 'Tabla 2', table: {
         title: 'Tabla 2. Clasificación de LES en la paciente',
-        colW: [0.34, 0.2, 0.2, 0.26], pt: 29, tiles: true, rowH: [0.6, 0.58, 0.58, 0.58, 0.6, 0.7],
+        colW: [0.34, 0.2, 0.2, 0.26], pt: 29, tiles: true, rowH: [0.58, 0.56, 0.56, 0.56, 0.58, 0.66],
         header: ['Hallazgo', 'ACR 1997', 'SLICC 2012', 'EULAR/ACR 2019'],
         rows: [
           [{ text: 'Lupus discoide', ...H }, { text: '1 criterio', align: 'center' }, { text: '1 criterio', align: 'center' }, { text: '4 puntos', align: 'center' }],
